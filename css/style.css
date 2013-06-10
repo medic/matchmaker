@@ -1,0 +1,143 @@
+/* GLOBAL STYLES */
+
+header, nav, section, aside, figure, footer {
+	diplay: block;
+}
+
+body {
+	margin:0px;
+	border-style:none;
+	padding:0px;
+}
+
+nav {
+	margin:0px;
+	padding:5px;
+	background-color:#98FB98;
+}
+
+aside {
+	margin:20px;
+	padding:10px;
+	width:30%;
+	float:left;
+}
+
+aside#derp{
+	margin:20px;
+	padding:0px;
+}
+
+section#usecase {
+	float:right;
+}
+
+section.intro {
+	margin:20px;
+	padding:0px;
+	float:left;
+}
+
+section.sandwich {
+	margin:20px;
+	padding:0px;
+	float:left;
+	width:97%;
+}
+
+section.derp {
+	margin:-10px;
+	padding:10px;
+	border-style:solid;
+}
+
+section.plaintext {
+	margin:40px 0px;
+	padding:0px;
+}
+
+section.content {
+	margin:20px;
+	padding:0px;
+	width:60%;	
+	float:right;
+}
+
+footer {
+	margin:0px;
+	padding:0px;
+	float:right;
+}
+
+p {
+	margin:20px;
+	padding:10px;
+}
+
+p.info {
+	width:100%;
+}
+
+fieldset {
+	margin:0px;
+}
+
+fieldset.info {
+	margin:20px;
+	padding:10px;
+	border-style:solid black;
+}
+
+
+
+
+figure {
+	margin:10px 0px;
+	padding:0px;
+}
+
+img {
+	border-style: solid;
+}
+
+img#summary {
+	float:left;
+}
+
+h1 {
+	text-align:center;
+}
+
+
+.nested-checkbox li,
+.nested-checkbox ul li {
+  margin-bottom: 5px;
+  padding-top: 2px;
+  position: relative;
+}
+ 
+.nested-checkbox label,
+.nested-checkbox ul label {
+  display: block;
+  font-weight: normal;
+  padding-left: 21px;
+}
+ 
+.nested-checkbox input,
+.nested-checkbox ul input {
+  display: inline;
+  margin: 0 5px 0 -21px;
+  position: absolute;
+  top: 2px;
+}
+ 
+.nested-checkbox ul {
+  margin: 5px 0 0 20px;
+}
+ 
+.nested-checkbox p,
+.nested-checkbox ul p {
+  color: #808080;
+  padding-left: 21px;
+  margin: 0;
+}
