@@ -5,12 +5,22 @@
 	<title>TOOLBOX</title>
 	<meta name="description" content="Hello thar">
 	<link rel="stylesheet" href="css/style.css">
+	
+	<script src="js/yahoo.js" ></script>
+	<script src="js/event.js" ></script>
+	<script src="js/chdp.js" ></script>
+	<script src="js/cssQuery-p.js" ></script>
+	<script src="js/tabs.js" ></script>
+	
+	
 </head>
 
+
 <body>
+<!--<noscript>This content is displayed when a browser does not have JavaScript or it is disabled.</noscript> -->
 	<header>
 		<nav>
-			<ul>
+			<ul class="nav">
 				<li><a href="http://medicmobile.org" target="_blank">Medic Mobile Home</a> |&nbsp;</li>
 				<li><a href="index.html">Toolkit Home</a></li>
 				<li id="splitnav"><a href="">Skip This Step</a></li>
@@ -27,14 +37,36 @@
 	
 	<section>
 		<section class="assets" id="left">
-			<fieldset><legend>PLACEHOLDER</legend>		
+			<!-- 
+			
+			<fieldset id="fixed"><legend>PLACEHOLDER</legend>		
 				<p>derpy derpy derp derp derp derp derp derp herp derpy derpy </p>
 				<p>...</p>
 			</fieldset>
+				
+			-->
+		
+
+				
+				
+				
+				
+				<ul class="tabs">
+					<li class="selected"><h3 class="tab-label"><a href="example.html">Front End</a></h3>
+					<div id="section1" class="tab-content"><div class="oi2">
+						<h4>Tab 1 Content</h4><p>This is the message of tab 1. More message...                 I added more to this message to show how the tab automatically displays scrollbars when it exceeds the height and/or width of the tab container. Most of this text is not shown in the book to save room in the example. Note that Internet Explorer 6 has a bug that requires you to fix the width of this content. Also note that you add margins, border, and padding to the outside-in box rather than the tab so that the tab's scrollbar is located in the proper place.
+						</p></div></div></li>
+
+					<li><h3 class="tab-label"><a href="">Back End</a></h3>
+					<div id="section2" class="tab-content"><div class="oi2">
+						<h4>Tab 2 Content</h4><p>This is the message of tab 2.</p></div></div></li>
+					</ul>
+
+			
 		</section>
 
 		<section class="assets" id="right">
-			<fieldset><legend>Guiding Questions &amp; Recommendations</legend>		
+			<fieldset id="fixed"><legend>Guiding Questions &amp; Recommendations</legend>		
 				<p>derpy derpy derp derp derp derp derp derp herp derpy derpy </p>
 				<p>...</p>
 			</fieldset>
@@ -43,7 +75,7 @@
 	
 	<section>
 		<section class="assets" id="left">
-			<fieldset><legend>My Constraints</legend>		
+			<fieldset id="fixed"><legend>My Constraints</legend>		
 				<img src="img/placeholder.png" alt="" width="50px" height="50px">
 				<img src="img/placeholder.png" alt="" width="50px" height="50px">
 				<img src="img/placeholder.png" alt="" width="50px" height="50px">
@@ -53,8 +85,8 @@
 		</section>
 
 		<section class="assets" id="right">
-			<fieldset><legend>My Use Case</legend>		
-				<select name="usecases2">
+			<fieldset id="fixed"><legend>My Use Case</legend>		
+				<select name="usecases3">
 					<option disabled="disabled" selected="selected">Select a Use Case</option>
 					<option value="anc">ANC Notifications</option>
 					<option value="danger">Danger Sign Monitoring</option>

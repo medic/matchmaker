@@ -10,7 +10,7 @@
 <body>
 	<header>
 		<nav>
-			<ul>
+			<ul class="nav">
 				<li><a href="http://medicmobile.org" target="_blank">Medic Mobile Home</a> |&nbsp;</li>
 				<li><a href="index.html">Toolkit Home</a></li>
 				<li id="splitnav"><a href="">Skip This Step</a></li>
@@ -46,7 +46,7 @@
 
 	
 	<aside id="myconstraints">
-		<fieldset><legend>My Constraints</legend>
+		<fieldset id="scrollable"><legend>My Constraints</legend>
 			<img src="img/placeholder.png" alt="" width="50px" height="50px">
 			<img src="img/placeholder.png" alt="" width="50px" height="50px">
 			<img src="img/placeholder.png" alt="" width="50px" height="50px">
@@ -55,8 +55,8 @@
 		</fieldset>
 	</aside>
 
-	<section class="asideoffset">
-		<fieldset><legend>My Tech Options</legend>
+	<section class="asideoffset" id="tech">
+		<fieldset id="scrollable"><legend>My Tech Options</legend>
 			<a href="">Kujua</a> -- Brief description here<br>
 			<a href="">Kujua</a> -- Brief description here<br>
 			<a href="">Kujua</a> -- Brief description here<br>
@@ -73,12 +73,14 @@
 	</section>
 
 
-	<footer>
-		<ul>
+	<section>
+		<ul class="nav">
 			<li><button value="Back">Go Back and Edit</button></li>
-			<li><button value="Print">Print PDF Results</button></li>
-			<li id="splitnav"><button value="Next">Email Results</button></li>
+			<li id="splitnav"><button value="Print">Print PDF Results</button><button value="Next">Email Results</button></li>
 		</ul>
+	</section>
+	
+	<footer>
 	</footer>
 
 </body>
