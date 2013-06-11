@@ -10,19 +10,23 @@
 <body>
 	<header>
 		<nav>
-			<a href="http://medicmobile.org" target="_blank">Medic Mobile Home</a> |
-			<a href="index.html">Toolkit Home</a> |
-			<a href="">Skip This Step</a>
+			<ul>
+				<li><a href="http://medicmobile.org" target="_blank">Medic Mobile Home</a> |&nbsp;</li>
+				<li><a href="index.html">Toolkit Home</a></li>
+				<li id="splitnav"><a href="">Skip This Step</a></li>
+			</ul>
 		</nav>
 
 		<h1>Get Started</h1>
-		<fieldset class="info"><legend>Instructions</legend>
-			<p>herpy derpy derpy derp</p>
-		</fieldset>
+		<section>
+			<fieldset><legend>Instructions</legend>
+				<p>herpy derpy derpy derp</p>
+			</fieldset>
+		</section>
 	</header>
 
 	<aside>
-		<section class="derp">
+		<section class="usecaseoptions">
 			This use case requires: 
 			<!-- not sure whether to use checkboxes or simple bullets here... consistency versus ease of coding? -->
 			<ul class="nested-checkbox">
@@ -34,7 +38,7 @@
 			</ul>
 		</section>
 
-		<section class="plaintext">
+		<section id="plaintext">
 			You may specify additional options, if you like. Keep in mind that selecting additional constraints may limit your options significantly.
 			<ul>
 				<li>I'm not sure; just skip to next step</li>
@@ -42,7 +46,7 @@
 			</ul>
 		</section>
 
-		<section class="derp">
+		<section class="usecaseoptions">
 			<ul class="nested-checkbox">
 				<li><input type="checkbox" name="incoming" value="incoming">incoming messages<br>
 				<ul>
@@ -61,7 +65,7 @@
 
 	</aside>
 
-	<section class="content">
+	<section class="asideoffset">
 		Select a use case:
 		<select name="usecases">
 			<option disabled="disabled" selected="selected">Select a Use Case</option>

@@ -1,19 +1,39 @@
-/* GLOBAL STYLES */
-
-header, nav, section, aside, figure, footer {
-	diplay: block;
-}
+/* **** GLOBAL CONTEXT STYLES **** */
+/* Styles for container elements. Includes overall form and presentation. */
 
 body {
 	margin:0px;
-	border-style:none;
 	padding:0px;
+	border-style:none;
+}
+
+header, nav, section, aside, figure, footer {
+	diplay: block;
+	position:relative;
+}
+
+header {
+	/*in case i want to add any styling here*/
 }
 
 nav {
 	margin:0px;
-	padding:5px;
+	padding-top:1px;
+	padding-bottom:1px;
+	padding-left:0px;
+	padding-right:20px;
 	background-color:#98FB98;
+}
+
+section {
+	margin: 20px;
+}
+
+section.asideoffset {
+	margin:20px;
+	padding:0px;
+	width:60%;	
+	float:right;
 }
 
 aside {
@@ -23,92 +43,65 @@ aside {
 	float:left;
 }
 
-aside#derp{
-	margin:20px;
-	padding:0px;
-}
-
-section#usecase {
-	float:right;
-}
-
-section.intro {
-	margin:20px;
-	padding:0px;
-	float:left;
-}
-
-section.sandwich {
-	margin:20px;
-	padding:0px;
-	float:left;
-	width:97%;
-}
-
-section.derp {
-	margin:-10px;
-	padding:10px;
-	border-style:solid;
-}
-
-section.plaintext {
-	margin:40px 0px;
-	padding:0px;
-}
-
-section.content {
-	margin:20px;
-	padding:0px;
-	width:60%;	
-	float:right;
+fieldset {
+	margin:0px;
+	width:100%;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;	
+	border-radius: 15px;
+	border:1px solid #000000;
 }
 
 footer {
-	margin:0px;
+	margin:20px;
 	padding:0px;
 	float:right;
 }
 
+/* Navigation Style */
+/* from W3C, Example 9 http://dev.w3.org/csswg/css-flexbox/#auto-margins */
+nav > ul {
+	display: flex;
+	display: -moz-flex;
+	display: -webkit-flex;
+	list-style:none;
+}
+
+nav > ul > li {
+	min-width: min-content;
+	/* Prevent items from getting too small for their content. */
+}
+
+nav > ul > #splitnav {
+	margin-left: auto;
+}
+
+
+/* **** GLOBAL CONTENT STYLES **** */
+/* Styles for elements such as text, image, et al. */
+
 p {
-	margin:20px;
-	padding:10px;
-}
-
-p.info {
-	width:100%;
-}
-
-fieldset {
 	margin:0px;
-}
-
-fieldset.info {
-	margin:20px;
-	padding:10px;
-	border-style:solid black;
-}
-
-
-
-
-figure {
-	margin:10px 0px;
 	padding:0px;
-}
-
-img {
-	border-style: solid;
-}
-
-img#summary {
-	float:left;
 }
 
 h1 {
 	text-align:center;
 }
 
+figure {
+	margin:10px 10px 10px 0px; /* top, right, bottom, left */
+	padding:0px;
+}
 
+img {
+	border: 1px solid #000000;
+	border-radius: 15px;
+}
+
+/* Nested Checkbox Style */
+/* from Nils Lauk @ http://devblog.xing.com/frontend/the-checkbox-list */
 .nested-checkbox li,
 .nested-checkbox ul li {
   margin-bottom: 5px;
@@ -141,3 +134,37 @@ h1 {
   padding-left: 21px;
   margin: 0;
 }
+
+
+/* **** SUMMARY PAGE STYLES **** */
+img#summary {
+	float:left;
+}
+
+section#usecasesummary {
+	float:right;
+}
+
+aside#myconstraints{
+	padding:0px;
+}
+
+
+
+
+/* **** USE CASE PAGE STYLES **** */
+
+
+section.usecaseoptions {
+	margin:-10px;
+	padding:10px;
+	border:1px solid #000000;
+	border-radius: 15px;
+}
+
+section#plaintext {
+	margin:40px 0px;
+	padding:0px;
+}
+
+
