@@ -136,7 +136,74 @@ img {
 }
 
 
+/* **** USE CASE PAGE STYLES **** */
+
+section.usecaseoptions {
+	margin:10px -10px -10px; /*top, right/left, bottom*/
+	padding:5px 10px 10px; /*top, right/left, bottom*/
+	border:1px solid #000000;
+	border-radius: 15px;
+}
+
+section#plaintext {
+	margin:40px 0px;
+	padding:0px;
+}
+
+p#next {
+	float:right;
+}
+
+/* Rollup Style */
+/* from CSS Design Patterns @ http://cssdesignpatterns.com */
+*.rollup-trigger { 
+	cursor:pointer; 
+}
+
+span.rollup-trigger { 
+	font-size:0.65em; 
+	padding-left:8px; 
+    background: url('../img/hide.gif') no-repeat left top; 
+}
+
+span.rolledup { 
+	background: url('../img/show.gif') no-repeat left top; 
+}
+
+*.hidden { 
+	position:absolute; 
+	top:-99999px; 
+	left:-99999px; 
+    width:1px; 
+	height:1px; 
+	overflow:hidden; 
+}
+
+
+/* **** CONSTRAINTS PAGE STYLES **** */
+
+section.assets {
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;	
+	margin:20px 0px; /* top and bottom are 10px, left and right are 0px */
+	padding:0px;
+	float:left;
+	width:50%;
+	min-width:auto;
+}
+
+section#left {
+	padding-right:15px;
+}
+
+section#right {
+	padding-left:15px;
+}
+
+
 /* **** SUMMARY PAGE STYLES **** */
+
 img#summary {
 	float:left;
 }
@@ -148,23 +215,3 @@ section#usecasesummary {
 aside#myconstraints{
 	padding:0px;
 }
-
-
-
-
-/* **** USE CASE PAGE STYLES **** */
-
-
-section.usecaseoptions {
-	margin:-10px;
-	padding:10px;
-	border:1px solid #000000;
-	border-radius: 15px;
-}
-
-section#plaintext {
-	margin:40px 0px;
-	padding:0px;
-}
-
-

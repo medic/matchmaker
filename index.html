@@ -5,6 +5,13 @@
 	<title>TOOLBOX</title>
 	<meta name="description" content="Hello thar">
 	<link rel="stylesheet" href="css/style.css">
+	
+	<script src="js/yahoo.js" ></script>
+	<script src="js/event.js" ></script>
+	<script src="js/chdp.js" ></script>
+	<script src="js/cssQuery-p.js" ></script>
+	<script src="js/rollup.js" ></script>
+
 </head>
 
 <body>
@@ -24,6 +31,7 @@
 			</fieldset>
 		</section>
 	</header>
+	
 
 	<aside>
 		<section class="usecaseoptions">
@@ -39,35 +47,41 @@
 		</section>
 
 		<section id="plaintext">
-			You may specify additional options, if you like. Keep in mind that selecting additional constraints may limit your options significantly.
-			<ul>
-				<li>I'm not sure; just skip to next step</li>
-				<li>Specify Additional Options</li>
-			</ul>
-		</section>
+		
 
-		<section class="usecaseoptions">
-			<ul class="nested-checkbox">
-				<li><input type="checkbox" name="incoming" value="incoming">incoming messages<br>
-				<ul>
-					<li><input type="checkbox" name="forms" value="forms">forms<br></li>
-					<li><input type="checkbox" name="SMS" value="SMS">ad hoc SMS<br></li>
+		
+		
+		
+			<p>You may specify additional options, if you like. Keep in mind that selecting additional constraints may limit your options significantly.</p>
+				<p>I'm not sure; just skip to next step</p>
+				<div class="rollup">
+				<p><span class="rollup-trigger">&nbsp;</span>Specify Additional Options</p>
+		
+
+			<section class="usecaseoptions">
+				<ul class="nested-checkbox">
+					<li><input type="checkbox" name="incoming" value="incoming">incoming messages<br>
+					<ul>
+						<li><input type="checkbox" name="forms" value="forms">forms<br></li>
+						<li><input type="checkbox" name="SMS" value="SMS">ad hoc SMS<br></li>
+					</ul>
+					</li>
+					<li><input type="checkbox" name="outgoing" value="outgoing" disabled="disabled" checked="checked">outgoing messages<br>
+					<ul>
+						<li><input type="checkbox" name="adhoc" value="adhoc" disabled="disabled">ad hoc<br></li>
+						<li><input type="checkbox" name="scheduled" value="scheduled" disabled="disabled" checked="checked">scheduled<br></li>
+					</ul>
+					</li>
 				</ul>
-				</li>
-				<li><input type="checkbox" name="outgoing" value="outgoing" disabled="disabled" checked="checked">outgoing messages<br>
-				<ul>
-					<li><input type="checkbox" name="adhoc" value="adhoc" disabled="disabled">ad hoc<br></li>
-					<li><input type="checkbox" name="scheduled" value="scheduled" disabled="disabled" checked="checked">scheduled<br></li>
-				</ul>
-				</li>
-			</ul>
+			</section></div>
+		
 		</section>
 
 	</aside>
 
 	<section class="asideoffset">
 		Select a use case:
-		<select name="usecases">
+		<select>
 			<option disabled="disabled" selected="selected">Select a Use Case</option>
 			<option value="anc">ANC Notifications</option>
 			<option value="danger">Danger Sign Monitoring</option>
@@ -88,10 +102,13 @@
 			<figcaption>Here is some descriptive text about the example use case.</figcaption>
 		</figure>
 
+		<p id="next"><button value="Next">Next</button></p>
 	</section>
 
+
+
 	<footer>
-		<button value="Next">Next</button>
+		
 	</footer>
 
 </body>
