@@ -37,3 +37,4 @@ function ignoreLink(eElement, e, extraInfo) { eElement.blur(); return false; }
 
 addEvent(window,'unload',purgeAllEvents);
 addEvent(window,'load',initPage);
+

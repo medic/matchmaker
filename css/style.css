@@ -206,6 +206,10 @@ fieldset#fixed {
 	overflow:scroll;
 }
 
+fieldset#flerp {
+	margin:20px;
+	width:auto;
+}
 
 /* **** SUMMARY PAGE STYLES **** */
 
@@ -230,23 +234,23 @@ fieldset#scrollable {
 /* Constraints Tabs */
 /* from CSS Design Patterns @ http://cssdesignpatterns.com */
 
-ul.tabs  { 
+section > ul.tabs  { 
 	float:left; 
 	width:100%; 
 	padding:0; 
 	margin:0; 
-	border-bottom:1px solid gold; 
+	border-bottom:1px solid #000000; 
 	margin-bottom:10px; 
 }
 
-ul.tabs li { 
+section > ul.tabs li { 
 	float:left; 
 	width:25%; 
 	list-style-type:none;  
 }
 
-ul.tabs *.tab-label { 
-	border:1px solid gold; 
+section > ul.tabs *.tab-label { 
+	border:1px solid #000000; 
 	margin:0; 
 	cursor:pointer; 
 	padding-bottom:2px; 
@@ -257,13 +261,13 @@ ul.tabs *.tab-label {
 	font-size:1.1em; 
 } 
 
-ul.tabs li.selected *.tab-label { 
+section > ul.tabs li.selected *.tab-label { 
 	position:relative; 
 	border-bottom:none; 
 	top:1px; 
 	padding-bottom:4px; 
 	padding-top:5px; 
-	border-top:2px solid gold; 
+	border-top:2px solid #000000; 
 	margin-top:-5px; 
 	background:white url("g2.jpg") repeat-x left top; 
 	font-weight:bold; 
@@ -271,35 +275,35 @@ ul.tabs li.selected *.tab-label {
 
 /* Styles added to the TAB MENU design pattern to create TABS */
 
-ul.tabs { 
+section > ul.tabs { 
 	position:relative; 
 }
 
-ul.tabs *.tab-content { 
+section > ul.tabs *.tab-content { 
 	position:absolute; 
 	width:100%; 
 	height:275px;  
-	border:1px solid gold; 
+	border:1px solid #000000; 
 	border-top:none;
 	left:-99999px; 
 	overflow:auto; 
 } 
 
-ul.tabs li.selected *.tab-content { 
+section > ul.tabs li.selected *.tab-content { 
 	left:0; 
 } 
 
-ul.tabs li *.oi2 { 
+section > ul.tabs li *.oi2 { 
 	margin:10px; 
 	padding:10px; 
 } 
 
-ul.tabs *.tab-label a { 
+section > ul.tabs *.tab-label a { 
 	display:block; 
 	text-decoration:none; 
 	color:black; 
 }
 
-ul.tabs *.hover, ul.tabs *.tab-label:hover { 
+section > ul.tabs *.hover, ul.tabs *.tab-label:hover { 
 	text-decoration:underline; 
 }
