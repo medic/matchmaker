@@ -1,20 +1,26 @@
 ﻿<!DOCTYPE html> 
- <head><title>Tabs</title>
-  <meta charset="utf-8">
-  
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>TOOLBOX</title>
+	<meta name="description" content="Hello thar">
 	<link rel="stylesheet" href="css/style.css">
-  <!--[if lte IE 6]>
-  <link rel="stylesheet" href="ie6.css"    media="all"    type="text/css" />
-  <![endif]-->
- <script src="js/yahoo.js"></script>
- <script src="js/event.js"></script>
- <script src="js/chdp.js"></script>
- <script src="js/cssQuery-p.js"></script>
- <script src="js/tabs.js"></script>
+   
+	<script src="js/easytabs/vendor/jquery-1.7.1.min.js" type="text/javascript"></script> 
+	<script src="js/easytabs/vendor/jquery.hashchange.min.js" type="text/javascript"></script>
+	<script src="js/easytabs/lib/jquery.easytabs.min.js" type="text/javascript"></script>
+  
+	<script>
+		$(document).ready(function() {
+			$('#outer-container, #inner-container').easytabs({
+				animate:false
+			});
+		});
+	</script>
+
  </head>
  
- <body>
- <noscript>This content is displayed when a browser does not have JavaScript or it is disabled.</noscript> 
+<body>
 
  <header>
 		<nav>
@@ -35,26 +41,93 @@
 	
 
 	<section>
-	<section class="assets" id="left">
-
-	<ul class="tabs">
-		<li class="selected"><h3 class="tab-label"><a href="constraints.html">Tab 1</a></h3>
-			<div id="section1" class="tab-content"><div class="oi2">
-				<h4>Tab 1 Content</h4>
-				<p>This is the message of tab 1. More message...                 I added more to this message to show how the tab automatically displays scrollbars when it exceeds the height and/or width of the tab container. Most of this text is not shown in the book to save room in the example. Note that Internet Explorer 6 has a bug that requires you to fix the width of this content. Also note that you add margins, border, and padding to the outside-in box rather than the tab so that the tab's scrollbar is located in the proper place.
-				</p>
-			</div></div>
-		</li>
-
-		<li><h3 class="tab-label"><a href="contraints_back.html">Tab 2</a></h3>
-			<div id="section2" class="tab-content"><div class="oi2">
-				<h4>Tab 2 Content</h4>
-				<p>This is the message of tab 2.</p>
-			</div></div>
-		</li>
-	</ul>
-	
-	</section>
+		<section class="assets" id="left">
+						
+			<div class="tab-container" id="outer-container">
+				<ul class='etabs'>
+					<li class='tab'><a href="#nested-tab-1">Front End</a></li>
+					<li class='tab'><a href="#nested-tab-3">Back End</a></li>
+				</ul>
+				
+				<div class="panel-container">
+					<div id="nested-tab-1">
+						<div class="tab-container" id="inner-container">
+							<ul class='subetabs'>
+								<li class='subtab' class="active"><a href="#tab-w">Subtab A1</a></li>
+								<li class='subtab'><a href="#tab-x">Subtab A2</a></li>
+								<li class='subtab'><a href="#tab-y">Subtab A3</a></li>
+								<li class='subtab'><a href="#tab-z">Subtab A4</a></li>
+							</ul>
+							
+							<div class="subpanel-container">
+								<div id="tab-w">
+									<img src="img/placeholder.png" alt="" width="50px" height="50px">
+									<img src="img/placeholder.png" alt="" width="50px" height="50px">
+									<img src="img/placeholder.png" alt="" width="50px" height="50px">
+									<img src="img/placeholder.png" alt="" width="50px" height="50px">
+									<img src="img/placeholder.png" alt="" width="50px" height="50px">
+								</div>
+								
+								<div id="tab-x">
+									<h3>Heading B</h3>
+									<p>This is a nested second tab</p>
+								</div>
+								
+								<div id="tab-y">
+									<h3>Heading C</h3>
+									<p>This is a nested third tab</p>
+								</div>
+								
+								<div id="tab-z">
+									<h3>Heading D</h3>
+									<p>This is a nested fourth tab</p>
+								</div>
+							</div>
+							<br>
+						</div>
+						
+					</div>
+					
+					<div id="nested-tab-3">
+						<div class="tab-container" id="inner-container">
+							<ul class='subetabs'>
+								<li class='subtab' class="active"><a href="#tab-a">Subtab B1</a></li>
+								<li class='subtab'><a href="#tab-b">Subtab B2</a></li>
+								<li class='subtab'><a href="#tab-c">Subtab B3</a></li>
+								<li class='subtab'><a href="#tab-d">Subtab B4</a></li>
+							</ul>
+							
+							<div class="subpanel-container">
+								<div id="tab-a">
+									<h3>Heading A</h3>
+									<p>This is a nested first tab</p>
+								</div>
+								
+								<div id="tab-b">
+									<h3>Heading B</h3>
+									<p>This is a nested second tab</p>
+								</div>
+								
+								<div id="tab-c">
+									<h3>Heading C</h3>
+									<p>This is a nested third tab</p>
+								</div>
+								
+								<div id="tab-d">
+									<h3>Heading D</h3>
+									<p>This is a nested fourth tab</p>
+								</div>
+							</div>
+							<br>
+						</div>
+					</div>
+				</div>
+			</div>
+						
+							
+		
+		
+		</section>
 	
 		<section class="assets" id="right">
 			<fieldset id="fixed"><legend>Guiding Questions &amp; Recommendations</legend>		
