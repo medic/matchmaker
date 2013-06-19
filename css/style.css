@@ -13,7 +13,7 @@ header, nav, section, aside, figure, footer {
 }
 
 header {
-	/*in case i want to add any styling here*/
+	margin-bottom: 75px;
 }
 
 nav {
@@ -152,6 +152,12 @@ img {
 
 /* **** USE CASE PAGE STYLES **** */
 
+section.usecase {
+	margin: 20px 100px;
+	
+
+}
+
 section.usecaseoptions {
 	margin:10px -10px -10px; /*top, right/left, bottom*/
 	padding:5px 10px 10px; /*top, right/left, bottom*/
@@ -166,6 +172,13 @@ section#plaintext {
 
 p#next {
 	float:right;
+}
+
+button {
+	display:inline-block;
+	width:300px;
+	height:300px;
+	margin: 0px 30px;
 }
 
 /* Rollup Style */

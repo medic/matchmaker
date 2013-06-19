@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>TOOLBOX</title>
+	<title>INDEX /mm</title>
 	<meta name="description" content="Hello thar">
 	<link rel="stylesheet" href="css/style.css">
 	
@@ -20,45 +20,21 @@
 			<ul class="nav">
 				<li><a href="http://medicmobile.org" target="_blank">Medic Mobile Home</a> |&nbsp;</li>
 				<li><a href="index.html">Toolkit Home</a></li>
-				<li id="splitnav"><a href="">Skip This Step</a></li>
 			</ul>
 		</nav>
 
-		<h1>Get Started</h1>
-		<section>
-			<fieldset><legend>Instructions</legend>
-				<p>herpy derpy derpy derp</p>
-			</fieldset>
-		</section>
+		<h1>The mHealth Tool Wizard</h1>
 	</header>
 	
-
-	<aside>
-		<section class="usecaseoptions">
-			This use case requires: 
-			<!-- not sure whether to use checkboxes or simple bullets here... consistency versus ease of coding? -->
-			<ul class="nested-checkbox">
-				<li><input type="checkbox" name="outgoing" value="outgoing" disabled="disabled" checked="checked">outgoing messages<br>
-				<ul>
-					<li><input type="checkbox" name="scheduled" value="scheduled" disabled="disabled" checked="checked">scheduled<br></li>
-				</ul>
-				</li>
-			</ul>
-		</section>
-
-		<section id="plaintext">
-		
-
-		
-		
-		
-			<p>You may specify additional options, if you like. Keep in mind that selecting additional constraints may limit your options significantly.</p>
-				<p>I'm not sure; just skip to next step</p>
-				<div class="rollup">
-				<p><span class="rollup-trigger">&nbsp;</span>Specify Additional Options</p>
-		
-
-			<section class="usecaseoptions">
+	<section class="usecase">
+		<p>With our mHealth Tool Wizard, we will help you find a tool to meet your needs! What are you trying to do?</p>
+	</section>
+	
+	
+	<!--
+		<div class="rollup">
+		<p><span class="rollup-trigger">&nbsp;</span>Specify Additional Options</p>
+			<section class="hidden">
 				<ul class="nested-checkbox">
 					<li><input type="checkbox" name="incoming" value="incoming">incoming messages<br>
 					<ul>
@@ -73,38 +49,23 @@
 					</ul>
 					</li>
 				</ul>
-			</section></div>
-		
-		</section>
+			</section>
+		</div>
+	-->
+	
 
-	</aside>
 
-	<section class="asideoffset">
-		Select a use case:
-		<select>
-			<option disabled="disabled" selected="selected">Select a Use Case</option>
-			<option value="anc">ANC Notifications</option>
-			<option value="danger">Danger Sign Monitoring</option>
-			<option value="disease">Disease Surveillance</option>
-			<option value="immunization">Immunization Alerts</option>
-			<option value="registration">Patient Registration</option>
-			<option value="pnc">PNC Notifications</option>
-			<option value="referrals">Referrals</option>
-			<option value="remote">Remote Treatment Support</option>
-			<option value="service">Service Reporting</option>
-			<option value="stockout">Stockout Monitoring</option>
-			<option value="workforce">Workforce Management</option>
-			<option value="idk">I don't know my use case</option>
-		</select>
-		
-		<figure>
-			<img src="img/placeholder.png" alt="" width="100%" height="">
-			<figcaption>Here is some descriptive text about the example use case.</figcaption>
-		</figure>
-
-		<p id="next"><button value="Next">Next</button></p>
+	<section class="usecase">
+		<ul class="nav">
+			<li><button>Phone --> Computer</button></li>
+			<li><button>Computer --> Phone</button></li>
+			<li class="splitnav"><button>Phone <--> Computer</button></li>
+		</ul>
 	</section>
 
+	<section class="usecase">
+		<p>Not sure which option is the best fit for you? Check out our <a href="">use case gallery</a> for some example implementations!</p>
+	</section>
 
 
 	<footer>
