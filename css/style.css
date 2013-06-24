@@ -1,10 +1,11 @@
-/* **** GLOBAL CONTEXT STYLES **** */
+/* *	*** GLOBAL CONTEXT STYLES **** */
 /* Styles for container elements. Includes overall form and presentation. */
 
 body {
 	margin:0px;
 	padding:0px;
 	border-style:none;
+	font-family: Arial, Verdana, Sans-serif;
 }
 
 header, nav, section, aside, figure, footer {
@@ -23,6 +24,7 @@ nav {
 	padding-left:0px;
 	padding-right:20px;
 	background-color:#98FB98;
+	font-size:10pt;
 }
 
 section {
@@ -38,13 +40,15 @@ section.asideoffset {
 
 aside {
 	margin:20px;
-	padding:10px;
+	padding:5px;
 	width:32%;
 	float:left;
+	border:1px solid #000000;
+	border-radius:4px;
 }
 
 fieldset {
-	margin:0px;
+	margin:10px 0px 0px;
 	width:100%;
 	box-sizing:border-box;
 	-moz-box-sizing:border-box;
@@ -97,11 +101,28 @@ ul.nav > #splitnav {
 
 p {
 	margin:0px;
-	padding:0px;
+	padding:0px 0px 10px;
+	font-size: 10pt;
 }
 
 h1 {
+	font-size: 24pt;
+	font-weight: bold;
 	text-align:center;
+}
+
+h1.constraints {
+	position:relative;
+	/*float:right;*/
+	padding:0px;
+	margin-left:300px;
+	vertical-align:30px;
+	display:inline;
+}
+
+h2 {
+	margin:0px;
+	padding:0px 0px 10px 0px;
 }
 
 figure {
@@ -114,47 +135,12 @@ img {
 	border-radius: 4px;
 }
 
-/* Nested Checkbox Style */
-/* from Nils Lauk @ http://devblog.xing.com/frontend/the-checkbox-list */
-.nested-checkbox li,
-.nested-checkbox ul li {
-  margin-bottom: 5px;
-  padding-top: 2px;
-  position: relative;
-}
- 
-.nested-checkbox label,
-.nested-checkbox ul label {
-  display: block;
-  font-weight: normal;
-  padding-left: 21px;
-}
- 
-.nested-checkbox input,
-.nested-checkbox ul input {
-  display: inline;
-  margin: 0 5px 0 -21px;
-  position: absolute;
-  top: 2px;
-}
- 
-.nested-checkbox ul {
-  margin: 5px 0 0 20px;
-}
- 
-.nested-checkbox p,
-.nested-checkbox ul p {
-  color: #808080;
-  padding-left: 21px;
-  margin: 0;
-}
-
 
 /* **** USE CASE PAGE STYLES **** */
 
 section.usecase {
 	margin: 20px 100px;
-	
+	text-align:justify;
 
 }
 
@@ -174,11 +160,22 @@ p#next {
 	float:right;
 }
 
-button {
+button.pick3 {
 	display:inline-block;
 	width:300px;
-	height:300px;
+	height:150px;
 	margin: 0px 30px;
+	
+}
+
+a.phone:hover {
+	border-bottom:2px solid red;
+}
+
+button#phone {
+	background-image:url(img/phone.png);
+	background-repeat: no-repeat;
+	background-position: right top;
 }
 
 /* Rollup Style */
@@ -208,6 +205,12 @@ span.rolledup {
 
 
 /* **** CONSTRAINTS PAGE STYLES **** */
+#webmenu{
+width:350px;
+float:left;
+display:inline;
+}
+
 
 section.assets {
 	box-sizing:border-box;
@@ -220,23 +223,8 @@ section.assets {
 	min-width:auto;
 }
 
-section#left {
-	padding-right:15px;
-}
 
-section#right {
-	padding-left:15px;
-}
 
-fieldset#fixed {
-	height:300px;
-	overflow:scroll;
-}
-
-fieldset#flerp {
-	margin:20px;
-	width:auto;
-}
 
 /* **** SUMMARY PAGE STYLES **** */
 
@@ -257,86 +245,3 @@ fieldset#scrollable {
 	overflow:scroll;
 }
 
-
-/* Nested Tab Interface Styles */
-.etabs{ 
-	margin: 0; 
-	padding: 0; 
-}
-
-.subetabs {
-	margin:-10px;
-	padding:10px;
-
-}
-
-.subetabs, .subtab.active {
-	background: #eee;
-}
-
-.tab { 
-	display: inline-block; 
-	zoom:1; 
-	*display:inline; 
-	background: #eee; 
-	border: solid 1px #000000; 
-	border-bottom: none; 
-	-moz-border-radius: 4px 4px 0 0; 
-	-webkit-border-radius: 4px 4px 0 0; 
-}
-
-.subtab {
-	display: inline-block; 
-	margin: 0px 40px 0px 0px;
-	zoom:1; 
-	*display:inline;  
-}
-
-.tab a { 
-	font-size: 14px; 
-	line-height: 2em; 
-	display: block; 
-	padding: 0 10px; 
-	outline: none; 
-}
-
-.tab a:hover { 
-	text-decoration: underline; 
-}
-
-.tab.active, .subtab.active {  
-	padding-top: 6px; 
-	position: relative; 
-}
-
-.tab.active {
-	background: #fff;
-	top:1px;
-	border-color: #000000; 
-}
-
-.tab a.active, .subtab a.active { 
-	font-weight: bold; 
-}
-
-.tab-container .panel-container { 
-	background: #fff; 
-	border: solid #000000 1px; 
-	padding: 10px; 
-	-moz-border-radius: 0 4px 4px 4px; 
-	-webkit-border-radius: 0 4px 4px 4px; 
-}
-
-.panel-container { 
-	margin-bottom: 10px; 
-}
-
-.subpanel-container {
-	background: #fff;
-	margin-top:20px;
-	padding-top:20px;
-}
-
-.tab-container {
-	height:253px;	
-}

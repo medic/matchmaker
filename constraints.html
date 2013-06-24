@@ -1,205 +1,146 @@
 ﻿<!DOCTYPE html> 
 <html>
 <head>
+	<!-- SITE INFO -->
 	<meta charset="utf-8">
-	<title>TOOLBOX</title>
+	<title>CONSTRAINTS /mm</title>
 	<meta name="description" content="Hello thar">
+	<!-- END SITE INFO -->
+	
+	<!-- STYLE SHEETS -->
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/dd.css">
+	<link rel="stylesheet" href="css/screen.css">
+	<!-- END STYLE SHEETS -->
    
-	<script src="js/easytabs/vendor/jquery-1.7.1.min.js" type="text/javascript"></script> 
-	<script src="js/easytabs/vendor/jquery.hashchange.min.js" type="text/javascript"></script>
-	<script src="js/easytabs/lib/jquery.easytabs.min.js" type="text/javascript"></script>
-  
-	<script>
-		$(document).ready(function() {
-			$('#outer-container, #inner-container').easytabs({
-				animate:false
-			});
-		});
-	</script>
+	<!-- JAVASCRIPT -->	
+	<script src="js/jquery.dd.min.js"></script>
+	<script src="js/yahoo.js"></script>
+	<script src="js/event.js"></script>
+	<script src="js/chdp.js"></script>
+	<script src="js/cssQuery-p.js"></script>
+	<script src="js/rollup.js"></script>
+	<!-- END JAVASCRIPT -->
 
  </head>
  
 <body>
 
- <header>
+	<header>
 		<nav>
 			<ul class="nav">
 				<li><a href="http://medicmobile.org" target="_blank">Medic Mobile Home</a> |&nbsp;</li>
 				<li><a href="index.html">Toolkit Home</a></li>
-				<li id="splitnav"><a href="">Skip This Step</a></li>
+				<li id="splitnav"><a href="">View Summary</a></li>
 			</ul>
 		</nav>
-
-		<h1>Tool Up!</h1>
-		<section>
-			<fieldset><legend>Instructions</legend>
-				<p>herpy derpy derpy derp</p>
-			</fieldset>
-		</section>
 	</header>
 	
+	<!-- ************ BEGIN PAGE CONTENT ************ -->
 
-	<section>
-		<section class="assets" id="left">
-						
-			<div class="tab-container" id="outer-container">
-				<ul class='etabs'>
-					<li class='tab'><a href="#nested-tab-1">Front End</a></li>
-					<li class='tab'><a href="#nested-tab-3">Back End</a></li>
-				</ul>
-				
-				<div class="panel-container">
-					<div id="nested-tab-1">
-						<div class="tab-container" id="inner-container">
-							<ul class='subetabs'>
-								<li class='subtab' class="active"><a href="#tab-w">Subtab A1</a></li>
-								<li class='subtab'><a href="#tab-x">Subtab A2</a></li>
-								<li class='subtab'><a href="#tab-y">Subtab A3</a></li>
-								<li class='subtab'><a href="#tab-z">Subtab A4</a></li>
-							</ul>
-							
-							<div class="subpanel-container">
-								<div id="tab-w">
-									<img src="img/placeholder.png" alt="" width="50px" height="50px">
-									<img src="img/placeholder.png" alt="" width="50px" height="50px">
-									<img src="img/placeholder.png" alt="" width="50px" height="50px">
-									<img src="img/placeholder.png" alt="" width="50px" height="50px">
-									<img src="img/placeholder.png" alt="" width="50px" height="50px">
-								</div>
-								
-								<div id="tab-x">
-									<h3>Heading B</h3>
-									<p>This is a nested second tab</p>
-								</div>
-								
-								<div id="tab-y">
-									<h3>Heading C</h3>
-									<p>This is a nested third tab</p>
-								</div>
-								
-								<div id="tab-z">
-									<h3>Heading D</h3>
-									<p>This is a nested fourth tab</p>
-								</div>
-							</div>
-							<br>
-						</div>
-						
-					</div>
-					
-					<div id="nested-tab-3">
-						<div class="tab-container" id="inner-container">
-							<ul class='subetabs'>
-								<li class='subtab' class="active"><a href="#tab-a">Subtab B1</a></li>
-								<li class='subtab'><a href="#tab-b">Subtab B2</a></li>
-								<li class='subtab'><a href="#tab-c">Subtab B3</a></li>
-								<li class='subtab'><a href="#tab-d">Subtab B4</a></li>
-							</ul>
-							
-							<div class="subpanel-container">
-								<div id="tab-a">
-									<h3>Heading A</h3>
-									<p>This is a nested first tab</p>
-								</div>
-								
-								<div id="tab-b">
-									<h3>Heading B</h3>
-									<p>This is a nested second tab</p>
-								</div>
-								
-								<div id="tab-c">
-									<h3>Heading C</h3>
-									<p>This is a nested third tab</p>
-								</div>
-								
-								<div id="tab-d">
-									<h3>Heading D</h3>
-									<p>This is a nested fourth tab</p>
-								</div>
-							</div>
-							<br>
-						</div>
-					</div>
-				</div>
-			</div>
-						
-							
-		
-		
-		</section>
 	
-		<section class="assets" id="right">
-			<fieldset id="fixed"><legend>Guiding Questions &amp; Recommendations</legend>		
-				<p>derpy derpy derp derp derp derp derp derp herp derpy derpy </p>
-				<p>...</p>
-			</fieldset>
-		</section>
-		
-	</section>
-
-
+	<!-- Drop down menu for system messaging type -->
+	<script>
+		$(document).ready(function(e) {
+			try {
+				$("body select").msDropDown();
+			} catch(e) {
+				alert(e.message);
+			}
+		});
+	</script>
+	
 	<section>
-		<section class="assets" id="left">
-			<fieldset id="fixed"><legend>My Constraints</legend>		
-				<img src="img/placeholder.png" alt="" width="50px" height="50px">
-				<img src="img/placeholder.png" alt="" width="50px" height="50px">
-				<img src="img/placeholder.png" alt="" width="50px" height="50px">
-				<img src="img/placeholder.png" alt="" width="50px" height="50px">
-				<img src="img/placeholder.png" alt="" width="50px" height="50px">
-			</fieldset>
-		</section>
-
+		<select name="webmenu" id="webmenu">
+			<option value="phone" data-image="img/phone.png">Phone --> Computer</option>
+			<option value="comp" selected="selected" data-image="img/computer.png">Computer --> Phone</option>
+			<option value="both" data-image="img/both.png">Phone <--> Computer</option>
+		</select>
 		
-		<section class="assets" id="right">
-			<fieldset id="fixed"><legend>My Use Case</legend>		
-				<select name="usecases3">
-					<option disabled="disabled" selected="selected">Select a Use Case</option>
-					<option value="anc">ANC Notifications</option>
-					<option value="danger">Danger Sign Monitoring</option>
-					<option value="disease">Disease Surveillance</option>
-					<option value="immunization">Immunization Alerts</option>
-					<option value="registration">Patient Registration</option>
-					<option value="pnc">PNC Notifications</option>
-					<option value="referrals">Referrals</option>
-					<option value="remote">Remote Treatment Support</option>
-					<option value="service">Service Reporting</option>
-					<option value="stockout">Stockout Monitoring</option>
-					<option value="workforce">Workforce Management</option>
-					<option value="idk">I don't know my use case</option>
-				</select>
-							
-				<ul class="nested-checkbox">
-					<li><input type="checkbox" name="incoming" value="incoming">incoming messages<br>
-					<ul>
-						<li><input type="checkbox" name="forms" value="forms">forms<br></li>
-						<li><input type="checkbox" name="SMS" value="SMS">ad hoc SMS<br></li>
-					</ul>
-					</li>
-					<li><input type="checkbox" name="outgoing" value="outgoing" disabled="disabled" checked="checked">outgoing messages<br>
-					<ul>
-						<li><input type="checkbox" name="adhoc" value="adhoc" disabled="disabled">ad hoc<br></li>
-						<li><input type="checkbox" name="scheduled" value="scheduled" disabled="disabled" checked="checked">scheduled<br></li>
-					</ul>
-					</li>
-				</ul>
-				
-			</fieldset>
-		</section>
-
+		
+		<h1 class="constraints">Tool Up!</h1>	
 	</section>
+	<!-- END drop down menu and title-->
+	
+	<!-- CONSTRAINTS DRAWER -->
+	<aside>
+		<h2>Constraints</h2>
 		
-
-	<fieldset id="flerp"><legend>My Tech Options</legend>		
+		<!-- CATEGORY NAME -->	
+		<div class="rollup">
+		<p><span class="rollup-trigger">&nbsp;</span>What type of phone do you need?</p>
+			<section class="hidden">
+				<img src="img/placeholder.png" alt="" width="50px" height="50px">
+				<img src="img/placeholder.png" alt="" width="50px" height="50px">
+				<img src="img/placeholder.png" alt="" width="50px" height="50px">
+				<img src="img/placeholder.png" alt="" width="50px" height="50px">
+				<img src="img/placeholder.png" alt="" width="50px" height="50px">
+			</section>
+		</div>
+		
+		<!-- CATEGORY NAME -->
+		<div class="rollup">
+		<p><span class="rollup-trigger">&nbsp;</span>What form type do you need?</p>
+			<section class="hidden">
+				<img src="img/placeholder.png" alt="" width="50px" height="50px">
+				<img src="img/placeholder.png" alt="" width="50px" height="50px">
+				<img src="img/placeholder.png" alt="" width="50px" height="50px">
+				<img src="img/placeholder.png" alt="" width="50px" height="50px">
+				<img src="img/placeholder.png" alt="" width="50px" height="50px">
+			</section>
+		</div>
+		
+		<!-- CATEGORY NAME -->
+		<div class="rollup">
+		<p><span class="rollup-trigger">&nbsp;</span>Another constraint</p>
+			<section class="hidden">
+				<img src="img/placeholder.png" alt="" width="50px" height="50px">
+				<img src="img/placeholder.png" alt="" width="50px" height="50px">
+				<img src="img/placeholder.png" alt="" width="50px" height="50px">
+				<img src="img/placeholder.png" alt="" width="50px" height="50px">
+				<img src="img/placeholder.png" alt="" width="50px" height="50px">
+			</section>
+		</div>
+		
+		<!-- CATEGORY NAME -->
+		<div class="rollup">
+		<p><span class="rollup-trigger">&nbsp;</span>Another constraint</p>
+			<section class="hidden">
+				<img src="img/placeholder.png" alt="" width="50px" height="50px">
+				<img src="img/placeholder.png" alt="" width="50px" height="50px">
+				<img src="img/placeholder.png" alt="" width="50px" height="50px">
+				<img src="img/placeholder.png" alt="" width="50px" height="50px">
+				<img src="img/placeholder.png" alt="" width="50px" height="50px">
+			</section>
+		</div>
+		
+	</aside>
+	<!-- END CONSTRAINTS DRAWER -->
+	
+	
+	<section class="asideoffset">
+		<!-- USER SELECTED CONSTRAINTS -->
+		<img src="img/placeholder.png" alt="" width="50px" height="50px">
+		<img src="img/placeholder.png" alt="" width="50px" height="50px">
+		<img src="img/placeholder.png" alt="" width="50px" height="50px">
+		<img src="img/placeholder.png" alt="" width="50px" height="50px">
+		<img src="img/placeholder.png" alt="" width="50px" height="50px">
+				
+				
+		<!-- TECH OPTIONS that change dynamically based on user selected constraints -->		
+		<fieldset><legend>My Tech Options</legend>		
 			<p>derpy derpy derp derp derp derp derp derp herp derpy derpy </p>
 			<p>...</p>
-	</fieldset>
+		</fieldset>
+	
+	</section>
+	
+	<!-- ************ END PAGE CONTENT ************ -->
+	
 
-		
 	<footer>
-		<button value="Next">View Summary</button>
+		<!-- potentially add (c) info, etc. -->
 	</footer>
-		
-		
+			
 </body>
 </html>

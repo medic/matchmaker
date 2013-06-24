@@ -1,16 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<!-- SITE INFO -->
 	<meta charset="utf-8">
 	<title>INDEX /mm</title>
 	<meta name="description" content="Hello thar">
-	<link rel="stylesheet" href="css/style.css">
+	<!-- END SITE INFO -->
 	
-	<script src="js/yahoo.js" ></script>
-	<script src="js/event.js" ></script>
-	<script src="js/chdp.js" ></script>
-	<script src="js/cssQuery-p.js" ></script>
-	<script src="js/rollup.js" ></script>
+	<!-- STYLE SHEETS -->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/lightbox.css">
+	<link rel="stylesheet" href="css/screen.css">
+	<!-- END STYLE SHEETS-->
+	
+	<!-- JAVASCRIPT-->
+	<script src="js/jquery.smooth-scroll.min.js"></script>
+	<script src="js/jquery-1.7.2.min.js"></script>
+	<script src="js/jquery-ui-1.8.18.custom.min.js"></script>
+	<script src="js/lightbox.js"></script>
+	<!-- END JAVASCRIPT -->
 
 </head>
 
@@ -26,52 +34,60 @@
 		<h1>The mHealth Tool Wizard</h1>
 	</header>
 	
+	<!-- ************ BEGIN PAGE CONTENT ************ -->
+	
+	
+	<!-- INSTRUCTIONS FOR USER ON HOW TO USE WIZARD -->
 	<section class="usecase">
 		<p>With our mHealth Tool Wizard, we will help you find a tool to meet your needs! What are you trying to do?</p>
 	</section>
 	
-	
-	<!--
-		<div class="rollup">
-		<p><span class="rollup-trigger">&nbsp;</span>Specify Additional Options</p>
-			<section class="hidden">
-				<ul class="nested-checkbox">
-					<li><input type="checkbox" name="incoming" value="incoming">incoming messages<br>
-					<ul>
-						<li><input type="checkbox" name="forms" value="forms">forms<br></li>
-						<li><input type="checkbox" name="SMS" value="SMS">ad hoc SMS<br></li>
-					</ul>
-					</li>
-					<li><input type="checkbox" name="outgoing" value="outgoing" disabled="disabled" checked="checked">outgoing messages<br>
-					<ul>
-						<li><input type="checkbox" name="adhoc" value="adhoc" disabled="disabled">ad hoc<br></li>
-						<li><input type="checkbox" name="scheduled" value="scheduled" disabled="disabled" checked="checked">scheduled<br></li>
-					</ul>
-					</li>
-				</ul>
-			</section>
-		</div>
-	-->
-	
-
-
+	<!-- USER MESSAGING OPTIONS; USER ACTION REQUIRED TO MOVE TO NEXT PAGE -->
 	<section class="usecase">
-		<ul class="nav">
-			<li><button>Phone --> Computer</button></li>
-			<li><button>Computer --> Phone</button></li>
-			<li class="splitnav"><button>Phone <--> Computer</button></li>
-		</ul>
+		<button class="pick3"><a href="" data-name="phone" class="phone"><img src="img/phone.png"></a>Phone --> Computer</button>
+		<button class="pick3"><a href="" data-name="computer" class="phone"><img src="img/computer.png"></a>Computer --> Phone</button>
+		<button class="pick3"><a href="" data-name="both" class="phone"><img src="img/both.png"></a>Phone <--> Computer</button>
 	</section>
 
+	<!-- USE CASE GALLERY-->
 	<section class="usecase">
-		<p>Not sure which option is the best fit for you? Check out our <a href="">use case gallery</a> for some example implementations!</p>
-	</section>
-
-
-	<footer>
+		<p>Not sure which option is the best fit for you? Check out our <a href="">use case gallery</a> below for some example implementations!</p>
 		
+	
+		<a href="img/placeholder.png" rel="lightbox[usecases]" title="Click on the right side of the image to move forward.">
+			<img src="img/placeholder.png" width="80" height="80" alt="thumbnail"></a>
+		<a href="img/placeholder.png" rel="lightbox[usecases]" title="derp">
+			<img src="img/placeholder.png" width="80" height="80" alt="thumbnail"></a>
+		<a href="img/placeholder.png" rel="lightbox[usecases]" title="herp">
+			<img src="img/placeholder.png" width="80" height="80" alt="thumbnail"></a>
+		<a href="img/placeholder.png" rel="lightbox[usecases]" title="herp">
+			<img src="img/placeholder.png" width="80" height="80" alt="thumbnail"></a>		
+		<a href="img/placeholder.png" rel="lightbox[usecases]" title="herp">
+			<img src="img/placeholder.png" width="80" height="80" alt="thumbnail"></a>
+		<a href="img/placeholder.png" rel="lightbox[usecases]" title="herp">
+			<img src="img/placeholder.png" width="80" height="80" alt="thumbnail"></a>
+		<a href="img/placeholder.png" rel="lightbox[usecases]" title="herp">
+			<img src="img/placeholder.png" width="80" height="80" alt="thumbnail"></a>
+		<a href="img/placeholder.png" rel="lightbox[usecases]" title="herp">
+			<img src="img/placeholder.png" width="80" height="80" alt="thumbnail"></a>
+		<a href="img/placeholder.png" rel="lightbox[usecases]" title="herp">
+			<img src="img/placeholder.png" width="80" height="80" alt="thumbnail"></a>
+		<a href="img/placeholder.png" rel="lightbox[usecases]" title="herp">
+			<img src="img/placeholder.png" width="80" height="80" alt="thumbnail"></a>
+		<a href="img/placeholder.png" rel="lightbox[usecases]" title="herp">
+			<img src="img/placeholder.png" width="80" height="80" alt="thumbnail"></a>
+		<a href="img/placeholder.png" rel="lightbox[usecases]" title="herp">
+			<img src="img/placeholder.png" width="80" height="80" alt="thumbnail"></a>			
+	</section>
+	<!-- END USE CASE GALLERY -->
+
+	
+	<!-- ************ END PAGE CONTENT ************ -->
+	
+	
+	<footer>
+		<!-- potentially add (c) info, etc. -->
 	</footer>
 
 </body>
-
 </html>
