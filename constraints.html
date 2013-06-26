@@ -10,10 +10,10 @@
 	<!-- STYLE SHEETS -->
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/dd.css">
-	<link rel="stylesheet" href="css/screen.css">
 	<!-- END STYLE SHEETS -->
    
 	<!-- JAVASCRIPT -->	
+	<script src="js/jquery-1.7.2.min.js"></script>
 	<script src="js/jquery.dd.min.js"></script>
 	<script src="js/yahoo.js"></script>
 	<script src="js/event.js"></script>
@@ -24,10 +24,11 @@
 
  </head>
  
-<body>
+<body class="border">
 
-	<header>
-		<nav>
+
+	<header class="border">
+		<nav class="border">
 			<ul class="nav">
 				<li><a href="http://medicmobile.org" target="_blank">Medic Mobile Home</a> |&nbsp;</li>
 				<li><a href="index.html">Toolkit Home</a></li>
@@ -38,109 +39,139 @@
 	
 	<!-- ************ BEGIN PAGE CONTENT ************ -->
 
+	<section class="container">
 	
-	<!-- Drop down menu for system messaging type -->
-	<script>
-		$(document).ready(function(e) {
-			try {
-				$("body select").msDropDown();
-			} catch(e) {
-				alert(e.message);
-			}
-		});
-	</script>
+		<!-- -->
+		<section class="border">
+		
+			<!-- Drop down menu for system messaging type -->
+			<script>
+				$(document).ready(function(e) {
+					try {
+						$("body select").msDropDown();
+					} catch(e) {
+						alert(e.message);
+					}
+				});
+			</script>
+			
+			<section class="aside">
+				<select name="webmenu" id="webmenu">
+					<option value="phone" data-image="img/phone.png">Phone -> Computer</option>
+					<option value="comp" selected="selected" data-image="img/computer.png">Computer -> Phone</option>
+					<option value="both" data-image="img/both.png">Phone <-> Computer</option>
+				</select>
+			</section>
+			<!-- END drop down menu and title -->
+			
+			<section class="asideoffset">
+				<h1 class="constraints">Tool Up!</h1>
+			
+				<!-- USER SELECTED CONSTRAINTS ->
+				<img src="img/placeholder.png" alt="" width="50px" height="50px">
+				<img src="img/placeholder.png" alt="" width="50px" height="50px">
+				<img src="img/placeholder.png" alt="" width="50px" height="50px">
+				<img src="img/placeholder.png" alt="" width="50px" height="50px">
+				<img src="img/placeholder.png" alt="" width="50px" height="50px">
+				<img src="img/placeholder.png" alt="" width="50px" height="50px">
+				<img src="img/placeholder.png" alt="" width="50px" height="50px">
+				<img src="img/placeholder.png" alt="" width="50px" height="50px">
+				<img src="img/placeholder.png" alt="" width="50px" height="50px">
+				<img src="img/placeholder.png" alt="" width="50px" height="50px">
+				<img src="img/placeholder.png" alt="" width="50px" height="50px">
+				<img src="img/placeholder.png" alt="" width="50px" height="50px">
+				<img src="img/placeholder.png" alt="" width="50px" height="50px">
+				<img src="img/placeholder.png" alt="" width="50px" height="50px">
+				<img src="img/placeholder.png" alt="" width="50px" height="50px">
+				-->
+			</section>
+			
+			
+		</section>
 	
-	<section>
-		<select name="webmenu" id="webmenu">
-			<option value="phone" data-image="img/phone.png">Phone --> Computer</option>
-			<option value="comp" selected="selected" data-image="img/computer.png">Computer --> Phone</option>
-			<option value="both" data-image="img/both.png">Phone <--> Computer</option>
-		</select>
+		<!-- Constraints & My Tech Options -->
+		<section class="border">
+			<section class="aside">
+			<!-- START CONSTRAINTS DRAWER -->
+			<h2>Constraints</h2>
+			
+			<!-- CATEGORY NAME -->	
+			<div class="rollup">
+			<p><span class="rollup-trigger">&nbsp;</span>What type of phone do you need?</p>
+				<section class="hidden"><section class="derp">
+					<img src="img/placeholder.png" alt="" width="50px" height="50px">
+					<img src="img/placeholder.png" alt="" width="50px" height="50px">
+					<img src="img/placeholder.png" alt="" width="50px" height="50px">
+					<img src="img/placeholder.png" alt="" width="50px" height="50px">
+					<img src="img/placeholder.png" alt="" width="50px" height="50px">
+				</section></section>
+			</div>
+			
+			<!-- CATEGORY NAME -->
+			<div class="rollup">
+			<p><span class="rollup-trigger">&nbsp;</span>What form type do you need?</p>
+				<section class="hidden"><section class="derp">
+					<img src="img/placeholder.png" alt="" width="50px" height="50px">
+					<img src="img/placeholder.png" alt="" width="50px" height="50px">
+					<img src="img/placeholder.png" alt="" width="50px" height="50px">
+					<img src="img/placeholder.png" alt="" width="50px" height="50px">
+					<img src="img/placeholder.png" alt="" width="50px" height="50px">
+				</section></section>
+			</div>
+			
+			<!-- CATEGORY NAME -->
+			<div class="rollup">
+			<p><span class="rollup-trigger">&nbsp;</span>Another constraint</p>
+				<section class="hidden"><section class="derp">
+					<img src="img/placeholder.png" alt="" width="50px" height="50px">
+					<img src="img/placeholder.png" alt="" width="50px" height="50px">
+					<img src="img/placeholder.png" alt="" width="50px" height="50px">
+					<img src="img/placeholder.png" alt="" width="50px" height="50px">
+					<img src="img/placeholder.png" alt="" width="50px" height="50px">
+				</section></section>
+			</div>
+			
+			<!-- CATEGORY NAME -->
+			<div class="rollup">
+			<p><span class="rollup-trigger">&nbsp;</span>Another constraint</p>
+				<section class="hidden"><section class="derp">
+					<img src="img/placeholder.png" alt="" width="50px" height="50px">
+					<img src="img/placeholder.png" alt="" width="50px" height="50px">
+					<img src="img/placeholder.png" alt="" width="50px" height="50px">
+					<img src="img/placeholder.png" alt="" width="50px" height="50px">
+					<img src="img/placeholder.png" alt="" width="50px" height="50px">
+				</section></section>
+			</div>
+			
+		
+		<!-- END CONSTRAINTS DRAWER -->
+		</section>
+		
+			<section class="asideoffset">
+				<!-- TECH OPTIONS that change dynamically based on user selected constraints -->		
+				<fieldset><legend class="h2">My Tech Options</legend>		
+					<p>derpy derpy derp derp derp derp derp derp herp derpy derpy </p>
+					<p>...</p>
+				</fieldset>
+			</section>
 		
 		
-		<h1 class="constraints">Tool Up!</h1>	
+		</section>
+
+		
+
+	
+
 	</section>
-	<!-- END drop down menu and title-->
-	
-	<!-- CONSTRAINTS DRAWER -->
-	<aside>
-		<h2>Constraints</h2>
-		
-		<!-- CATEGORY NAME -->	
-		<div class="rollup">
-		<p><span class="rollup-trigger">&nbsp;</span>What type of phone do you need?</p>
-			<section class="hidden">
-				<img src="img/placeholder.png" alt="" width="50px" height="50px">
-				<img src="img/placeholder.png" alt="" width="50px" height="50px">
-				<img src="img/placeholder.png" alt="" width="50px" height="50px">
-				<img src="img/placeholder.png" alt="" width="50px" height="50px">
-				<img src="img/placeholder.png" alt="" width="50px" height="50px">
-			</section>
-		</div>
-		
-		<!-- CATEGORY NAME -->
-		<div class="rollup">
-		<p><span class="rollup-trigger">&nbsp;</span>What form type do you need?</p>
-			<section class="hidden">
-				<img src="img/placeholder.png" alt="" width="50px" height="50px">
-				<img src="img/placeholder.png" alt="" width="50px" height="50px">
-				<img src="img/placeholder.png" alt="" width="50px" height="50px">
-				<img src="img/placeholder.png" alt="" width="50px" height="50px">
-				<img src="img/placeholder.png" alt="" width="50px" height="50px">
-			</section>
-		</div>
-		
-		<!-- CATEGORY NAME -->
-		<div class="rollup">
-		<p><span class="rollup-trigger">&nbsp;</span>Another constraint</p>
-			<section class="hidden">
-				<img src="img/placeholder.png" alt="" width="50px" height="50px">
-				<img src="img/placeholder.png" alt="" width="50px" height="50px">
-				<img src="img/placeholder.png" alt="" width="50px" height="50px">
-				<img src="img/placeholder.png" alt="" width="50px" height="50px">
-				<img src="img/placeholder.png" alt="" width="50px" height="50px">
-			</section>
-		</div>
-		
-		<!-- CATEGORY NAME -->
-		<div class="rollup">
-		<p><span class="rollup-trigger">&nbsp;</span>Another constraint</p>
-			<section class="hidden">
-				<img src="img/placeholder.png" alt="" width="50px" height="50px">
-				<img src="img/placeholder.png" alt="" width="50px" height="50px">
-				<img src="img/placeholder.png" alt="" width="50px" height="50px">
-				<img src="img/placeholder.png" alt="" width="50px" height="50px">
-				<img src="img/placeholder.png" alt="" width="50px" height="50px">
-			</section>
-		</div>
-		
-	</aside>
-	<!-- END CONSTRAINTS DRAWER -->
-	
-	
-	<section class="asideoffset">
-		<!-- USER SELECTED CONSTRAINTS -->
-		<img src="img/placeholder.png" alt="" width="50px" height="50px">
-		<img src="img/placeholder.png" alt="" width="50px" height="50px">
-		<img src="img/placeholder.png" alt="" width="50px" height="50px">
-		<img src="img/placeholder.png" alt="" width="50px" height="50px">
-		<img src="img/placeholder.png" alt="" width="50px" height="50px">
-				
-				
-		<!-- TECH OPTIONS that change dynamically based on user selected constraints -->		
-		<fieldset><legend>My Tech Options</legend>		
-			<p>derpy derpy derp derp derp derp derp derp herp derpy derpy </p>
-			<p>...</p>
-		</fieldset>
-	
-	</section>
-	
+
 	<!-- ************ END PAGE CONTENT ************ -->
 	
 
-	<footer>
+	<footer class="border">
+	(c) me
 		<!-- potentially add (c) info, etc. -->
 	</footer>
-			
+		
 </body>
+
 </html>

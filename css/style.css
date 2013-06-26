@@ -1,71 +1,102 @@
 /* *	*** GLOBAL CONTEXT STYLES **** */
 /* Styles for container elements. Includes overall form and presentation. */
 
-body {
+html , body{
+	position:static;	
 	margin:0px;
 	padding:0px;
-	border-style:none;
+}
+
+header, footer {
+	position:relative;
+	display:block;
+	margin:0px;
+	padding:0px;
+}
+
+
+
+section.container {
+	position:relative;
+	display:block;
+	margin:0px;
+	padding:0px;
+	border: 2px solid red;
+}
+
+section {
+	position:relative;
+	display:block;
+	margin:20px;
+	padding:0px;
+	left:0px;
+	right:0px;
+	border: 1px solid;
+}
+
+
+
+section.asideoffset {
+
+	display:inline-block;
+	padding:5px;
+	margin-left:30px;
+	margin-right:0px;
+	width:60%;
+	height:160px;
+	vertical-align:top;
+	
+	
+}
+
+section.aside {
+	display:inline-block;
+	padding:5px;
+	width:30%;
+	vertical-align:top;
+}
+
+nav.border {
+	/*remove this*/
+	border: 2px solid white;
+}
+
+body {
 	font-family: Arial, Verdana, Sans-serif;
 }
 
-header, nav, section, aside, figure, footer {
-	diplay: block;
-	position:relative;
-}
 
-header {
-	margin-bottom: 75px;
-}
+
+
 
 nav {
 	margin:0px;
-	padding-top:1px;
-	padding-bottom:1px;
-	padding-left:0px;
-	padding-right:20px;
+	padding: 1px 50px 1px 0px;
 	background-color:#98FB98;
 	font-size:10pt;
 }
 
-section {
-	margin: 20px;
-}
 
-section.asideoffset {
-	margin:20px;
-	padding:0px;
-	width:60%;	
-	float:right;
-}
-
-aside {
-	margin:20px;
-	padding:5px;
-	width:32%;
-	float:left;
-	border:1px solid #000000;
-	border-radius:4px;
-}
 
 fieldset {
-	margin:10px 0px 0px;
+	margin:0px;
 	width:100%;
 	box-sizing:border-box;
 	-moz-box-sizing:border-box;
 	-webkit-box-sizing:border-box;	
 	border-radius: 4px;
 	border:1px solid #000000;
+	height:150px;
 }
 
-footer {
-	margin:20px;
-	padding:0px;
-	float:right;
-}
 
 /* Navigation Style */
 /* from W3C, Example 9 http://dev.w3.org/csswg/css-flexbox/#auto-margins */
 ul.nav {
+	position: relative;	
+	
+	
+	
 	display: -webkit-box; /* OLD: Safari,  iOS, Android browser, older WebKit browsers */
 	display: -ms-flexbox; /* MID: IE 10 */
 	-ms-box-orient: horizontal;
@@ -76,14 +107,11 @@ ul.nav {
 	display: -ms-flex; /* OLD: IE */
 	display: flex;  /* NEW: Opera 12.1, Firefox 22+ */
 	  
-	-webkit-flex-flow: row wrap;
-	-webkit-box-flow: row wrap;
-	-moz-flex-flow: row wrap;
-	-moz-box-flow: row wrap;
-	-ms-flexbox-flow: row wrap;
-	-ms-flex-flow: row wrap;
-	flex-flow: row wrap;
 	list-style:none;
+	
+	margin:0px -50px 0px 0px;
+	padding:5px;
+	border: 1px solid red;
 }
 
 ul.nav > li {
@@ -112,17 +140,22 @@ h1 {
 }
 
 h1.constraints {
-	position:relative;
-	/*float:right;*/
+
 	padding:0px;
-	margin-left:300px;
-	vertical-align:30px;
-	display:inline;
+	margin:0px 0px 10px;
+
+	
 }
 
 h2 {
-	margin:0px;
-	padding:0px 0px 10px 0px;
+	padding:0px;
+	border-bottom: 1px solid;
+	margin:0px 0px 20px;
+}
+
+h2 , legend.h2 {
+	font-size: 20pt;
+	font-weight: bold;
 }
 
 figure {
@@ -172,11 +205,6 @@ a.phone:hover {
 	border-bottom:2px solid red;
 }
 
-button#phone {
-	background-image:url(img/phone.png);
-	background-repeat: no-repeat;
-	background-position: right top;
-}
 
 /* Rollup Style */
 /* from CSS Design Patterns @ http://cssdesignpatterns.com */
@@ -206,11 +234,30 @@ span.rolledup {
 
 /* **** CONSTRAINTS PAGE STYLES **** */
 #webmenu{
-width:350px;
+width:100%;
 float:left;
-display:inline;
 }
 
+aside#dowop{
+	padding:0px;
+	margin-top:100px;
+	border:1px solid;
+}
+
+.border {
+	border: 1px solid;
+}
+
+
+section#nope {
+	padding:0px;
+	margin-top:0px;
+	border: 1px solid;
+}
+
+div {
+	clear:both;
+}
 
 section.assets {
 	box-sizing:border-box;
@@ -222,6 +269,19 @@ section.assets {
 	width:50%;
 	min-width:auto;
 }
+
+section.derp {
+	border: 1px solid #000;
+	border-radius:4px;
+	margin:-20px -20px 20px;
+	padding: 5px;
+	height:200px;
+	overflow:scroll;
+}
+
+
+
+
 
 
 
