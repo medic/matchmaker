@@ -21,11 +21,75 @@
 	<script src="js/cssQuery-p.js"></script>
 	<script src="js/rollup.js"></script>
 	<!-- END JAVASCRIPT -->
+	
+	
+	
+				<script>
+				
+					var i=1;
+
+					function addConstraint() {
+						var clicked=document.getElementById(event.target.id);
+					
+						recommendations:{
+							if (clicked.id=='foo2') {
+								if (!confirm('This constraint has a recommendation. Add it anyway?')) {
+								break recommendations;
+								}
+							} 
+							
+						var para=document.createElement("img");
+						para.setAttribute("id", i);
+						para.setAttribute("onclick", "removeConstraint()");
+						para.setAttribute("width", "50px");
+						para.setAttribute("height", "50px");
+						para.src=clicked.src;
+
+						i++;
+
+						
+						var div=document.getElementById("userselected");
+						var p=document.getElementById("noSelect");
+						
+						if (p) {
+							div.removeChild(p);
+							}
+						div.appendChild(para);				
+							
+						}
+					}
+
+					function removeConstraint() {
+						var child=document.getElementById(event.target.id);
+						child.parentNode.removeChild(child);
+						
+						var div=document.getElementById("userselected");
+						if (div.innerHTML.trim() == "") {
+							div.innerHTML="<p id='noSelect'>You haven't selected anything yet!</p>";
+						}
+						
+					}
+					
+
+
+				</script>
+
+<script>
+function showGuidance() {
+var clicked=document.getElementById(event.target.id);
+var qout=document.getElementById("bar");
+if (clicked.id == 'phone') {
+	qout.innerHTML="<p>Here are some guiding questions:<br>Do you have budget to purchase phones?</p>";
+}
+
+
+}
+</script>
+				
 
  </head>
  
 <body class="border">
-
 
 	<header class="border">
 		<nav class="border">
@@ -38,13 +102,12 @@
 	</header>
 	
 	<!-- ************ BEGIN PAGE CONTENT ************ -->
-
 	<section class="container">
 	
-		<!-- -->
+		<!-- BEGIN first content row -->
 		<section class="border">
 		
-			<!-- Drop down menu for system messaging type -->
+			<!-- BEGIN (left side): drop down menu for system messaging type -->
 			<script>
 				$(document).ready(function(e) {
 					try {
@@ -57,118 +120,90 @@
 			
 			<section class="aside">
 				<select name="webmenu" id="webmenu">
-					<option value="phone" data-image="img/phone.png">Phone -> Computer</option>
+					<option value="phone" data-image="img/phone.png">Phone --> Computer</option>
 					<option value="comp" selected="selected" data-image="img/computer.png">Computer -> Phone</option>
 					<option value="both" data-image="img/both.png">Phone <-> Computer</option>
 				</select>
 			</section>
-			<!-- END drop down menu and title -->
+			<!-- END drop down menu -->
 			
+			<!-- BEGIN (right side): title image/headline and user selected constraints-->
 			<section class="asideoffset">
 				<h1 class="constraints">Tool Up!</h1>
 			
-				<!-- USER SELECTED CONSTRAINTS ->
-				<img src="img/placeholder.png" alt="" width="50px" height="50px">
-				<img src="img/placeholder.png" alt="" width="50px" height="50px">
-				<img src="img/placeholder.png" alt="" width="50px" height="50px">
-				<img src="img/placeholder.png" alt="" width="50px" height="50px">
-				<img src="img/placeholder.png" alt="" width="50px" height="50px">
-				<img src="img/placeholder.png" alt="" width="50px" height="50px">
-				<img src="img/placeholder.png" alt="" width="50px" height="50px">
-				<img src="img/placeholder.png" alt="" width="50px" height="50px">
-				<img src="img/placeholder.png" alt="" width="50px" height="50px">
-				<img src="img/placeholder.png" alt="" width="50px" height="50px">
-				<img src="img/placeholder.png" alt="" width="50px" height="50px">
-				<img src="img/placeholder.png" alt="" width="50px" height="50px">
-				<img src="img/placeholder.png" alt="" width="50px" height="50px">
-				<img src="img/placeholder.png" alt="" width="50px" height="50px">
-				<img src="img/placeholder.png" alt="" width="50px" height="50px">
-				-->
+				<section id="bar"></section>
+				
 			</section>
-			
+			<!-- END (right side) -->
 			
 		</section>
+		<!-- END first row of content -->
 	
-		<!-- Constraints & My Tech Options -->
+		<!-- BEGIN second row of content -->
 		<section class="border">
+		
+			<!-- BEGIN CONSTRAINTS DRAWER (left side) -->
 			<section class="aside">
-			<!-- START CONSTRAINTS DRAWER -->
-			<h2>Constraints</h2>
+				<h2>Constraints</h2>
+					
+				
+				<!-- CATEGORY NAME -->	
+				<a href=""><img id="phone" src="img/show.gif" onclick="showGuidance()">&nbsp;What type of phone do you need?</a>
+					<section class="hidden derp">
+						<img id= "foo1" src="img/placeholder.png" alt="" width="50px" height="50px" onclick="addConstraint()">
+						<img id= "foo2" src="img/placeholder.png" alt="" width="50px" height="50px" onclick="addConstraint()">
+						<img id= "foo3" src="img/placeholder.png" alt="" width="50px" height="50px" onclick="addConstraint()">
+						<img id= "foo4" src="img/placeholder.png" alt="" width="50px" height="50px" onclick="addConstraint()">
+						<img id= "foo5" src="img/placeholder.png" alt="" width="50px" height="50px" onclick="addConstraint()">
+					</section>
+				
+				
+				<!-- CATEGORY NAME -->
+				<div class="rollup">
+				<p><span class="rollup-trigger">&nbsp;</span>What form type do you need?</p>
+					<section class="hidden derp">
+						<img src="img/placeholder.png" alt="" width="50px" height="50px">
+						<img src="img/placeholder.png" alt="" width="50px" height="50px">
+						<img src="img/placeholder.png" alt="" width="50px" height="50px">
+						<img src="img/placeholder.png" alt="" width="50px" height="50px">
+						<img src="img/placeholder.png" alt="" width="50px" height="50px">
+					</section>
+				</div>
+				
+
 			
-			<!-- CATEGORY NAME -->	
-			<div class="rollup">
-			<p><span class="rollup-trigger">&nbsp;</span>What type of phone do you need?</p>
-				<section class="hidden"><section class="derp">
-					<img src="img/placeholder.png" alt="" width="50px" height="50px">
-					<img src="img/placeholder.png" alt="" width="50px" height="50px">
-					<img src="img/placeholder.png" alt="" width="50px" height="50px">
-					<img src="img/placeholder.png" alt="" width="50px" height="50px">
-					<img src="img/placeholder.png" alt="" width="50px" height="50px">
-				</section></section>
-			</div>
-			
-			<!-- CATEGORY NAME -->
-			<div class="rollup">
-			<p><span class="rollup-trigger">&nbsp;</span>What form type do you need?</p>
-				<section class="hidden"><section class="derp">
-					<img src="img/placeholder.png" alt="" width="50px" height="50px">
-					<img src="img/placeholder.png" alt="" width="50px" height="50px">
-					<img src="img/placeholder.png" alt="" width="50px" height="50px">
-					<img src="img/placeholder.png" alt="" width="50px" height="50px">
-					<img src="img/placeholder.png" alt="" width="50px" height="50px">
-				</section></section>
-			</div>
-			
-			<!-- CATEGORY NAME -->
-			<div class="rollup">
-			<p><span class="rollup-trigger">&nbsp;</span>Another constraint</p>
-				<section class="hidden"><section class="derp">
-					<img src="img/placeholder.png" alt="" width="50px" height="50px">
-					<img src="img/placeholder.png" alt="" width="50px" height="50px">
-					<img src="img/placeholder.png" alt="" width="50px" height="50px">
-					<img src="img/placeholder.png" alt="" width="50px" height="50px">
-					<img src="img/placeholder.png" alt="" width="50px" height="50px">
-				</section></section>
-			</div>
-			
-			<!-- CATEGORY NAME -->
-			<div class="rollup">
-			<p><span class="rollup-trigger">&nbsp;</span>Another constraint</p>
-				<section class="hidden"><section class="derp">
-					<img src="img/placeholder.png" alt="" width="50px" height="50px">
-					<img src="img/placeholder.png" alt="" width="50px" height="50px">
-					<img src="img/placeholder.png" alt="" width="50px" height="50px">
-					<img src="img/placeholder.png" alt="" width="50px" height="50px">
-					<img src="img/placeholder.png" alt="" width="50px" height="50px">
-				</section></section>
-			</div>
-			
+			</section>
+			<!-- END CONSTRAINTS DRAWER -->
 		
-		<!-- END CONSTRAINTS DRAWER -->
-		</section>
-		
+			<!-- BEGIN TECH OPTIONS (right side): change dynamically based on user selected constraints -->
 			<section class="asideoffset">
-				<!-- TECH OPTIONS that change dynamically based on user selected constraints -->		
+			
+			
+				<!-- USER SELECTED CONSTRAINTS -->
+				<section id="userselected">
+					<p id="noSelect">You haven't selected anything yet!</p>
+				</section>
+				<!-- END user selected constraints -->
+			
+						
 				<fieldset><legend class="h2">My Tech Options</legend>		
 					<p>derpy derpy derp derp derp derp derp derp herp derpy derpy </p>
 					<p>...</p>
 				</fieldset>
 			</section>
+			<!-- END tech options -->
 		
 		
 		</section>
-
+		<!-- END second row of content -->
 		
 
-	
 
 	</section>
-
 	<!-- ************ END PAGE CONTENT ************ -->
 	
 
 	<footer class="border">
-	(c) me
 		<!-- potentially add (c) info, etc. -->
 	</footer>
 		
