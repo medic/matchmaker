@@ -1,0 +1,17 @@
+[
+{ 
+	"categoryID":"phone", 
+	"categoryLabel":"What type of phone do you need?", 
+	"guidingQs":"Do you have budget to purchase phones? Or, what types of phones do your users already have?"
+},
+{ 
+	"categoryID":"blue", 
+	"categoryLabel":"What type of blue do you need?", 
+	"guidingQs":"No ws"
+},
+{ 
+	"categoryID":"form", 
+	"categoryLabel":"What type of form do you need?", 
+	"guidingQs":"No Qs"
+}
+]

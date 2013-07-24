@@ -1,0 +1,52 @@
+jquery
+
+cd ../toolshed
+python -m SimpleHTTPServer 8000
+
+
+$("#hide").click(function(){
+  $("p").hide();
+});
+
+$("#show").click(function(){
+  $("p").show();
+});
+
+$("button").click(function(){
+  $("p").toggle();
+});
+
+
+$("#flip").click(function(){
+  $("#panel").slideToggle();
+});
+
+  $("#btn2").click(function(){
+    $("#test2").html("<b>Hello world!</b>");
+  });
+  
+  $("button").click(function(){
+  $("#w3s").attr("href","http://www.w3schools.com/jquery");
+});
+
+$("button").click(function(){
+  $("#w3s").attr({
+    "href" : "http://www.w3schools.com/jquery",
+    "title" : "W3Schools jQuery Tutorial"
+  });
+});
+
+jquery append/prepend
+jquery remove/empty
+
+$(document).ready(function(){
+  $("button").click(function(){
+    $.getJSON("demo_ajax_json.js",function(result){
+      $.each(result, function(i, field){
+        $("div").append(field + " ");
+      });
+    });
+  });
+});
+
+$.ajaxSetup({ cache: false });

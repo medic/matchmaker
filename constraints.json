@@ -1,0 +1,8 @@
+[
+{ 
+	"categoryID":"phone",
+	"constraintID":"iphone", 
+	"constraintLabel":"iPhone",
+	"imageLink":"img/iphone.png"
+}
+]

@@ -1,0 +1,262 @@
+﻿<!DOCTYPE html> 
+<html>
+<head>
+	<!-- SITE INFO -->
+	<meta charset="utf-8">
+	<title>CONSTRAINTS /mm</title>
+	<meta name="description" content="Hello thar">
+	<!-- END SITE INFO -->
+	
+	<!-- STYLE SHEETS -->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/dd.css">
+	<!-- END STYLE SHEETS -->
+   
+	<!-- JAVASCRIPT -->	
+	<script src="js/jquery-1.10.2.min.js"></script>
+	<script src="js/jquery.dd.min.js"></script>
+	<script src="js/yahoo.js"></script>
+	<script src="js/event.js"></script>
+	<script src="js/chdp.js"></script>
+	<script src="js/cssQuery-p.js"></script>
+	<script src="js/rollup.js"></script>
+	<!-- END JAVASCRIPT -->
+	
+	
+	<script>
+	$(document).ready(function(){
+
+   // jQuery methods go here...
+		$("p#phoneQs").hide();
+		$("section#s").hide();
+		
+		$("p#phone").click(function(){
+			$("p#phoneQs").toggle();
+			$("section#s").toggle();
+		});
+
+});
+	
+	
+	</script>
+	
+	
+				<script>
+				
+					var i=1;
+
+					function addConstraint() {
+						var clicked=document.getElementById(event.target.id);
+					
+						recommendations:{
+							if (clicked.id=='foo2') {
+								if (!confirm('This constraint has a recommendation. Add it anyway?')) {
+								break recommendations;
+								}
+							} 
+							
+						var para=document.createElement("img");
+						para.setAttribute("id", clicked.id + "sel");
+						para.setAttribute("onclick", "removeConstraint()");
+						para.setAttribute("width", "50px");
+						para.setAttribute("height", "80px");
+						para.src=clicked.src;
+
+						i++;
+
+						
+						var div=document.getElementById("userselected");
+						var p=document.getElementById("noSelect");
+						
+						if (p) {
+							div.removeChild(p);
+							}
+						div.appendChild(para);
+
+						if (clicked.id=='foo3') {
+							var tech=document.getElementById("odk");
+							tech.parentNode.removeChild(tech);
+						}
+						
+							
+						}
+					}
+
+					function removeConstraint() {
+					
+						var child=document.getElementById(event.target.id);
+						var options=document.getElementById("tech");
+						
+						if (child.id=='foo3sel') {
+							var tech=document.createElement("p");
+							tech.setAttribute('id','odk');
+							var node=document.createTextNode("ODK");
+							tech.appendChild(node);
+							options.appendChild(tech);
+						}
+					
+						child.parentNode.removeChild(child);
+						
+						var div=document.getElementById("userselected");
+						if (div.innerHTML.trim() == "") {
+							div.innerHTML="<p id='noSelect'>You haven't selected anything yet!</p>";
+						}
+						
+					}
+					
+
+
+				</script>
+
+<script>
+function showHide() {
+
+var clicked=document.getElementById(event.target.id);
+var qout=document.getElementById("bar2");
+
+var foo=document.getElementById('bar1');
+
+if (foo.style.visibility == 'visible') {
+foo.style.visibility='hidden';
+qout.innerHTML="";
+} else {
+foo.style.visibility='visible';
+/*
+if (clicked.id == 'phone') {
+	qout.innerHTML="<p>Here are some guiding questions:<br>Do you have budget to purchase phones? Or, what types of phones do your users have?</p>";
+}*/
+
+}
+
+
+}
+</script>
+				
+
+ </head>
+ 
+<body class="border">
+
+	<header class="border">
+		<nav class="border">
+			<ul class="nav">
+				<li><a href="http://medicmobile.org" target="_blank">Medic Mobile Home</a> |&nbsp;</li>
+				<li><a href="index.html">Toolkit Home</a></li>
+				<!--<li id="splitnav"><a href="">View Summary</a></li>-->
+			</ul>
+		</nav>
+	</header>
+	
+	<!-- ************ BEGIN PAGE CONTENT ************ -->
+	<section class="container">
+	
+		<!-- BEGIN first content row -->
+		<section class="border">
+		
+			<!-- BEGIN (left side): drop down menu for system messaging type -->
+			<script>
+				$(document).ready(function(e) {
+					try {
+						$("body select").msDropDown();
+					} catch(e) {
+						alert(e.message);
+					}
+				});
+			</script>
+			
+			<section class="aside">
+				<select name="webmenu" id="webmenu">
+					<option id="phone" data-image="img/phone.png">Phone --> Computer</option>
+					<option id="comp" selected="selected" data-image="img/computer.png">Computer -> Phone</option>
+					<option id="both" data-image="img/both.png">Phone <-> Computer</option>
+				</select>
+			</section>
+			<!-- END drop down menu -->
+			
+			<!-- BEGIN (right side): title image/headline and user selected constraints-->
+			<section class="asideoffset">
+				<h1 class="constraints">Decision Support Tool</h1>
+			
+				<section id="bar2"></section>
+				
+			</section>
+			<!-- END (right side) -->
+			
+		</section>
+		<!-- END first row of content -->
+	
+		<!-- BEGIN second row of content -->
+		<section class="border">
+		
+			<!-- BEGIN CONSTRAINTS DRAWER (left side) -->
+			<section class="aside">
+				<h2>Constraints</h2>
+					
+				
+				<!-- CATEGORY NAME -->	
+				<p id="phone"><img src="img/show.gif">&nbsp;What type of phone will you use?</p>
+				<p id="phoneQs" class="helptext">Do you have budget to purchase phones? If so, which phones will you purchase? Or, what types of phones do your users already have?</p>
+					<section class="derp" id="s">
+						<img id= "foo1" src="img/iphone.png" alt="" width="50px" height="80px" onclick="addConstraint()">
+						<img id= "foo2" src="img/android.png" alt="" width="50px" height="80px" onclick="addConstraint()">
+						<img id= "foo3" src="img/java.png" alt="" width="50px" height="80px" onclick="addConstraint()">
+						<img id= "foo4" src="img/feature.png" alt="" width="50px" height="80px" onclick="addConstraint()">
+					</section>
+				
+
+				
+				<!-- CATEGORY NAME ->
+				<div class="rollup">
+				<p><span class="rollup-trigger">&nbsp;</span>What form type do you need?</p>
+					<section class="hidden derp">
+						<img src="img/placeholder.png" alt="" width="50px" height="50px">
+						<img src="img/placeholder.png" alt="" width="50px" height="50px">
+						<img src="img/placeholder.png" alt="" width="50px" height="50px">
+						<img src="img/placeholder.png" alt="" width="50px" height="50px">
+						<img src="img/placeholder.png" alt="" width="50px" height="50px">
+					</section>
+				</div>
+				-->
+
+			
+			</section>
+			<!-- END CONSTRAINTS DRAWER -->
+		
+			<!-- BEGIN TECH OPTIONS (right side): change dynamically based on user selected constraints -->
+			<section class="asideoffset">
+			
+			
+				<!-- USER SELECTED CONSTRAINTS -->
+				<section id="userselected">
+					<p id="noSelect">You haven't selected anything yet!</p>
+				</section>
+				<!-- END user selected constraints -->
+			
+						
+				<fieldset id="tech"><legend class="h2">My Tech Options</legend>		
+					<p>Muvuku-Kujua</p>
+					<p>Muvuku-Kujua-Lite</p>
+					<p>Datawinners-Android</p>
+					<p id="odk">ODK</p>
+					
+				</fieldset>
+			</section>
+			<!-- END tech options -->
+		
+		
+		</section>
+		<!-- END second row of content -->
+		
+
+
+	</section>
+	<!-- ************ END PAGE CONTENT ************ -->
+	
+
+	<footer class="border">
+		<!-- potentially add (c) info, etc. -->
+	</footer>
+		
+</body>
+
+</html>

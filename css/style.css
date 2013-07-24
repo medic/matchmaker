@@ -161,9 +161,10 @@ figure {
 }
 
 img {
-	border: 1px solid #000000;
+	border: 1px solid #DDDDDD;
 	border-radius: 4px;
-	curser:pointer;
+	cursor:pointer;
+	margin: 0px 2px;
 }
 
 
@@ -223,8 +224,7 @@ a.phone:hover {
 
 *.hidden { 
 	position:absolute; 
-	top:-99999px; 
-	left:-99999px; 
+	visibility:hidden;
 }
 
 
@@ -249,22 +249,34 @@ section#userselected {
 	position:relative;
 	margin: 0px 0px 20px;
 	padding: 0px;
-	min-height:60px;
+	min-height:90px;
 }
 
 .border {
 	/*border: 1px solid;*/
 }
 
+section#bar2 {
+	height:50px;
+	overflow:hidden;
+}
+
+p.tech1 {
+font-weight:bold;
+}
+
+p.helptext {
+font-style:italic;
+color:#A1A1A1;
+}
 
 
+button.close{
+	margin-top:50px;
+}
 
-
-
-
-
-
-
+img.deselected{opacity:0.4;filter:alpha(opacity=40);}
+img.selected:hover,img.selected:focus,img.deselected:hover,img.deselected:focus{cursor:pointer;opacity:0.8;filter:alpha(opacity=80);}
 
 
 /* **** SUMMARY PAGE STYLES **** */

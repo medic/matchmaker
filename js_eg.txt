@@ -1,3 +1,63 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<style>
+div#p1{
+visibility:hidden;
+}
+img{
+cursor:pointer
+}
+</style>
+
+
+<script>
+function gerp() {
+
+var clicked=document.getElementById(event.target.id);
+var qout=document.getElementById("p2");
+
+var foo=document.getElementById('p1');
+
+if (foo.style.visibility == 'visible') {
+foo.style.visibility='hidden';
+qout.innerHTML="";
+} else {
+foo.style.visibility='visible';
+
+if (clicked.id == 'phone') {
+	qout.innerHTML="<p>Here are some guiding questions:<br>Do you have budget to purchase phones?</p>";
+}
+
+}
+
+}
+
+
+</script>
+
+
+<div>
+<img id="phone" src="bulbon.gif" width="30" height="30" onclick="gerp()">&nbsp;This is some text.
+</div>
+<div id="p1">
+Text I want to show/hide
+</div>
+<div id="p2">
+
+</div>
+
+
+
+</body>
+</html>
+
+
+
+
+
+
 http://stackoverflow.com/questions/4825295/javascript-onclick-to-get-the-id-of-the-clicked-button?lq=1
 
 //Adding and removing HTML elements with JS
