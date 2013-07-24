@@ -10,221 +10,203 @@
 	<!-- STYLE SHEETS -->
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="bootstrap.min.css">
+	<link rel="stylesheet" href="jquery.dropdown.css" />
 	<!-- END STYLE SHEETS -->
-   
-   <link rel="stylesheet" href="jquery.dropdown.css" />
-
    
 	<!-- JAVASCRIPT -->	
 	<script src="js/jquery-1.10.2.min.js"></script>
 	<script src="bootstrap.min.js"></script>
 	<script src="jquery.dropdown.js"></script>
+	<script src="jquery.listen-1.0.3-min.js"></script>
 	<!-- END JAVASCRIPT -->
 	
-<script>
-
-	// INITIALIZE category & constraint arrays while document is loading
-	var phoneCats,
-		compCats,
-		allCats,
-		constraints; 
-	
-	if (!phoneCats) {
-		$.getJSON("phoneCats.json", function(data) {
-			phoneCats = localStorage.setItem('phoneCats', JSON.stringify(data));	
-		});
-	} 
-	
-	if (!compCats) {
-		$.getJSON("compCats.json", function(data) {
-			compCats = localStorage.setItem('compCats', JSON.stringify(data));				
-		});
-	}
-	
-	if (!allCats) {
-		$.getJSON("allCats.json", function(data) {
-			allCats = localStorage.setItem('allCats', JSON.stringify(data));				
-		});
-	} 
-	
-	if (!constraints) {
-		$.getJSON("constraints.json", function(data) {
-			constraints = localStorage.setItem('constraints', JSON.stringify(data));				
-		});
-	}
+	<script>
+		// INITIALIZE arrays while document is loading
+		var phoneCats,
+			compCats,
+			allCats,
+			constraints,
+			tools; 
 		
-
-$(document).ready(function(){
-
-	checkMsgType(); // default behavior of categories on load
-	
-	// DROPDOWN: Phone --> Computer
-	$("img#phone").click(function() {
-		$("img#selected").attr("src", "img/phone.png");	
-		checkMsgType(); // load the categories
-	});
-	
-	// DROPDOWN: Computer --> Phone
-	$("img#computer").click(function() {
-		$("img#selected").attr("src", "img/computer.png");	
-		checkMsgType(); // load the categories
-	});
-	
-	// DROPDOWN: Phone <--> Computer
-	$("img#both").click(function() {
-		$("img#selected").attr("src", "img/both.png");	
-		checkMsgType(); // load the categories
-	});
-	
-	
-	function checkMsgType() {
-		switch ($("img#selected").attr("src")) {
-			case "img/phone.png":
+		if (!phoneCats) {
+			$.getJSON("phoneCats.json", function(data) {
+				localStorage.setItem('phoneCats', JSON.stringify(data));	
 				phoneCats = JSON.parse(localStorage.getItem('phoneCats'));
-				loadCategories(phoneCats);
-				break;
-			case "img/computer.png":
-				compCats = JSON.parse(localStorage.getItem('compCats'));
-				loadCategories(compCats);
-				break;
-			case "img/both.png":
-				allCats = JSON.parse(localStorage.getItem('allCats'));
-				loadCategories(allCats);
-				break;
-			default:
-				alert('Something fishy is happening!');
-		}
-	}
-	
-	
-	function loadCategories(array) {			
-		$("section#categories").empty(); // Wipe the constraints pane
-		$("section#categories").append('<h2>Constraints</h2>'); // Add header back in
+			});
+		} 
 		
-		$.each(array, function(index, data) {
-
-			// Load the relevant categories
-			$("section#categories").append('<p id="' + data.categoryID + '"><img src="img/show.gif">&nbsp;' + data.categoryLabel + '</p>');
-			$("section#categories").append('<p id="' + data.categoryID + 'Qs" class="helptext">' + data.guidingQs + '</p>');
-			$("section#categories").append('<section id="' + data.categoryID + 'Constraints" class="derp"></section>');
-					
-			$("p#" + data.categoryID + "Qs").hide();
-			$("section#" + data.categoryID + "Constraints").hide();
+		if (!compCats) {
+			$.getJSON("compCats.json", function(data) {
+				localStorage.setItem('compCats', JSON.stringify(data));	
+				compCats = JSON.parse(localStorage.getItem('compCats'));			
+			});
+		}
+		
+		if (!allCats) {
+			$.getJSON("allCats.json", function(data) {
+				localStorage.setItem('allCats', JSON.stringify(data));				
+				allCats = JSON.parse(localStorage.getItem('allCats'));
+			});
+		} 
+		
+		if (!constraints) {
+			$.getJSON("constraints.json", function(data) {
+				localStorage.setItem('constraints', JSON.stringify(data));
+				constraints = JSON.parse(localStorage.getItem('constraints'));				
+			});
+		}
+		
+		if (!tools) {
+			$.getJSON("tools.json", function(data) {
+				localStorage.setItem('tools', JSON.stringify(data));
+				tools = JSON.parse(localStorage.getItem('tools'));
+			});
+		}
 			
+
+			
+		// ***************************** Page is ready *****************************
+		$(window).load(function(){
+
+			noConstraintsSel();
+			loadTools();
+			checkMsgType(); // default behavior of categories on load
+			
+			
+			// ADDING & REMOVING constraints
+			$.listen('click', 'img.constraintImg', function() {	
+			
+				// Add the constraint if the image clicked is inside a category pane
+				if (($(this).parent().attr('id')).match(/[a-zA-Z]+Constraints$/) != null) {			
+				
+					var attr = $(this).attr('id');
+				
+					// But don't add it more than once
+					if ($("section#userselected").has("img#" + attr + "Sel").length == 0) {
+						$("p#noSelect").remove();
+						$("section#userselected").append($(this).clone(true).attr("id", attr + "Sel"));
+						//$("section#userselected").append('<button class="close x">&times;</button>');					
+					}
+				}
+				
+				// Remove the constraint if the image clicked is in the selections pane
+				if (($(this).parent().attr('id')).match(/^userselected$/) != null) {
+					$(this).remove();
+					noConstraintsSel();
+				}	
+			});
+			
+			
+			// DROPDOWN behavior
+			$("img.drop").click(function() {
+				var id = $(this).attr("id");
+				if (id == "phoneMsg" || id == "computerMsg" || id == "bothMsg") {
+					checkMsgType($(this));
+				}
+			});
+			
+			/* SHOW/HIDE categories			
 			$("p#" + data.categoryID).click(function(){
 				$("section#" + data.categoryID + "Constraints").toggle(300);
 				$("p#" + data.categoryID + "Qs").toggle(200);
-			});		
-		});	
-		loadConstraints();			
-	}
-	
-	function loadConstraints() {
-		constraints = JSON.parse(localStorage.getItem('constraints'));
-		$.each(constraints, function(index, d){
-			$("section#" + d.categoryID + "Constraints").append('<img id="' + d.constraintID + '" src="' + d.imageLink + '" class="constraintImg" width="50px" height="80px">');
+				
+				if ($("section#" + data.categoryID + "Constraints").is(":hidden")) {
+					$("p#" + data.categoryID).html('<p id="' + data.categoryID + '">' +
+						'&#9654; ' + data.categoryLabel + '</p>');
+				} else {
+					$("p#" + data.categoryID).html('<p id="' + data.categoryID + '">' +
+						'&#9660; ' + data.categoryLabel + '</p>');
+				}
+			});*/			
+			
+			// ***************************** Begin Helper Functions *****************************
+			
+			
+			// argument clickedImage must be a jQuery object
+			function checkMsgType(clickedImage) {
+				switch ($(clickedImage).attr("id")) {
+					case "phoneMsg":
+						$("img#selected").attr("src", "img/phone.png");
+						$("img#phoneMsg").attr("class", "selected drop");
+						$("img#computerMsg").attr("class", "deselected drop");
+						$("img#bothMsg").attr("class", "deselected drop");
+						loadCategories(phoneCats);
+						break;
+					case "computerMsg":
+						$("img#selected").attr("src", "img/computer.png");
+						$("img#computerMsg").attr("class", "selected drop");	
+						$("img#phoneMsg").attr("class", "deselected drop");
+						$("img#bothMsg").attr("class", "deselected drop");						
+						loadCategories(compCats);
+						break;
+					case "bothMsg": // this will become default
+						$("img#selected").attr("src", "img/both.png");
+						$("img#bothMsg").attr("class", "selected drop");
+						$("img#phoneMsg").attr("class", "deselected drop");
+						$("img#computerMsg").attr("class", "deselected drop");
+						loadCategories(allCats);
+						break;
+					default:
+						var name = $("img#selected").attr("name") + "Cats";
+						loadCategories(window[name]);
+				}
+			}
+			
+			
+			function loadCategories(array) {			
+				$("section#categories").empty(); // Wipe the constraints pane
+				$("section#categories").append('<h2>Constraints</h2>'); // Add header back in
+				
+				$.each(array, function(index, data) {
+
+				/*
+				'<img id="' + data.categoryID + '" src="img/show.gif">'
+				*/			
+					// Load the relevant categories
+					$("section#categories").append('<p id="' + data.categoryID + '">' +
+						'&#9654; ' + data.categoryLabel + '</p>');
+					$("section#categories").append('<p id="' + data.categoryID + 'Qs" class="helptext">' + data.guidingQs + '</p>');
+					$("section#categories").append('<section id="' + data.categoryID + 'Constraints" class="derp"></section>');
+					
+					$("p#" + data.categoryID + "Qs").hide();
+					$("section#" + data.categoryID + "Constraints").hide();				
+				});	
+				loadConstraints();			
+			}
+			
+			
+			function loadConstraints() {
+				constraints = JSON.parse(localStorage.getItem('constraints'));
+				$.each(constraints, function(index, d){
+					$("section#" + d.categoryID + "Constraints").append(
+						'<img id="' + d.constraintID + '" src="' + d.imageLink + '" alt="' + d.constraintLabel 
+						+ '" class="constraintImg" width="50px" height="80px">'
+					);
+				});
+			}
+			
+			
+			// DEFAULT behavior for zero constraints selected
+			function noConstraintsSel() {
+				if ($("section#userselected").is(":empty")) {
+					$("section#userselected").html('<p id="noSelect">You haven\'t selected anything yet!</p>');
+				}
+			}
+
+			
+			function loadTools() {
+				$.each(tools, function(index, d) {
+					$("fieldset#tech").append('<p id="' + d.productID + '"><a href="' + d.productLink + '" target="_blank">' + d.productName + '</a></p>');
+				});
+			}
+			
+			
 		});
-	}
-	
-	// DEFAULT behavior for zero constraints selected
-	if ($("section#userselected").is(":empty")) {
-		$("section#userselected").html('<p id="noSelect">You haven\'t selected anything yet!</p>');
-	}
-	
-	// ADD a constraint
-	$("section.derp > img.constraintImg").click(function() {
-		$("p#noSelect").remove();
-		var id = $(this).attr("id");
-		$("section#userselected").append($(this).clone().attr("id", id + "sel"));
-		$("section#userselected").append('<button class="close">&times;</button>');
-	});
 
-	
-	// REMOVE a constraint
-	$("img.constraintImg").click(function() {
-		alert('ok');
-	});
-	
-});
-
-</script>
-
-	
-	
-				<script>
-				
-					var i=1;
-
-					function addConstraint() {
-						var clicked=document.getElementById(event.target.id);
-					
-						recommendations:{
-							if (clicked.id=='foo2') {
-								if (!confirm('This constraint has a recommendation. Add it anyway?')) {
-								break recommendations;
-								}
-							} 
-							
-						var para=document.createElement("img");
-						para.setAttribute("id", clicked.id + "sel");
-						para.setAttribute("onclick", "removeConstraint()");
-						para.setAttribute("width", "50px");
-						para.setAttribute("height", "50px");
-						para.src=clicked.src;
-
-						i++;
-
-						
-						var div=document.getElementById("userselected");
-						var p=document.getElementById("noSelect");
-						
-						if (p) {
-							div.removeChild(p);
-							}
-						div.appendChild(para);
-
-						if (clicked.id=='foo3') {
-							var tech=document.getElementById("odk");
-							tech.parentNode.removeChild(tech);
-						}
-						
-							
-						}
-					}
-
-					function removeConstraint() {
-					
-						var child=document.getElementById(event.target.id);
-						var options=document.getElementById("tech");
-						
-						if (child.id=='foo3sel') {
-							var tech=document.createElement("p");
-							tech.setAttribute('id','odk');
-							var node=document.createTextNode("ODK");
-							tech.appendChild(node);
-							options.appendChild(tech);
-						}
-					
-						child.parentNode.removeChild(child);
-						
-						var div=document.getElementById("userselected");
-						if (div.innerHTML.trim() == "") {
-							div.innerHTML="<p id='noSelect'>You haven't selected anything yet!</p>";
-						}
-						
-					}
-					
-
-
-				</script>
-
-
-				
-
- </head>
+	</script>
+</head>
  
 <body class="border">
-
 	<header class="border">
 		<nav class="border">
 			<ul class="nav">
@@ -242,17 +224,14 @@ $(document).ready(function(){
 		<section class="border">
 		
 			<!-- BEGIN (left side): drop down menu for system messaging type -->
-			<section class="aside">
-				<img id="selected" src="img/phone.png" width="350px"><button class="close" data-dropdown="#dropdown-1">&#9660;</button> <!-- 8711 -->
-				
+			<section class="aside"><!-- 8711 -->
+				<img name="phone" id="selected" src="img/phone.png" width="350px"><button class="close" data-dropdown="#dropdown-1">&#9660;</button> 
 			</section>
-			<!-- END drop down menu -->
 			
 			<!-- BEGIN (right side): title image/headline and user selected constraints-->
 			<section class="asideoffset">
 				<h1 class="constraints">Medic Mobile Tool Wizard</h1>
 			</section>
-			<!-- END (right side) -->
 			
 		</section>
 		<!-- END first row of content -->
@@ -263,30 +242,13 @@ $(document).ready(function(){
 			<!-- BEGIN CONSTRAINTS DRAWER (left side) -->
 			<section id="categories" class="aside">
 				<h2>Constraints</h2>
-		
-		
-
-
-		
 			</section>
-			<!-- END CONSTRAINTS DRAWER -->
 		
 			<!-- BEGIN TECH OPTIONS (right side): change dynamically based on user selected constraints -->
 			<section class="asideoffset">
-			
-				<!-- USER SELECTED CONSTRAINTS -->
-				<section id="userselected"></section>
-			
-						
-				<fieldset id="tech"><legend class="h2">My Tech Options</legend>		
-					<p>Muvuku-Kujua</p>
-					<p>Muvuku-Kujua-Lite</p>
-					<p>Datawinners-Android</p>
-					<p id="odk">ODK</p>
-					
-				</fieldset>
+				<section id="userselected"></section> <!-- USER SELECTED CONSTRAINTS -->
+				<fieldset id="tech"><legend class="h2">My Tech Options</legend></fieldset>
 			</section>
-			<!-- END tech options -->
 		
 		
 		</section>
@@ -305,11 +267,11 @@ $(document).ready(function(){
 	<!-- DROPDOWN UI, needs to remain immediately before </body> tag -->
 	<div id="dropdown-1" class="dropdown dropdown-tip">
 		<ul class="dropdown-menu">
-			<li><img id="phone" class="selected" class="drop" src="img/phone.png" width="200px"></li>
-			<li><img id="computer" class="deselected drop" src="img/computer.png" width="200px"></li>
-			<li><img id="both" class="deselected drop" src="img/both.png" width="200px"></li>
+			<li><img id="phoneMsg" class="selected drop" src="img/phone.png" width="200px"></li>
+			<li><img id="computerMsg" class="deselected drop" src="img/computer.png" width="200px"></li>
+			<li><img id="bothMsg" class="deselected drop" src="img/both.png" width="200px"></li>
 		</ul>
 	</div>	
+	
 </body>
-
 </html>

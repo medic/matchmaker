@@ -1,8 +1,12 @@
 [
-{ 
-	"categoryID":"phone",
-	"constraintID":"iphone", 
-	"constraintLabel":"iPhone",
-	"imageLink":"img/iphone.png"
-}
+	{ 
+		"categoryID":"phone",
+		"subcategoryID":"",
+		"subcategoryLabel":"",
+		"constraintID":"iphone", 
+		"constraintLabel":"iPhone",
+		"imageLink":"img/iphone.png",
+		"recommendations":"",
+		"thingsToThinkAbout":""
+	}
 ]
