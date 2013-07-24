@@ -105,19 +105,20 @@
 				}
 			});
 			
-			/* SHOW/HIDE categories			
-			$("p#" + data.categoryID).click(function(){
-				$("section#" + data.categoryID + "Constraints").toggle(300);
-				$("p#" + data.categoryID + "Qs").toggle(200);
+			// SHOW/HIDE categories
+			var open = false;
+			$("section#categories").listen('click', 'p', function() {
+				var id = $(this).attr("id");
+				var txt = $(this).attr("data-label");
 				
-				if ($("section#" + data.categoryID + "Constraints").is(":hidden")) {
-					$("p#" + data.categoryID).html('<p id="' + data.categoryID + '">' +
-						'&#9654; ' + data.categoryLabel + '</p>');
-				} else {
-					$("p#" + data.categoryID).html('<p id="' + data.categoryID + '">' +
-						'&#9660; ' + data.categoryLabel + '</p>');
-				}
-			});*/			
+				$("p#" + id + "Qs").toggle(200);
+				$("section#" + id + "Constraints").toggle(300);
+				
+				open= !open;
+				(open ? $(this).html("&#9660; " + txt) : $(this).html("&#9654; " + txt));
+			});
+
+
 			
 			// ***************************** Begin Helper Functions *****************************
 			
@@ -163,8 +164,8 @@
 				'<img id="' + data.categoryID + '" src="img/show.gif">'
 				*/			
 					// Load the relevant categories
-					$("section#categories").append('<p id="' + data.categoryID + '">' +
-						'&#9654; ' + data.categoryLabel + '</p>');
+					$("section#categories").append('<p id="' + data.categoryID + '" data-label="' + data.categoryLabel +
+						'">&#9654; ' + data.categoryLabel + '</p>');
 					$("section#categories").append('<p id="' + data.categoryID + 'Qs" class="helptext">' + data.guidingQs + '</p>');
 					$("section#categories").append('<section id="' + data.categoryID + 'Constraints" class="derp"></section>');
 					
