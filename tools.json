@@ -4,13 +4,13 @@
 		"productName":"Kujua Lite", 
 		"productLink":"http://medicmobile.org", 
 		"description":"Lorem ipsum dolor sit amet",
-		"constraintID1":"true", "constraintID2":"false"
+		"constraintID1":"true", "iphone":"false"
 	},
 	{ 
 		"productID":"kujua",
 		"productName":"Kujua", 
 		"productLink":"http://medicmobile.org", 
 		"description":"Ipsum dolor dolor dolor",
-		"constraintID1":"true", "constraintID2":"false"
+		"constraintID1":"true", "iphone":"true"
 	}
 ]

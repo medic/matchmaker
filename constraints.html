@@ -26,7 +26,8 @@
 			compCats,
 			allCats,
 			constraints,
-			tools; 
+			tools,
+			counter; // number of tools currently available to user
 		
 		if (!phoneCats) {
 			$.getJSON("phoneCats.json", function(data) {
@@ -63,11 +64,14 @@
 			});
 		}
 			
-
+		
 			
 		// ***************************** Page is ready *****************************
 		$(window).load(function(){
-
+		
+			counter = tools.length;
+			$("small#counter").text("(" + counter +")");
+			
 			noConstraintsSel();
 			loadTools();
 			checkMsgType(); // default behavior of categories on load
@@ -75,9 +79,11 @@
 			
 			// ADDING & REMOVING constraints
 			$.listen('click', 'img.constraintImg', function() {	
-			
+		
+				var parent = $(this).parent();
+				
 				// Add the constraint if the image clicked is inside a category pane
-				if (($(this).parent().attr('id')).match(/[a-zA-Z]+Constraints$/) != null) {			
+				if (($(parent).attr('id')).match(/[a-zA-Z]+Constraints$/) != null) {			
 				
 					var attr = $(this).attr('id');
 				
@@ -87,10 +93,16 @@
 						$("section#userselected").append($(this).clone(true).attr("id", attr + "Sel"));
 						//$("section#userselected").append('<button class="close x">&times;</button>');					
 					}
+
+					updateTools(attr, parent); // Update list of tech options 		
 				}
 				
 				// Remove the constraint if the image clicked is in the selections pane
-				if (($(this).parent().attr('id')).match(/^userselected$/) != null) {
+				if (($(parent).attr('id')).match(/^userselected$/) != null) {
+					
+					var attr = $(this).attr('id').replace("Sel", "");
+					updateTools(attr, parent); // Update list of tech options first before removing!
+					
 					$(this).remove();
 					noConstraintsSel();
 				}	
@@ -140,7 +152,7 @@
 						$("img#bothMsg").attr("class", "deselected drop");						
 						loadCategories(compCats);
 						break;
-					case "bothMsg": // this will become default
+					case "bothMsg": 
 						$("img#selected").attr("src", "img/both.png");
 						$("img#bothMsg").attr("class", "selected drop");
 						$("img#phoneMsg").attr("class", "deselected drop");
@@ -158,11 +170,7 @@
 				$("section#categories").empty(); // Wipe the constraints pane
 				$("section#categories").append('<h2>Constraints</h2>'); // Add header back in
 				
-				$.each(array, function(index, data) {
-
-				/*
-				'<img id="' + data.categoryID + '" src="img/show.gif">'
-				*/			
+				$.each(array, function(index, data) {			
 					// Load the relevant categories
 					$("section#categories").append('<p id="' + data.categoryID + '" data-label="' + data.categoryLabel +
 						'">&#9654; ' + data.categoryLabel + '</p>');
@@ -201,6 +209,25 @@
 				});
 			}
 			
+			
+			// REFRESH the list of available tools
+			function updateTools(attr, parent) {
+				
+				$.each(tools, function(index, data) {
+					if (data[attr] == "false") {
+						if (($(parent).attr('id')).match(/[a-zA-Z]+Constraints$/) != null) {
+							$("p#" + data.productID).hide();
+							counter--;
+						} else {
+							$("p#" + data.productID).show();
+							counter++;
+						}
+					}
+				});	
+				
+				// Update UI with counter
+				$("small#counter").text("(" + counter +")");
+			}
 			
 		});
 
@@ -248,7 +275,7 @@
 			<!-- BEGIN TECH OPTIONS (right side): change dynamically based on user selected constraints -->
 			<section class="asideoffset">
 				<section id="userselected"></section> <!-- USER SELECTED CONSTRAINTS -->
-				<fieldset id="tech"><legend class="h2">My Tech Options</legend></fieldset>
+				<fieldset id="tech"><legend class="h2">&nbsp;My Tech Options <small id="counter"></small>&nbsp;</legend></fieldset>
 			</section>
 		
 		
