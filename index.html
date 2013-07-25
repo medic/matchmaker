@@ -14,12 +14,33 @@
 	<!-- END STYLE SHEETS-->
 	
 	<!-- JAVASCRIPT-->
-	<script src="js/jquery.smooth-scroll.min.js"></script>
-	<script src="js/jquery-1.7.2.min.js"></script>
-	<script src="js/jquery-ui-1.8.18.custom.min.js"></script>
-	<script src="js/lightbox.js"></script>
+	<script src="js/jquery-1.10.2.min.js"></script>
+	<script src="js/jquery.smooth-scroll.min.js"></script> <!-- wat is this -->
+	<script src="js/jquery-ui-1.8.18.custom.min.js"></script> <!-- wat is this -->
+	<script src="js/lightbox-2.6.min.js"></script>
+	<!--<script src="js/toolshed.js"></script>-->
 	<!-- END JAVASCRIPT -->
 
+	<script>		
+		$(window).load(function() {
+		
+			$("img.pick3").click(function() {
+				sessionStorage.setItem('buttonClicked', $(this).attr("name") + "Cats");
+				sessionStorage.setItem('src', $(this).attr("src"));
+				
+				var name;
+				if ($(this).attr("name") == "phone") { name = "phoneMsg"; } 
+				
+				else if ($(this).attr("name") == "comp") { name = "computerMsg"; } 
+				
+				// $(this).attr("name") == "all"
+				else { name = "bothMsg"; }
+			
+				sessionStorage.setItem('name', name);
+			});	
+		});	
+	</script>
+	
 </head>
 
 <body>
@@ -32,7 +53,7 @@
 			</ul>
 		</nav>
 
-		<h1>The mHealth Tool Wizard</h1>
+		<h1>Medic Mobile Tool Wizard</h1>
 	</header>
 	
 	<!-- ************ BEGIN PAGE CONTENT ************ -->
@@ -45,39 +66,39 @@
 		
 		<!-- USER MESSAGING OPTIONS; USER ACTION REQUIRED TO MOVE TO NEXT PAGE -->
 		<section class="usecase">
-			<button class="pick3"><a href="" data-name="phone" class="phone"><img src="img/phone.png" width="99%"></a>Phone --> Computer</button>
-			<button class="pick3"><a href="" data-name="computer" class="phone"><img src="img/computer.png" width="99%"></a>Computer --> Phone</button>
-			<button class="pick3"><a href="" data-name="both" class="phone"><img src="img/both.png" width="99%"></a>Phone <--> Computer</button>
+			<a href="constraints.html"><img name="phone" src="img/phone.png" class="pick3"></a>
+			<a href="constraints.html"><img name="comp" src="img/computer.png" class="pick3"></a>
+			<a href="constraints.html"><img name="all" src="img/both.png" class="pick3"></a>
 		</section>
 
 		<!-- USE CASE GALLERY-->
 		<section class="usecase">
-			<p>Not sure which option is the best fit for you? Check out our <a href="">use case gallery</a> below for some example implementations!</p>
+			<p>Not sure which option is the best fit for you? Check out our <b>use case gallery</b> below for some example implementations!</p>
 			
 		
-			<a href="img/placeholder.png" rel="lightbox[usecases]" title="Click on the right side of the image to move forward.">
+			<a href="img/placeholder.png" data-lightbox="usecases" title="Click on the right side of the image to move forward.">
 				<img src="img/placeholder.png" width="80" height="80" alt="thumbnail"></a>
-			<a href="img/placeholder.png" rel="lightbox[usecases]" title="derp">
+			<a href="img/placeholder.png" data-lightbox="usecases" title="derp">
 				<img src="img/placeholder.png" width="80" height="80" alt="thumbnail"></a>
-			<a href="img/placeholder.png" rel="lightbox[usecases]" title="herp">
+			<a href="img/placeholder.png" data-lightbox="usecases" title="herp">
 				<img src="img/placeholder.png" width="80" height="80" alt="thumbnail"></a>
-			<a href="img/placeholder.png" rel="lightbox[usecases]" title="herp">
+			<a href="img/placeholder.png" data-lightbox="usecases" title="herp">
 				<img src="img/placeholder.png" width="80" height="80" alt="thumbnail"></a>		
-			<a href="img/placeholder.png" rel="lightbox[usecases]" title="herp">
+			<a href="img/placeholder.png" data-lightbox="usecases" title="herp">
 				<img src="img/placeholder.png" width="80" height="80" alt="thumbnail"></a>
-			<a href="img/placeholder.png" rel="lightbox[usecases]" title="herp">
+			<a href="img/placeholder.png" data-lightbox="usecases" title="herp">
 				<img src="img/placeholder.png" width="80" height="80" alt="thumbnail"></a>
-			<a href="img/placeholder.png" rel="lightbox[usecases]" title="herp">
+			<a href="img/placeholder.png" data-lightbox="usecases" title="herp">
 				<img src="img/placeholder.png" width="80" height="80" alt="thumbnail"></a>
-			<a href="img/placeholder.png" rel="lightbox[usecases]" title="herp">
+			<a href="img/placeholder.png" data-lightbox="usecases" title="herp">
 				<img src="img/placeholder.png" width="80" height="80" alt="thumbnail"></a>
-			<a href="img/placeholder.png" rel="lightbox[usecases]" title="herp">
+			<a href="img/placeholder.png" data-lightbox="usecases" title="herp">
 				<img src="img/placeholder.png" width="80" height="80" alt="thumbnail"></a>
-			<a href="img/placeholder.png" rel="lightbox[usecases]" title="herp">
+			<a href="img/placeholder.png" data-lightbox="usecases" title="herp">
 				<img src="img/placeholder.png" width="80" height="80" alt="thumbnail"></a>
-			<a href="img/placeholder.png" rel="lightbox[usecases]" title="herp">
+			<a href="img/placeholder.png" data-lightbox="usecases" title="herp">
 				<img src="img/placeholder.png" width="80" height="80" alt="thumbnail"></a>
-			<a href="img/placeholder.png" rel="lightbox[usecases]" title="herp">
+			<a href="img/placeholder.png" data-lightbox="usecases" title="herp">
 				<img src="img/placeholder.png" width="80" height="80" alt="thumbnail"></a>			
 		</section>
 		<!-- END USE CASE GALLERY -->

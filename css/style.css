@@ -192,40 +192,18 @@ p#next {
 	float:right;
 }
 
-button.pick3 {
+img.pick3 {
 	display:inline-block;
 	width:300px;
-	height:150px;
 	margin: 0px 30px;
 	padding:0px;
 	
 }
 
-a.phone:hover {
-	border-bottom:2px solid red;
+img.pick3:hover {
+cursor:pointer;opacity:0.5;filter:alpha(opacity=50);
 }
 
-
-/* Rollup Style */
-/* from CSS Design Patterns @ http://cssdesignpatterns.com */
-*.rollup-trigger { 
-	cursor:pointer; 
-}
-
-*.rollup-trigger { 
-	font-size:0.65em; 
-	padding-left:8px; 
-    background: url('../img/show.gif') no-repeat left top;
-}
-
-*.rolledup { 
-	background: url('../img/hide.gif') no-repeat left top; 
-}
-
-*.hidden { 
-	position:absolute; 
-	visibility:hidden;
-}
 
 
 
@@ -273,6 +251,10 @@ color:#A1A1A1;
 
 button.close{
 	margin-top:50px;
+}
+
+section#categories > p {
+	cursor: default;
 }
 
 img.deselected{opacity:0.4;filter:alpha(opacity=40);}
