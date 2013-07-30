@@ -10,7 +10,7 @@
 	<!-- STYLE SHEETS -->
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/lightbox.css">
-	<!-- link rel="stylesheet" href="css/screen.css">
+	<link rel="stylesheet" href="css/medic.css">
 	<!-- END STYLE SHEETS-->
 	
 	<!-- JAVASCRIPT-->
@@ -18,29 +18,8 @@
 	<script src="js/jquery.smooth-scroll.min.js"></script> <!-- wat is this -->
 	<script src="js/jquery-ui-1.8.18.custom.min.js"></script> <!-- wat is this -->
 	<script src="js/lightbox-2.6.min.js"></script>
-	<!--<script src="js/toolshed.js"></script>-->
-	<!-- END JAVASCRIPT -->
-
-	<script>		
-		$(window).load(function() {
-		
-			$("img.pick3").click(function() {
-				sessionStorage.setItem('buttonClicked', $(this).attr("name") + "Cats");
-				sessionStorage.setItem('src', $(this).attr("src"));
-				
-				var name;
-				if ($(this).attr("name") == "phone") { name = "phoneMsg"; } 
-				
-				else if ($(this).attr("name") == "comp") { name = "computerMsg"; } 
-				
-				// $(this).attr("name") == "all"
-				else { name = "bothMsg"; }
-			
-				sessionStorage.setItem('name', name);
-			});	
-		});	
-	</script>
-	
+	<script src="js/index.js"></script>
+	<!-- END JAVASCRIPT -->	
 </head>
 
 <body>
