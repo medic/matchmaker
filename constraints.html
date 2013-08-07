@@ -9,27 +9,25 @@
 	
 	<!-- STYLE SHEETS -->
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="bootstrap.min.css">
-	<link rel="stylesheet" href="jquery.dropdown.css">
-	<!-- link rel="stylesheet" href="css/medic.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/jquery.dropdown.css">
 	<!-- END STYLE SHEETS -->
    
 	<!-- JAVASCRIPT -->	
 	<script src="js/jquery-1.10.2.min.js"></script>
-	<script src="bootstrap.min.js"></script>
-	<script src="jquery.dropdown.js"></script>
-	<script src="jquery.listen-1.0.3-min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.dropdown.js"></script>
+	<script src="js/jquery.listen-1.0.3-min.js"></script>
 	<script src="js/toolshed.js"></script>
 	<!-- END JAVASCRIPT -->
 </head>
  
-<body class="border">
-	<header class="border">
-		<nav class="border">
+<body>
+	<header>
+		<nav>
 			<ul class="nav">
-				<li><a href="http://medicmobile.org" target="_blank">Medic Mobile Home</a> |&nbsp;</li>
-				<li><a href="index.html">Toolkit Home</a></li>
-				<li id="splitnav"><a href="">View Summary</a></li>
+				<li><a href="http://medicmobile.org" target="_blank"><img id="mediclogo" src="img/medic-logo.png"></a></li>
+				<li><a href="index.html"><img id="genielogo" src="img/tool-genie.jpg"></a></li>
 			</ul>
 		</nav>
 	</header>
@@ -37,49 +35,32 @@
 	<!-- ************ BEGIN PAGE CONTENT ************ -->
 	<section class="container">
 	
-		<!-- BEGIN first content row -->
-		<section class="border">
 		
-			<!-- BEGIN (left side): drop down menu for system messaging type -->
-			<section class="aside"><!-- 8711 -->
-				<img name="" id="selected" src="" width="350px"><button class="close" data-dropdown="#dropdown-1">&#9660;</button> 
-			</section>
-			
-			<!-- BEGIN (right side): title image/headline and user selected constraints-->
-			<section class="asideoffset">
-				<h1 class="constraints">Medic Mobile Tool Wizard <small>beta</small></h1>
-			</section>
-			
+		
+		<!-- BEGIN (left side): drop down menu for system messaging type -->
+		<section class="aside">
+			<img name="" id="selected" src=""><img id="gear" class="close" src="img/gear.png" data-dropdown="#dropdown-1"> 		
+			<section id="categories"></section>
 		</section>
-		<!-- END first row of content -->
-	
-		<!-- BEGIN second row of content -->
-		<section class="border">
 		
-			<!-- BEGIN CONSTRAINTS DRAWER (left side) -->
-			<section id="categories" class="aside">
-				<h2>Constraints</h2>
-			</section>
-		
-			<!-- BEGIN TECH OPTIONS (right side): change dynamically based on user selected constraints -->
-			<section class="asideoffset">
-				<section id="userselected"></section> <!-- USER SELECTED CONSTRAINTS -->
-				<fieldset id="tech"><legend class="h2">&nbsp;My Tech Options <small id="counter"></small>&nbsp;</legend></fieldset>
-			</section>
-		
-		
+		<!-- BEGIN (right side): title image/headline and user selected constraints-->
+		<section class="asideoffset">
+			<h2>My Requirements</h2>
+			<section id="userselected"></section> <!-- USER SELECTED CONSTRAINTS -->
+			<fieldset id="tech"><legend class="whiteboard">&nbsp;My Tech Options <small id="counter"></small>&nbsp;</legend></fieldset>
 		</section>
-		<!-- END second row of content -->
+			
 		
 
 
 	</section>
 	<!-- ************ END PAGE CONTENT ************ -->
 	
-
-	<footer class="border">
-		<!-- potentially add (c) info, etc. -->
+	
+	<footer>
+		&copy; 2013 Medic Mobile. All Rights Reserved.
 	</footer>
+	
 
 	<!-- DROPDOWN UI, needs to remain immediately before </body> tag -->
 	<div id="dropdown-1" class="dropdown dropdown-tip">

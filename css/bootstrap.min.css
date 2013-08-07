@@ -1,0 +1,144 @@
+/*!
+ * Bootstrap v2.3.2
+ *
+ * Copyright 2012 Twitter, Inc
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Designed and built with all the love in the world @twitter by @mdo and @fat.
+ *
+ * Personalized by Valerie Roske @var34 for Medic Mobile
+ * http://medicmobile.org
+ */
+ 
+ /* *** Close Button Style *** */
+.clearfix{*zoom:1;}.clearfix:before,.clearfix:after{display:table;content:"";line-height:0;}
+.clearfix:after{clear:both;}
+.hide-text{font:0/0 a;color:transparent;text-shadow:none;background-color:transparent;border:0;}
+.input-block-level{display:block;width:100%;min-height:30px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+
+.close{
+	vertical-align:top;
+	font-size:20px;
+	font-weight:bold;
+	color:#000000;
+	text-shadow:0 1px 0 #ffffff;
+	opacity:0.8;
+	filter:alpha(opacity=80);
+}
+
+.close:hover,.close:focus{color:#000000;text-decoration:none;cursor:pointer;opacity:0.2;filter:alpha(opacity=20);}
+
+span.close {
+	padding:0;cursor:pointer;background:transparent;border:0;-webkit-appearance:none;
+	margin:0px;
+}
+
+
+/* *** Thumbnail Style *** */
+.row {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 40px;
+	width: 90%
+}
+
+.row:before,
+.row:after {
+	display: table;
+	content: " ";
+}
+
+.row:after {
+	clear: both;
+}
+
+.row:before,
+.row:after {
+	display: table;
+	content: " ";
+}
+
+.row:after {
+	clear: both;
+}
+
+/*
+@media (min-width: 768px) {
+  .row {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+}
+
+.row .row {
+  margin-right: -15px;
+  margin-left: -15px;
+}*/
+
+.col-lg-3 {
+    width: 30%;
+	float: left;
+	position: relative;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+
+.thumbnail,
+.img-thumbnail {
+	padding: 4px;
+	line-height: 1.428571429;
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+	border-radius: 4px;
+	-webkit-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+}
+
+.thumbnail {
+	display: block;
+	cursor: pointer;
+}
+
+.thumbnail > img,
+.img-thumbnail {
+	display: inline-block;
+	height: auto;
+	max-width: 100%;
+}
+
+a.thumbnail:hover,
+a.thumbnail:focus {
+	border-color: #428bca;
+}
+
+.thumbnail > img {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.thumbnail:hover {
+	opacity:0.6;
+	filter:alpha(opacity=60);
+}
+
+.thumbnail .caption {
+	padding: 0px 9px;
+	color: #333333;
+	text-decoration: none;
+}
+
+a.thumb {
+	text-decoration: none;
+}
+
+
+
+p.explain {
+		font-family: 'ShadowsIntoLight', 'Arial';
+		size: 24pt;
+		letter-spacing: 2px;
+	padding-bottom: 10px;
+}

@@ -7,18 +7,29 @@
 
 $(window).load(function() {
 
-	$("img.pick3").click(function() {
-		sessionStorage.setItem('buttonClicked', $(this).attr("name") + "Cats");
-		sessionStorage.setItem('src', $(this).attr("src"));
+	$("div.col-lg-3").click(function() {
+		sessionStorage.setItem('buttonClicked', $(this).attr("id") + "Cats");
 		
-		var name;
-		if ($(this).attr("name") == "phone") { name = "phoneMsg"; } 
+		var src,
+			name;
+			
+		if ($(this).attr("id") == "phone") { 
+			src = "img/phone.png";
+			name = "phoneMsg"; 
+		} 
 		
-		else if ($(this).attr("name") == "comp") { name = "computerMsg"; } 
+		else if ($(this).attr("id") == "comp") { 
+			src = "img/computer.png";
+			name = "computerMsg"; 
+		} 
 		
-		// $(this).attr("name") == "all"
-		else { name = "bothMsg"; }
+		// $(this).attr("id") == "all"
+		else { 
+			src = "img/both.png";
+			name = "bothMsg"; 
+		}
 	
+		sessionStorage.setItem('src', src);
 		sessionStorage.setItem('name', name);
 	});	
 });	

@@ -10,76 +10,93 @@
 	<!-- STYLE SHEETS -->
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/lightbox.css">
-	<link rel="stylesheet" href="css/medic.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<!-- END STYLE SHEETS-->
 	
 	<!-- JAVASCRIPT-->
 	<script src="js/jquery-1.10.2.min.js"></script>
-	<script src="js/jquery.smooth-scroll.min.js"></script> <!-- wat is this -->
-	<script src="js/jquery-ui-1.8.18.custom.min.js"></script> <!-- wat is this -->
 	<script src="js/lightbox-2.6.min.js"></script>
 	<script src="js/index.js"></script>
 	<!-- END JAVASCRIPT -->	
 </head>
 
 <body>
-
 	<header>
 		<nav>
 			<ul class="nav">
-				<li><a href="http://medicmobile.org" target="_blank">Medic Mobile Home</a> |&nbsp;</li>
-				<li><a href="index.html">Toolkit Home</a></li>
+				<li><a href="http://medicmobile.org" target="_blank"><img id="mediclogo" src="img/medic-logo.png"></a></li>
+				<li><a href="index.html"><img id="genielogo" src="img/tool-genie.jpg"></a></li>
 			</ul>
 		</nav>
 
-		<h1>Medic Mobile Tool Wizard</h1>
+		<h1>Medic Mobile Tool Genie</h1>
 	</header>
 	
 	<!-- ************ BEGIN PAGE CONTENT ************ -->
-	<section class="container">
-	
-		<!-- INSTRUCTIONS FOR USER ON HOW TO USE WIZARD -->
-		<section class="usecase">
-			<p>With our mHealth Tool Wizard, we will help you find a tool to meet your needs! What are you trying to do?</p>
-		</section>
+	<section class="container home">
 		
-		<!-- USER MESSAGING OPTIONS; USER ACTION REQUIRED TO MOVE TO NEXT PAGE -->
-		<section class="usecase">
-			<a href="constraints.html"><img name="phone" src="img/phone.png" class="pick3"></a>
-			<a href="constraints.html"><img name="comp" src="img/computer.png" class="pick3"></a>
-			<a href="constraints.html"><img name="all" src="img/both.png" class="pick3"></a>
-		</section>
+		<!-- Thumbnail Options -->
+		<div class="row">
+			<div class="col-lg-3" id="phone">
+				<a class="thumb" href="constraints.html">
+				<div class="thumbnail">
+					<img src="img/phone.png" title="">
+					<div class="caption">
+						<h3>Phone to Computer</h3>
+						<p class="explain">Select this option if you will need to <b class="keyword">collect data</b> from the field.</p>
+					</div>
+				</div>
+				</a>
+			</div>
+			
+			<div class="col-lg-3" id="comp">
+				<a class="thumb" href="constraints.html">
+				<div class="thumbnail">
+					<img src="img/computer.png" title="">
+					<div class="caption">
+						<h3>Computer to Phone</h3>
+						<p class="explain">Select this option if you will need to <b class="keyword">send messages</b> to the field.</p>
+					</div>
+				</div>
+				</a>
+			</div>
+			
+			<div class="col-lg-3" id="all">
+				<a class="thumb" href="constraints.html">
+				<div class="thumbnail">
+					<img src="img/both.png" title="">
+					<div class="caption">
+						<h3>Two-Way Communication</h3>
+						<p class="explain">Select this option if you're <b class="keyword">not sure</b> what you will need.</p>
+					</div>
+				</div>
+				</a>
+			</div>
+			
+		</div>
+		<!-- END Thumbnail Options -->
+		
+		
+		
 
 		<!-- USE CASE GALLERY-->
-		<section class="usecase">
-			<p>Not sure which option is the best fit for you? Check out our <b>use case gallery</b> below for some example implementations!</p>
+		
+			<p>Not sure which option is the best fit for you? Check out our 
+				<b><a href="img/use01.jpg" data-lightbox="usecases">use case gallery</a></b> 
+				below for some example implementations!</p>
 			
 		
-			<a href="img/placeholder.png" data-lightbox="usecases" title="Click on the right side of the image to move forward.">
-				<img src="img/placeholder.png" width="80" height="80" alt="thumbnail"></a>
-			<a href="img/placeholder.png" data-lightbox="usecases" title="derp">
-				<img src="img/placeholder.png" width="80" height="80" alt="thumbnail"></a>
-			<a href="img/placeholder.png" data-lightbox="usecases" title="herp">
-				<img src="img/placeholder.png" width="80" height="80" alt="thumbnail"></a>
-			<a href="img/placeholder.png" data-lightbox="usecases" title="herp">
-				<img src="img/placeholder.png" width="80" height="80" alt="thumbnail"></a>		
-			<a href="img/placeholder.png" data-lightbox="usecases" title="herp">
-				<img src="img/placeholder.png" width="80" height="80" alt="thumbnail"></a>
-			<a href="img/placeholder.png" data-lightbox="usecases" title="herp">
-				<img src="img/placeholder.png" width="80" height="80" alt="thumbnail"></a>
-			<a href="img/placeholder.png" data-lightbox="usecases" title="herp">
-				<img src="img/placeholder.png" width="80" height="80" alt="thumbnail"></a>
-			<a href="img/placeholder.png" data-lightbox="usecases" title="herp">
-				<img src="img/placeholder.png" width="80" height="80" alt="thumbnail"></a>
-			<a href="img/placeholder.png" data-lightbox="usecases" title="herp">
-				<img src="img/placeholder.png" width="80" height="80" alt="thumbnail"></a>
-			<a href="img/placeholder.png" data-lightbox="usecases" title="herp">
-				<img src="img/placeholder.png" width="80" height="80" alt="thumbnail"></a>
-			<a href="img/placeholder.png" data-lightbox="usecases" title="herp">
-				<img src="img/placeholder.png" width="80" height="80" alt="thumbnail"></a>
-			<a href="img/placeholder.png" data-lightbox="usecases" title="herp">
-				<img src="img/placeholder.png" width="80" height="80" alt="thumbnail"></a>			
-		</section>
+			<a href="img/use01.jpg" data-lightbox="usecases" title="Click on the right side of the image to move forward.">
+				<img class="usecase" src="img/use01.jpg" title="thumbnail"></a>
+			<a href="img/use02.jpg" data-lightbox="usecases" title="derp">
+				<img class="usecase" src="img/use02.jpg" title="thumbnail"></a>
+			<a href="img/use03.jpg" data-lightbox="usecases" title="herp">
+				<img class="usecase" src="img/use03.jpg" title="thumbnail"></a>
+			<a href="img/use04.jpg" data-lightbox="usecases" title="herp">
+				<img class="usecase" src="img/use04.jpg" title="thumbnail"></a>		
+			<a href="img/use05.jpg" data-lightbox="usecases" title="herp">
+				<img class="usecase" src="img/use05.jpg" title="thumbnail"></a>
+		
 		<!-- END USE CASE GALLERY -->
 
 	</section>
@@ -87,7 +104,7 @@
 	
 	
 	<footer>
-		<!-- potentially add (c) info, etc. -->
+		&copy; 2013 Medic Mobile. All Rights Reserved.
 	</footer>
 
 </body>

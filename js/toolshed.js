@@ -22,35 +22,35 @@
 		counter; // number of tools currently available to user
 	
 	if (!phoneCats) {
-		$.getJSON("phoneCats.json", function(data) {
+		$.getJSON("js/json/phoneCats.json", function(data) {
 			localStorage.setItem('phoneCats', JSON.stringify(data));	
 			phoneCats = JSON.parse(localStorage.getItem('phoneCats'));
 		});
 	} 
 	
 	if (!compCats) {
-		$.getJSON("compCats.json", function(data) {
+		$.getJSON("js/json/compCats.json", function(data) {
 			localStorage.setItem('compCats', JSON.stringify(data));	
 			compCats = JSON.parse(localStorage.getItem('compCats'));			
 		});
 	}
 	
 	if (!allCats) {
-		$.getJSON("allCats.json", function(data) {
+		$.getJSON("js/json/allCats.json", function(data) {
 			localStorage.setItem('allCats', JSON.stringify(data));				
 			allCats = JSON.parse(localStorage.getItem('allCats'));
 		});
 	} 
 	
 	if (!constraints) {
-		$.getJSON("constraints.json", function(data) {
+		$.getJSON("js/json/constraints.json", function(data) {
 			localStorage.setItem('constraints', JSON.stringify(data));
 			constraints = JSON.parse(localStorage.getItem('constraints'));				
 		});
 	}
 	
 	if (!tools) {
-		$.getJSON("tools.json", function(data) {
+		$.getJSON("js/json/tools.json", function(data) {
 			localStorage.setItem('tools', JSON.stringify(data));
 			tools = JSON.parse(localStorage.getItem('tools'));
 		});
@@ -69,37 +69,65 @@
 		checkMsgType(); // default behavior of categories on load
 		
 		
-		// ADDING & REMOVING constraints
-		$.listen('click', 'img.constraintImg', function() {	
+		// ADDING constraints
+		$("figure").listen('click', 'img.constraintImg', function() {	
 	
-			var parent = $(this).parent();
+			var container = $(this).parent().parent(),
+				figure = $(this).parent();
 			
 			// Add the constraint if the image clicked is inside a category pane
-			if (($(parent).attr('id')).match(/[a-zA-Z]+Constraints$/) != null) {			
+			if (($(container).attr('id')).match(/[a-zA-Z]+Constraints$/) != null) {			
 			
-				var attr = $(this).attr('id');
+				var attr = $(figure).attr('id');
 			
 				// But don't add it more than once
-				if ($("section#userselected").has("img#" + attr + "Sel").length == 0) {
+				if ($("section#userselected").has("figure#" + attr + "Sel").length == 0) {
 					$("p#noSelect").remove();
-					$("section#userselected").append($(this).clone(true).attr("id", attr + "Sel"));
-					//$("section#userselected").append('<button class="close x">&times;</button>');	
-
-					updateTools(attr, $(parent).attr('id')); // Update list of tech options
+					
+					$("section#userselected").append($(figure).clone(true).attr("id", attr + "Sel"));
+					$("figure#" + attr + "Sel > img").after('<span class="close">&times;</span>');	
+					
+					updateTools(attr, $(container).attr('id')); // Update list of tech options
 				}		
 			}
 			
+			/*
 			// Remove the constraint if the image clicked is in the selections pane
-			if (($(parent).attr('id')).match(/^userselected$/) != null) {
+			if (($(container).attr('id')).match(/^userselected$/) != null) {
 				
 				var attr = $(this).attr('id').replace("Sel", "");
-				updateTools(attr, $(parent).attr('id')); // Update list of tech options first before removing!
+				updateTools(attr, $(container).attr('id')); // Update list of tech options first before removing!
 				
-				$(this).remove();
+				$(figure).remove();
 				noConstraintsSel();
-			}	
+			}*/	
+			
+			
+			// Reduce opacity of constraint in category pane
+			$(figure).css({
+				"opacity":"0.4",
+				"filter":"alpha(opacity=40)"
+			});			
+			
 		});
 		
+		// REMOVING constraints
+		$.listen('click', 'span.close', function() {
+
+			var figure = $(this).parent(),
+				attr = $(figure).attr('id').replace("Sel", ""),
+				container = $(this).parent().parent();
+				
+			updateTools(attr, $(container).attr('id')); // Update list of tech options first before removing!
+			$(figure).remove();
+			noConstraintsSel();
+			
+			// Restore opacity of constraint in category pane
+			$("figure#" + attr).css({
+				"opacity":"1.0",
+				"filter":"alpha(opacity=100)"
+			});
+		});
 		
 		// DROPDOWN behavior
 		$("img.drop").click(function() {
@@ -120,10 +148,10 @@
 			
 				if ($(this).attr("data-open") == "false") {
 					$(this).attr("data-open", "true");
-					$(this).html("&#9660; " + txt);
+					$(this).html('<img class="arrow" src="img/open-arrow.png">' + txt);
 				} else {
 					$(this).attr("data-open", "false");
-					$(this).html("&#9654; " + txt);
+					$(this).html('<img class="arrow" src="img/close-arrow.png">' + txt);
 				}
 				
 				$("p#" + id + "Qs").toggle(200);
@@ -169,8 +197,6 @@
 					$("img#selected").attr("src", src);
 					$("img#selected").attr("name", name);
 					
-					//alert(src);
-					
 					loadCategories(window[cat]);
 			}
 		}
@@ -178,14 +204,13 @@
 		
 		function loadCategories(array) {			
 			$("section#categories").empty(); // Wipe the constraints pane
-			$("section#categories").append('<h2>Constraints</h2>'); // Add header back in
 			
 			$.each(array, function(index, data) {			
 				// Load the relevant categories
 				$("section#categories").append('<p id="' + data.categoryID + '" data-label="' + data.categoryLabel +
-					'" data-open="false">&#9654; ' + data.categoryLabel + '</p>');
+					'" class="whiteboard" data-open="false"><img class="arrow" src="img/close-arrow.png">' + data.categoryLabel + '</p>');
 				$("section#categories").append('<p id="' + data.categoryID + 'Qs" class="helptext">' + data.guidingQs + '</p>');
-				$("section#categories").append('<section id="' + data.categoryID + 'Constraints" class="derp"></section>');
+				$("section#categories").append('<section id="' + data.categoryID + 'Constraints" class="constraintBox"></section>');
 				
 				$("p#" + data.categoryID + "Qs").hide();
 				$("section#" + data.categoryID + "Constraints").hide();				
@@ -198,8 +223,8 @@
 			constraints = JSON.parse(localStorage.getItem('constraints'));
 			$.each(constraints, function(index, d){
 				$("section#" + d.categoryID + "Constraints").append(
-					'<img id="' + d.constraintID + '" src="' + d.imageLink + '" alt="' + d.constraintLabel 
-					+ '" class="constraintImg" width="50px" height="80px">'
+					'<figure id="' + d.constraintID + '"><img src="' + d.imageLink + 
+					'" class="constraintImg"><figcaption>' + d.constraintLabel + '</figcaption></figure>'
 				);
 			});
 		}
@@ -221,19 +246,19 @@
 		
 		
 		// REFRESH the list of available tools
-		function updateTools(attr, parentID) {
+		function updateTools(attr, containerID) {
 			
 			$.each(tools, function(index, data) {
 				if (data[attr] == "false") {
 				
 					// only decrease the counter if the tech option hasn't been eliminated yet
-					if ((!($("p#" + data.productID).css("display") == "none")) && (parentID.match(/[a-zA-Z]+Constraints$/) != null)) {
+					if ((!($("p#" + data.productID).css("display") == "none")) && (containerID.match(/[a-zA-Z]+Constraints$/) != null)) {
 						$("p#" + data.productID).hide();
 						counter--;
 					}
 				
 					// only increase the counter if the tech option hasn't been added back yet
-					if (($("p#" + data.productID).css("display") == "none") && (parentID.match(/^userselected$/) != null)) {
+					if (($("p#" + data.productID).css("display") == "none") && (containerID.match(/^userselected$/) != null)) {
 						$("p#" + data.productID).show();
 						counter++;
 						
