@@ -1,0 +1,520 @@
+[
+  {
+    "categoryID": "caseManagement",
+    "constraintID": "longTracking_some",
+    "constraintLabel": "Some",
+    "imageLink": "img/constraints/somecase.png"
+  },
+  {
+    "categoryID": "caseManagement",
+    "constraintID": "longTracking_advanced",
+    "constraintLabel": "Advanced",
+    "imageLink": "img/constraints/advcase.png"
+  },
+  {
+    "categoryID": "codeAccess",
+    "constraintID": "api",
+    "constraintLabel": "API Available",
+    "imageLink": "img/constraints/api.png"
+  },
+  {
+    "categoryID": "codeAccess",
+    "constraintID": "openSource",
+    "constraintLabel": "Open Source",
+    "imageLink": "img/constraints/opensource.png"
+  },
+  {
+    "categoryID": "connectivity",
+    "subcategoryID": "Connectivity in the Field",
+    "constraintID": "c_sms",
+    "constraintLabel": "SMS Signal",
+    "imageLink": "img/constraints/signal.png"
+  },
+  {
+    "categoryID": "connectivity",
+    "subcategoryID": "Connectivity in the Field",
+    "constraintID": "mobilenet",
+    "constraintLabel": "Mobile Internet",
+    "imageLink": "img/constraints/mobilenet.png"
+  },
+  {
+    "categoryID": "connectivity",
+    "subcategoryID": "Connectivity in the Field",
+    "constraintID": "offline_front",
+    "constraintLabel": "Offline Data Entry",
+    "imageLink": "img/constraints/offline.png"
+  },
+  {
+    "categoryID": "connectivity",
+    "subcategoryID": "hosted v local",
+    "constraintID": "hosted",
+    "constraintLabel": "Cloud Hosted",
+    "imageLink": "img/constraints/cloud.png"
+  },
+  {
+    "categoryID": "connectivity",
+    "subcategoryID": "hosted v local",
+    "constraintID": "local",
+    "constraintLabel": "Locally Hosted",
+    "imageLink": "img/constraints/local.png"
+  },
+  {
+    "categoryID": "connectivity",
+    "subcategoryID": "if local",
+    "constraintID": "sync",
+    "constraintLabel": "Sync to Other Instances",
+    "imageLink": "img/constraints/sync.png"
+  },
+  {
+    "categoryID": "connectivity",
+    "subcategoryID": "if local",
+    "constraintID": "easy_install",
+    "constraintLabel": "Easy Installation",
+    "imageLink": "img/constraints/easyinstall.png"
+  },
+  {
+    "categoryID": "connectivity",
+    "subcategoryID": "os",
+    "subcategoryLabel": "Operating System",
+    "constraintID": "os_apple",
+    "constraintLabel": "Apple",
+    "imageLink": "img/constraints/ios.png"
+  },
+  {
+    "categoryID": "connectivity",
+    "subcategoryID": "os",
+    "subcategoryLabel": "Operating System",
+    "constraintID": "os_linux",
+    "constraintLabel": "Linux",
+    "imageLink": "img/constraints/linux.png"
+  },
+  {
+    "categoryID": "connectivity",
+    "subcategoryID": "os",
+    "subcategoryLabel": "Operating System",
+    "constraintID": "os_windows",
+    "constraintLabel": "Windows",
+    "imageLink": "img/constraints/windows.png"
+  },
+  {
+    "categoryID": "delivery",
+    "constraintID": "sms",
+    "constraintLabel": "SMS",
+    "imageLink": "img/constraints/sms.png"
+  },
+  {
+    "categoryID": "delivery",
+    "constraintID": "voice",
+    "constraintLabel": "Voice",
+    "imageLink": "img/constraints/voice.png"
+  },
+  {
+    "categoryID": "delivery",
+    "constraintID": "group",
+    "constraintLabel": "Message Groups",
+    "imageLink": "img/constraints/group.png"
+  },
+  {
+    "categoryID": "delivery",
+    "constraintID": "scheduled",
+    "constraintLabel": "Scheduled Messages",
+    "imageLink": "img/constraints/scheduled.png"
+  },
+  {
+    "categoryID": "phone",
+    "constraintID": "featurePhone",
+    "constraintLabel": "Feature Phone",
+    "imageLink": "img/constraints/feature.png"
+  },
+  {
+    "categoryID": "phone",
+    "constraintID": "java",
+    "constraintLabel": "Java Phone",
+    "imageLink": "img/constraints/java.png"
+  },
+  {
+    "categoryID": "phone",
+    "constraintID": "android",
+    "constraintLabel": "Android",
+    "imageLink": "img/constraints/android.png",
+    "thingsToThinkAbout": "Smart phones... (considerations, training, safety, power, repair/replacement, other social changes)"
+  },
+  {
+    "categoryID": "phone",
+    "constraintID": "ios",
+    "constraintLabel": "iPhone",
+    "imageLink": "img/constraints/iphone.png",
+    "thingsToThinkAbout": "Smart phones... (considerations, training, safety, power, repair/replacement, other social changes)"
+  },
+  {
+    "categoryID": "phone",
+    "constraintID": "comp",
+    "constraintLabel": "Computer",
+    "imageLink": "img/constraints/comp.png"
+  },
+  {
+    "categoryID": "questionnaireAdvanced",
+    "constraintID": "required",
+    "constraintLabel": "Required Questions",
+    "imageLink": "img/constraints/reqd.png"
+  },
+  {
+    "categoryID": "questionnaireAdvanced",
+    "constraintID": "skip",
+    "constraintLabel": "Skip Logic",
+    "imageLink": "img/constraints/skip.png"
+  },
+  {
+    "categoryID": "questionnaireAdvanced",
+    "constraintID": "rangeCheck",
+    "constraintLabel": "Numeric Range Checks",
+    "imageLink": "img/constraints/range.png"
+  },
+  {
+    "categoryID": "questionnaireAdvanced",
+    "constraintID": "repeat",
+    "constraintLabel": "Repeatable Sections",
+    "imageLink": "img/constraints/repeat.png"
+  },
+  {
+    "categoryID": "questionnaireAdvanced",
+    "constraintID": "calculate",
+    "constraintLabel": "Calculate",
+    "imageLink": "img/constraints/calc.png"
+  },
+  {
+    "categoryID": "questionnaireAdvanced",
+    "constraintID": "cascade",
+    "constraintLabel": "Cascading Select",
+    "imageLink": "img/constraints/cascade.png"
+  },
+  {
+    "categoryID": "questionnaireAdvanced",
+    "constraintID": "playMedia",
+    "constraintLabel": "Multimedia Play in Field",
+    "imageLink": "img/constraints/playmedia.png"
+  },
+  {
+    "categoryID": "questionnaireAdvanced",
+    "constraintID": "backendData",
+    "constraintLabel": "Data from Backend Server",
+    "imageLink": "img/constraints/backenddata.png"
+  },
+  {
+    "categoryID": "questionnaireAdvanced",
+    "constraintID": "form_editable",
+    "constraintLabel": "Forms Editable During Collection Campaign",
+    "imageLink": "img/constraints/editform.png"
+  },
+  {
+    "categoryID": "questionnaireBasic",
+    "subcategoryID": "length",
+    "subcategoryLabel": "Number of Questions",
+    "constraintID": "upto5q",
+    "constraintLabel": "1-5 Questions",
+    "imageLink": "img/constraints/upto5q.png"
+  },
+  {
+    "categoryID": "questionnaireBasic",
+    "subcategoryID": "length",
+    "subcategoryLabel": "Number of Questions",
+    "constraintID": "upto30q",
+    "constraintLabel": "5-30 Questions",
+    "imageLink": "img/constraints/upto30q.png"
+  },
+  {
+    "categoryID": "questionnaireBasic",
+    "subcategoryID": "length",
+    "subcategoryLabel": "Number of Questions",
+    "constraintID": "morethan30q",
+    "constraintLabel": "30+ Questions",
+    "imageLink": "img/constraints/morethan30q.png"
+  },
+  {
+    "categoryID": "questionnaireBasic",
+    "constraintID": "smschannel",
+    "constraintLabel": "SMS from Any Phone",
+    "imageLink": "img/constraints/smschannel.png"
+  },
+  {
+    "categoryID": "questionnaireBasic",
+    "subcategoryID": "qTypes",
+    "subcategoryLabel": "Question Types",
+    "constraintID": "text",
+    "constraintLabel": "Text",
+    "imageLink": "img/constraints/text.png"
+  },
+  {
+    "categoryID": "questionnaireBasic",
+    "subcategoryID": "qTypes",
+    "subcategoryLabel": "Question Types",
+    "constraintID": "numeric",
+    "constraintLabel": "Numeric",
+    "imageLink": "img/constraints/numeric.png"
+  },
+  {
+    "categoryID": "questionnaireBasic",
+    "subcategoryID": "qTypes",
+    "subcategoryLabel": "Question Types",
+    "constraintID": "sel_one",
+    "constraintLabel": "Select One",
+    "imageLink": "img/constraints/selone.png"
+  },
+  {
+    "categoryID": "questionnaireBasic",
+    "subcategoryID": "qTypes",
+    "subcategoryLabel": "Question Types",
+    "constraintID": "sel_mult",
+    "constraintLabel": "Select Multiple",
+    "imageLink": "img/constraints/selmult.png"
+  },
+  {
+    "categoryID": "questionnaireBasic",
+    "subcategoryID": "qTypes",
+    "subcategoryLabel": "Question Types",
+    "constraintID": "time",
+    "constraintLabel": "Time",
+    "imageLink": "img/constraints/time.png"
+  },
+  {
+    "categoryID": "questionnaireBasic",
+    "subcategoryID": "qTypes",
+    "subcategoryLabel": "Question Types",
+    "constraintID": "date",
+    "constraintLabel": "Date",
+    "imageLink": "img/constraints/date.png"
+  },
+  {
+    "categoryID": "questionnaireBasic",
+    "subcategoryID": "qTypes",
+    "subcategoryLabel": "Question Types",
+    "constraintID": "photo",
+    "constraintLabel": "Photo",
+    "imageLink": "img/constraints/photo.png"
+  },
+  {
+    "categoryID": "questionnaireBasic",
+    "subcategoryID": "qTypes",
+    "subcategoryLabel": "Question Types",
+    "constraintID": "gps",
+    "constraintLabel": "GPS",
+    "imageLink": "img/constraints/gps.png"
+  },
+  {
+    "categoryID": "questionnaireBasic",
+    "subcategoryID": "qTypes",
+    "subcategoryLabel": "Question Types",
+    "constraintID": "barcode",
+    "constraintLabel": "Barcode",
+    "imageLink": "img/constraints/barcode.png"
+  },
+  {
+    "categoryID": "questionnaireBasic",
+    "subcategoryID": "qTypes",
+    "subcategoryLabel": "Question Types",
+    "constraintID": "audio",
+    "constraintLabel": "Audio",
+    "imageLink": "img/constraints/audio.png"
+  },
+  {
+    "categoryID": "questionnaireBasic",
+    "subcategoryID": "qTypes",
+    "subcategoryLabel": "Question Types",
+    "constraintID": "video",
+    "constraintLabel": "Video",
+    "imageLink": "img/constraints/video.png"
+  },
+  {
+    "categoryID": "userBack",
+    "constraintID": "chw_back",
+    "constraintLabel": "CHW",
+    "imageLink": "img/constraints/chw.png"
+  },
+  {
+    "categoryID": "userBack",
+    "constraintID": "fbhw_back",
+    "constraintLabel": "Facility Based Health Worker",
+    "imageLink": "img/constraints/fbhw.png"
+  },
+  {
+    "categoryID": "userBack",
+    "constraintID": "patient_back",
+    "constraintLabel": "Patient",
+    "imageLink": "img/constraints/patient.png"
+  },
+  {
+    "categoryID": "userBack",
+    "constraintID": "caregiver_back",
+    "constraintLabel": "Caregiver"
+  },
+  {
+    "categoryID": "userBack",
+    "constraintID": "commMember_back",
+    "constraintLabel": "Community Member"
+  },
+  {
+    "categoryID": "userBack",
+    "constraintID": "dataAnaly_back",
+    "constraintLabel": "Data Analyst",
+    "imageLink": "img/constraints/dataguy.png"
+  },
+  {
+    "categoryID": "userBack",
+    "constraintID": "ngoWorker_back",
+    "constraintLabel": "NGO Worker",
+    "imageLink": "img/constraints/ngo.png"
+  },
+  {
+    "categoryID": "userBack",
+    "constraintID": "policy_back",
+    "constraintLabel": "Policy Maker",
+    "imageLink": "img/constraints/policy.png"
+  },
+  {
+    "categoryID": "userBack",
+    "constraintID": "formbuild_easy",
+    "constraintLabel": "Easy Formbuilding",
+    "imageLink": "img/constraints/formeasy.png"
+  },
+  {
+    "categoryID": "userBack",
+    "subcategoryID": "maintenance",
+    "subcategoryLabel": "Maintenance",
+    "constraintID": "noMaintStaff",
+    "constraintLabel": "No IT Staff For Maintenance",
+    "imageLink": "img/constraints/nostaff.png"
+  },
+  {
+    "categoryID": "userFront",
+    "constraintID": "chw_front",
+    "constraintLabel": "CHW",
+    "imageLink": "img/constraints/chw.png"
+  },
+  {
+    "categoryID": "userFront",
+    "constraintID": "fbhw_front",
+    "constraintLabel": "Facility Based Health Worker",
+    "imageLink": "img/constraints/fbhw.png"
+  },
+  {
+    "categoryID": "userFront",
+    "constraintID": "patient_front",
+    "constraintLabel": "Patient",
+    "imageLink": "img/constraints/patient.png",
+    "recommendations": "\"To keep costs down, we recommend eliminating platforms that charge a per-user fee.\""
+  },
+  {
+    "categoryID": "userFront",
+    "constraintID": "caregiver_front",
+    "constraintLabel": "Caregiver"
+  },
+  {
+    "categoryID": "userFront",
+    "constraintID": "commMember_front",
+    "constraintLabel": "Community Member"
+  },
+  {
+    "categoryID": "userFront",
+    "subcategoryID": "training",
+    "subcategoryLabel": "Training",
+    "constraintID": "easyUse",
+    "constraintLabel": "Easy to Use",
+    "imageLink": "img/constraints/easyuse.png"
+  },
+  {
+    "categoryID": "userFront",
+    "subcategoryID": "training",
+    "subcategoryLabel": "Training",
+    "constraintID": "littleTrainingTime",
+    "constraintLabel": "Little Training Time Available",
+    "imageLink": "img/constraints/littletraining.png"
+  },
+  {
+    "categoryID": "viewData",
+    "subcategoryID": "exports",
+    "subcategoryLabel": "Exports available",
+    "constraintID": "csv",
+    "constraintLabel": "CSV",
+    "imageLink": "img/constraints/csv.png"
+  },
+  {
+    "categoryID": "viewData",
+    "subcategoryID": "exports",
+    "subcategoryLabel": "Exports available",
+    "constraintID": "xls",
+    "constraintLabel": "XLS",
+    "imageLink": "img/constraints/xls.png"
+  },
+  {
+    "categoryID": "viewData",
+    "subcategoryID": "exports",
+    "subcategoryLabel": "Exports available",
+    "constraintID": "kml",
+    "constraintLabel": "KML",
+    "imageLink": "img/constraints/kml.png"
+  },
+  {
+    "categoryID": "viewData",
+    "subcategoryID": "exports",
+    "subcategoryLabel": "Exports available",
+    "constraintID": "maccess",
+    "constraintLabel": "Access",
+    "imageLink": "img/constraints/maccess.png"
+  },
+  {
+    "categoryID": "viewData",
+    "subcategoryID": "exports",
+    "subcategoryLabel": "Exports available",
+    "constraintID": "pdf",
+    "constraintLabel": "PDF",
+    "imageLink": "img/constraints/pdf.png"
+  },
+  {
+    "categoryID": "viewData",
+    "subcategoryID": "exports",
+    "subcategoryLabel": "Exports available",
+    "constraintID": "json",
+    "constraintLabel": "JSON",
+    "imageLink": "img/constraints/json.png"
+  },
+  {
+    "categoryID": "viewData",
+    "subcategoryID": "dataView",
+    "subcategoryLabel": "Data views",
+    "constraintID": "listRecords",
+    "constraintLabel": "List Records",
+    "imageLink": "img/constraints/listrecords.png"
+  },
+  {
+    "categoryID": "viewData",
+    "subcategoryID": "dataView",
+    "subcategoryLabel": "Data views",
+    "constraintID": "mapping",
+    "constraintLabel": "Mapping",
+    "imageLink": "img/constraints/mapping.png"
+  },
+  {
+    "categoryID": "viewData",
+    "subcategoryID": "dataView",
+    "subcategoryLabel": "Data views",
+    "constraintID": "records_editable",
+    "constraintLabel": "Records Editable",
+    "imageLink": "img/constraints/editrecords.png"
+  },
+  {
+    "categoryID": "viewData",
+    "subcategoryID": "dataView",
+    "subcategoryLabel": "Data views",
+    "constraintID": "basicAnalysis",
+    "constraintLabel": "Some Basic Analysis",
+    "imageLink": "img/constraints/basicanalysis.png"
+  },
+  {
+    "categoryID": "viewData",
+    "subcategoryID": "dataView",
+    "subcategoryLabel": "Data views",
+    "constraintID": "customAnalysis",
+    "constraintLabel": "Customizeable Analysis",
+    "imageLink": "img/constraints/customanalysis.png"
+  }
+]

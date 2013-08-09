@@ -48,7 +48,8 @@ function genTools() {
     // take first row of tools constraints and create constraint_ids lookup
     // object. use column value in the key for easy lookup.
     _.each(tool_to_constraint.cells[1], function(constraint) {
-        constraint_ids[constraint.col] = constraint.value;
+	if (constraint.col > 4)
+	        constraint_ids[constraint.col] = constraint.value;
     });
 
     _.each(tool_to_constraint.cells, function(row, row_num) {
@@ -83,7 +84,7 @@ function genTools() {
                 } else if (isFalse) {
                     tool[constraint_ids[col_num]] = false;
                 } else {
-                    tool[constraint_ids[col_num]] = col.value;
+                    //tool[constraint_ids[col_num]] = col.value;
                 }
         });
 
@@ -131,7 +132,7 @@ function genPhoneCats() {
 		// skip first row of spreadsheet
         if (row_num == 1) return;
 	
-        category_ids[row - 1] = constraint.value;
+        category_ids[row - 1] = row.value;
     });
 	
 	_.each(categories.cells, function(row, row_num) {
@@ -176,34 +177,29 @@ function genConstraints() {
 		
 		_.each(row, function(col, col_num) {
 			
-			switch (col_num) {
-				case 1:
+			
+
+			if (col_num == 1)
 					constraint['categoryID'] = col.value;
-					break;
-				case 2:
+				
+			if (col_num == 2)
 					constraint['subcategoryID'] = col.value;
-					break;
-				case 3:
+					
+			if (col_num == 3)
 					constraint['subcategoryLabel'] = col.value;
-					break;
-				case 4:
+			if (col_num == 4)
 					constraint['constraintID'] = col.value;
-					break;
-				case 5:
+	
+			if (col_num == 5)
 					constraint['constraintLabel'] = col.value;
-					break;
-				case 6:
+			if (col_num == 6)
 					constraint['imageLink'] = "img/constraints/" + col.value;
-					break;
-				case 7:
-					constraint['recommendations'] = col.value;
-					break;
-				case 8:
+				
+				if (col_num == 7)
+					constraint['recommendations'] = col.value
+				if (col_num == 8)
 					constraint['thingsToThinkAbout'] = col.value;
-					break;
-				default:
-					console.error("error! col_num does not exist");
-			}
+
 		});
 	
 		config.push(constraint);
