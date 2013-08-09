@@ -8,9 +8,39 @@
 	},
 	{ 
 		"productID":"kujua",
-		"productName":"Kujua", 
+		"productName":"Muvuku", 
+		"productLink":"http://medicmobile.org", 
+		"description":"Ipsum dolor dolor dolor",
+		"android":"true", "iphone":"true"
+	},
+		{ 
+		"productID":"kujua2",
+		"productName":"ODK", 
+		"productLink":"http://medicmobile.org", 
+		"description":"Ipsum dolor dolor dolor",
+		"android":"true", "iphone":"true"
+	},
+		{ 
+		"productID":"kujua3",
+		"productName":"FormHub", 
+		"productLink":"http://medicmobile.org", 
+		"description":"Ipsum dolor dolor dolor",
+		"android":"true", "iphone":"true"
+	},
+		{ 
+		"productID":"kujua4",
+		"productName":"CommCare", 
+		"productLink":"http://medicmobile.org", 
+		"description":"Ipsum dolor dolor dolor",
+		"android":"true", "iphone":"true"
+	},
+		{ 
+		"productID":"kujua5",
+		"productName":"KoBo", 
 		"productLink":"http://medicmobile.org", 
 		"description":"Ipsum dolor dolor dolor",
 		"android":"true", "iphone":"true"
 	}
+	
+	
 ]

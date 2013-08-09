@@ -22,7 +22,7 @@
 		counter; // number of tools currently available to user
 	
 	if (!phoneCats) {
-		$.getJSON("js/json/phoneCats.json", function(data) {
+		$.getJSON("js/json/phoneCats.json", function(data) {	//../data/json/phoneCats.json
 			localStorage.setItem('phoneCats', JSON.stringify(data));	
 			phoneCats = JSON.parse(localStorage.getItem('phoneCats'));
 		});
@@ -84,31 +84,21 @@
 				if ($("section#userselected").has("figure#" + attr + "Sel").length == 0) {
 					$("p#noSelect").remove();
 					
-					$("section#userselected").append($(figure).clone(true).attr("id", attr + "Sel"));
-					$("figure#" + attr + "Sel > img").after('<span class="close">&times;</span>');	
+					$("section#userselected").prepend($(figure).clone(true).attr("id", attr + "Sel"));
+					$("figure#" + attr + "Sel > img").after('<span class="close">&times;</span>');
+					$("figure#" + attr + "Sel > img").css("cursor", "default");
 					
 					updateTools(attr, $(container).attr('id')); // Update list of tech options
 				}		
-			}
-			
-			/*
-			// Remove the constraint if the image clicked is in the selections pane
-			if (($(container).attr('id')).match(/^userselected$/) != null) {
-				
-				var attr = $(this).attr('id').replace("Sel", "");
-				updateTools(attr, $(container).attr('id')); // Update list of tech options first before removing!
-				
-				$(figure).remove();
-				noConstraintsSel();
-			}*/	
-			
+			}			
 			
 			// Reduce opacity of constraint in category pane
-			$(figure).css({
+			$("figure#" + attr + " > img").css({
 				"opacity":"0.4",
-				"filter":"alpha(opacity=40)"
-			});			
-			
+				"filter":"alpha(opacity=40)",
+				"cursor":"default"
+			});
+
 		});
 		
 		// REMOVING constraints
@@ -123,10 +113,12 @@
 			noConstraintsSel();
 			
 			// Restore opacity of constraint in category pane
-			$("figure#" + attr).css({
+			$("figure#" + attr + " > img").css({
 				"opacity":"1.0",
-				"filter":"alpha(opacity=100)"
+				"filter":"alpha(opacity=100)",
+				"cursor":"pointer"
 			});
+			
 		});
 		
 		// DROPDOWN behavior
@@ -139,24 +131,51 @@
 		
 		
 		// SHOW/HIDE categories
-		$("section#categories").listen('click', 'p', function() {
-			var id = $(this).attr("id");
-			var txt = $(this).attr("data-label");
+		$("p.whiteboard").listen('click', 'img.arrow', function() {
+
+
 			
 			
-			if (!($(this).attr("class") == "helptext")) {
 			
-				if ($(this).attr("data-open") == "false") {
-					$(this).attr("data-open", "true");
-					$(this).html('<img class="arrow" src="img/open-arrow.png">' + txt);
-				} else {
-					$(this).attr("data-open", "false");
-					$(this).html('<img class="arrow" src="img/close-arrow.png">' + txt);
-				}
+		
+			var parent = $(this).parent(),
+				id = $(parent).attr("id"),
+				txt = $(parent).text();
+
+			if ($(parent).attr("data-open") == "false") {
+			
+			
+				// Close all open categories first
+				$("section#categories > p.whiteboard").each(function(index, object) {
 				
-				$("p#" + id + "Qs").toggle(200);
-				$("section#" + id + "Constraints").toggle(300);
+					var objid = $(object).attr("id");
+				
+					if ($(object).attr("data-open") == "true") {	
+
+						$("p#" + objid + "Qs.helptext").hide(200);	
+						$("section#" + objid + "Constraints").hide(300);
+						
+					
+						var text = $(object).text();
+						$(object).attr("data-open", "false").html('<img class="arrow" src="img/close-arrow.png">' + text);
+						
+						
+					} 
+				});
+			
+			
+				$(parent).attr("data-open", "true");
+				$(parent).html('<img class="arrow" src="img/open-arrow.png">' + txt);
+				
+				
+			} else {
+				$(parent).attr("data-open", "false");
+				$(parent).html('<img class="arrow" src="img/close-arrow.png">' + txt);
 			}
+			
+			$("p#" + id + "Qs").toggle(200);
+			$("section#" + id + "Constraints").toggle(300);
+				
 		});
 
 
@@ -207,7 +226,7 @@
 			
 			$.each(array, function(index, data) {			
 				// Load the relevant categories
-				$("section#categories").append('<p id="' + data.categoryID + '" data-label="' + data.categoryLabel +
+				$("section#categories").append('<p id="' + data.categoryID +
 					'" class="whiteboard" data-open="false"><img class="arrow" src="img/close-arrow.png">' + data.categoryLabel + '</p>');
 				$("section#categories").append('<p id="' + data.categoryID + 'Qs" class="helptext">' + data.guidingQs + '</p>');
 				$("section#categories").append('<section id="' + data.categoryID + 'Constraints" class="constraintBox"></section>');

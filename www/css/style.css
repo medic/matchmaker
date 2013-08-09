@@ -87,7 +87,7 @@ img#genielogo {
 }
 
 body {
-	font-family: Helvetica, Sans-serif;
+	font-family: 'Lucida Grande', Lucida, Arial, Sans-serif;
 	font-size:12pt;
 	cursor: default;
 }
@@ -154,6 +154,10 @@ b.keyword {
 	filter:alpha(opacity=70);
 }
 
+p.home {
+	margin: 0px 15px;
+}
+
 
 
 /* **************************** CONSTRAINTS PAGE STYLES **************************** */
@@ -174,14 +178,23 @@ img.selected:hover,i mg.selected:focus, img.deselected:hover, img.deselected:foc
 /* Left Side */
 section.aside {
 	display:inline-block;
-	margin:0px 20px 0px 0px;
+	margin:0px 50px 0px 0px;
 	
-	width:420px;
+	width:420px;/* 420*/
+	vertical-align:top;
+}
+
+section.middle {
+	display:inline-block;
+	margin:0px 40px 0px 0px;
+	
+	width:370px;
 	vertical-align:top;
 }
 
 img#selected {
 	width: 350px;
+	cursor: default;
 }
 
 img#gear, img.arrow {
@@ -209,8 +222,10 @@ section.constraintBox {
 	border: 2px solid #57B02E;
 	padding: 5px;
 
-	height:200px;
-	overflow:scroll;
+	min-height:80px;
+	max-height: 200px;
+	overflow-y: auto;
+	overflow-x: hidden;
 }
 
 figure {
@@ -238,9 +253,9 @@ figcaption {
 /* Right Side */
 section.asideoffset {
 	display:inline-block;
-	margin-left:40px;
+	margin-left:0px;
 
-	width:780px;
+	width:350px; /*780*/
 	vertical-align:top;	
 }
 
@@ -264,7 +279,9 @@ fieldset#tech {
 	-moz-box-sizing:border-box;
 	-webkit-box-sizing:border-box;	
 
-	height:200px;
+	height:400px;
+	overflow-x:hidden;
+	overflow-y:auto;
 }
 
 fieldset#tech > legend {
@@ -279,7 +296,7 @@ small {
 
 fieldset#tech > p {
 	display: inline-block;
-	width: 25%;	
+	width: 50%;	
 }
 
 fieldset#tech > p > a {

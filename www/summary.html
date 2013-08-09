@@ -1,88 +1,65 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html>
 <head>
+	<!-- SITE INFO -->
 	<meta charset="utf-8">
-	<title>TOOLBOX</title>
+	<title>SUMMARY /mm</title>
 	<meta name="description" content="Hello thar">
+	<!-- END SITE INFO -->
+	
+	<!-- STYLE SHEETS -->
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/jquery.dropdown.css">
+	<!-- END STYLE SHEETS -->
+   
+	<!-- JAVASCRIPT -->	
+	<script src="js/jquery-1.10.2.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.dropdown.js"></script>
+	<script src="js/jquery.listen-1.0.3-min.js"></script>
+	<script src="js/toolshed.js"></script>
+	<!-- END JAVASCRIPT -->
 </head>
-
+ 
 <body>
 	<header>
 		<nav>
 			<ul class="nav">
-				<li><a href="http://medicmobile.org" target="_blank">Medic Mobile Home</a> |&nbsp;</li>
-				<li><a href="index.html">Toolkit Home</a></li>
-				<li id="splitnav"><a href="">Skip This Step</a></li>
+				<li><a href="http://medicmobile.org" target="_blank"><img id="mediclogo" src="img/medic-logo.png"></a></li>
+				<li><a href="index.html"><img id="genielogo" src="img/tool-genie.jpg"></a></li>
 			</ul>
 		</nav>
-		
-		<h1>Summary</h1>
 	</header>
 	
-	<section>
-		<fieldset><legend>My Use Case</legend>
-			<figure>
-				<img id="summary" src="img/placeholder.png" alt="" width=60% height="">
-			</figure>
-
-			<section id="usecasesummary">
-				<select name="usecases">
-					<option disabled="disabled" selected="selected">ANC Notifications</option>
-				</select>
-
-				<ul class="nested-checkbox">
-					<li><input type="checkbox" name="outgoing" value="outgoing" disabled="disabled" checked="checked">outgoing messages<br>
-					<ul>
-						<li><input type="checkbox" name="scheduled" value="scheduled" disabled="disabled" checked="checked">scheduled<br></li>
-					</ul>
-					</li>
-				</ul>
-
-			</section>
-
-		</fieldset>
-	</section>
-
-	
-	<aside id="myconstraints">
-		<fieldset id="scrollable"><legend>My Constraints</legend>
-			<img src="img/placeholder.png" alt="" width="50px" height="50px">
-			<img src="img/placeholder.png" alt="" width="50px" height="50px">
-			<img src="img/placeholder.png" alt="" width="50px" height="50px">
-			<img src="img/placeholder.png" alt="" width="50px" height="50px">
-			<img src="img/placeholder.png" alt="" width="50px" height="50px">
-		</fieldset>
-	</aside>
-
-	<section class="asideoffset" id="tech">
-		<fieldset id="scrollable"><legend>My Tech Options</legend>
-			<a href="">Kujua</a> -- Brief description here<br>
-			<a href="">Kujua</a> -- Brief description here<br>
-			<a href="">Kujua</a> -- Brief description here<br>
-			<a href="">Datawinners</a> -- Another description
-		</fieldset>
-	</section>
+	<!-- ************ BEGIN PAGE CONTENT ************ -->
+	<section class="container">
 	
 		
-	<section>
-		<fieldset><legend>Things To Think About...</legend>		
-			<p>derpy derpy derp derp derp derp derp derp herp derpy derpy </p>
-			<p>...</p>
-		</fieldset>
-	</section>
+		
+		<!-- BEGIN (left side): drop down menu for system messaging type -->
+		<section class="aside">
+			<img name="" id="selected" src="">		
+			<fieldset id="tech"><legend class="whiteboard">&nbsp;My Tech Options <small id="counter"></small>&nbsp;</legend></fieldset>
+		</section>
+		
+		<!-- BEGIN (right side): title image/headline and user selected constraints-->
+		<section class="asideoffset">
+			<h2>My Requirements</h2>
+			<section id="userselected"></section> <!-- USER SELECTED CONSTRAINTS -->
+			<fieldset id="tech"><legend class="whiteboard">&nbsp;Things to Think About&nbsp;</legend></fieldset>
+		</section>
+			
+		
 
 
-	<section>
-		<ul class="nav">
-			<li><button value="Back">Go Back and Edit</button></li>
-			<li id="splitnav"><button value="Print">Print PDF Results</button><button value="Next">Email Results</button></li>
-		</ul>
 	</section>
+	<!-- ************ END PAGE CONTENT ************ -->
+	
 	
 	<footer>
+		&copy; 2013 Medic Mobile. All Rights Reserved.
 	</footer>
-
+		
 </body>
-
 </html>

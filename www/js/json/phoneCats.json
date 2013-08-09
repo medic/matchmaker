@@ -13,5 +13,30 @@
 		"categoryID":"userFront",
 		"categoryLabel":"Front-End Users",
 		"guidingQs":"Who will be the front-end (mobile phone) users of this tool? Different tools are more appropriate for different types of users. We will make recommendations based on our best practices. Does the system need to be extremely easy to use? Is there very limited training time available for front-end users?" 
+	},
+	{
+		"categoryID":"derp1",
+		"categoryLabel":"Back-End Users",
+		"guidingQs":""
+	},
+	{
+		"categoryID":"derp2",
+		"categoryLabel":"Connectivity",
+		"guidingQs":""
+	},
+	{
+		"categoryID":"derp3",
+		"categoryLabel":"Delivery",
+		"guidingQs":""
+	},
+	{
+		"categoryID":"derp4",
+		"categoryLabel":"Code Access",
+		"guidingQs":""
+	},
+	{
+		"categoryID":"derp5",
+		"categoryLabel":"Questionnaire Basics",
+		"guidingQs":""
 	}
 ]

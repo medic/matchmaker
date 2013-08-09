@@ -2,51 +2,51 @@
   {
     "categoryID": "userFront",
     "categoryLabel": "Front End Users",
-    "guidingQs": "\"Who will be the front-end (mobile phone) users of this tool? Different tools are more appropriate for different types of users. We will make recommendations based on our best practices. Does the system need to be extremely easy to use? Is there very limited training time available for front-end users?\""
+    "guidingQs": "Who will be the front-end (mobile phone) users of this tool? Different tools are more appropriate for different types of users. We will make recommendations based on our best practices. Does the system need to be extremely easy to use? Is there very limited training time available for front-end users?"
   },
   {
     "categoryID": "phone",
     "categoryLabel": "Type of Phone",
-    "guidingQs": "\"What type of phone are you most likely to use for this project? Will users be using phones they already have? If so, what type of phone do they already have? If not, do you have budget to buy phones for this project? If so, select the option you are most likely to purchase. \""
+    "guidingQs": "What type of phone are you most likely to use for this project? Will users be using phones they already have? If so, what type of phone do they already have? If not, do you have budget to buy phones for this project? If so, select the option you are most likely to purchase. "
   },
   {
     "categoryID": "questionnaireBasic",
     "categoryLabel": "Questionnaire Basics",
-    "guidingQs": "\"How many questions will you be collecting on a single form? What types of information will you be collecting? Keep in mind, certain features will be limited by the phone you use to collect data, and not by the software.\""
+    "guidingQs": "How many questions will you be collecting on a single form? What types of information will you be collecting? Keep in mind, certain features will be limited by the phone you use to collect data, and not by the software."
   },
   {
     "categoryID": "questionnaireAdvanced",
     "categoryLabel": "Advanced Questionnaire Features",
-    "guidingQs": "\"What types of special features do you need to have included in your form?\""
+    "guidingQs": "What types of special features do you need to have included in your form?"
   },
   {
     "categoryID": "connectivity",
     "categoryLabel": "Connectivity Requirements",
-    "guidingQs": "\"There are many things to keep in mind when deciding between cloud hosting and a local instal. Local installs most likely require more time and IT skills to get the software up and running. Do you have access to at least a short term resource to assist in installing software?\""
+    "guidingQs": "There are many things to keep in mind when deciding between cloud hosting and a local instal. Local installs most likely require more time and IT skills to get the software up and running. Do you have access to at least a short term resource to assist in installing software?"
   },
   {
     "categoryID": "delivery",
     "categoryLabel": "Message Delivery",
-    "guidingQs": "\"When the system sends messages to your front end users, is there a requirement for them to come over voice or SMS? Do the messages need to be sent according to a certain schedule? Do you need to message groups of many people at a time, or just individuals?\""
+    "guidingQs": "When the system sends messages to your front end users, is there a requirement for them to come over voice or SMS? Do the messages need to be sent according to a certain schedule? Do you need to message groups of many people at a time, or just individuals?"
   },
   {
     "categoryID": "userBack",
     "categoryLabel": "Back End Users",
-    "guidingQs": "\"Who will be the back-end (computer) users of this tool? What access do you have to IT resources for a one time software setup/configuration? How skilled is your staff at maintaining complex IT infrastucture? Do new forms need to be very easy to build with no programming knowledge? Think about whether you will need to create many forms, and what resources that would require. Will forms be changed once the project implementation starts, or will the forms remain the same?\""
+    "guidingQs": "Who will be the back-end (computer) users of this tool? What access do you have to IT resources for a one time software setup/configuration? How skilled is your staff at maintaining complex IT infrastucture? Do new forms need to be very easy to build with no programming knowledge? Think about whether you will need to create many forms, and what resources that would require. Will forms be changed once the project implementation starts, or will the forms remain the same?"
   },
   {
     "categoryID": "viewData",
     "categoryLabel": "View and Edit Data in Backend",
-    "guidingQs": "\"How would you like to view, interact with, and export the data once it is in the system?\""
+    "guidingQs": "How would you like to view, interact with, and export the data once it is in the system?"
   },
   {
     "categoryID": "caseManagement",
     "categoryLabel": "Case Management",
-    "guidingQs": "\"Is data being collected as part of a one time survey? If so, no longitudinal tracking is needed. Do you need to track information collected from many forms at different times, all related to the same subject (such as a patient, or a health center)? If so, do you need the system to manage the subject identification for you, or provide a limited profile on a subject? If so, chose \"some.\" If you need more advance longitudinal tracking, such as a full patient profile, or the ability to update a patient's profile from the field, select \"advanced.\""
+    "guidingQs": "Is data being collected as part of a one time survey? If so, no longitudinal tracking is needed. Do you need to track information collected from many forms at different times, all related to the same subject (such as a patient, or a health center)? If so, do you need the system to manage the subject identification for you, or provide a limited profile on a subject? If so, chose \"some.\" If you need more advance longitudinal tracking, such as a full patient profile, or the ability to update a patient's profile from the field, select \"advanced.\""
   },
   {
     "categoryID": "codeAccess",
     "categoryLabel": "Access to Code",
-    "guidingQs": "\"Are you planning to pass data to another platform that requires an API? Do you need to be able to have developers make customizations or additions to the source code for your project? Does your situation require using only open source code?\""
+    "guidingQs": "Are you planning to pass data to another platform that requires an API? Do you need to be able to have developers make customizations or additions to the source code for your project? Does your situation require using only open source code?"
   }
 ]
