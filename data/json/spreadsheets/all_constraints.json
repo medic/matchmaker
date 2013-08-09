@@ -1,0 +1,2010 @@
+{
+  "cells": {
+    "1": {
+      "1": {
+        "row": "1",
+        "col": "1",
+        "inputValue": "Category ID",
+        "value": "Category ID"
+      },
+      "2": {
+        "row": "1",
+        "col": "2",
+        "inputValue": "Sub-Category ID",
+        "value": "Sub-Category ID"
+      },
+      "3": {
+        "row": "1",
+        "col": "3",
+        "inputValue": "Sub-Category Label",
+        "value": "Sub-Category Label"
+      },
+      "4": {
+        "row": "1",
+        "col": "4",
+        "inputValue": "Constraint ID",
+        "value": "Constraint ID"
+      },
+      "5": {
+        "row": "1",
+        "col": "5",
+        "inputValue": "Constraint Label",
+        "value": "Constraint Label"
+      },
+      "6": {
+        "row": "1",
+        "col": "6",
+        "inputValue": "Image Filename",
+        "value": "Image Filename"
+      },
+      "7": {
+        "row": "1",
+        "col": "7",
+        "inputValue": "Recommendations",
+        "value": "Recommendations"
+      },
+      "8": {
+        "row": "1",
+        "col": "8",
+        "inputValue": "Things to Think About",
+        "value": "Things to Think About"
+      },
+      "9": {
+        "row": "1",
+        "col": "9",
+        "inputValue": "Assumptions",
+        "value": "Assumptions"
+      }
+    },
+    "2": {
+      "1": {
+        "row": "2",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R10C1",
+        "value": "caseManagement"
+      },
+      "4": {
+        "row": "2",
+        "col": "4",
+        "inputValue": "longTracking_some",
+        "value": "longTracking_some"
+      },
+      "5": {
+        "row": "2",
+        "col": "5",
+        "inputValue": "Some",
+        "value": "Some"
+      }
+    },
+    "3": {
+      "1": {
+        "row": "3",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R10C1",
+        "value": "caseManagement"
+      },
+      "4": {
+        "row": "3",
+        "col": "4",
+        "inputValue": "longTracking_advanced",
+        "value": "longTracking_advanced"
+      },
+      "5": {
+        "row": "3",
+        "col": "5",
+        "inputValue": "Advanced",
+        "value": "Advanced"
+      }
+    },
+    "4": {
+      "1": {
+        "row": "4",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R11C1",
+        "value": "codeAccess"
+      },
+      "4": {
+        "row": "4",
+        "col": "4",
+        "inputValue": "api",
+        "value": "api"
+      },
+      "5": {
+        "row": "4",
+        "col": "5",
+        "inputValue": "API Available",
+        "value": "API Available"
+      }
+    },
+    "5": {
+      "1": {
+        "row": "5",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R11C1",
+        "value": "codeAccess"
+      },
+      "4": {
+        "row": "5",
+        "col": "4",
+        "inputValue": "openSource",
+        "value": "openSource"
+      },
+      "5": {
+        "row": "5",
+        "col": "5",
+        "inputValue": "Open Source",
+        "value": "Open Source"
+      }
+    },
+    "6": {
+      "1": {
+        "row": "6",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R6C1",
+        "value": "connectivity"
+      },
+      "2": {
+        "row": "6",
+        "col": "2",
+        "inputValue": "Connectivity in the Field",
+        "value": "Connectivity in the Field"
+      },
+      "4": {
+        "row": "6",
+        "col": "4",
+        "inputValue": "c_sms",
+        "value": "c_sms"
+      },
+      "5": {
+        "row": "6",
+        "col": "5",
+        "inputValue": "SMS ",
+        "value": "SMS"
+      }
+    },
+    "7": {
+      "1": {
+        "row": "7",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R6C1",
+        "value": "connectivity"
+      },
+      "2": {
+        "row": "7",
+        "col": "2",
+        "inputValue": "Connectivity in the Field",
+        "value": "Connectivity in the Field"
+      },
+      "4": {
+        "row": "7",
+        "col": "4",
+        "inputValue": "mobilenet",
+        "value": "mobilenet"
+      },
+      "5": {
+        "row": "7",
+        "col": "5",
+        "inputValue": "Mobile Internet",
+        "value": "Mobile Internet"
+      }
+    },
+    "8": {
+      "1": {
+        "row": "8",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R6C1",
+        "value": "connectivity"
+      },
+      "2": {
+        "row": "8",
+        "col": "2",
+        "inputValue": "Connectivity in the Field",
+        "value": "Connectivity in the Field"
+      },
+      "4": {
+        "row": "8",
+        "col": "4",
+        "inputValue": "offline_front",
+        "value": "offline_front"
+      },
+      "5": {
+        "row": "8",
+        "col": "5",
+        "inputValue": "Offline Data Entry",
+        "value": "Offline Data Entry"
+      }
+    },
+    "9": {
+      "1": {
+        "row": "9",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R6C1",
+        "value": "connectivity"
+      },
+      "2": {
+        "row": "9",
+        "col": "2",
+        "inputValue": "hosted v local",
+        "value": "hosted v local"
+      },
+      "4": {
+        "row": "9",
+        "col": "4",
+        "inputValue": "hosted",
+        "value": "hosted"
+      },
+      "5": {
+        "row": "9",
+        "col": "5",
+        "inputValue": "cloud hosted",
+        "value": "cloud hosted"
+      }
+    },
+    "10": {
+      "1": {
+        "row": "10",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R6C1",
+        "value": "connectivity"
+      },
+      "2": {
+        "row": "10",
+        "col": "2",
+        "inputValue": "hosted v local",
+        "value": "hosted v local"
+      },
+      "4": {
+        "row": "10",
+        "col": "4",
+        "inputValue": "local",
+        "value": "local"
+      },
+      "5": {
+        "row": "10",
+        "col": "5",
+        "inputValue": "local",
+        "value": "local"
+      }
+    },
+    "11": {
+      "1": {
+        "row": "11",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R6C1",
+        "value": "connectivity"
+      },
+      "2": {
+        "row": "11",
+        "col": "2",
+        "inputValue": "if local",
+        "value": "if local"
+      },
+      "4": {
+        "row": "11",
+        "col": "4",
+        "inputValue": "sync",
+        "value": "sync"
+      },
+      "5": {
+        "row": "11",
+        "col": "5",
+        "inputValue": "sync to other instances",
+        "value": "sync to other instances"
+      }
+    },
+    "12": {
+      "1": {
+        "row": "12",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R6C1",
+        "value": "connectivity"
+      },
+      "2": {
+        "row": "12",
+        "col": "2",
+        "inputValue": "if local",
+        "value": "if local"
+      },
+      "4": {
+        "row": "12",
+        "col": "4",
+        "inputValue": "easy_install",
+        "value": "easy_install"
+      },
+      "5": {
+        "row": "12",
+        "col": "5",
+        "inputValue": "easy installation",
+        "value": "easy installation"
+      }
+    },
+    "13": {
+      "1": {
+        "row": "13",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R6C1",
+        "value": "connectivity"
+      },
+      "2": {
+        "row": "13",
+        "col": "2",
+        "inputValue": "os",
+        "value": "os"
+      },
+      "3": {
+        "row": "13",
+        "col": "3",
+        "inputValue": "Operating System",
+        "value": "Operating System"
+      },
+      "4": {
+        "row": "13",
+        "col": "4",
+        "inputValue": "os_apple",
+        "value": "os_apple"
+      },
+      "5": {
+        "row": "13",
+        "col": "5",
+        "inputValue": "Apple",
+        "value": "Apple"
+      }
+    },
+    "14": {
+      "1": {
+        "row": "14",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R6C1",
+        "value": "connectivity"
+      },
+      "2": {
+        "row": "14",
+        "col": "2",
+        "inputValue": "os",
+        "value": "os"
+      },
+      "3": {
+        "row": "14",
+        "col": "3",
+        "inputValue": "Operating System",
+        "value": "Operating System"
+      },
+      "4": {
+        "row": "14",
+        "col": "4",
+        "inputValue": "os_linux",
+        "value": "os_linux"
+      },
+      "5": {
+        "row": "14",
+        "col": "5",
+        "inputValue": "Linux",
+        "value": "Linux"
+      }
+    },
+    "15": {
+      "1": {
+        "row": "15",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R6C1",
+        "value": "connectivity"
+      },
+      "2": {
+        "row": "15",
+        "col": "2",
+        "inputValue": "os",
+        "value": "os"
+      },
+      "3": {
+        "row": "15",
+        "col": "3",
+        "inputValue": "Operating System",
+        "value": "Operating System"
+      },
+      "4": {
+        "row": "15",
+        "col": "4",
+        "inputValue": "os_windows",
+        "value": "os_windows"
+      },
+      "5": {
+        "row": "15",
+        "col": "5",
+        "inputValue": "Windows",
+        "value": "Windows"
+      }
+    },
+    "16": {
+      "1": {
+        "row": "16",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R7C1",
+        "value": "delivery"
+      },
+      "4": {
+        "row": "16",
+        "col": "4",
+        "inputValue": "sms",
+        "value": "sms"
+      },
+      "5": {
+        "row": "16",
+        "col": "5",
+        "inputValue": "SMS",
+        "value": "SMS"
+      }
+    },
+    "17": {
+      "1": {
+        "row": "17",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R7C1",
+        "value": "delivery"
+      },
+      "4": {
+        "row": "17",
+        "col": "4",
+        "inputValue": "voice",
+        "value": "voice"
+      },
+      "5": {
+        "row": "17",
+        "col": "5",
+        "inputValue": "Voice",
+        "value": "Voice"
+      }
+    },
+    "18": {
+      "1": {
+        "row": "18",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R7C1",
+        "value": "delivery"
+      },
+      "4": {
+        "row": "18",
+        "col": "4",
+        "inputValue": "group",
+        "value": "group"
+      },
+      "5": {
+        "row": "18",
+        "col": "5",
+        "inputValue": "Message Groups",
+        "value": "Message Groups"
+      }
+    },
+    "19": {
+      "1": {
+        "row": "19",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R7C1",
+        "value": "delivery"
+      },
+      "4": {
+        "row": "19",
+        "col": "4",
+        "inputValue": "scheduled",
+        "value": "scheduled"
+      },
+      "5": {
+        "row": "19",
+        "col": "5",
+        "inputValue": "Scheduled Messages",
+        "value": "Scheduled Messages"
+      }
+    },
+    "20": {
+      "1": {
+        "row": "20",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R3C1",
+        "value": "phone"
+      },
+      "4": {
+        "row": "20",
+        "col": "4",
+        "inputValue": "featurePhone",
+        "value": "featurePhone"
+      },
+      "5": {
+        "row": "20",
+        "col": "5",
+        "inputValue": "feature phone",
+        "value": "feature phone"
+      }
+    },
+    "21": {
+      "1": {
+        "row": "21",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R3C1",
+        "value": "phone"
+      },
+      "4": {
+        "row": "21",
+        "col": "4",
+        "inputValue": "java",
+        "value": "java"
+      },
+      "5": {
+        "row": "21",
+        "col": "5",
+        "inputValue": "java phone",
+        "value": "java phone"
+      }
+    },
+    "22": {
+      "1": {
+        "row": "22",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R3C1",
+        "value": "phone"
+      },
+      "4": {
+        "row": "22",
+        "col": "4",
+        "inputValue": "android",
+        "value": "android"
+      },
+      "5": {
+        "row": "22",
+        "col": "5",
+        "inputValue": "Android ",
+        "value": "Android"
+      },
+      "8": {
+        "row": "22",
+        "col": "8",
+        "inputValue": "Smart phones... (considerations, training, safety, power, repair/replacement, other social changes)",
+        "value": "Smart phones... (considerations, training, safety, power, repair/replacement, other social changes)"
+      }
+    },
+    "23": {
+      "1": {
+        "row": "23",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R3C1",
+        "value": "phone"
+      },
+      "4": {
+        "row": "23",
+        "col": "4",
+        "inputValue": "ios",
+        "value": "ios"
+      },
+      "5": {
+        "row": "23",
+        "col": "5",
+        "inputValue": "iOS",
+        "value": "iOS"
+      },
+      "8": {
+        "row": "23",
+        "col": "8",
+        "inputValue": "Smart phones... (considerations, training, safety, power, repair/replacement, other social changes)",
+        "value": "Smart phones... (considerations, training, safety, power, repair/replacement, other social changes)"
+      }
+    },
+    "24": {
+      "1": {
+        "row": "24",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R3C1",
+        "value": "phone"
+      },
+      "4": {
+        "row": "24",
+        "col": "4",
+        "inputValue": "comp",
+        "value": "comp"
+      },
+      "5": {
+        "row": "24",
+        "col": "5",
+        "inputValue": "Computer",
+        "value": "Computer"
+      }
+    },
+    "25": {
+      "1": {
+        "row": "25",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R5C1",
+        "value": "questionnaireAdvanced"
+      },
+      "4": {
+        "row": "25",
+        "col": "4",
+        "inputValue": "required",
+        "value": "required"
+      },
+      "5": {
+        "row": "25",
+        "col": "5",
+        "inputValue": "Required Questions",
+        "value": "Required Questions"
+      }
+    },
+    "26": {
+      "1": {
+        "row": "26",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R5C1",
+        "value": "questionnaireAdvanced"
+      },
+      "4": {
+        "row": "26",
+        "col": "4",
+        "inputValue": "skip",
+        "value": "skip"
+      },
+      "5": {
+        "row": "26",
+        "col": "5",
+        "inputValue": "Skip Logic",
+        "value": "Skip Logic"
+      }
+    },
+    "27": {
+      "1": {
+        "row": "27",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R5C1",
+        "value": "questionnaireAdvanced"
+      },
+      "4": {
+        "row": "27",
+        "col": "4",
+        "inputValue": "rangeCheck",
+        "value": "rangeCheck"
+      },
+      "5": {
+        "row": "27",
+        "col": "5",
+        "inputValue": "Numeric Range Checks",
+        "value": "Numeric Range Checks"
+      }
+    },
+    "28": {
+      "1": {
+        "row": "28",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R5C1",
+        "value": "questionnaireAdvanced"
+      },
+      "4": {
+        "row": "28",
+        "col": "4",
+        "inputValue": "repeat",
+        "value": "repeat"
+      },
+      "5": {
+        "row": "28",
+        "col": "5",
+        "inputValue": "Repeatable Sections",
+        "value": "Repeatable Sections"
+      }
+    },
+    "29": {
+      "1": {
+        "row": "29",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R5C1",
+        "value": "questionnaireAdvanced"
+      },
+      "4": {
+        "row": "29",
+        "col": "4",
+        "inputValue": "calculate",
+        "value": "calculate"
+      },
+      "5": {
+        "row": "29",
+        "col": "5",
+        "inputValue": "Calculate",
+        "value": "Calculate"
+      }
+    },
+    "30": {
+      "1": {
+        "row": "30",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R5C1",
+        "value": "questionnaireAdvanced"
+      },
+      "4": {
+        "row": "30",
+        "col": "4",
+        "inputValue": "cascade",
+        "value": "cascade"
+      },
+      "5": {
+        "row": "30",
+        "col": "5",
+        "inputValue": "Cascading Select",
+        "value": "Cascading Select"
+      }
+    },
+    "31": {
+      "1": {
+        "row": "31",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R5C1",
+        "value": "questionnaireAdvanced"
+      },
+      "4": {
+        "row": "31",
+        "col": "4",
+        "inputValue": "playMedia",
+        "value": "playMedia"
+      },
+      "5": {
+        "row": "31",
+        "col": "5",
+        "inputValue": "Multimedia Play in Field",
+        "value": "Multimedia Play in Field"
+      }
+    },
+    "32": {
+      "1": {
+        "row": "32",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R5C1",
+        "value": "questionnaireAdvanced"
+      },
+      "4": {
+        "row": "32",
+        "col": "4",
+        "inputValue": "backendData",
+        "value": "backendData"
+      },
+      "5": {
+        "row": "32",
+        "col": "5",
+        "inputValue": "Data from backend server",
+        "value": "Data from backend server"
+      }
+    },
+    "33": {
+      "1": {
+        "row": "33",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R5C1",
+        "value": "questionnaireAdvanced"
+      },
+      "4": {
+        "row": "33",
+        "col": "4",
+        "inputValue": "form_editable",
+        "value": "form_editable"
+      },
+      "5": {
+        "row": "33",
+        "col": "5",
+        "inputValue": "Forms Editable During Collection Campaign",
+        "value": "Forms Editable During Collection Campaign"
+      }
+    },
+    "34": {
+      "1": {
+        "row": "34",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R4C1",
+        "value": "questionnaireBasic"
+      },
+      "2": {
+        "row": "34",
+        "col": "2",
+        "inputValue": "length",
+        "value": "length"
+      },
+      "3": {
+        "row": "34",
+        "col": "3",
+        "inputValue": "Number of Questions",
+        "value": "Number of Questions"
+      },
+      "4": {
+        "row": "34",
+        "col": "4",
+        "inputValue": "upto5q",
+        "value": "upto5q"
+      },
+      "5": {
+        "row": "34",
+        "col": "5",
+        "inputValue": "1-5 questions",
+        "value": "1-5 questions"
+      }
+    },
+    "35": {
+      "1": {
+        "row": "35",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R4C1",
+        "value": "questionnaireBasic"
+      },
+      "2": {
+        "row": "35",
+        "col": "2",
+        "inputValue": "length",
+        "value": "length"
+      },
+      "3": {
+        "row": "35",
+        "col": "3",
+        "inputValue": "Number of Questions",
+        "value": "Number of Questions"
+      },
+      "4": {
+        "row": "35",
+        "col": "4",
+        "inputValue": "upto30q",
+        "value": "upto30q"
+      },
+      "5": {
+        "row": "35",
+        "col": "5",
+        "inputValue": "5-30 questions",
+        "value": "5-30 questions"
+      }
+    },
+    "36": {
+      "1": {
+        "row": "36",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R4C1",
+        "value": "questionnaireBasic"
+      },
+      "2": {
+        "row": "36",
+        "col": "2",
+        "inputValue": "length",
+        "value": "length"
+      },
+      "3": {
+        "row": "36",
+        "col": "3",
+        "inputValue": "Number of Questions",
+        "value": "Number of Questions"
+      },
+      "4": {
+        "row": "36",
+        "col": "4",
+        "inputValue": "morethan30q",
+        "value": "morethan30q"
+      },
+      "5": {
+        "row": "36",
+        "col": "5",
+        "inputValue": "30 plus questions",
+        "value": "30 plus questions"
+      }
+    },
+    "37": {
+      "1": {
+        "row": "37",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R4C1",
+        "value": "questionnaireBasic"
+      },
+      "4": {
+        "row": "37",
+        "col": "4",
+        "inputValue": "smschannel",
+        "value": "smschannel"
+      },
+      "5": {
+        "row": "37",
+        "col": "5",
+        "inputValue": "SMS from any phone",
+        "value": "SMS from any phone"
+      }
+    },
+    "38": {
+      "1": {
+        "row": "38",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R4C1",
+        "value": "questionnaireBasic"
+      },
+      "2": {
+        "row": "38",
+        "col": "2",
+        "inputValue": "qTypes",
+        "value": "qTypes"
+      },
+      "3": {
+        "row": "38",
+        "col": "3",
+        "inputValue": "Question Types",
+        "value": "Question Types"
+      },
+      "4": {
+        "row": "38",
+        "col": "4",
+        "inputValue": "text",
+        "value": "text"
+      },
+      "5": {
+        "row": "38",
+        "col": "5",
+        "inputValue": "text",
+        "value": "text"
+      }
+    },
+    "39": {
+      "1": {
+        "row": "39",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R4C1",
+        "value": "questionnaireBasic"
+      },
+      "2": {
+        "row": "39",
+        "col": "2",
+        "inputValue": "qTypes",
+        "value": "qTypes"
+      },
+      "3": {
+        "row": "39",
+        "col": "3",
+        "inputValue": "Question Types",
+        "value": "Question Types"
+      },
+      "4": {
+        "row": "39",
+        "col": "4",
+        "inputValue": "numeric",
+        "value": "numeric"
+      },
+      "5": {
+        "row": "39",
+        "col": "5",
+        "inputValue": "numeric",
+        "value": "numeric"
+      }
+    },
+    "40": {
+      "1": {
+        "row": "40",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R4C1",
+        "value": "questionnaireBasic"
+      },
+      "2": {
+        "row": "40",
+        "col": "2",
+        "inputValue": "qTypes",
+        "value": "qTypes"
+      },
+      "3": {
+        "row": "40",
+        "col": "3",
+        "inputValue": "Question Types",
+        "value": "Question Types"
+      },
+      "4": {
+        "row": "40",
+        "col": "4",
+        "inputValue": "sel_one",
+        "value": "sel_one"
+      },
+      "5": {
+        "row": "40",
+        "col": "5",
+        "inputValue": "select one",
+        "value": "select one"
+      }
+    },
+    "41": {
+      "1": {
+        "row": "41",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R4C1",
+        "value": "questionnaireBasic"
+      },
+      "2": {
+        "row": "41",
+        "col": "2",
+        "inputValue": "qTypes",
+        "value": "qTypes"
+      },
+      "3": {
+        "row": "41",
+        "col": "3",
+        "inputValue": "Question Types",
+        "value": "Question Types"
+      },
+      "4": {
+        "row": "41",
+        "col": "4",
+        "inputValue": "sel_mult",
+        "value": "sel_mult"
+      },
+      "5": {
+        "row": "41",
+        "col": "5",
+        "inputValue": "select multiple",
+        "value": "select multiple"
+      }
+    },
+    "42": {
+      "1": {
+        "row": "42",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R4C1",
+        "value": "questionnaireBasic"
+      },
+      "2": {
+        "row": "42",
+        "col": "2",
+        "inputValue": "qTypes",
+        "value": "qTypes"
+      },
+      "3": {
+        "row": "42",
+        "col": "3",
+        "inputValue": "Question Types",
+        "value": "Question Types"
+      },
+      "4": {
+        "row": "42",
+        "col": "4",
+        "inputValue": "time",
+        "value": "time"
+      },
+      "5": {
+        "row": "42",
+        "col": "5",
+        "inputValue": "time",
+        "value": "time"
+      }
+    },
+    "43": {
+      "1": {
+        "row": "43",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R4C1",
+        "value": "questionnaireBasic"
+      },
+      "2": {
+        "row": "43",
+        "col": "2",
+        "inputValue": "qTypes",
+        "value": "qTypes"
+      },
+      "3": {
+        "row": "43",
+        "col": "3",
+        "inputValue": "Question Types",
+        "value": "Question Types"
+      },
+      "4": {
+        "row": "43",
+        "col": "4",
+        "inputValue": "date",
+        "value": "date"
+      },
+      "5": {
+        "row": "43",
+        "col": "5",
+        "inputValue": "date",
+        "value": "date"
+      }
+    },
+    "44": {
+      "1": {
+        "row": "44",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R4C1",
+        "value": "questionnaireBasic"
+      },
+      "2": {
+        "row": "44",
+        "col": "2",
+        "inputValue": "qTypes",
+        "value": "qTypes"
+      },
+      "3": {
+        "row": "44",
+        "col": "3",
+        "inputValue": "Question Types",
+        "value": "Question Types"
+      },
+      "4": {
+        "row": "44",
+        "col": "4",
+        "inputValue": "photo",
+        "value": "photo"
+      },
+      "5": {
+        "row": "44",
+        "col": "5",
+        "inputValue": "photo",
+        "value": "photo"
+      }
+    },
+    "45": {
+      "1": {
+        "row": "45",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R4C1",
+        "value": "questionnaireBasic"
+      },
+      "2": {
+        "row": "45",
+        "col": "2",
+        "inputValue": "qTypes",
+        "value": "qTypes"
+      },
+      "3": {
+        "row": "45",
+        "col": "3",
+        "inputValue": "Question Types",
+        "value": "Question Types"
+      },
+      "4": {
+        "row": "45",
+        "col": "4",
+        "inputValue": "gps",
+        "value": "gps"
+      },
+      "5": {
+        "row": "45",
+        "col": "5",
+        "inputValue": "GPS",
+        "value": "GPS"
+      }
+    },
+    "46": {
+      "1": {
+        "row": "46",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R4C1",
+        "value": "questionnaireBasic"
+      },
+      "2": {
+        "row": "46",
+        "col": "2",
+        "inputValue": "qTypes",
+        "value": "qTypes"
+      },
+      "3": {
+        "row": "46",
+        "col": "3",
+        "inputValue": "Question Types",
+        "value": "Question Types"
+      },
+      "4": {
+        "row": "46",
+        "col": "4",
+        "inputValue": "barcode",
+        "value": "barcode"
+      },
+      "5": {
+        "row": "46",
+        "col": "5",
+        "inputValue": "barcode",
+        "value": "barcode"
+      }
+    },
+    "47": {
+      "1": {
+        "row": "47",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R4C1",
+        "value": "questionnaireBasic"
+      },
+      "2": {
+        "row": "47",
+        "col": "2",
+        "inputValue": "qTypes",
+        "value": "qTypes"
+      },
+      "3": {
+        "row": "47",
+        "col": "3",
+        "inputValue": "Question Types",
+        "value": "Question Types"
+      },
+      "4": {
+        "row": "47",
+        "col": "4",
+        "inputValue": "audio",
+        "value": "audio"
+      },
+      "5": {
+        "row": "47",
+        "col": "5",
+        "inputValue": "audio",
+        "value": "audio"
+      }
+    },
+    "48": {
+      "1": {
+        "row": "48",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R4C1",
+        "value": "questionnaireBasic"
+      },
+      "2": {
+        "row": "48",
+        "col": "2",
+        "inputValue": "qTypes",
+        "value": "qTypes"
+      },
+      "3": {
+        "row": "48",
+        "col": "3",
+        "inputValue": "Question Types",
+        "value": "Question Types"
+      },
+      "4": {
+        "row": "48",
+        "col": "4",
+        "inputValue": "video",
+        "value": "video"
+      },
+      "5": {
+        "row": "48",
+        "col": "5",
+        "inputValue": "video",
+        "value": "video"
+      }
+    },
+    "49": {
+      "1": {
+        "row": "49",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R8C1",
+        "value": "userBack"
+      },
+      "4": {
+        "row": "49",
+        "col": "4",
+        "inputValue": "chw_back",
+        "value": "chw_back"
+      },
+      "5": {
+        "row": "49",
+        "col": "5",
+        "inputValue": "CHW",
+        "value": "CHW"
+      },
+      "9": {
+        "row": "49",
+        "col": "9",
+        "inputValue": "CHW does not have access to a computer",
+        "value": "CHW does not have access to a computer"
+      }
+    },
+    "50": {
+      "1": {
+        "row": "50",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R8C1",
+        "value": "userBack"
+      },
+      "4": {
+        "row": "50",
+        "col": "4",
+        "inputValue": "fbhw_back",
+        "value": "fbhw_back"
+      },
+      "5": {
+        "row": "50",
+        "col": "5",
+        "inputValue": "Facility Based Health Worker",
+        "value": "Facility Based Health Worker"
+      }
+    },
+    "51": {
+      "1": {
+        "row": "51",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R8C1",
+        "value": "userBack"
+      },
+      "4": {
+        "row": "51",
+        "col": "4",
+        "inputValue": "patient_back",
+        "value": "patient_back"
+      },
+      "5": {
+        "row": "51",
+        "col": "5",
+        "inputValue": "patient",
+        "value": "patient"
+      }
+    },
+    "52": {
+      "1": {
+        "row": "52",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R8C1",
+        "value": "userBack"
+      },
+      "4": {
+        "row": "52",
+        "col": "4",
+        "inputValue": "caregiver_back",
+        "value": "caregiver_back"
+      },
+      "5": {
+        "row": "52",
+        "col": "5",
+        "inputValue": "caregiver",
+        "value": "caregiver"
+      }
+    },
+    "53": {
+      "1": {
+        "row": "53",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R8C1",
+        "value": "userBack"
+      },
+      "4": {
+        "row": "53",
+        "col": "4",
+        "inputValue": "commMember_back",
+        "value": "commMember_back"
+      },
+      "5": {
+        "row": "53",
+        "col": "5",
+        "inputValue": "community member",
+        "value": "community member"
+      }
+    },
+    "54": {
+      "1": {
+        "row": "54",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R8C1",
+        "value": "userBack"
+      },
+      "4": {
+        "row": "54",
+        "col": "4",
+        "inputValue": "dataAnaly_back",
+        "value": "dataAnaly_back"
+      },
+      "5": {
+        "row": "54",
+        "col": "5",
+        "inputValue": "Data Analyst",
+        "value": "Data Analyst"
+      }
+    },
+    "55": {
+      "1": {
+        "row": "55",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R8C1",
+        "value": "userBack"
+      },
+      "4": {
+        "row": "55",
+        "col": "4",
+        "inputValue": "ngoWorker_back",
+        "value": "ngoWorker_back"
+      },
+      "5": {
+        "row": "55",
+        "col": "5",
+        "inputValue": "NGO Worker",
+        "value": "NGO Worker"
+      }
+    },
+    "56": {
+      "1": {
+        "row": "56",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R8C1",
+        "value": "userBack"
+      },
+      "4": {
+        "row": "56",
+        "col": "4",
+        "inputValue": "policy_back",
+        "value": "policy_back"
+      },
+      "5": {
+        "row": "56",
+        "col": "5",
+        "inputValue": "Policy Maker",
+        "value": "Policy Maker"
+      }
+    },
+    "57": {
+      "1": {
+        "row": "57",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R8C1",
+        "value": "userBack"
+      },
+      "4": {
+        "row": "57",
+        "col": "4",
+        "inputValue": "formbuild_easy",
+        "value": "formbuild_easy"
+      },
+      "5": {
+        "row": "57",
+        "col": "5",
+        "inputValue": "Easy Formbuilding",
+        "value": "Easy Formbuilding"
+      }
+    },
+    "58": {
+      "1": {
+        "row": "58",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R8C1",
+        "value": "userBack"
+      },
+      "2": {
+        "row": "58",
+        "col": "2",
+        "inputValue": "maintenance",
+        "value": "maintenance"
+      },
+      "3": {
+        "row": "58",
+        "col": "3",
+        "inputValue": "Maintenance",
+        "value": "Maintenance"
+      },
+      "4": {
+        "row": "58",
+        "col": "4",
+        "inputValue": "noMaintStaff",
+        "value": "noMaintStaff"
+      },
+      "5": {
+        "row": "58",
+        "col": "5",
+        "inputValue": "No IT Staff For Maintenance",
+        "value": "No IT Staff For Maintenance"
+      }
+    },
+    "59": {
+      "1": {
+        "row": "59",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R2C1",
+        "value": "userFront"
+      },
+      "4": {
+        "row": "59",
+        "col": "4",
+        "inputValue": "chw_front",
+        "value": "chw_front"
+      },
+      "5": {
+        "row": "59",
+        "col": "5",
+        "inputValue": "CHW",
+        "value": "CHW"
+      }
+    },
+    "60": {
+      "1": {
+        "row": "60",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R2C1",
+        "value": "userFront"
+      },
+      "4": {
+        "row": "60",
+        "col": "4",
+        "inputValue": "fbhw_front",
+        "value": "fbhw_front"
+      },
+      "5": {
+        "row": "60",
+        "col": "5",
+        "inputValue": "Facility Based Health Worker",
+        "value": "Facility Based Health Worker"
+      }
+    },
+    "61": {
+      "1": {
+        "row": "61",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R2C1",
+        "value": "userFront"
+      },
+      "4": {
+        "row": "61",
+        "col": "4",
+        "inputValue": "patient_front",
+        "value": "patient_front"
+      },
+      "5": {
+        "row": "61",
+        "col": "5",
+        "inputValue": "Patient",
+        "value": "Patient"
+      },
+      "7": {
+        "row": "61",
+        "col": "7",
+        "inputValue": "\"To keep costs down, we recommend eliminating platforms that charge a per-user fee.\"",
+        "value": "\"To keep costs down, we recommend eliminating platforms that charge a per-user fee.\""
+      }
+    },
+    "62": {
+      "1": {
+        "row": "62",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R2C1",
+        "value": "userFront"
+      },
+      "4": {
+        "row": "62",
+        "col": "4",
+        "inputValue": "caregiver_front",
+        "value": "caregiver_front"
+      },
+      "5": {
+        "row": "62",
+        "col": "5",
+        "inputValue": "Caregiver",
+        "value": "Caregiver"
+      }
+    },
+    "63": {
+      "1": {
+        "row": "63",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R2C1",
+        "value": "userFront"
+      },
+      "4": {
+        "row": "63",
+        "col": "4",
+        "inputValue": "commMember_front",
+        "value": "commMember_front"
+      },
+      "5": {
+        "row": "63",
+        "col": "5",
+        "inputValue": "Community Member",
+        "value": "Community Member"
+      }
+    },
+    "64": {
+      "1": {
+        "row": "64",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R2C1",
+        "value": "userFront"
+      },
+      "2": {
+        "row": "64",
+        "col": "2",
+        "inputValue": "training",
+        "value": "training"
+      },
+      "3": {
+        "row": "64",
+        "col": "3",
+        "inputValue": "Training",
+        "value": "Training"
+      },
+      "4": {
+        "row": "64",
+        "col": "4",
+        "inputValue": "easyUse",
+        "value": "easyUse"
+      },
+      "5": {
+        "row": "64",
+        "col": "5",
+        "inputValue": "Easy",
+        "value": "Easy"
+      },
+      "9": {
+        "row": "64",
+        "col": "9",
+        "inputValue": "Androids are easy to use, but require more training",
+        "value": "Androids are easy to use, but require more training"
+      }
+    },
+    "65": {
+      "1": {
+        "row": "65",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R2C1",
+        "value": "userFront"
+      },
+      "2": {
+        "row": "65",
+        "col": "2",
+        "inputValue": "training",
+        "value": "training"
+      },
+      "3": {
+        "row": "65",
+        "col": "3",
+        "inputValue": "Training",
+        "value": "Training"
+      },
+      "4": {
+        "row": "65",
+        "col": "4",
+        "inputValue": "littleTrainingTime",
+        "value": "littleTrainingTime"
+      },
+      "5": {
+        "row": "65",
+        "col": "5",
+        "inputValue": "Little Training Time Available",
+        "value": "Little Training Time Available"
+      },
+      "9": {
+        "row": "65",
+        "col": "9",
+        "inputValue": "Androids are easy to use, but require more training. Textforms require lots of training on syntax",
+        "value": "Androids are easy to use, but require more training. Textforms require lots of training on syntax"
+      }
+    },
+    "66": {
+      "1": {
+        "row": "66",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R9C1",
+        "value": "viewData"
+      },
+      "2": {
+        "row": "66",
+        "col": "2",
+        "inputValue": "exports",
+        "value": "exports"
+      },
+      "3": {
+        "row": "66",
+        "col": "3",
+        "inputValue": "Exports available",
+        "value": "Exports available"
+      },
+      "4": {
+        "row": "66",
+        "col": "4",
+        "inputValue": "csv",
+        "value": "csv"
+      },
+      "5": {
+        "row": "66",
+        "col": "5",
+        "inputValue": "CSV",
+        "value": "CSV"
+      }
+    },
+    "67": {
+      "1": {
+        "row": "67",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R9C1",
+        "value": "viewData"
+      },
+      "2": {
+        "row": "67",
+        "col": "2",
+        "inputValue": "exports",
+        "value": "exports"
+      },
+      "3": {
+        "row": "67",
+        "col": "3",
+        "inputValue": "Exports available",
+        "value": "Exports available"
+      },
+      "4": {
+        "row": "67",
+        "col": "4",
+        "inputValue": "xls",
+        "value": "xls"
+      },
+      "5": {
+        "row": "67",
+        "col": "5",
+        "inputValue": "XLS",
+        "value": "XLS"
+      }
+    },
+    "68": {
+      "1": {
+        "row": "68",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R9C1",
+        "value": "viewData"
+      },
+      "2": {
+        "row": "68",
+        "col": "2",
+        "inputValue": "exports",
+        "value": "exports"
+      },
+      "3": {
+        "row": "68",
+        "col": "3",
+        "inputValue": "Exports available",
+        "value": "Exports available"
+      },
+      "4": {
+        "row": "68",
+        "col": "4",
+        "inputValue": "kml",
+        "value": "kml"
+      },
+      "5": {
+        "row": "68",
+        "col": "5",
+        "inputValue": "KML",
+        "value": "KML"
+      }
+    },
+    "69": {
+      "1": {
+        "row": "69",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R9C1",
+        "value": "viewData"
+      },
+      "2": {
+        "row": "69",
+        "col": "2",
+        "inputValue": "exports",
+        "value": "exports"
+      },
+      "3": {
+        "row": "69",
+        "col": "3",
+        "inputValue": "Exports available",
+        "value": "Exports available"
+      },
+      "4": {
+        "row": "69",
+        "col": "4",
+        "inputValue": "maccess",
+        "value": "maccess"
+      },
+      "5": {
+        "row": "69",
+        "col": "5",
+        "inputValue": "Access",
+        "value": "Access"
+      }
+    },
+    "70": {
+      "1": {
+        "row": "70",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R9C1",
+        "value": "viewData"
+      },
+      "2": {
+        "row": "70",
+        "col": "2",
+        "inputValue": "exports",
+        "value": "exports"
+      },
+      "3": {
+        "row": "70",
+        "col": "3",
+        "inputValue": "Exports available",
+        "value": "Exports available"
+      },
+      "4": {
+        "row": "70",
+        "col": "4",
+        "inputValue": "pdf",
+        "value": "pdf"
+      },
+      "5": {
+        "row": "70",
+        "col": "5",
+        "inputValue": "PDF",
+        "value": "PDF"
+      }
+    },
+    "71": {
+      "1": {
+        "row": "71",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R9C1",
+        "value": "viewData"
+      },
+      "2": {
+        "row": "71",
+        "col": "2",
+        "inputValue": "exports",
+        "value": "exports"
+      },
+      "3": {
+        "row": "71",
+        "col": "3",
+        "inputValue": "Exports available",
+        "value": "Exports available"
+      },
+      "4": {
+        "row": "71",
+        "col": "4",
+        "inputValue": "json",
+        "value": "json"
+      },
+      "5": {
+        "row": "71",
+        "col": "5",
+        "inputValue": "JSON",
+        "value": "JSON"
+      }
+    },
+    "72": {
+      "1": {
+        "row": "72",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R9C1",
+        "value": "viewData"
+      },
+      "2": {
+        "row": "72",
+        "col": "2",
+        "inputValue": "dataView",
+        "value": "dataView"
+      },
+      "3": {
+        "row": "72",
+        "col": "3",
+        "inputValue": "Data views",
+        "value": "Data views"
+      },
+      "4": {
+        "row": "72",
+        "col": "4",
+        "inputValue": "listRecords",
+        "value": "listRecords"
+      },
+      "5": {
+        "row": "72",
+        "col": "5",
+        "inputValue": "list records",
+        "value": "list records"
+      }
+    },
+    "73": {
+      "1": {
+        "row": "73",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R9C1",
+        "value": "viewData"
+      },
+      "2": {
+        "row": "73",
+        "col": "2",
+        "inputValue": "dataView",
+        "value": "dataView"
+      },
+      "3": {
+        "row": "73",
+        "col": "3",
+        "inputValue": "Data views",
+        "value": "Data views"
+      },
+      "4": {
+        "row": "73",
+        "col": "4",
+        "inputValue": "mapping",
+        "value": "mapping"
+      },
+      "5": {
+        "row": "73",
+        "col": "5",
+        "inputValue": "mapping ",
+        "value": "mapping"
+      }
+    },
+    "74": {
+      "1": {
+        "row": "74",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R9C1",
+        "value": "viewData"
+      },
+      "2": {
+        "row": "74",
+        "col": "2",
+        "inputValue": "dataView",
+        "value": "dataView"
+      },
+      "3": {
+        "row": "74",
+        "col": "3",
+        "inputValue": "Data views",
+        "value": "Data views"
+      },
+      "4": {
+        "row": "74",
+        "col": "4",
+        "inputValue": "records_editable",
+        "value": "records_editable"
+      },
+      "5": {
+        "row": "74",
+        "col": "5",
+        "inputValue": "Records Editable",
+        "value": "Records Editable"
+      }
+    },
+    "75": {
+      "1": {
+        "row": "75",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R9C1",
+        "value": "viewData"
+      },
+      "2": {
+        "row": "75",
+        "col": "2",
+        "inputValue": "dataView",
+        "value": "dataView"
+      },
+      "3": {
+        "row": "75",
+        "col": "3",
+        "inputValue": "Data views",
+        "value": "Data views"
+      },
+      "4": {
+        "row": "75",
+        "col": "4",
+        "inputValue": "basicAnalysis",
+        "value": "basicAnalysis"
+      },
+      "5": {
+        "row": "75",
+        "col": "5",
+        "inputValue": "some basic analysis",
+        "value": "some basic analysis"
+      }
+    },
+    "76": {
+      "1": {
+        "row": "76",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R9C1",
+        "value": "viewData"
+      },
+      "2": {
+        "row": "76",
+        "col": "2",
+        "inputValue": "dataView",
+        "value": "dataView"
+      },
+      "3": {
+        "row": "76",
+        "col": "3",
+        "inputValue": "Data views",
+        "value": "Data views"
+      },
+      "4": {
+        "row": "76",
+        "col": "4",
+        "inputValue": "customAnalysis",
+        "value": "customAnalysis"
+      },
+      "5": {
+        "row": "76",
+        "col": "5",
+        "inputValue": "customizeable analysis",
+        "value": "customizeable analysis"
+      }
+    }
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "cells": {
+    "1": {
+      "1": {
+        "row": "1",
+        "col": "1",
+        "inputValue": "Category ID",
+        "value": "Category ID"
+      },
+      "2": {
+        "row": "1",
+        "col": "2",
+        "inputValue": "Category Label",
+        "value": "Category Label"
+      },
+      "3": {
+        "row": "1",
+        "col": "3",
+        "inputValue": "Guiding Questions/Text",
+        "value": "Guiding Questions/Text"
+      }
+    },
+    "2": {
+      "1": {
+        "row": "2",
+        "col": "1",
+        "inputValue": "userFront",
+        "value": "userFront"
+      },
+      "2": {
+        "row": "2",
+        "col": "2",
+        "inputValue": "Front End Users",
+        "value": "Front End Users"
+      },
+      "3": {
+        "row": "2",
+        "col": "3",
+        "inputValue": "\"Who will be the front-end (mobile phone) users of this tool? Different tools are more appropriate for different types of users. We will make recommendations based on our best practices. Does the system need to be extremely easy to use? Is there very limited training time available for front-end users?\" ",
+        "value": "\"Who will be the front-end (mobile phone) users of this tool? Different tools are more appropriate for different types of users. We will make recommendations based on our best practices. Does the system need to be extremely easy to use? Is there very limited training time available for front-end users?\""
+      }
+    },
+    "3": {
+      "1": {
+        "row": "3",
+        "col": "1",
+        "inputValue": "phone",
+        "value": "phone"
+      },
+      "2": {
+        "row": "3",
+        "col": "2",
+        "inputValue": "Type of Phone",
+        "value": "Type of Phone"
+      },
+      "3": {
+        "row": "3",
+        "col": "3",
+        "inputValue": "\"What type of phone are you most likely to use for this project? Will users be using phones they already have? If so, what type of phone do they already have? If not, do you have budget to buy phones for this project? If so, select the option you are most likely to purchase. \" ",
+        "value": "\"What type of phone are you most likely to use for this project? Will users be using phones they already have? If so, what type of phone do they already have? If not, do you have budget to buy phones for this project? If so, select the option you are most likely to purchase. \""
+      }
+    },
+    "4": {
+      "1": {
+        "row": "4",
+        "col": "1",
+        "inputValue": "questionnaireBasic",
+        "value": "questionnaireBasic"
+      },
+      "2": {
+        "row": "4",
+        "col": "2",
+        "inputValue": "Questionnaire Basics",
+        "value": "Questionnaire Basics"
+      },
+      "3": {
+        "row": "4",
+        "col": "3",
+        "inputValue": "\"How many questions will you be collecting on a single form? What types of information will you be collecting? Keep in mind, certain features will be limited by the phone you use to collect data, and not by the software.\"",
+        "value": "\"How many questions will you be collecting on a single form? What types of information will you be collecting? Keep in mind, certain features will be limited by the phone you use to collect data, and not by the software.\""
+      }
+    },
+    "5": {
+      "1": {
+        "row": "5",
+        "col": "1",
+        "inputValue": "questionnaireAdvanced",
+        "value": "questionnaireAdvanced"
+      },
+      "2": {
+        "row": "5",
+        "col": "2",
+        "inputValue": "Advanced Questionnaire Features",
+        "value": "Advanced Questionnaire Features"
+      },
+      "3": {
+        "row": "5",
+        "col": "3",
+        "inputValue": "\"What types of special features do you need to have included in your form?\"",
+        "value": "\"What types of special features do you need to have included in your form?\""
+      }
+    },
+    "6": {
+      "1": {
+        "row": "6",
+        "col": "1",
+        "inputValue": "connectivity",
+        "value": "connectivity"
+      },
+      "2": {
+        "row": "6",
+        "col": "2",
+        "inputValue": "Connectivity Requirements",
+        "value": "Connectivity Requirements"
+      },
+      "3": {
+        "row": "6",
+        "col": "3",
+        "inputValue": "\"There are many things to keep in mind when deciding between cloud hosting and a local instal. Local installs most likely require more time and IT skills to get the software up and running. Do you have access to at least a short term resource to assist in installing software?\" ",
+        "value": "\"There are many things to keep in mind when deciding between cloud hosting and a local instal. Local installs most likely require more time and IT skills to get the software up and running. Do you have access to at least a short term resource to assist in installing software?\""
+      }
+    },
+    "7": {
+      "1": {
+        "row": "7",
+        "col": "1",
+        "inputValue": "delivery",
+        "value": "delivery"
+      },
+      "2": {
+        "row": "7",
+        "col": "2",
+        "inputValue": "Message Delivery",
+        "value": "Message Delivery"
+      },
+      "3": {
+        "row": "7",
+        "col": "3",
+        "inputValue": "\"When the system sends messages to your front end users, is there a requirement for them to come over voice or SMS? Do the messages need to be sent according to a certain schedule? Do you need to message groups of many people at a time, or just individuals?\"",
+        "value": "\"When the system sends messages to your front end users, is there a requirement for them to come over voice or SMS? Do the messages need to be sent according to a certain schedule? Do you need to message groups of many people at a time, or just individuals?\""
+      }
+    },
+    "8": {
+      "1": {
+        "row": "8",
+        "col": "1",
+        "inputValue": "userBack",
+        "value": "userBack"
+      },
+      "2": {
+        "row": "8",
+        "col": "2",
+        "inputValue": "Back End Users",
+        "value": "Back End Users"
+      },
+      "3": {
+        "row": "8",
+        "col": "3",
+        "inputValue": "\"Who will be the back-end (computer) users of this tool? What access do you have to IT resources for a one time software setup/configuration? How skilled is your staff at maintaining complex IT infrastucture? Do new forms need to be very easy to build with no programming knowledge? Think about whether you will need to create many forms, and what resources that would require. Will forms be changed once the project implementation starts, or will the forms remain the same?\"",
+        "value": "\"Who will be the back-end (computer) users of this tool? What access do you have to IT resources for a one time software setup/configuration? How skilled is your staff at maintaining complex IT infrastucture? Do new forms need to be very easy to build with no programming knowledge? Think about whether you will need to create many forms, and what resources that would require. Will forms be changed once the project implementation starts, or will the forms remain the same?\""
+      }
+    },
+    "9": {
+      "1": {
+        "row": "9",
+        "col": "1",
+        "inputValue": "viewData",
+        "value": "viewData"
+      },
+      "2": {
+        "row": "9",
+        "col": "2",
+        "inputValue": "View and Edit Data in Backend",
+        "value": "View and Edit Data in Backend"
+      },
+      "3": {
+        "row": "9",
+        "col": "3",
+        "inputValue": "\"How would you like to view, interact with, and export the data once it is in the system?\"",
+        "value": "\"How would you like to view, interact with, and export the data once it is in the system?\""
+      }
+    },
+    "10": {
+      "1": {
+        "row": "10",
+        "col": "1",
+        "inputValue": "caseManagement",
+        "value": "caseManagement"
+      },
+      "2": {
+        "row": "10",
+        "col": "2",
+        "inputValue": "Case Management",
+        "value": "Case Management"
+      },
+      "3": {
+        "row": "10",
+        "col": "3",
+        "inputValue": "\"Is data being collected as part of a one time survey? If so, no longitudinal tracking is needed. Do you need to track information collected from many forms at different times, all related to the same subject (such as a patient, or a health center)? If so, do you need the system to manage the subject identification for you, or provide a limited profile on a subject? If so, chose \"some.\" If you need more advance longitudinal tracking, such as a full patient profile, or the ability to update a patient's profile from the field, select \"advanced.\"",
+        "value": "\"Is data being collected as part of a one time survey? If so, no longitudinal tracking is needed. Do you need to track information collected from many forms at different times, all related to the same subject (such as a patient, or a health center)? If so, do you need the system to manage the subject identification for you, or provide a limited profile on a subject? If so, chose \"some.\" If you need more advance longitudinal tracking, such as a full patient profile, or the ability to update a patient's profile from the field, select \"advanced.\""
+      }
+    },
+    "11": {
+      "1": {
+        "row": "11",
+        "col": "1",
+        "inputValue": "codeAccess",
+        "value": "codeAccess"
+      },
+      "2": {
+        "row": "11",
+        "col": "2",
+        "inputValue": "Access to Code",
+        "value": "Access to Code"
+      },
+      "3": {
+        "row": "11",
+        "col": "3",
+        "inputValue": "\"Are you planning to pass data to another platform that requires an API? Do you need to be able to have developers make customizations or additions to the source code for your project? Does your situation require using only open source code?\"",
+        "value": "\"Are you planning to pass data to another platform that requires an API? Do you need to be able to have developers make customizations or additions to the source code for your project? Does your situation require using only open source code?\""
+      }
+    }
+  }
+}

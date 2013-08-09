@@ -1,0 +1,156 @@
+{
+  "cells": {
+    "1": {
+      "1": {
+        "row": "1",
+        "col": "1",
+        "inputValue": "Product ID",
+        "value": "Product ID"
+      }
+    },
+    "2": {
+      "1": {
+        "row": "2",
+        "col": "1",
+        "inputValue": "kujualiteMuvuku",
+        "value": "kujualiteMuvuku"
+      }
+    },
+    "3": {
+      "1": {
+        "row": "3",
+        "col": "1",
+        "inputValue": "kujualiteSMS",
+        "value": "kujualiteSMS"
+      }
+    },
+    "4": {
+      "1": {
+        "row": "4",
+        "col": "1",
+        "inputValue": "kujuaMuvuku",
+        "value": "kujuaMuvuku"
+      }
+    },
+    "5": {
+      "1": {
+        "row": "5",
+        "col": "1",
+        "inputValue": "kujuaSMS",
+        "value": "kujuaSMS"
+      }
+    },
+    "6": {
+      "1": {
+        "row": "6",
+        "col": "1",
+        "inputValue": "formhubAndroid",
+        "value": "formhubAndroid"
+      }
+    },
+    "7": {
+      "1": {
+        "row": "7",
+        "col": "1",
+        "inputValue": "formhubSMS",
+        "value": "formhubSMS"
+      }
+    },
+    "8": {
+      "1": {
+        "row": "8",
+        "col": "1",
+        "inputValue": "datawinnersAndroid",
+        "value": "datawinnersAndroid"
+      }
+    },
+    "9": {
+      "1": {
+        "row": "9",
+        "col": "1",
+        "inputValue": "datawinnersSMS",
+        "value": "datawinnersSMS"
+      }
+    },
+    "10": {
+      "1": {
+        "row": "10",
+        "col": "1",
+        "inputValue": "kobo",
+        "value": "kobo"
+      }
+    },
+    "11": {
+      "1": {
+        "row": "11",
+        "col": "1",
+        "inputValue": "odk",
+        "value": "odk"
+      }
+    },
+    "12": {
+      "1": {
+        "row": "12",
+        "col": "1",
+        "inputValue": "commcareAndroid",
+        "value": "commcareAndroid"
+      }
+    },
+    "13": {
+      "1": {
+        "row": "13",
+        "col": "1",
+        "inputValue": "commcareJava",
+        "value": "commcareJava"
+      }
+    },
+    "14": {
+      "1": {
+        "row": "14",
+        "col": "1",
+        "inputValue": "magpi",
+        "value": "magpi"
+      }
+    },
+    "15": {
+      "1": {
+        "row": "15",
+        "col": "1",
+        "inputValue": "magpiPremium",
+        "value": "magpiPremium"
+      }
+    },
+    "16": {
+      "1": {
+        "row": "16",
+        "col": "1",
+        "inputValue": "magpiPremiumSMS",
+        "value": "magpiPremiumSMS"
+      }
+    },
+    "17": {
+      "1": {
+        "row": "17",
+        "col": "1",
+        "inputValue": "openxdataJava",
+        "value": "openxdataJava"
+      }
+    },
+    "18": {
+      "1": {
+        "row": "18",
+        "col": "1",
+        "inputValue": "openxdataSMS",
+        "value": "openxdataSMS"
+      }
+    },
+    "19": {
+      "1": {
+        "row": "19",
+        "col": "1",
+        "inputValue": "kookoo",
+        "value": "kookoo"
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "cells": {
+    "1": {
+      "1": {
+        "row": "1",
+        "col": "1",
+        "inputValue": "Category ID",
+        "value": "Category ID"
+      }
+    },
+    "2": {
+      "1": {
+        "row": "2",
+        "col": "1",
+        "inputValue": "='1: All Categories'!RC",
+        "value": "userFront"
+      }
+    },
+    "3": {
+      "1": {
+        "row": "3",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R[4]C",
+        "value": "delivery"
+      }
+    },
+    "4": {
+      "1": {
+        "row": "4",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R[4]C",
+        "value": "userBack"
+      }
+    },
+    "5": {
+      "1": {
+        "row": "5",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R[4]C",
+        "value": "viewData"
+      }
+    },
+    "6": {
+      "1": {
+        "row": "6",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R[4]C",
+        "value": "caseManagement"
+      }
+    },
+    "7": {
+      "1": {
+        "row": "7",
+        "col": "1",
+        "inputValue": "='1: All Categories'!R[4]C",
+        "value": "codeAccess"
+      }
+    }
+  }
+}
