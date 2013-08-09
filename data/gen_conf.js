@@ -29,8 +29,10 @@ switch (argv._[0]) {
 	case 'compCats':
 		break;
 	case 'constraints':
+		genConstraints();
 		break;
 	case 'phoneCats':
+		genPhoneCats();
 		break;
     default:
         console.error(usage);
@@ -43,7 +45,7 @@ function genTools() {
     var config = [],
         constraint_ids = {};
 
-    // take second row of tools constraints and create constraint_ids lookup
+    // take first row of tools constraints and create constraint_ids lookup
     // object. use column value in the key for easy lookup.
     _.each(tool_to_constraint.cells[1], function(constraint) {
         constraint_ids[constraint.col] = constraint.value;
@@ -91,7 +93,6 @@ function genTools() {
     console.log(JSON.stringify(config, null, 2));
 };
 
-
 function genAllCats() {
     var config = [];
 
@@ -120,8 +121,103 @@ function genAllCats() {
 		
 };
 
+//same concept for compcats
+function genPhoneCats() {
+	var config = [],
+		category_ids = {};
+	
+	_.each(p_to_c.cells, function(row, row_num) {
+	
+		// skip first row of spreadsheet
+        if (row_num == 1) return;
+	
+        category_ids[row - 1] = constraint.value;
+    });
+	
+	_.each(categories.cells, function(row, row_num) {
+        var category = {};
+		
+		// skip first row of spreadsheet
+        if (row_num == 1) return;
+		
+		_.each(row, function(col, col_num) {
+		
+            if (col_num == 1) {
+		
+				if (category_ids[col_num] == col.value) {
+					category['categoryID'] = col.value;
+				} else { return; }
+			} 
+
+            if (col_num == 2)
+                category['categoryLabel'] = col.value;
+
+            if (col_num == 3)
+                category['guidingQs'] = col.value;
+        });
+		
+		config.push(category);
+		
+	});
+	
+	console.log(JSON.stringify(config, null, 2));	
+	
+};
+
+function genConstraints() {
+	var config = [];
+
+	_.each(constraints.cells, function(row, row_num) {
+	
+	    var constraint = {};
+		
+		// skip first row of spreadsheet
+        if (row_num == 1) return;
+		
+		_.each(row, function(col, col_num) {
+			
+			switch (col_num) {
+				case 1:
+					constraint['categoryID'] = col.value;
+					break;
+				case 2:
+					constraint['subcategoryID'] = col.value;
+					break;
+				case 3:
+					constraint['subcategoryLabel'] = col.value;
+					break;
+				case 4:
+					constraint['constraintID'] = col.value;
+					break;
+				case 5:
+					constraint['constraintLabel'] = col.value;
+					break;
+				case 6:
+					constraint['imageLink'] = "img/constraints/" + col.value;
+					break;
+				case 7:
+					constraint['recommendations'] = col.value;
+					break;
+				case 8:
+					constraint['thingsToThinkAbout'] = col.value;
+					break;
+				default:
+					console.error("error! col_num does not exist");
+			}
+		});
+	
+		config.push(constraint);
+	
+	});
+
+	console.log(JSON.stringify(config, null, 2));	
+	
+};
+
 
 function genConfigs() {
     genTools();
 	genAllCats();
+	genConstraints();
+	genPhoneCats();
 };

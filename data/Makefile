@@ -27,4 +27,10 @@ json/tools.json: json/spreadsheets/tool_to_constraint.json
 json/allCats.json: json/spreadsheets/categories.json
 	./gen_conf.js allCats > json/allCats.json
 	
-configs: json/tools.json json/allCats.json
+json/phoneCats.json: json/spreadsheets/phone_to_computer.json
+	./gen_conf.js phoneCats > json/phoneCats.json
+
+json/constraints.json: json/spreadsheets/all_constraints.json
+	./gen_conf.js constraints > json/constraints.json
+	
+configs: json/tools.json json/allCats.json json/phoneCats.json json/constraints.json 
