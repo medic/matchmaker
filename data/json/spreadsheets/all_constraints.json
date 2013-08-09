@@ -74,6 +74,12 @@
         "col": "5",
         "inputValue": "Some",
         "value": "Some"
+      },
+      "6": {
+        "row": "2",
+        "col": "6",
+        "inputValue": "somecase.png",
+        "value": "somecase.png"
       }
     },
     "3": {
@@ -94,6 +100,12 @@
         "col": "5",
         "inputValue": "Advanced",
         "value": "Advanced"
+      },
+      "6": {
+        "row": "3",
+        "col": "6",
+        "inputValue": "advcase.png",
+        "value": "advcase.png"
       }
     },
     "4": {
@@ -114,6 +126,12 @@
         "col": "5",
         "inputValue": "API Available",
         "value": "API Available"
+      },
+      "6": {
+        "row": "4",
+        "col": "6",
+        "inputValue": "api.png",
+        "value": "api.png"
       }
     },
     "5": {
@@ -134,6 +152,12 @@
         "col": "5",
         "inputValue": "Open Source",
         "value": "Open Source"
+      },
+      "6": {
+        "row": "5",
+        "col": "6",
+        "inputValue": "opensource.png",
+        "value": "opensource.png"
       }
     },
     "6": {
@@ -158,8 +182,14 @@
       "5": {
         "row": "6",
         "col": "5",
-        "inputValue": "SMS ",
-        "value": "SMS"
+        "inputValue": "SMS Signal",
+        "value": "SMS Signal"
+      },
+      "6": {
+        "row": "6",
+        "col": "6",
+        "inputValue": "signal.png",
+        "value": "signal.png"
       }
     },
     "7": {
@@ -186,6 +216,12 @@
         "col": "5",
         "inputValue": "Mobile Internet",
         "value": "Mobile Internet"
+      },
+      "6": {
+        "row": "7",
+        "col": "6",
+        "inputValue": "mobilenet.png",
+        "value": "mobilenet.png"
       }
     },
     "8": {
@@ -212,6 +248,12 @@
         "col": "5",
         "inputValue": "Offline Data Entry",
         "value": "Offline Data Entry"
+      },
+      "6": {
+        "row": "8",
+        "col": "6",
+        "inputValue": "offline.png",
+        "value": "offline.png"
       }
     },
     "9": {
@@ -236,8 +278,14 @@
       "5": {
         "row": "9",
         "col": "5",
-        "inputValue": "cloud hosted",
-        "value": "cloud hosted"
+        "inputValue": "Cloud Hosted",
+        "value": "Cloud Hosted"
+      },
+      "6": {
+        "row": "9",
+        "col": "6",
+        "inputValue": "cloud.png",
+        "value": "cloud.png"
       }
     },
     "10": {
@@ -262,8 +310,14 @@
       "5": {
         "row": "10",
         "col": "5",
-        "inputValue": "local",
-        "value": "local"
+        "inputValue": "Locally Hosted",
+        "value": "Locally Hosted"
+      },
+      "6": {
+        "row": "10",
+        "col": "6",
+        "inputValue": "local.png",
+        "value": "local.png"
       }
     },
     "11": {
@@ -288,8 +342,14 @@
       "5": {
         "row": "11",
         "col": "5",
-        "inputValue": "sync to other instances",
-        "value": "sync to other instances"
+        "inputValue": "Sync to Other Instances",
+        "value": "Sync to Other Instances"
+      },
+      "6": {
+        "row": "11",
+        "col": "6",
+        "inputValue": "sync.png",
+        "value": "sync.png"
       }
     },
     "12": {
@@ -314,8 +374,14 @@
       "5": {
         "row": "12",
         "col": "5",
-        "inputValue": "easy installation",
-        "value": "easy installation"
+        "inputValue": "Easy Installation",
+        "value": "Easy Installation"
+      },
+      "6": {
+        "row": "12",
+        "col": "6",
+        "inputValue": "easyinstall.png",
+        "value": "easyinstall.png"
       }
     },
     "13": {
@@ -348,6 +414,12 @@
         "col": "5",
         "inputValue": "Apple",
         "value": "Apple"
+      },
+      "6": {
+        "row": "13",
+        "col": "6",
+        "inputValue": "ios.png",
+        "value": "ios.png"
       }
     },
     "14": {
@@ -380,6 +452,12 @@
         "col": "5",
         "inputValue": "Linux",
         "value": "Linux"
+      },
+      "6": {
+        "row": "14",
+        "col": "6",
+        "inputValue": "linux.png",
+        "value": "linux.png"
       }
     },
     "15": {
@@ -412,6 +490,12 @@
         "col": "5",
         "inputValue": "Windows",
         "value": "Windows"
+      },
+      "6": {
+        "row": "15",
+        "col": "6",
+        "inputValue": "windows.png",
+        "value": "windows.png"
       }
     },
     "16": {
@@ -432,6 +516,12 @@
         "col": "5",
         "inputValue": "SMS",
         "value": "SMS"
+      },
+      "6": {
+        "row": "16",
+        "col": "6",
+        "inputValue": "sms.png",
+        "value": "sms.png"
       }
     },
     "17": {
@@ -452,6 +542,12 @@
         "col": "5",
         "inputValue": "Voice",
         "value": "Voice"
+      },
+      "6": {
+        "row": "17",
+        "col": "6",
+        "inputValue": "voice.png",
+        "value": "voice.png"
       }
     },
     "18": {
@@ -472,6 +568,12 @@
         "col": "5",
         "inputValue": "Message Groups",
         "value": "Message Groups"
+      },
+      "6": {
+        "row": "18",
+        "col": "6",
+        "inputValue": "group.png",
+        "value": "group.png"
       }
     },
     "19": {
@@ -492,6 +594,12 @@
         "col": "5",
         "inputValue": "Scheduled Messages",
         "value": "Scheduled Messages"
+      },
+      "6": {
+        "row": "19",
+        "col": "6",
+        "inputValue": "scheduled.png",
+        "value": "scheduled.png"
       }
     },
     "20": {
@@ -510,8 +618,14 @@
       "5": {
         "row": "20",
         "col": "5",
-        "inputValue": "feature phone",
-        "value": "feature phone"
+        "inputValue": "Feature Phone",
+        "value": "Feature Phone"
+      },
+      "6": {
+        "row": "20",
+        "col": "6",
+        "inputValue": "feature.png",
+        "value": "feature.png"
       }
     },
     "21": {
@@ -530,8 +644,14 @@
       "5": {
         "row": "21",
         "col": "5",
-        "inputValue": "java phone",
-        "value": "java phone"
+        "inputValue": "Java Phone",
+        "value": "Java Phone"
+      },
+      "6": {
+        "row": "21",
+        "col": "6",
+        "inputValue": "java.png",
+        "value": "java.png"
       }
     },
     "22": {
@@ -552,6 +672,12 @@
         "col": "5",
         "inputValue": "Android ",
         "value": "Android"
+      },
+      "6": {
+        "row": "22",
+        "col": "6",
+        "inputValue": "android.png",
+        "value": "android.png"
       },
       "8": {
         "row": "22",
@@ -576,8 +702,14 @@
       "5": {
         "row": "23",
         "col": "5",
-        "inputValue": "iOS",
-        "value": "iOS"
+        "inputValue": "iPhone",
+        "value": "iPhone"
+      },
+      "6": {
+        "row": "23",
+        "col": "6",
+        "inputValue": "iphone.png",
+        "value": "iphone.png"
       },
       "8": {
         "row": "23",
@@ -604,6 +736,12 @@
         "col": "5",
         "inputValue": "Computer",
         "value": "Computer"
+      },
+      "6": {
+        "row": "24",
+        "col": "6",
+        "inputValue": "comp.png",
+        "value": "comp.png"
       }
     },
     "25": {
@@ -624,6 +762,12 @@
         "col": "5",
         "inputValue": "Required Questions",
         "value": "Required Questions"
+      },
+      "6": {
+        "row": "25",
+        "col": "6",
+        "inputValue": "reqd.png",
+        "value": "reqd.png"
       }
     },
     "26": {
@@ -644,6 +788,12 @@
         "col": "5",
         "inputValue": "Skip Logic",
         "value": "Skip Logic"
+      },
+      "6": {
+        "row": "26",
+        "col": "6",
+        "inputValue": "skip.png",
+        "value": "skip.png"
       }
     },
     "27": {
@@ -664,6 +814,12 @@
         "col": "5",
         "inputValue": "Numeric Range Checks",
         "value": "Numeric Range Checks"
+      },
+      "6": {
+        "row": "27",
+        "col": "6",
+        "inputValue": "range.png",
+        "value": "range.png"
       }
     },
     "28": {
@@ -684,6 +840,12 @@
         "col": "5",
         "inputValue": "Repeatable Sections",
         "value": "Repeatable Sections"
+      },
+      "6": {
+        "row": "28",
+        "col": "6",
+        "inputValue": "repeat.png",
+        "value": "repeat.png"
       }
     },
     "29": {
@@ -704,6 +866,12 @@
         "col": "5",
         "inputValue": "Calculate",
         "value": "Calculate"
+      },
+      "6": {
+        "row": "29",
+        "col": "6",
+        "inputValue": "calc.png",
+        "value": "calc.png"
       }
     },
     "30": {
@@ -724,6 +892,12 @@
         "col": "5",
         "inputValue": "Cascading Select",
         "value": "Cascading Select"
+      },
+      "6": {
+        "row": "30",
+        "col": "6",
+        "inputValue": "cascade.png",
+        "value": "cascade.png"
       }
     },
     "31": {
@@ -744,6 +918,12 @@
         "col": "5",
         "inputValue": "Multimedia Play in Field",
         "value": "Multimedia Play in Field"
+      },
+      "6": {
+        "row": "31",
+        "col": "6",
+        "inputValue": "playmedia.png",
+        "value": "playmedia.png"
       }
     },
     "32": {
@@ -762,8 +942,14 @@
       "5": {
         "row": "32",
         "col": "5",
-        "inputValue": "Data from backend server",
-        "value": "Data from backend server"
+        "inputValue": "Data from Backend Server",
+        "value": "Data from Backend Server"
+      },
+      "6": {
+        "row": "32",
+        "col": "6",
+        "inputValue": "backenddata.png",
+        "value": "backenddata.png"
       }
     },
     "33": {
@@ -784,6 +970,12 @@
         "col": "5",
         "inputValue": "Forms Editable During Collection Campaign",
         "value": "Forms Editable During Collection Campaign"
+      },
+      "6": {
+        "row": "33",
+        "col": "6",
+        "inputValue": "editform.png",
+        "value": "editform.png"
       }
     },
     "34": {
@@ -814,8 +1006,14 @@
       "5": {
         "row": "34",
         "col": "5",
-        "inputValue": "1-5 questions",
-        "value": "1-5 questions"
+        "inputValue": "1-5 Questions",
+        "value": "1-5 Questions"
+      },
+      "6": {
+        "row": "34",
+        "col": "6",
+        "inputValue": "upto5q.png",
+        "value": "upto5q.png"
       }
     },
     "35": {
@@ -846,8 +1044,14 @@
       "5": {
         "row": "35",
         "col": "5",
-        "inputValue": "5-30 questions",
-        "value": "5-30 questions"
+        "inputValue": "5-30 Questions",
+        "value": "5-30 Questions"
+      },
+      "6": {
+        "row": "35",
+        "col": "6",
+        "inputValue": "upto30q.png",
+        "value": "upto30q.png"
       }
     },
     "36": {
@@ -878,8 +1082,14 @@
       "5": {
         "row": "36",
         "col": "5",
-        "inputValue": "30 plus questions",
-        "value": "30 plus questions"
+        "inputValue": "30+ Questions",
+        "value": "30+ Questions"
+      },
+      "6": {
+        "row": "36",
+        "col": "6",
+        "inputValue": "morethan30q.png",
+        "value": "morethan30q.png"
       }
     },
     "37": {
@@ -898,8 +1108,14 @@
       "5": {
         "row": "37",
         "col": "5",
-        "inputValue": "SMS from any phone",
-        "value": "SMS from any phone"
+        "inputValue": "SMS from Any Phone",
+        "value": "SMS from Any Phone"
+      },
+      "6": {
+        "row": "37",
+        "col": "6",
+        "inputValue": "smschannel.png",
+        "value": "smschannel.png"
       }
     },
     "38": {
@@ -930,8 +1146,14 @@
       "5": {
         "row": "38",
         "col": "5",
-        "inputValue": "text",
-        "value": "text"
+        "inputValue": "Text",
+        "value": "Text"
+      },
+      "6": {
+        "row": "38",
+        "col": "6",
+        "inputValue": "text.png",
+        "value": "text.png"
       }
     },
     "39": {
@@ -962,8 +1184,14 @@
       "5": {
         "row": "39",
         "col": "5",
-        "inputValue": "numeric",
-        "value": "numeric"
+        "inputValue": "Numeric",
+        "value": "Numeric"
+      },
+      "6": {
+        "row": "39",
+        "col": "6",
+        "inputValue": "numeric.png",
+        "value": "numeric.png"
       }
     },
     "40": {
@@ -994,8 +1222,14 @@
       "5": {
         "row": "40",
         "col": "5",
-        "inputValue": "select one",
-        "value": "select one"
+        "inputValue": "Select One",
+        "value": "Select One"
+      },
+      "6": {
+        "row": "40",
+        "col": "6",
+        "inputValue": "selone.png",
+        "value": "selone.png"
       }
     },
     "41": {
@@ -1026,8 +1260,14 @@
       "5": {
         "row": "41",
         "col": "5",
-        "inputValue": "select multiple",
-        "value": "select multiple"
+        "inputValue": "Select Multiple",
+        "value": "Select Multiple"
+      },
+      "6": {
+        "row": "41",
+        "col": "6",
+        "inputValue": "selmult.png",
+        "value": "selmult.png"
       }
     },
     "42": {
@@ -1058,8 +1298,14 @@
       "5": {
         "row": "42",
         "col": "5",
-        "inputValue": "time",
-        "value": "time"
+        "inputValue": "Time",
+        "value": "Time"
+      },
+      "6": {
+        "row": "42",
+        "col": "6",
+        "inputValue": "time.png",
+        "value": "time.png"
       }
     },
     "43": {
@@ -1090,8 +1336,14 @@
       "5": {
         "row": "43",
         "col": "5",
-        "inputValue": "date",
-        "value": "date"
+        "inputValue": "Date",
+        "value": "Date"
+      },
+      "6": {
+        "row": "43",
+        "col": "6",
+        "inputValue": "date.png",
+        "value": "date.png"
       }
     },
     "44": {
@@ -1122,8 +1374,14 @@
       "5": {
         "row": "44",
         "col": "5",
-        "inputValue": "photo",
-        "value": "photo"
+        "inputValue": "Photo",
+        "value": "Photo"
+      },
+      "6": {
+        "row": "44",
+        "col": "6",
+        "inputValue": "photo.png",
+        "value": "photo.png"
       }
     },
     "45": {
@@ -1156,6 +1414,12 @@
         "col": "5",
         "inputValue": "GPS",
         "value": "GPS"
+      },
+      "6": {
+        "row": "45",
+        "col": "6",
+        "inputValue": "gps.png",
+        "value": "gps.png"
       }
     },
     "46": {
@@ -1186,8 +1450,14 @@
       "5": {
         "row": "46",
         "col": "5",
-        "inputValue": "barcode",
-        "value": "barcode"
+        "inputValue": "Barcode",
+        "value": "Barcode"
+      },
+      "6": {
+        "row": "46",
+        "col": "6",
+        "inputValue": "barcode.png",
+        "value": "barcode.png"
       }
     },
     "47": {
@@ -1218,8 +1488,14 @@
       "5": {
         "row": "47",
         "col": "5",
-        "inputValue": "audio",
-        "value": "audio"
+        "inputValue": "Audio",
+        "value": "Audio"
+      },
+      "6": {
+        "row": "47",
+        "col": "6",
+        "inputValue": "audio.png",
+        "value": "audio.png"
       }
     },
     "48": {
@@ -1250,8 +1526,14 @@
       "5": {
         "row": "48",
         "col": "5",
-        "inputValue": "video",
-        "value": "video"
+        "inputValue": "Video",
+        "value": "Video"
+      },
+      "6": {
+        "row": "48",
+        "col": "6",
+        "inputValue": "video.png",
+        "value": "video.png"
       }
     },
     "49": {
@@ -1272,6 +1554,12 @@
         "col": "5",
         "inputValue": "CHW",
         "value": "CHW"
+      },
+      "6": {
+        "row": "49",
+        "col": "6",
+        "inputValue": "chw.png",
+        "value": "chw.png"
       },
       "9": {
         "row": "49",
@@ -1298,6 +1586,12 @@
         "col": "5",
         "inputValue": "Facility Based Health Worker",
         "value": "Facility Based Health Worker"
+      },
+      "6": {
+        "row": "50",
+        "col": "6",
+        "inputValue": "fbhw.png",
+        "value": "fbhw.png"
       }
     },
     "51": {
@@ -1316,8 +1610,14 @@
       "5": {
         "row": "51",
         "col": "5",
-        "inputValue": "patient",
-        "value": "patient"
+        "inputValue": "Patient",
+        "value": "Patient"
+      },
+      "6": {
+        "row": "51",
+        "col": "6",
+        "inputValue": "patient.png",
+        "value": "patient.png"
       }
     },
     "52": {
@@ -1336,8 +1636,8 @@
       "5": {
         "row": "52",
         "col": "5",
-        "inputValue": "caregiver",
-        "value": "caregiver"
+        "inputValue": "Caregiver",
+        "value": "Caregiver"
       }
     },
     "53": {
@@ -1356,8 +1656,8 @@
       "5": {
         "row": "53",
         "col": "5",
-        "inputValue": "community member",
-        "value": "community member"
+        "inputValue": "Community Member",
+        "value": "Community Member"
       }
     },
     "54": {
@@ -1378,6 +1678,12 @@
         "col": "5",
         "inputValue": "Data Analyst",
         "value": "Data Analyst"
+      },
+      "6": {
+        "row": "54",
+        "col": "6",
+        "inputValue": "dataguy.png",
+        "value": "dataguy.png"
       }
     },
     "55": {
@@ -1398,6 +1704,12 @@
         "col": "5",
         "inputValue": "NGO Worker",
         "value": "NGO Worker"
+      },
+      "6": {
+        "row": "55",
+        "col": "6",
+        "inputValue": "ngo.png",
+        "value": "ngo.png"
       }
     },
     "56": {
@@ -1418,6 +1730,12 @@
         "col": "5",
         "inputValue": "Policy Maker",
         "value": "Policy Maker"
+      },
+      "6": {
+        "row": "56",
+        "col": "6",
+        "inputValue": "policy.png",
+        "value": "policy.png"
       }
     },
     "57": {
@@ -1438,6 +1756,12 @@
         "col": "5",
         "inputValue": "Easy Formbuilding",
         "value": "Easy Formbuilding"
+      },
+      "6": {
+        "row": "57",
+        "col": "6",
+        "inputValue": "formeasy.png",
+        "value": "formeasy.png"
       }
     },
     "58": {
@@ -1470,6 +1794,12 @@
         "col": "5",
         "inputValue": "No IT Staff For Maintenance",
         "value": "No IT Staff For Maintenance"
+      },
+      "6": {
+        "row": "58",
+        "col": "6",
+        "inputValue": "nostaff.png",
+        "value": "nostaff.png"
       }
     },
     "59": {
@@ -1490,6 +1820,12 @@
         "col": "5",
         "inputValue": "CHW",
         "value": "CHW"
+      },
+      "6": {
+        "row": "59",
+        "col": "6",
+        "inputValue": "chw.png",
+        "value": "chw.png"
       }
     },
     "60": {
@@ -1510,6 +1846,12 @@
         "col": "5",
         "inputValue": "Facility Based Health Worker",
         "value": "Facility Based Health Worker"
+      },
+      "6": {
+        "row": "60",
+        "col": "6",
+        "inputValue": "fbhw.png",
+        "value": "fbhw.png"
       }
     },
     "61": {
@@ -1530,6 +1872,12 @@
         "col": "5",
         "inputValue": "Patient",
         "value": "Patient"
+      },
+      "6": {
+        "row": "61",
+        "col": "6",
+        "inputValue": "patient.png",
+        "value": "patient.png"
       },
       "7": {
         "row": "61",
@@ -1606,8 +1954,14 @@
       "5": {
         "row": "64",
         "col": "5",
-        "inputValue": "Easy",
-        "value": "Easy"
+        "inputValue": "Easy to Use",
+        "value": "Easy to Use"
+      },
+      "6": {
+        "row": "64",
+        "col": "6",
+        "inputValue": "easyuse.png",
+        "value": "easyuse.png"
       },
       "9": {
         "row": "64",
@@ -1647,6 +2001,12 @@
         "inputValue": "Little Training Time Available",
         "value": "Little Training Time Available"
       },
+      "6": {
+        "row": "65",
+        "col": "6",
+        "inputValue": "littletraining.png",
+        "value": "littletraining.png"
+      },
       "9": {
         "row": "65",
         "col": "9",
@@ -1684,6 +2044,12 @@
         "col": "5",
         "inputValue": "CSV",
         "value": "CSV"
+      },
+      "6": {
+        "row": "66",
+        "col": "6",
+        "inputValue": "csv.png",
+        "value": "csv.png"
       }
     },
     "67": {
@@ -1716,6 +2082,12 @@
         "col": "5",
         "inputValue": "XLS",
         "value": "XLS"
+      },
+      "6": {
+        "row": "67",
+        "col": "6",
+        "inputValue": "xls.png",
+        "value": "xls.png"
       }
     },
     "68": {
@@ -1748,6 +2120,12 @@
         "col": "5",
         "inputValue": "KML",
         "value": "KML"
+      },
+      "6": {
+        "row": "68",
+        "col": "6",
+        "inputValue": "kml.png",
+        "value": "kml.png"
       }
     },
     "69": {
@@ -1780,6 +2158,12 @@
         "col": "5",
         "inputValue": "Access",
         "value": "Access"
+      },
+      "6": {
+        "row": "69",
+        "col": "6",
+        "inputValue": "maccess.png",
+        "value": "maccess.png"
       }
     },
     "70": {
@@ -1812,6 +2196,12 @@
         "col": "5",
         "inputValue": "PDF",
         "value": "PDF"
+      },
+      "6": {
+        "row": "70",
+        "col": "6",
+        "inputValue": "pdf.png",
+        "value": "pdf.png"
       }
     },
     "71": {
@@ -1844,6 +2234,12 @@
         "col": "5",
         "inputValue": "JSON",
         "value": "JSON"
+      },
+      "6": {
+        "row": "71",
+        "col": "6",
+        "inputValue": "json.png",
+        "value": "json.png"
       }
     },
     "72": {
@@ -1874,8 +2270,14 @@
       "5": {
         "row": "72",
         "col": "5",
-        "inputValue": "list records",
-        "value": "list records"
+        "inputValue": "List Records",
+        "value": "List Records"
+      },
+      "6": {
+        "row": "72",
+        "col": "6",
+        "inputValue": "listrecords.png",
+        "value": "listrecords.png"
       }
     },
     "73": {
@@ -1906,8 +2308,14 @@
       "5": {
         "row": "73",
         "col": "5",
-        "inputValue": "mapping ",
-        "value": "mapping"
+        "inputValue": "Mapping",
+        "value": "Mapping"
+      },
+      "6": {
+        "row": "73",
+        "col": "6",
+        "inputValue": "mapping.png",
+        "value": "mapping.png"
       }
     },
     "74": {
@@ -1940,6 +2348,12 @@
         "col": "5",
         "inputValue": "Records Editable",
         "value": "Records Editable"
+      },
+      "6": {
+        "row": "74",
+        "col": "6",
+        "inputValue": "editrecords.png",
+        "value": "editrecords.png"
       }
     },
     "75": {
@@ -1970,8 +2384,14 @@
       "5": {
         "row": "75",
         "col": "5",
-        "inputValue": "some basic analysis",
-        "value": "some basic analysis"
+        "inputValue": "Some Basic Analysis",
+        "value": "Some Basic Analysis"
+      },
+      "6": {
+        "row": "75",
+        "col": "6",
+        "inputValue": "basicanalysis.png",
+        "value": "basicanalysis.png"
       }
     },
     "76": {
@@ -2002,8 +2422,14 @@
       "5": {
         "row": "76",
         "col": "5",
-        "inputValue": "customizeable analysis",
-        "value": "customizeable analysis"
+        "inputValue": "Customizeable Analysis",
+        "value": "Customizeable Analysis"
+      },
+      "6": {
+        "row": "76",
+        "col": "6",
+        "inputValue": "customanalysis.png",
+        "value": "customanalysis.png"
       }
     }
   }

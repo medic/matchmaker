@@ -30,7 +30,10 @@ json/allCats.json: json/spreadsheets/categories.json
 json/phoneCats.json: json/spreadsheets/phone_to_computer.json
 	./gen_conf.js phoneCats > json/phoneCats.json
 
+json/compCats.json: json/spreadsheets/computer_to_phone.json
+	./gen_conf.js compCats > json/compCats.json
+
 json/constraints.json: json/spreadsheets/all_constraints.json
 	./gen_conf.js constraints > json/constraints.json
 	
-configs: json/tools.json json/allCats.json json/phoneCats.json json/constraints.json 
+configs: json/tools.json json/allCats.json json/phoneCats.json json/compCats.json json/constraints.json 

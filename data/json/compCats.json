@@ -5,26 +5,6 @@
     "guidingQs": "Who will be the front-end (mobile phone) users of this tool? Different tools are more appropriate for different types of users. We will make recommendations based on our best practices. Does the system need to be extremely easy to use? Is there very limited training time available for front-end users?"
   },
   {
-    "categoryID": "phone",
-    "categoryLabel": "Type of Phone",
-    "guidingQs": "What type of phone are you most likely to use for this project? Will users be using phones they already have? If so, what type of phone do they already have? If not, do you have budget to buy phones for this project? If so, select the option you are most likely to purchase."
-  },
-  {
-    "categoryID": "questionnaireBasic",
-    "categoryLabel": "Questionnaire Basics",
-    "guidingQs": "How many questions will you be collecting on a single form? What types of information will you be collecting? Keep in mind, certain features will be limited by the phone you use to collect data, and not by the software."
-  },
-  {
-    "categoryID": "questionnaireAdvanced",
-    "categoryLabel": "Advanced Questionnaire Features",
-    "guidingQs": "What types of special features do you need to have included in your form?"
-  },
-  {
-    "categoryID": "connectivity",
-    "categoryLabel": "Connectivity Requirements",
-    "guidingQs": "There are many things to keep in mind when deciding between cloud hosting and a local instal. Local installs most likely require more time and IT skills to get the software up and running. Do you have access to at least a short term resource to assist in installing software?"
-  },
-  {
     "categoryID": "delivery",
     "categoryLabel": "Message Delivery",
     "guidingQs": "When the system sends messages to your front end users, is there a requirement for them to come over voice or SMS? Do the messages need to be sent according to a certain schedule? Do you need to message groups of many people at a time, or just individuals?"

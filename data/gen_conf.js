@@ -27,12 +27,13 @@ switch (argv._[0]) {
 		genAllCats();
 		break;
 	case 'compCats':
+		genSomeCats("comp");
 		break;
 	case 'constraints':
 		genConstraints();
 		break;
 	case 'phoneCats':
-		genPhoneCats();
+		genSomeCats("phone");
 		break;
     default:
         console.error(usage);
@@ -122,19 +123,30 @@ function genAllCats() {
 		
 };
 
-//same concept for compcats
-function genPhoneCats() {
+
+function genSomeCats(str) {
 	var config = [],
-		category_ids = {};
+		category_ids = {},
+		sheet;
+
+	if (str == "comp")
+		sheet = c_to_p;
+	if (str == "phone")
+		sheet = p_to_c;
 	
-	_.each(p_to_c.cells, function(row, row_num) {
+	_.each(sheet.cells, function(row, row_num) {
 	
 		// skip first row of spreadsheet
         if (row_num == 1) return;
 	
-        category_ids[row - 1] = row.value;
+        category_ids[row_num] = row[1].value;
+
+
+	
     });
 	
+	var id = 2;
+		
 	_.each(categories.cells, function(row, row_num) {
         var category = {};
 		
@@ -143,11 +155,12 @@ function genPhoneCats() {
 		
 		_.each(row, function(col, col_num) {
 		
+
             if (col_num == 1) {
-		
-				if (category_ids[col_num] == col.value) {
+				if (category_ids[id] == col.value) {	
 					category['categoryID'] = col.value;
-				} else { return; }
+					id++;
+				} else { return true; }
 			} 
 
             if (col_num == 2)
@@ -156,8 +169,8 @@ function genPhoneCats() {
             if (col_num == 3)
                 category['guidingQs'] = col.value;
         });
-		
-		config.push(category);
+		if (category['categoryID'])
+			config.push(category);
 		
 	});
 	
@@ -215,5 +228,6 @@ function genConfigs() {
     genTools();
 	genAllCats();
 	genConstraints();
-	genPhoneCats();
+	genSomeCats("comp");
+	genSomeCats("phone");
 };
