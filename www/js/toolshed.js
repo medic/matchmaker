@@ -269,7 +269,8 @@
 				//make an array, add product name to array if the array does not yet contain it, then proceed to make dom elements
 				//if product name is already in array, return (skip to next iteration)
 				
-				$("fieldset#tech").append('<p id="' + d.productID + '"><a href="' + d.productLink + '" target="_blank">' + d.productName + '</a></p>');
+				$("fieldset#tech > section").append('<p id="' + d.productID + '"><a href="' + 
+					d.productLink + '" target="_blank">' + d.productName + '</a></p>');
 			});
 		}
 		
@@ -324,6 +325,15 @@
 			
 			// Update UI with counter
 			$("small#counter").text("(" + counter +")");
+			
+			// Display message if all tools eliminated
+			if (counter == 0) {
+				$("fieldset#tech > section").append('<div id="nomatch" class="alert">No match. Consider which constraints and assets you really need.</div>');
+			} else {
+				$("div#nomatch").remove();
+			}
+			
+			
 		}
 		
 		
