@@ -178,17 +178,9 @@ img.selected:hover,i mg.selected:focus, img.deselected:hover, img.deselected:foc
 /* Left Side */
 section.aside {
 	display:inline-block;
-	margin:0px 50px 0px 0px;
+	margin:0px 20px 0px 0px;
 	
 	width:420px;/* 420*/
-	vertical-align:top;
-}
-
-section.middle {
-	display:inline-block;
-	margin:0px 40px 0px 0px;
-	
-	width:370px;
 	vertical-align:top;
 }
 
@@ -253,9 +245,9 @@ figcaption {
 /* Right Side */
 section.asideoffset {
 	display:inline-block;
-	margin-left:0px;
+	margin-left:40px;
 
-	width:350px; /*780*/
+	width:780px; 
 	vertical-align:top;	
 }
 
@@ -269,7 +261,7 @@ p#noSelect {
 	color:#777777;
 }
 
-fieldset#tech {
+fieldset#tech, fieldset#ttta {
 	margin:0px;
 	border-radius: 10px;
 	border:3px solid #F00;

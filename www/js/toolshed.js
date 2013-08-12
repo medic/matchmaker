@@ -20,37 +20,40 @@
 		constraints,
 		tools,
 		counter; // number of tools currently available to user
+		
+		
+		//js/json/phoneCats.json
 	
 	if (!phoneCats) {
-		$.getJSON("js/json/phoneCats.json", function(data) {	//../data/json/phoneCats.json
+		$.getJSON("../data/json/phoneCats.json", function(data) {	//../data/json/phoneCats.json
 			localStorage.setItem('phoneCats', JSON.stringify(data));	
 			phoneCats = JSON.parse(localStorage.getItem('phoneCats'));
 		});
 	} 
 	
 	if (!compCats) {
-		$.getJSON("js/json/compCats.json", function(data) {
+		$.getJSON("../data/json/compCats.json", function(data) {
 			localStorage.setItem('compCats', JSON.stringify(data));	
 			compCats = JSON.parse(localStorage.getItem('compCats'));			
 		});
 	}
 	
 	if (!allCats) {
-		$.getJSON("js/json/allCats.json", function(data) {
+		$.getJSON("../data/json/allCats.json", function(data) {
 			localStorage.setItem('allCats', JSON.stringify(data));				
 			allCats = JSON.parse(localStorage.getItem('allCats'));
 		});
 	} 
 	
 	if (!constraints) {
-		$.getJSON("js/json/constraints.json", function(data) {
+		$.getJSON("../data/json/constraints.json", function(data) {
 			localStorage.setItem('constraints', JSON.stringify(data));
 			constraints = JSON.parse(localStorage.getItem('constraints'));				
 		});
 	}
 	
 	if (!tools) {
-		$.getJSON("js/json/tools.json", function(data) {
+		$.getJSON("../data/json/tools.json", function(data) {
 			localStorage.setItem('tools', JSON.stringify(data));
 			tools = JSON.parse(localStorage.getItem('tools'));
 		});
@@ -78,42 +81,41 @@
 			// Add the constraint if the image clicked is inside a category pane
 			if (($(container).attr('id')).match(/[a-zA-Z]+Constraints$/) != null) {			
 			
-				var attr = $(figure).attr('id');
+				var constraintID = $(figure).attr('id');
 			
 				// But don't add it more than once
-				if ($("section#userselected").has("figure#" + attr + "Sel").length == 0) {
+				if ($("section#userselected").has("figure#" + constraintID + "Sel").length == 0) {
 					$("p#noSelect").remove();
 					
-					$("section#userselected").prepend($(figure).clone(true).attr("id", attr + "Sel"));
-					$("figure#" + attr + "Sel > img").after('<span class="close">&times;</span>');
-					$("figure#" + attr + "Sel > img").css("cursor", "default");
+					$("section#userselected").prepend($(figure).clone(true).attr("id", constraintID + "Sel"));
+					$("figure#" + constraintID + "Sel > img").after('<span class="close">&times;</span>');
+					$("figure#" + constraintID + "Sel > img").css("cursor", "default");
 					
-					updateTools(attr, $(container).attr('id')); // Update list of tech options
-				}		
+					updateTools(constraintID, $(container).attr('id')); // Update list of tech options
+				}
+				
+				// Reduce opacity of constraint in category pane
+				$("figure#" + constraintID + " > img").css({
+					"opacity":"0.4",
+					"filter":"alpha(opacity=40)",
+					"cursor":"default"
+				});				
 			}			
-			
-			// Reduce opacity of constraint in category pane
-			$("figure#" + attr + " > img").css({
-				"opacity":"0.4",
-				"filter":"alpha(opacity=40)",
-				"cursor":"default"
-			});
-
 		});
 		
 		// REMOVING constraints
 		$.listen('click', 'span.close', function() {
 
 			var figure = $(this).parent(),
-				attr = $(figure).attr('id').replace("Sel", ""),
+				constraintID = $(figure).attr('id').replace("Sel", ""),
 				container = $(this).parent().parent();
 				
-			updateTools(attr, $(container).attr('id')); // Update list of tech options first before removing!
+			updateTools(constraintID, $(container).attr('id')); // Update list of tech options first before removing!
 			$(figure).remove();
 			noConstraintsSel();
 			
 			// Restore opacity of constraint in category pane
-			$("figure#" + attr + " > img").css({
+			$("figure#" + constraintID + " > img").css({
 				"opacity":"1.0",
 				"filter":"alpha(opacity=100)",
 				"cursor":"pointer"
@@ -216,6 +218,9 @@
 					$("img#selected").attr("src", src);
 					$("img#selected").attr("name", name);
 					
+					$("ul.dropdown-menu > li > img").attr("class", "deselected drop");
+					$("img#" + name).attr("class", "selected drop");
+					
 					loadCategories(window[cat]);
 			}
 		}
@@ -259,40 +264,69 @@
 		
 		function loadTools() {
 			$.each(tools, function(index, d) {
+			
+				//check for duplicate productNames
+				//make an array, add product name to array if the array does not yet contain it, then proceed to make dom elements
+				//if product name is already in array, return (skip to next iteration)
+				
 				$("fieldset#tech").append('<p id="' + d.productID + '"><a href="' + d.productLink + '" target="_blank">' + d.productName + '</a></p>');
 			});
 		}
 		
 		
 		// REFRESH the list of available tools
-		function updateTools(attr, containerID) {
+		function updateTools(constraintID, containerID) {
 			
-			$.each(tools, function(index, data) {
-				if (data[attr] == "false") {
+			$.each(tools, function(index, tool) {
 				
-					// only decrease the counter if the tech option hasn't been eliminated yet
-					if ((!($("p#" + data.productID).css("display") == "none")) && (containerID.match(/[a-zA-Z]+Constraints$/) != null)) {
-						$("p#" + data.productID).hide();
-						counter--;
-					}
+				var false_array = JSON.parse(sessionStorage.getItem(tool.productID));
 				
-					// only increase the counter if the tech option hasn't been added back yet
-					if (($("p#" + data.productID).css("display") == "none") && (containerID.match(/^userselected$/) != null)) {
-						$("p#" + data.productID).show();
-						counter++;
+				if (!false_array) {
+					false_array = [];
+				} 
+				
+				
+				if (!tool[constraintID]) {		
+		
+					// constraint was added
+					if (containerID.match(/[a-zA-Z]+Constraints$/) != null) {
 						
-						// don't add the tech option back until all the constraints that equal false are removed
+						false_array.push(constraintID);
 						
-					}
-					
+						// only decrease the counter if the tech option hasn't been eliminated yet
+						if (!($("p#" + tool.productID).css("display") == "none")) {
 
+							$("p#" + tool.productID).hide();
+							counter--;
+						}
+					}
 				
-				}
+					// constraint was removed
+					if (($("p#" + tool.productID).css("display") == "none") && (containerID.match(/^userselected$/) != null)) {
+						
+						var i = $.inArray(constraintID, false_array);					
+										
+						if (i>-1) {
+							false_array.splice(i, 1);
+						}
+				
+						// don't add the tech option back or increase the counter until all the constraints that equal false for that option are removed
+						if (false_array.length == 0) {
+							$("p#" + tool.productID).show();
+							counter++;
+						}				
+					}
+			
+				sessionStorage.setItem(tool.productID, JSON.stringify(false_array));
+				
+				}	
 			});	
 			
 			// Update UI with counter
 			$("small#counter").text("(" + counter +")");
 		}
+		
+		
 		
 	});
 
