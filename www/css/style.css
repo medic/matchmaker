@@ -279,7 +279,7 @@ fieldset#tech > legend {
 	color: #6184ED;
 }
 
-fieldset#tech > section{
+fieldset#tech > section {
 	margin-right:-30px;
 	height:330px;
 	overflow-x:hidden;
@@ -290,20 +290,26 @@ small {
 	color: #AAAAAA;
 }
 
-fieldset#tech > p {
+fieldset#tech > section > p {
 	display: inline-block;
-	width: 50%;	
+	width: 25%;	
 }
 
-fieldset#tech > p > a {
+fieldset#tech > section > p > a {
 	font-family: 'ShadowsIntoLight', 'Arial';
 	font-size: 20pt;
 	color: #000000;
 	text-decoration: underline;
 }
 
-fieldset#tech > p > a:hover {
+fieldset#tech > section > p > a:hover {
 	color: #AAAAAA;
+}
+
+a#sum {
+	text-decoration: none;
+	margin: 20px 0px;
+	float:right;
 }
 
 
