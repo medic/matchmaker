@@ -462,8 +462,8 @@
       "1": {
         "row": "2",
         "col": "1",
-        "inputValue": "kujualite",
-        "value": "kujualite"
+        "inputValue": "kujualiteMuvuku",
+        "value": "kujualiteMuvuku"
       },
       "2": {
         "row": "2",
@@ -606,8 +606,8 @@
       "26": {
         "row": "2",
         "col": "26",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "27": {
         "row": "2",
@@ -735,12 +735,6 @@
         "inputValue": "TRUE",
         "value": "TRUE"
       },
-      "49": {
-        "row": "2",
-        "col": "49",
-        "inputValue": "FALSE",
-        "value": "FALSE"
-      },
       "50": {
         "row": "2",
         "col": "50",
@@ -810,8 +804,8 @@
       "61": {
         "row": "2",
         "col": "61",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "62": {
         "row": "2",
@@ -822,8 +816,8 @@
       "63": {
         "row": "2",
         "col": "63",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "64": {
         "row": "2",
@@ -834,8 +828,8 @@
       "65": {
         "row": "2",
         "col": "65",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "66": {
         "row": "2",
@@ -908,14 +902,14 @@
       "1": {
         "row": "3",
         "col": "1",
-        "inputValue": "kujua",
-        "value": "kujua"
+        "inputValue": "kujualiteSMS",
+        "value": "kujualiteSMS"
       },
       "2": {
         "row": "3",
         "col": "2",
-        "inputValue": "Kujua",
-        "value": "Kujua"
+        "inputValue": "Kujua Lite",
+        "value": "Kujua Lite"
       },
       "3": {
         "row": "3",
@@ -938,8 +932,8 @@
       "7": {
         "row": "3",
         "col": "7",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "8": {
         "row": "3",
@@ -992,8 +986,8 @@
       "16": {
         "row": "3",
         "col": "16",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "17": {
         "row": "3",
@@ -1010,8 +1004,8 @@
       "19": {
         "row": "3",
         "col": "19",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "20": {
         "row": "3",
@@ -1088,8 +1082,8 @@
       "33": {
         "row": "3",
         "col": "33",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "34": {
         "row": "3",
@@ -1100,14 +1094,14 @@
       "35": {
         "row": "3",
         "col": "35",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "36": {
         "row": "3",
         "col": "36",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "37": {
         "row": "3",
@@ -1118,8 +1112,8 @@
       "38": {
         "row": "3",
         "col": "38",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "39": {
         "row": "3",
@@ -1142,8 +1136,8 @@
       "42": {
         "row": "3",
         "col": "42",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "43": {
         "row": "3",
@@ -1166,14 +1160,14 @@
       "46": {
         "row": "3",
         "col": "46",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "47": {
         "row": "3",
         "col": "47",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "48": {
         "row": "3",
@@ -1202,8 +1196,8 @@
       "52": {
         "row": "3",
         "col": "52",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "53": {
         "row": "3",
@@ -1244,14 +1238,14 @@
       "59": {
         "row": "3",
         "col": "59",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "60": {
         "row": "3",
         "col": "60",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "61": {
         "row": "3",
@@ -1354,20 +1348,20 @@
       "1": {
         "row": "4",
         "col": "1",
-        "inputValue": "formhub",
-        "value": "formhub"
+        "inputValue": "kujuaMuvuku",
+        "value": "kujuaMuvuku"
       },
       "2": {
         "row": "4",
         "col": "2",
-        "inputValue": "FormHub",
-        "value": "FormHub"
+        "inputValue": "Kujua",
+        "value": "Kujua"
       },
       "3": {
         "row": "4",
         "col": "3",
-        "inputValue": "https://formhub.org/",
-        "value": "https://formhub.org/"
+        "inputValue": "http://medicmobile.org/tools/",
+        "value": "http://medicmobile.org/tools/"
       },
       "5": {
         "row": "4",
@@ -1378,8 +1372,8 @@
       "6": {
         "row": "4",
         "col": "6",
-        "inputValue": "FALSE",
-        "value": "FALSE"
+        "inputValue": "TRUE",
+        "value": "TRUE"
       },
       "7": {
         "row": "4",
@@ -1408,8 +1402,8 @@
       "11": {
         "row": "4",
         "col": "11",
-        "inputValue": "FALSE",
-        "value": "FALSE"
+        "inputValue": "TRUE",
+        "value": "TRUE"
       },
       "12": {
         "row": "4",
@@ -1432,8 +1426,8 @@
       "15": {
         "row": "4",
         "col": "15",
-        "inputValue": "FALSE",
-        "value": "FALSE"
+        "inputValue": "TRUE",
+        "value": "TRUE"
       },
       "16": {
         "row": "4",
@@ -1444,32 +1438,32 @@
       "17": {
         "row": "4",
         "col": "17",
-        "inputValue": "FALSE",
-        "value": "FALSE"
+        "inputValue": "TRUE",
+        "value": "TRUE"
       },
       "18": {
         "row": "4",
         "col": "18",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "19": {
         "row": "4",
         "col": "19",
-        "inputValue": "FALSE",
-        "value": "FALSE"
+        "inputValue": "TRUE",
+        "value": "TRUE"
       },
       "20": {
         "row": "4",
         "col": "20",
-        "inputValue": "FALSE",
-        "value": "FALSE"
+        "inputValue": "TRUE",
+        "value": "TRUE"
       },
       "21": {
         "row": "4",
         "col": "21",
-        "inputValue": "FALSE",
-        "value": "FALSE"
+        "inputValue": "TRUE",
+        "value": "TRUE"
       },
       "22": {
         "row": "4",
@@ -1498,8 +1492,8 @@
       "26": {
         "row": "4",
         "col": "26",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "27": {
         "row": "4",
@@ -1516,26 +1510,20 @@
       "29": {
         "row": "4",
         "col": "29",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "30": {
         "row": "4",
         "col": "30",
-        "inputValue": "TRUE",
-        "value": "TRUE"
-      },
-      "31": {
-        "row": "4",
-        "col": "31",
         "inputValue": "FALSE",
         "value": "FALSE"
       },
       "32": {
         "row": "4",
         "col": "32",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "33": {
         "row": "4",
@@ -1546,8 +1534,8 @@
       "34": {
         "row": "4",
         "col": "34",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "35": {
         "row": "4",
@@ -1564,8 +1552,8 @@
       "37": {
         "row": "4",
         "col": "37",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "38": {
         "row": "4",
@@ -1582,14 +1570,14 @@
       "40": {
         "row": "4",
         "col": "40",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "41": {
         "row": "4",
         "col": "41",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "42": {
         "row": "4",
@@ -1600,8 +1588,8 @@
       "43": {
         "row": "4",
         "col": "43",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "44": {
         "row": "4",
@@ -1612,8 +1600,8 @@
       "45": {
         "row": "4",
         "col": "45",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "46": {
         "row": "4",
@@ -1633,17 +1621,11 @@
         "inputValue": "TRUE",
         "value": "TRUE"
       },
-      "49": {
-        "row": "4",
-        "col": "49",
-        "inputValue": "TRUE",
-        "value": "TRUE"
-      },
       "50": {
         "row": "4",
         "col": "50",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "51": {
         "row": "4",
@@ -1702,14 +1684,14 @@
       "60": {
         "row": "4",
         "col": "60",
-        "inputValue": "FALSE",
-        "value": "FALSE"
+        "inputValue": "TRUE",
+        "value": "TRUE"
       },
       "61": {
         "row": "4",
         "col": "61",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "62": {
         "row": "4",
@@ -1720,8 +1702,8 @@
       "63": {
         "row": "4",
         "col": "63",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "64": {
         "row": "4",
@@ -1732,14 +1714,14 @@
       "65": {
         "row": "4",
         "col": "65",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "66": {
         "row": "4",
         "col": "66",
-        "inputValue": "FALSE",
-        "value": "FALSE"
+        "inputValue": "TRUE",
+        "value": "TRUE"
       },
       "67": {
         "row": "4",
@@ -1756,8 +1738,8 @@
       "69": {
         "row": "4",
         "col": "69",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "70": {
         "row": "4",
@@ -1780,8 +1762,8 @@
       "73": {
         "row": "4",
         "col": "73",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "74": {
         "row": "4",
@@ -1806,20 +1788,20 @@
       "1": {
         "row": "5",
         "col": "1",
-        "inputValue": "datawinners",
-        "value": "datawinners"
+        "inputValue": "kujuaSMS",
+        "value": "kujuaSMS"
       },
       "2": {
         "row": "5",
         "col": "2",
-        "inputValue": "DataWinners",
-        "value": "DataWinners"
+        "inputValue": "Kujua",
+        "value": "Kujua"
       },
       "3": {
         "row": "5",
         "col": "3",
-        "inputValue": "https://www.datawinners.com/",
-        "value": "https://www.datawinners.com/"
+        "inputValue": "http://medicmobile.org/tools/",
+        "value": "http://medicmobile.org/tools/"
       },
       "5": {
         "row": "5",
@@ -1833,17 +1815,35 @@
         "inputValue": "TRUE",
         "value": "TRUE"
       },
+      "7": {
+        "row": "5",
+        "col": "7",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
       "8": {
         "row": "5",
         "col": "8",
         "inputValue": "TRUE",
         "value": "TRUE"
       },
+      "9": {
+        "row": "5",
+        "col": "9",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "10": {
+        "row": "5",
+        "col": "10",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
       "11": {
         "row": "5",
         "col": "11",
-        "inputValue": "FALSE",
-        "value": "FALSE"
+        "inputValue": "TRUE",
+        "value": "TRUE"
       },
       "12": {
         "row": "5",
@@ -1860,6 +1860,42 @@
       "14": {
         "row": "5",
         "col": "14",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "15": {
+        "row": "5",
+        "col": "15",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "16": {
+        "row": "5",
+        "col": "16",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "17": {
+        "row": "5",
+        "col": "17",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "18": {
+        "row": "5",
+        "col": "18",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "19": {
+        "row": "5",
+        "col": "19",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "20": {
+        "row": "5",
+        "col": "20",
         "inputValue": "TRUE",
         "value": "TRUE"
       },
@@ -1905,23 +1941,65 @@
         "inputValue": "TRUE",
         "value": "TRUE"
       },
-      "31": {
+      "28": {
         "row": "5",
-        "col": "31",
+        "col": "28",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "29": {
+        "row": "5",
+        "col": "29",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "30": {
+        "row": "5",
+        "col": "30",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "32": {
+        "row": "5",
+        "col": "32",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "33": {
+        "row": "5",
+        "col": "33",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "34": {
+        "row": "5",
+        "col": "34",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "35": {
+        "row": "5",
+        "col": "35",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "36": {
+        "row": "5",
+        "col": "36",
         "inputValue": "FALSE",
         "value": "FALSE"
       },
       "37": {
         "row": "5",
         "col": "37",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "38": {
         "row": "5",
         "col": "38",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "39": {
         "row": "5",
@@ -1929,11 +2007,71 @@
         "inputValue": "TRUE",
         "value": "TRUE"
       },
+      "40": {
+        "row": "5",
+        "col": "40",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "41": {
+        "row": "5",
+        "col": "41",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "42": {
+        "row": "5",
+        "col": "42",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "43": {
+        "row": "5",
+        "col": "43",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "44": {
+        "row": "5",
+        "col": "44",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "45": {
+        "row": "5",
+        "col": "45",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "46": {
+        "row": "5",
+        "col": "46",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "47": {
+        "row": "5",
+        "col": "47",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
       "48": {
         "row": "5",
         "col": "48",
         "inputValue": "TRUE",
         "value": "TRUE"
+      },
+      "49": {
+        "row": "5",
+        "col": "49",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "50": {
+        "row": "5",
+        "col": "50",
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "51": {
         "row": "5",
@@ -1974,8 +2112,8 @@
       "57": {
         "row": "5",
         "col": "57",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "58": {
         "row": "5",
@@ -1986,8 +2124,8 @@
       "59": {
         "row": "5",
         "col": "59",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "60": {
         "row": "5",
@@ -2024,26 +2162,92 @@
         "col": "65",
         "inputValue": "TRUE",
         "value": "TRUE"
+      },
+      "66": {
+        "row": "5",
+        "col": "66",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "67": {
+        "row": "5",
+        "col": "67",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "68": {
+        "row": "5",
+        "col": "68",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "69": {
+        "row": "5",
+        "col": "69",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "70": {
+        "row": "5",
+        "col": "70",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "71": {
+        "row": "5",
+        "col": "71",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "72": {
+        "row": "5",
+        "col": "72",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "73": {
+        "row": "5",
+        "col": "73",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "74": {
+        "row": "5",
+        "col": "74",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "75": {
+        "row": "5",
+        "col": "75",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "76": {
+        "row": "5",
+        "col": "76",
+        "inputValue": "FALSE",
+        "value": "FALSE"
       }
     },
     "6": {
       "1": {
         "row": "6",
         "col": "1",
-        "inputValue": "kobo",
-        "value": "kobo"
+        "inputValue": "formhubAndroid",
+        "value": "formhubAndroid"
       },
       "2": {
         "row": "6",
         "col": "2",
-        "inputValue": "KoBo",
-        "value": "KoBo"
+        "inputValue": "FormHub",
+        "value": "FormHub"
       },
       "3": {
         "row": "6",
         "col": "3",
-        "inputValue": "http://www.kobotoolbox.org/",
-        "value": "http://www.kobotoolbox.org/"
+        "inputValue": "https://formhub.org/",
+        "value": "https://formhub.org/"
       },
       "5": {
         "row": "6",
@@ -2060,8 +2264,8 @@
       "7": {
         "row": "6",
         "col": "7",
-        "inputValue": "FALSE",
-        "value": "FALSE"
+        "inputValue": "TRUE",
+        "value": "TRUE"
       },
       "8": {
         "row": "6",
@@ -2078,14 +2282,14 @@
       "10": {
         "row": "6",
         "col": "10",
-        "inputValue": "FALSE",
-        "value": "FALSE"
+        "inputValue": "TRUE",
+        "value": "TRUE"
       },
       "11": {
         "row": "6",
         "col": "11",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "12": {
         "row": "6",
@@ -2108,8 +2312,8 @@
       "15": {
         "row": "6",
         "col": "15",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "16": {
         "row": "6",
@@ -2126,8 +2330,8 @@
       "18": {
         "row": "6",
         "col": "18",
-        "inputValue": "FALSE",
-        "value": "FALSE"
+        "inputValue": "TRUE",
+        "value": "TRUE"
       },
       "19": {
         "row": "6",
@@ -2162,8 +2366,8 @@
       "24": {
         "row": "6",
         "col": "24",
-        "inputValue": "FALSE",
-        "value": "FALSE"
+        "inputValue": "TRUE",
+        "value": "TRUE"
       },
       "25": {
         "row": "6",
@@ -2210,8 +2414,8 @@
       "32": {
         "row": "6",
         "col": "32",
-        "inputValue": "FALSE",
-        "value": "FALSE"
+        "inputValue": "TRUE",
+        "value": "TRUE"
       },
       "33": {
         "row": "6",
@@ -2324,8 +2528,8 @@
       "51": {
         "row": "6",
         "col": "51",
-        "inputValue": "FALSE",
-        "value": "FALSE"
+        "inputValue": "TRUE",
+        "value": "TRUE"
       },
       "52": {
         "row": "6",
@@ -2360,8 +2564,8 @@
       "57": {
         "row": "6",
         "col": "57",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "58": {
         "row": "6",
@@ -2426,20 +2630,20 @@
       "68": {
         "row": "6",
         "col": "68",
-        "inputValue": "FALSE",
-        "value": "FALSE"
+        "inputValue": "TRUE",
+        "value": "TRUE"
       },
       "69": {
         "row": "6",
         "col": "69",
-        "inputValue": "FALSE",
-        "value": "FALSE"
+        "inputValue": "TRUE",
+        "value": "TRUE"
       },
       "70": {
         "row": "6",
         "col": "70",
-        "inputValue": "FALSE",
-        "value": "FALSE"
+        "inputValue": "TRUE",
+        "value": "TRUE"
       },
       "71": {
         "row": "6",
@@ -2456,8 +2660,8 @@
       "73": {
         "row": "6",
         "col": "73",
-        "inputValue": "FALSE",
-        "value": "FALSE"
+        "inputValue": "TRUE",
+        "value": "TRUE"
       },
       "74": {
         "row": "6",
@@ -2468,8 +2672,8 @@
       "75": {
         "row": "6",
         "col": "75",
-        "inputValue": "FALSE",
-        "value": "FALSE"
+        "inputValue": "TRUE",
+        "value": "TRUE"
       },
       "76": {
         "row": "6",
@@ -2482,20 +2686,20 @@
       "1": {
         "row": "7",
         "col": "1",
-        "inputValue": "odk",
-        "value": "odk"
+        "inputValue": "formhubSMS",
+        "value": "formhubSMS"
       },
       "2": {
         "row": "7",
         "col": "2",
-        "inputValue": "ODK",
-        "value": "ODK"
+        "inputValue": "FormHub",
+        "value": "FormHub"
       },
       "3": {
         "row": "7",
         "col": "3",
-        "inputValue": "http://opendatakit.org/",
-        "value": "http://opendatakit.org/"
+        "inputValue": "https://formhub.org/",
+        "value": "https://formhub.org/"
       },
       "5": {
         "row": "7",
@@ -2524,8 +2728,8 @@
       "9": {
         "row": "7",
         "col": "9",
-        "inputValue": "FALSE",
-        "value": "FALSE"
+        "inputValue": "TRUE",
+        "value": "TRUE"
       },
       "10": {
         "row": "7",
@@ -2560,14 +2764,14 @@
       "15": {
         "row": "7",
         "col": "15",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "16": {
         "row": "7",
         "col": "16",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "17": {
         "row": "7",
@@ -2578,8 +2782,8 @@
       "18": {
         "row": "7",
         "col": "18",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "19": {
         "row": "7",
@@ -2620,32 +2824,26 @@
       "25": {
         "row": "7",
         "col": "25",
-        "inputValue": "FALSE",
-        "value": "FALSE"
+        "inputValue": "TRUE",
+        "value": "TRUE"
       },
       "26": {
         "row": "7",
         "col": "26",
-        "inputValue": "FALSE",
-        "value": "FALSE"
+        "inputValue": "TRUE",
+        "value": "TRUE"
       },
       "27": {
         "row": "7",
         "col": "27",
-        "inputValue": "FALSE",
-        "value": "FALSE"
+        "inputValue": "TRUE",
+        "value": "TRUE"
       },
       "28": {
         "row": "7",
         "col": "28",
         "inputValue": "FALSE",
         "value": "FALSE"
-      },
-      "29": {
-        "row": "7",
-        "col": "29",
-        "inputValue": "TRUE",
-        "value": "TRUE"
       },
       "30": {
         "row": "7",
@@ -2659,99 +2857,15 @@
         "inputValue": "FALSE",
         "value": "FALSE"
       },
-      "32": {
-        "row": "7",
-        "col": "32",
-        "inputValue": "FALSE",
-        "value": "FALSE"
-      },
-      "33": {
-        "row": "7",
-        "col": "33",
-        "inputValue": "TRUE",
-        "value": "TRUE"
-      },
-      "34": {
-        "row": "7",
-        "col": "34",
-        "inputValue": "TRUE",
-        "value": "TRUE"
-      },
-      "35": {
-        "row": "7",
-        "col": "35",
-        "inputValue": "TRUE",
-        "value": "TRUE"
-      },
-      "36": {
-        "row": "7",
-        "col": "36",
-        "inputValue": "TRUE",
-        "value": "TRUE"
-      },
       "37": {
         "row": "7",
         "col": "37",
-        "inputValue": "TRUE",
-        "value": "TRUE"
-      },
-      "38": {
-        "row": "7",
-        "col": "38",
-        "inputValue": "TRUE",
-        "value": "TRUE"
-      },
-      "39": {
-        "row": "7",
-        "col": "39",
-        "inputValue": "TRUE",
-        "value": "TRUE"
-      },
-      "40": {
-        "row": "7",
-        "col": "40",
-        "inputValue": "TRUE",
-        "value": "TRUE"
-      },
-      "41": {
-        "row": "7",
-        "col": "41",
-        "inputValue": "TRUE",
-        "value": "TRUE"
-      },
-      "42": {
-        "row": "7",
-        "col": "42",
-        "inputValue": "TRUE",
-        "value": "TRUE"
-      },
-      "43": {
-        "row": "7",
-        "col": "43",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "44": {
         "row": "7",
         "col": "44",
-        "inputValue": "TRUE",
-        "value": "TRUE"
-      },
-      "45": {
-        "row": "7",
-        "col": "45",
-        "inputValue": "TRUE",
-        "value": "TRUE"
-      },
-      "46": {
-        "row": "7",
-        "col": "46",
-        "inputValue": "TRUE",
-        "value": "TRUE"
-      },
-      "47": {
-        "row": "7",
-        "col": "47",
         "inputValue": "TRUE",
         "value": "TRUE"
       },
@@ -2761,23 +2875,11 @@
         "inputValue": "TRUE",
         "value": "TRUE"
       },
-      "49": {
-        "row": "7",
-        "col": "49",
-        "inputValue": "FALSE",
-        "value": "FALSE"
-      },
-      "50": {
-        "row": "7",
-        "col": "50",
-        "inputValue": "TRUE",
-        "value": "TRUE"
-      },
       "51": {
         "row": "7",
         "col": "51",
-        "inputValue": "FALSE",
-        "value": "FALSE"
+        "inputValue": "TRUE",
+        "value": "TRUE"
       },
       "52": {
         "row": "7",
@@ -2812,8 +2914,8 @@
       "57": {
         "row": "7",
         "col": "57",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "58": {
         "row": "7",
@@ -2821,53 +2923,11 @@
         "inputValue": "FALSE",
         "value": "FALSE"
       },
-      "59": {
-        "row": "7",
-        "col": "59",
-        "inputValue": "TRUE",
-        "value": "TRUE"
-      },
-      "60": {
-        "row": "7",
-        "col": "60",
-        "inputValue": "FALSE",
-        "value": "FALSE"
-      },
-      "61": {
-        "row": "7",
-        "col": "61",
-        "inputValue": "TRUE",
-        "value": "TRUE"
-      },
-      "62": {
-        "row": "7",
-        "col": "62",
-        "inputValue": "TRUE",
-        "value": "TRUE"
-      },
-      "63": {
-        "row": "7",
-        "col": "63",
-        "inputValue": "TRUE",
-        "value": "TRUE"
-      },
-      "64": {
-        "row": "7",
-        "col": "64",
-        "inputValue": "TRUE",
-        "value": "TRUE"
-      },
-      "65": {
-        "row": "7",
-        "col": "65",
-        "inputValue": "TRUE",
-        "value": "TRUE"
-      },
       "66": {
         "row": "7",
         "col": "66",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "67": {
         "row": "7",
@@ -2902,8 +2962,8 @@
       "72": {
         "row": "7",
         "col": "72",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "73": {
         "row": "7",
@@ -2920,8 +2980,8 @@
       "75": {
         "row": "7",
         "col": "75",
-        "inputValue": "FALSE",
-        "value": "FALSE"
+        "inputValue": "TRUE",
+        "value": "TRUE"
       },
       "76": {
         "row": "7",
@@ -2934,24 +2994,36 @@
       "1": {
         "row": "8",
         "col": "1",
-        "inputValue": "commcare",
-        "value": "commcare"
+        "inputValue": "datawinnersAndroid",
+        "value": "datawinnersAndroid"
       },
       "2": {
         "row": "8",
         "col": "2",
-        "inputValue": "CommCare",
-        "value": "CommCare"
+        "inputValue": "DataWinners",
+        "value": "DataWinners"
+      },
+      "3": {
+        "row": "8",
+        "col": "3",
+        "inputValue": "https://www.datawinners.com/",
+        "value": "https://www.datawinners.com/"
       },
       "5": {
         "row": "8",
         "col": "5",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "6": {
         "row": "8",
         "col": "6",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "8": {
+        "row": "8",
+        "col": "8",
         "inputValue": "TRUE",
         "value": "TRUE"
       },
@@ -2976,6 +3048,168 @@
       "14": {
         "row": "8",
         "col": "14",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "21": {
+        "row": "8",
+        "col": "21",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "22": {
+        "row": "8",
+        "col": "22",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "23": {
+        "row": "8",
+        "col": "23",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "24": {
+        "row": "8",
+        "col": "24",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "25": {
+        "row": "8",
+        "col": "25",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "26": {
+        "row": "8",
+        "col": "26",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "27": {
+        "row": "8",
+        "col": "27",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "31": {
+        "row": "8",
+        "col": "31",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "37": {
+        "row": "8",
+        "col": "37",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "38": {
+        "row": "8",
+        "col": "38",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "39": {
+        "row": "8",
+        "col": "39",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "48": {
+        "row": "8",
+        "col": "48",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "51": {
+        "row": "8",
+        "col": "51",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "52": {
+        "row": "8",
+        "col": "52",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "53": {
+        "row": "8",
+        "col": "53",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "54": {
+        "row": "8",
+        "col": "54",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "55": {
+        "row": "8",
+        "col": "55",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "56": {
+        "row": "8",
+        "col": "56",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "57": {
+        "row": "8",
+        "col": "57",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "58": {
+        "row": "8",
+        "col": "58",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "59": {
+        "row": "8",
+        "col": "59",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "60": {
+        "row": "8",
+        "col": "60",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "61": {
+        "row": "8",
+        "col": "61",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "62": {
+        "row": "8",
+        "col": "62",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "63": {
+        "row": "8",
+        "col": "63",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "64": {
+        "row": "8",
+        "col": "64",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "65": {
+        "row": "8",
+        "col": "65",
         "inputValue": "TRUE",
         "value": "TRUE"
       }
@@ -2984,20 +3218,20 @@
       "1": {
         "row": "9",
         "col": "1",
-        "inputValue": "magpi",
-        "value": "magpi"
+        "inputValue": "datawinnersSMS",
+        "value": "datawinnersSMS"
       },
       "2": {
         "row": "9",
         "col": "2",
-        "inputValue": "Magpi",
-        "value": "Magpi"
+        "inputValue": "DataWinners",
+        "value": "DataWinners"
       },
       "3": {
         "row": "9",
         "col": "3",
-        "inputValue": "https://www.magpi.com",
-        "value": "https://www.magpi.com"
+        "inputValue": "https://www.datawinners.com/",
+        "value": "https://www.datawinners.com/"
       },
       "5": {
         "row": "9",
@@ -3008,24 +3242,12 @@
       "6": {
         "row": "9",
         "col": "6",
-        "inputValue": "FALSE",
-        "value": "FALSE"
-      },
-      "7": {
-        "row": "9",
-        "col": "7",
-        "inputValue": "FALSE",
-        "value": "FALSE"
+        "inputValue": "TRUE",
+        "value": "TRUE"
       },
       "8": {
         "row": "9",
         "col": "8",
-        "inputValue": "FALSE",
-        "value": "FALSE"
-      },
-      "10": {
-        "row": "9",
-        "col": "10",
         "inputValue": "TRUE",
         "value": "TRUE"
       },
@@ -3053,47 +3275,11 @@
         "inputValue": "TRUE",
         "value": "TRUE"
       },
-      "15": {
-        "row": "9",
-        "col": "15",
-        "inputValue": "FALSE",
-        "value": "FALSE"
-      },
-      "16": {
-        "row": "9",
-        "col": "16",
-        "inputValue": "TRUE",
-        "value": "TRUE"
-      },
-      "17": {
-        "row": "9",
-        "col": "17",
-        "inputValue": "FALSE",
-        "value": "FALSE"
-      },
-      "18": {
-        "row": "9",
-        "col": "18",
-        "inputValue": "TRUE",
-        "value": "TRUE"
-      },
-      "19": {
-        "row": "9",
-        "col": "19",
-        "inputValue": "FALSE",
-        "value": "FALSE"
-      },
-      "20": {
-        "row": "9",
-        "col": "20",
-        "inputValue": "FALSE",
-        "value": "FALSE"
-      },
       "21": {
         "row": "9",
         "col": "21",
-        "inputValue": "FALSE",
-        "value": "FALSE"
+        "inputValue": "TRUE",
+        "value": "TRUE"
       },
       "22": {
         "row": "9",
@@ -3116,8 +3302,8 @@
       "25": {
         "row": "9",
         "col": "25",
-        "inputValue": "FALSE",
-        "value": "FALSE"
+        "inputValue": "TRUE",
+        "value": "TRUE"
       },
       "26": {
         "row": "9",
@@ -3134,14 +3320,20 @@
       "31": {
         "row": "9",
         "col": "31",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "37": {
+        "row": "9",
+        "col": "37",
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "38": {
         "row": "9",
         "col": "38",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "39": {
         "row": "9",
@@ -3200,8 +3392,14 @@
       "59": {
         "row": "9",
         "col": "59",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "60": {
+        "row": "9",
+        "col": "60",
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "61": {
         "row": "9",
@@ -3232,92 +3430,26 @@
         "col": "65",
         "inputValue": "TRUE",
         "value": "TRUE"
-      },
-      "66": {
-        "row": "9",
-        "col": "66",
-        "inputValue": "TRUE",
-        "value": "TRUE"
-      },
-      "67": {
-        "row": "9",
-        "col": "67",
-        "inputValue": "FALSE",
-        "value": "FALSE"
-      },
-      "68": {
-        "row": "9",
-        "col": "68",
-        "inputValue": "TRUE",
-        "value": "TRUE"
-      },
-      "69": {
-        "row": "9",
-        "col": "69",
-        "inputValue": "TRUE",
-        "value": "TRUE"
-      },
-      "70": {
-        "row": "9",
-        "col": "70",
-        "inputValue": "TRUE",
-        "value": "TRUE"
-      },
-      "71": {
-        "row": "9",
-        "col": "71",
-        "inputValue": "FALSE",
-        "value": "FALSE"
-      },
-      "72": {
-        "row": "9",
-        "col": "72",
-        "inputValue": "FALSE",
-        "value": "FALSE"
-      },
-      "73": {
-        "row": "9",
-        "col": "73",
-        "inputValue": "FALSE",
-        "value": "FALSE"
-      },
-      "74": {
-        "row": "9",
-        "col": "74",
-        "inputValue": "FALSE",
-        "value": "FALSE"
-      },
-      "75": {
-        "row": "9",
-        "col": "75",
-        "inputValue": "TRUE",
-        "value": "TRUE"
-      },
-      "76": {
-        "row": "9",
-        "col": "76",
-        "inputValue": "TRUE",
-        "value": "TRUE"
       }
     },
     "10": {
       "1": {
         "row": "10",
         "col": "1",
-        "inputValue": "magpiPremium",
-        "value": "magpiPremium"
+        "inputValue": "kobo",
+        "value": "kobo"
       },
       "2": {
         "row": "10",
         "col": "2",
-        "inputValue": "Magpi Premium",
-        "value": "Magpi Premium"
+        "inputValue": "KoBo",
+        "value": "KoBo"
       },
       "3": {
         "row": "10",
         "col": "3",
-        "inputValue": "https://www.magpi.com",
-        "value": "https://www.magpi.com"
+        "inputValue": "http://www.kobotoolbox.org/",
+        "value": "http://www.kobotoolbox.org/"
       },
       "5": {
         "row": "10",
@@ -3334,32 +3466,32 @@
       "7": {
         "row": "10",
         "col": "7",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "8": {
         "row": "10",
         "col": "8",
-        "inputValue": "FALSE",
-        "value": "FALSE"
+        "inputValue": "TRUE",
+        "value": "TRUE"
       },
       "9": {
         "row": "10",
         "col": "9",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "10": {
         "row": "10",
         "col": "10",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "11": {
         "row": "10",
         "col": "11",
-        "inputValue": "FALSE",
-        "value": "FALSE"
+        "inputValue": "TRUE",
+        "value": "TRUE"
       },
       "12": {
         "row": "10",
@@ -3400,8 +3532,8 @@
       "18": {
         "row": "10",
         "col": "18",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "19": {
         "row": "10",
@@ -3436,26 +3568,26 @@
       "24": {
         "row": "10",
         "col": "24",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "25": {
         "row": "10",
         "col": "25",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "26": {
         "row": "10",
         "col": "26",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "27": {
         "row": "10",
         "col": "27",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "28": {
         "row": "10",
@@ -3466,20 +3598,20 @@
       "29": {
         "row": "10",
         "col": "29",
-        "inputValue": "FALSE",
-        "value": "FALSE"
+        "inputValue": "TRUE",
+        "value": "TRUE"
       },
       "30": {
         "row": "10",
         "col": "30",
-        "inputValue": "FALSE",
-        "value": "FALSE"
+        "inputValue": "TRUE",
+        "value": "TRUE"
       },
       "31": {
         "row": "10",
         "col": "31",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "32": {
         "row": "10",
@@ -3487,11 +3619,35 @@
         "inputValue": "FALSE",
         "value": "FALSE"
       },
+      "33": {
+        "row": "10",
+        "col": "33",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "34": {
+        "row": "10",
+        "col": "34",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "35": {
+        "row": "10",
+        "col": "35",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "36": {
+        "row": "10",
+        "col": "36",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
       "37": {
         "row": "10",
         "col": "37",
-        "inputValue": "FALSE",
-        "value": "FALSE"
+        "inputValue": "TRUE",
+        "value": "TRUE"
       },
       "38": {
         "row": "10",
@@ -3508,26 +3664,26 @@
       "40": {
         "row": "10",
         "col": "40",
-        "inputValue": "FALSE",
-        "value": "FALSE"
+        "inputValue": "TRUE",
+        "value": "TRUE"
       },
       "41": {
         "row": "10",
         "col": "41",
-        "inputValue": "FALSE",
-        "value": "FALSE"
+        "inputValue": "TRUE",
+        "value": "TRUE"
       },
       "42": {
         "row": "10",
         "col": "42",
-        "inputValue": "FALSE",
-        "value": "FALSE"
+        "inputValue": "TRUE",
+        "value": "TRUE"
       },
       "43": {
         "row": "10",
         "col": "43",
-        "inputValue": "FALSE",
-        "value": "FALSE"
+        "inputValue": "TRUE",
+        "value": "TRUE"
       },
       "44": {
         "row": "10",
@@ -3538,8 +3694,20 @@
       "45": {
         "row": "10",
         "col": "45",
-        "inputValue": "FALSE",
-        "value": "FALSE"
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "46": {
+        "row": "10",
+        "col": "46",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "47": {
+        "row": "10",
+        "col": "47",
+        "inputValue": "TRUE",
+        "value": "TRUE"
       },
       "48": {
         "row": "10",
@@ -3547,17 +3715,23 @@
         "inputValue": "TRUE",
         "value": "TRUE"
       },
+      "49": {
+        "row": "10",
+        "col": "49",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
       "50": {
         "row": "10",
         "col": "50",
-        "inputValue": "FALSE",
-        "value": "FALSE"
+        "inputValue": "TRUE",
+        "value": "TRUE"
       },
       "51": {
         "row": "10",
         "col": "51",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "52": {
         "row": "10",
@@ -3646,8 +3820,8 @@
       "66": {
         "row": "10",
         "col": "66",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "67": {
         "row": "10",
@@ -3658,26 +3832,26 @@
       "68": {
         "row": "10",
         "col": "68",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "69": {
         "row": "10",
         "col": "69",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "70": {
         "row": "10",
         "col": "70",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "71": {
         "row": "10",
         "col": "71",
-        "inputValue": "FALSE",
-        "value": "FALSE"
+        "inputValue": "TRUE",
+        "value": "TRUE"
       },
       "72": {
         "row": "10",
@@ -3700,34 +3874,34 @@
       "75": {
         "row": "10",
         "col": "75",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "76": {
         "row": "10",
         "col": "76",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       }
     },
     "11": {
       "1": {
         "row": "11",
         "col": "1",
-        "inputValue": "openxdata",
-        "value": "openxdata"
+        "inputValue": "odk",
+        "value": "odk"
       },
       "2": {
         "row": "11",
         "col": "2",
-        "inputValue": "openXdata",
-        "value": "openXdata"
+        "inputValue": "ODK",
+        "value": "ODK"
       },
       "3": {
         "row": "11",
         "col": "3",
-        "inputValue": "http://www.openxdata.org/",
-        "value": "http://www.openxdata.org/"
+        "inputValue": "http://opendatakit.org/",
+        "value": "http://opendatakit.org/"
       },
       "5": {
         "row": "11",
@@ -3744,8 +3918,8 @@
       "7": {
         "row": "11",
         "col": "7",
-        "inputValue": "FALSE",
-        "value": "FALSE"
+        "inputValue": "TRUE",
+        "value": "TRUE"
       },
       "8": {
         "row": "11",
@@ -3756,14 +3930,14 @@
       "9": {
         "row": "11",
         "col": "9",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "10": {
         "row": "11",
         "col": "10",
-        "inputValue": "FALSE",
-        "value": "FALSE"
+        "inputValue": "TRUE",
+        "value": "TRUE"
       },
       "11": {
         "row": "11",
@@ -3852,26 +4026,26 @@
       "25": {
         "row": "11",
         "col": "25",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "26": {
         "row": "11",
         "col": "26",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "27": {
         "row": "11",
         "col": "27",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "28": {
         "row": "11",
         "col": "28",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "29": {
         "row": "11",
@@ -3882,8 +4056,8 @@
       "30": {
         "row": "11",
         "col": "30",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "31": {
         "row": "11",
@@ -3996,8 +4170,8 @@
       "49": {
         "row": "11",
         "col": "49",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "50": {
         "row": "11",
@@ -4008,14 +4182,14 @@
       "51": {
         "row": "11",
         "col": "51",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "52": {
         "row": "11",
         "col": "52",
-        "inputValue": "FALSE",
-        "value": "FALSE"
+        "inputValue": "TRUE",
+        "value": "TRUE"
       },
       "53": {
         "row": "11",
@@ -4062,8 +4236,8 @@
       "60": {
         "row": "11",
         "col": "60",
-        "inputValue": "TRUE",
-        "value": "TRUE"
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "61": {
         "row": "11",
@@ -4098,8 +4272,8 @@
       "66": {
         "row": "11",
         "col": "66",
-        "inputValue": "FALSE",
-        "value": "FALSE"
+        "inputValue": "TRUE",
+        "value": "TRUE"
       },
       "67": {
         "row": "11",
@@ -4116,8 +4290,8 @@
       "69": {
         "row": "11",
         "col": "69",
-        "inputValue": "FALSE",
-        "value": "FALSE"
+        "inputValue": "TRUE",
+        "value": "TRUE"
       },
       "70": {
         "row": "11",
@@ -4134,14 +4308,14 @@
       "72": {
         "row": "11",
         "col": "72",
-        "inputValue": "FALSE",
-        "value": "FALSE"
+        "inputValue": "TRUE",
+        "value": "TRUE"
       },
       "73": {
         "row": "11",
         "col": "73",
-        "inputValue": "FALSE",
-        "value": "FALSE"
+        "inputValue": "TRUE",
+        "value": "TRUE"
       },
       "74": {
         "row": "11",
@@ -4166,95 +4340,2101 @@
       "1": {
         "row": "12",
         "col": "1",
-        "inputValue": "kookoo",
-        "value": "kookoo"
+        "inputValue": "commcareAndroid",
+        "value": "commcareAndroid"
       },
       "2": {
         "row": "12",
         "col": "2",
-        "inputValue": "KooKoo",
-        "value": "KooKoo"
+        "inputValue": "CommCare",
+        "value": "CommCare"
+      },
+      "5": {
+        "row": "12",
+        "col": "5",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "6": {
+        "row": "12",
+        "col": "6",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "11": {
+        "row": "12",
+        "col": "11",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "12": {
+        "row": "12",
+        "col": "12",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "13": {
+        "row": "12",
+        "col": "13",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "14": {
+        "row": "12",
+        "col": "14",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      }
+    },
+    "13": {
+      "1": {
+        "row": "13",
+        "col": "1",
+        "inputValue": "commcareJava",
+        "value": "commcareJava"
+      },
+      "2": {
+        "row": "13",
+        "col": "2",
+        "inputValue": "CommCare",
+        "value": "CommCare"
+      },
+      "5": {
+        "row": "13",
+        "col": "5",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "6": {
+        "row": "13",
+        "col": "6",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "11": {
+        "row": "13",
+        "col": "11",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "12": {
+        "row": "13",
+        "col": "12",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "13": {
+        "row": "13",
+        "col": "13",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "14": {
+        "row": "13",
+        "col": "14",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      }
+    },
+    "14": {
+      "1": {
+        "row": "14",
+        "col": "1",
+        "inputValue": "magpi",
+        "value": "magpi"
+      },
+      "2": {
+        "row": "14",
+        "col": "2",
+        "inputValue": "Magpi",
+        "value": "Magpi"
       },
       "3": {
-        "row": "12",
+        "row": "14",
         "col": "3",
-        "inputValue": "http://www.kookoo.in/",
-        "value": "http://www.kookoo.in/"
+        "inputValue": "https://www.magpi.com",
+        "value": "https://www.magpi.com"
+      },
+      "5": {
+        "row": "14",
+        "col": "5",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "6": {
+        "row": "14",
+        "col": "6",
+        "inputValue": "FALSE",
+        "value": "FALSE"
       },
       "7": {
-        "row": "12",
+        "row": "14",
         "col": "7",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "8": {
+        "row": "14",
+        "col": "8",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "10": {
+        "row": "14",
+        "col": "10",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "11": {
+        "row": "14",
+        "col": "11",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "12": {
+        "row": "14",
+        "col": "12",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "13": {
+        "row": "14",
+        "col": "13",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "14": {
+        "row": "14",
+        "col": "14",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "15": {
+        "row": "14",
+        "col": "15",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "16": {
+        "row": "14",
+        "col": "16",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "17": {
+        "row": "14",
+        "col": "17",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "18": {
+        "row": "14",
+        "col": "18",
         "inputValue": "TRUE",
         "value": "TRUE"
       },
       "19": {
-        "row": "12",
+        "row": "14",
         "col": "19",
         "inputValue": "FALSE",
         "value": "FALSE"
       },
       "20": {
-        "row": "12",
+        "row": "14",
         "col": "20",
         "inputValue": "FALSE",
         "value": "FALSE"
       },
       "21": {
-        "row": "12",
+        "row": "14",
         "col": "21",
         "inputValue": "FALSE",
         "value": "FALSE"
       },
       "22": {
-        "row": "12",
+        "row": "14",
         "col": "22",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "23": {
+        "row": "14",
+        "col": "23",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "24": {
+        "row": "14",
+        "col": "24",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "25": {
+        "row": "14",
+        "col": "25",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "26": {
+        "row": "14",
+        "col": "26",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "27": {
+        "row": "14",
+        "col": "27",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "31": {
+        "row": "14",
+        "col": "31",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "38": {
+        "row": "14",
+        "col": "38",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "39": {
+        "row": "14",
+        "col": "39",
         "inputValue": "TRUE",
         "value": "TRUE"
       },
       "51": {
-        "row": "12",
+        "row": "14",
         "col": "51",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "52": {
+        "row": "14",
+        "col": "52",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "53": {
+        "row": "14",
+        "col": "53",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "54": {
+        "row": "14",
+        "col": "54",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "55": {
+        "row": "14",
+        "col": "55",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "56": {
+        "row": "14",
+        "col": "56",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "57": {
+        "row": "14",
+        "col": "57",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "58": {
+        "row": "14",
+        "col": "58",
         "inputValue": "FALSE",
         "value": "FALSE"
       },
       "59": {
-        "row": "12",
+        "row": "14",
         "col": "59",
         "inputValue": "TRUE",
         "value": "TRUE"
       },
-      "60": {
-        "row": "12",
-        "col": "60",
-        "inputValue": "TRUE",
-        "value": "TRUE"
-      },
       "61": {
-        "row": "12",
+        "row": "14",
         "col": "61",
         "inputValue": "TRUE",
         "value": "TRUE"
       },
       "62": {
-        "row": "12",
+        "row": "14",
         "col": "62",
         "inputValue": "TRUE",
         "value": "TRUE"
       },
       "63": {
-        "row": "12",
+        "row": "14",
         "col": "63",
         "inputValue": "TRUE",
         "value": "TRUE"
       },
       "64": {
-        "row": "12",
+        "row": "14",
         "col": "64",
         "inputValue": "TRUE",
         "value": "TRUE"
       },
       "65": {
-        "row": "12",
+        "row": "14",
+        "col": "65",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "66": {
+        "row": "14",
+        "col": "66",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "67": {
+        "row": "14",
+        "col": "67",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "68": {
+        "row": "14",
+        "col": "68",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "69": {
+        "row": "14",
+        "col": "69",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "70": {
+        "row": "14",
+        "col": "70",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "71": {
+        "row": "14",
+        "col": "71",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "72": {
+        "row": "14",
+        "col": "72",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "73": {
+        "row": "14",
+        "col": "73",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "74": {
+        "row": "14",
+        "col": "74",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "75": {
+        "row": "14",
+        "col": "75",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "76": {
+        "row": "14",
+        "col": "76",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      }
+    },
+    "15": {
+      "1": {
+        "row": "15",
+        "col": "1",
+        "inputValue": "magpiPremium",
+        "value": "magpiPremium"
+      },
+      "2": {
+        "row": "15",
+        "col": "2",
+        "inputValue": "Magpi Premium",
+        "value": "Magpi Premium"
+      },
+      "3": {
+        "row": "15",
+        "col": "3",
+        "inputValue": "https://www.magpi.com",
+        "value": "https://www.magpi.com"
+      },
+      "5": {
+        "row": "15",
+        "col": "5",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "6": {
+        "row": "15",
+        "col": "6",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "7": {
+        "row": "15",
+        "col": "7",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "8": {
+        "row": "15",
+        "col": "8",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "9": {
+        "row": "15",
+        "col": "9",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "10": {
+        "row": "15",
+        "col": "10",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "11": {
+        "row": "15",
+        "col": "11",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "12": {
+        "row": "15",
+        "col": "12",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "13": {
+        "row": "15",
+        "col": "13",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "14": {
+        "row": "15",
+        "col": "14",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "15": {
+        "row": "15",
+        "col": "15",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "16": {
+        "row": "15",
+        "col": "16",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "17": {
+        "row": "15",
+        "col": "17",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "18": {
+        "row": "15",
+        "col": "18",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "19": {
+        "row": "15",
+        "col": "19",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "20": {
+        "row": "15",
+        "col": "20",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "21": {
+        "row": "15",
+        "col": "21",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "22": {
+        "row": "15",
+        "col": "22",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "23": {
+        "row": "15",
+        "col": "23",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "24": {
+        "row": "15",
+        "col": "24",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "25": {
+        "row": "15",
+        "col": "25",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "26": {
+        "row": "15",
+        "col": "26",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "27": {
+        "row": "15",
+        "col": "27",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "31": {
+        "row": "15",
+        "col": "31",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "38": {
+        "row": "15",
+        "col": "38",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "39": {
+        "row": "15",
+        "col": "39",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "51": {
+        "row": "15",
+        "col": "51",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "52": {
+        "row": "15",
+        "col": "52",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "53": {
+        "row": "15",
+        "col": "53",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "54": {
+        "row": "15",
+        "col": "54",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "55": {
+        "row": "15",
+        "col": "55",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "56": {
+        "row": "15",
+        "col": "56",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "57": {
+        "row": "15",
+        "col": "57",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "58": {
+        "row": "15",
+        "col": "58",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "59": {
+        "row": "15",
+        "col": "59",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "61": {
+        "row": "15",
+        "col": "61",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "62": {
+        "row": "15",
+        "col": "62",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "63": {
+        "row": "15",
+        "col": "63",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "64": {
+        "row": "15",
+        "col": "64",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "65": {
+        "row": "15",
+        "col": "65",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "66": {
+        "row": "15",
+        "col": "66",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "67": {
+        "row": "15",
+        "col": "67",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "68": {
+        "row": "15",
+        "col": "68",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "69": {
+        "row": "15",
+        "col": "69",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "70": {
+        "row": "15",
+        "col": "70",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "71": {
+        "row": "15",
+        "col": "71",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "72": {
+        "row": "15",
+        "col": "72",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "73": {
+        "row": "15",
+        "col": "73",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "74": {
+        "row": "15",
+        "col": "74",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "75": {
+        "row": "15",
+        "col": "75",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "76": {
+        "row": "15",
+        "col": "76",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      }
+    },
+    "16": {
+      "1": {
+        "row": "16",
+        "col": "1",
+        "inputValue": "magpiPremiumSMS",
+        "value": "magpiPremiumSMS"
+      },
+      "2": {
+        "row": "16",
+        "col": "2",
+        "inputValue": "Magpi Premium",
+        "value": "Magpi Premium"
+      },
+      "3": {
+        "row": "16",
+        "col": "3",
+        "inputValue": "https://www.magpi.com",
+        "value": "https://www.magpi.com"
+      },
+      "5": {
+        "row": "16",
+        "col": "5",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "6": {
+        "row": "16",
+        "col": "6",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "7": {
+        "row": "16",
+        "col": "7",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "8": {
+        "row": "16",
+        "col": "8",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "9": {
+        "row": "16",
+        "col": "9",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "10": {
+        "row": "16",
+        "col": "10",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "11": {
+        "row": "16",
+        "col": "11",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "12": {
+        "row": "16",
+        "col": "12",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "13": {
+        "row": "16",
+        "col": "13",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "14": {
+        "row": "16",
+        "col": "14",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "15": {
+        "row": "16",
+        "col": "15",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "16": {
+        "row": "16",
+        "col": "16",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "17": {
+        "row": "16",
+        "col": "17",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "18": {
+        "row": "16",
+        "col": "18",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "19": {
+        "row": "16",
+        "col": "19",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "20": {
+        "row": "16",
+        "col": "20",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "21": {
+        "row": "16",
+        "col": "21",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "22": {
+        "row": "16",
+        "col": "22",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "23": {
+        "row": "16",
+        "col": "23",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "24": {
+        "row": "16",
+        "col": "24",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "25": {
+        "row": "16",
+        "col": "25",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "26": {
+        "row": "16",
+        "col": "26",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "27": {
+        "row": "16",
+        "col": "27",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "28": {
+        "row": "16",
+        "col": "28",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "29": {
+        "row": "16",
+        "col": "29",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "30": {
+        "row": "16",
+        "col": "30",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "31": {
+        "row": "16",
+        "col": "31",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "32": {
+        "row": "16",
+        "col": "32",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "37": {
+        "row": "16",
+        "col": "37",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "38": {
+        "row": "16",
+        "col": "38",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "39": {
+        "row": "16",
+        "col": "39",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "40": {
+        "row": "16",
+        "col": "40",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "41": {
+        "row": "16",
+        "col": "41",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "42": {
+        "row": "16",
+        "col": "42",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "43": {
+        "row": "16",
+        "col": "43",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "44": {
+        "row": "16",
+        "col": "44",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "45": {
+        "row": "16",
+        "col": "45",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "48": {
+        "row": "16",
+        "col": "48",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "50": {
+        "row": "16",
+        "col": "50",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "51": {
+        "row": "16",
+        "col": "51",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "52": {
+        "row": "16",
+        "col": "52",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "53": {
+        "row": "16",
+        "col": "53",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "54": {
+        "row": "16",
+        "col": "54",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "55": {
+        "row": "16",
+        "col": "55",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "56": {
+        "row": "16",
+        "col": "56",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "57": {
+        "row": "16",
+        "col": "57",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "58": {
+        "row": "16",
+        "col": "58",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "59": {
+        "row": "16",
+        "col": "59",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "60": {
+        "row": "16",
+        "col": "60",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "61": {
+        "row": "16",
+        "col": "61",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "62": {
+        "row": "16",
+        "col": "62",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "63": {
+        "row": "16",
+        "col": "63",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "64": {
+        "row": "16",
+        "col": "64",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "65": {
+        "row": "16",
+        "col": "65",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "66": {
+        "row": "16",
+        "col": "66",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "67": {
+        "row": "16",
+        "col": "67",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "68": {
+        "row": "16",
+        "col": "68",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "69": {
+        "row": "16",
+        "col": "69",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "70": {
+        "row": "16",
+        "col": "70",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "71": {
+        "row": "16",
+        "col": "71",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "72": {
+        "row": "16",
+        "col": "72",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "73": {
+        "row": "16",
+        "col": "73",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "74": {
+        "row": "16",
+        "col": "74",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "75": {
+        "row": "16",
+        "col": "75",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "76": {
+        "row": "16",
+        "col": "76",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      }
+    },
+    "17": {
+      "1": {
+        "row": "17",
+        "col": "1",
+        "inputValue": "openxdataJava",
+        "value": "openxdataJava"
+      },
+      "2": {
+        "row": "17",
+        "col": "2",
+        "inputValue": "openXdata",
+        "value": "openXdata"
+      },
+      "3": {
+        "row": "17",
+        "col": "3",
+        "inputValue": "http://www.openxdata.org/",
+        "value": "http://www.openxdata.org/"
+      },
+      "5": {
+        "row": "17",
+        "col": "5",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "6": {
+        "row": "17",
+        "col": "6",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "7": {
+        "row": "17",
+        "col": "7",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "8": {
+        "row": "17",
+        "col": "8",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "9": {
+        "row": "17",
+        "col": "9",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "10": {
+        "row": "17",
+        "col": "10",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "11": {
+        "row": "17",
+        "col": "11",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "12": {
+        "row": "17",
+        "col": "12",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "13": {
+        "row": "17",
+        "col": "13",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "14": {
+        "row": "17",
+        "col": "14",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "15": {
+        "row": "17",
+        "col": "15",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "16": {
+        "row": "17",
+        "col": "16",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "17": {
+        "row": "17",
+        "col": "17",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "18": {
+        "row": "17",
+        "col": "18",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "19": {
+        "row": "17",
+        "col": "19",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "20": {
+        "row": "17",
+        "col": "20",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "21": {
+        "row": "17",
+        "col": "21",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "22": {
+        "row": "17",
+        "col": "22",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "23": {
+        "row": "17",
+        "col": "23",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "24": {
+        "row": "17",
+        "col": "24",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "25": {
+        "row": "17",
+        "col": "25",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "26": {
+        "row": "17",
+        "col": "26",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "27": {
+        "row": "17",
+        "col": "27",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "28": {
+        "row": "17",
+        "col": "28",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "29": {
+        "row": "17",
+        "col": "29",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "30": {
+        "row": "17",
+        "col": "30",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "31": {
+        "row": "17",
+        "col": "31",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "32": {
+        "row": "17",
+        "col": "32",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "33": {
+        "row": "17",
+        "col": "33",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "34": {
+        "row": "17",
+        "col": "34",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "35": {
+        "row": "17",
+        "col": "35",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "36": {
+        "row": "17",
+        "col": "36",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "37": {
+        "row": "17",
+        "col": "37",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "38": {
+        "row": "17",
+        "col": "38",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "39": {
+        "row": "17",
+        "col": "39",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "40": {
+        "row": "17",
+        "col": "40",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "41": {
+        "row": "17",
+        "col": "41",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "42": {
+        "row": "17",
+        "col": "42",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "43": {
+        "row": "17",
+        "col": "43",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "44": {
+        "row": "17",
+        "col": "44",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "45": {
+        "row": "17",
+        "col": "45",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "46": {
+        "row": "17",
+        "col": "46",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "47": {
+        "row": "17",
+        "col": "47",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "48": {
+        "row": "17",
+        "col": "48",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "49": {
+        "row": "17",
+        "col": "49",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "50": {
+        "row": "17",
+        "col": "50",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "51": {
+        "row": "17",
+        "col": "51",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "52": {
+        "row": "17",
+        "col": "52",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "53": {
+        "row": "17",
+        "col": "53",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "54": {
+        "row": "17",
+        "col": "54",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "55": {
+        "row": "17",
+        "col": "55",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "56": {
+        "row": "17",
+        "col": "56",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "57": {
+        "row": "17",
+        "col": "57",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "58": {
+        "row": "17",
+        "col": "58",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "59": {
+        "row": "17",
+        "col": "59",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "60": {
+        "row": "17",
+        "col": "60",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "61": {
+        "row": "17",
+        "col": "61",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "62": {
+        "row": "17",
+        "col": "62",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "63": {
+        "row": "17",
+        "col": "63",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "64": {
+        "row": "17",
+        "col": "64",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "65": {
+        "row": "17",
+        "col": "65",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "66": {
+        "row": "17",
+        "col": "66",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "67": {
+        "row": "17",
+        "col": "67",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "68": {
+        "row": "17",
+        "col": "68",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "69": {
+        "row": "17",
+        "col": "69",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "70": {
+        "row": "17",
+        "col": "70",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "71": {
+        "row": "17",
+        "col": "71",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "72": {
+        "row": "17",
+        "col": "72",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "73": {
+        "row": "17",
+        "col": "73",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "74": {
+        "row": "17",
+        "col": "74",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "75": {
+        "row": "17",
+        "col": "75",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "76": {
+        "row": "17",
+        "col": "76",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      }
+    },
+    "18": {
+      "1": {
+        "row": "18",
+        "col": "1",
+        "inputValue": "openxdataSMS",
+        "value": "openxdataSMS"
+      },
+      "2": {
+        "row": "18",
+        "col": "2",
+        "inputValue": "openXdata",
+        "value": "openXdata"
+      },
+      "3": {
+        "row": "18",
+        "col": "3",
+        "inputValue": "http://www.openxdata.org/",
+        "value": "http://www.openxdata.org/"
+      },
+      "5": {
+        "row": "18",
+        "col": "5",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "6": {
+        "row": "18",
+        "col": "6",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "7": {
+        "row": "18",
+        "col": "7",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "8": {
+        "row": "18",
+        "col": "8",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "9": {
+        "row": "18",
+        "col": "9",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "10": {
+        "row": "18",
+        "col": "10",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "11": {
+        "row": "18",
+        "col": "11",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "12": {
+        "row": "18",
+        "col": "12",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "13": {
+        "row": "18",
+        "col": "13",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "14": {
+        "row": "18",
+        "col": "14",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "15": {
+        "row": "18",
+        "col": "15",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "16": {
+        "row": "18",
+        "col": "16",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "17": {
+        "row": "18",
+        "col": "17",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "18": {
+        "row": "18",
+        "col": "18",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "19": {
+        "row": "18",
+        "col": "19",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "20": {
+        "row": "18",
+        "col": "20",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "21": {
+        "row": "18",
+        "col": "21",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "22": {
+        "row": "18",
+        "col": "22",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "23": {
+        "row": "18",
+        "col": "23",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "24": {
+        "row": "18",
+        "col": "24",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "25": {
+        "row": "18",
+        "col": "25",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "26": {
+        "row": "18",
+        "col": "26",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "27": {
+        "row": "18",
+        "col": "27",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "28": {
+        "row": "18",
+        "col": "28",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "29": {
+        "row": "18",
+        "col": "29",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "30": {
+        "row": "18",
+        "col": "30",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "31": {
+        "row": "18",
+        "col": "31",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "32": {
+        "row": "18",
+        "col": "32",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "34": {
+        "row": "18",
+        "col": "34",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "37": {
+        "row": "18",
+        "col": "37",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "38": {
+        "row": "18",
+        "col": "38",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "39": {
+        "row": "18",
+        "col": "39",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "40": {
+        "row": "18",
+        "col": "40",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "41": {
+        "row": "18",
+        "col": "41",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "43": {
+        "row": "18",
+        "col": "43",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "45": {
+        "row": "18",
+        "col": "45",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "50": {
+        "row": "18",
+        "col": "50",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "51": {
+        "row": "18",
+        "col": "51",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "52": {
+        "row": "18",
+        "col": "52",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "53": {
+        "row": "18",
+        "col": "53",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "54": {
+        "row": "18",
+        "col": "54",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "55": {
+        "row": "18",
+        "col": "55",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "56": {
+        "row": "18",
+        "col": "56",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "57": {
+        "row": "18",
+        "col": "57",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "58": {
+        "row": "18",
+        "col": "58",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "59": {
+        "row": "18",
+        "col": "59",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "60": {
+        "row": "18",
+        "col": "60",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "61": {
+        "row": "18",
+        "col": "61",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "62": {
+        "row": "18",
+        "col": "62",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "63": {
+        "row": "18",
+        "col": "63",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "64": {
+        "row": "18",
+        "col": "64",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "65": {
+        "row": "18",
+        "col": "65",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "66": {
+        "row": "18",
+        "col": "66",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "67": {
+        "row": "18",
+        "col": "67",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "68": {
+        "row": "18",
+        "col": "68",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "69": {
+        "row": "18",
+        "col": "69",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "70": {
+        "row": "18",
+        "col": "70",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "71": {
+        "row": "18",
+        "col": "71",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "72": {
+        "row": "18",
+        "col": "72",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "73": {
+        "row": "18",
+        "col": "73",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "74": {
+        "row": "18",
+        "col": "74",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "75": {
+        "row": "18",
+        "col": "75",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "76": {
+        "row": "18",
+        "col": "76",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      }
+    },
+    "19": {
+      "1": {
+        "row": "19",
+        "col": "1",
+        "inputValue": "kookoo",
+        "value": "kookoo"
+      },
+      "2": {
+        "row": "19",
+        "col": "2",
+        "inputValue": "KooKoo",
+        "value": "KooKoo"
+      },
+      "3": {
+        "row": "19",
+        "col": "3",
+        "inputValue": "http://www.kookoo.in/",
+        "value": "http://www.kookoo.in/"
+      },
+      "7": {
+        "row": "19",
+        "col": "7",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "19": {
+        "row": "19",
+        "col": "19",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "20": {
+        "row": "19",
+        "col": "20",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "21": {
+        "row": "19",
+        "col": "21",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "22": {
+        "row": "19",
+        "col": "22",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "51": {
+        "row": "19",
+        "col": "51",
+        "inputValue": "FALSE",
+        "value": "FALSE"
+      },
+      "59": {
+        "row": "19",
+        "col": "59",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "60": {
+        "row": "19",
+        "col": "60",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "61": {
+        "row": "19",
+        "col": "61",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "62": {
+        "row": "19",
+        "col": "62",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "63": {
+        "row": "19",
+        "col": "63",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "64": {
+        "row": "19",
+        "col": "64",
+        "inputValue": "TRUE",
+        "value": "TRUE"
+      },
+      "65": {
+        "row": "19",
         "col": "65",
         "inputValue": "TRUE",
         "value": "TRUE"
