@@ -2,7 +2,7 @@
   {
     "categoryID": "userFront",
     "categoryLabel": "Front End Users",
-    "guidingQs": "Who will be the front-end (mobile phone) users of this tool? Different tools are more appropriate for different types of users. We will make recommendations based on our best practices. Does the system need to be extremely easy to use? Is there very limited training time available for front-end users?"
+    "guidingQs": "Who will be the front-end (mobile phone) users of this tool? Does the system need to be extremely easy to use? Is there very limited training time available for front-end users?"
   },
   {
     "categoryID": "delivery",
@@ -12,7 +12,7 @@
   {
     "categoryID": "userBack",
     "categoryLabel": "Back End Users",
-    "guidingQs": "Who will be the back-end (computer) users of this tool? What access do you have to IT resources for a one time software setup/configuration? How skilled is your staff at maintaining complex IT infrastucture? Do new forms need to be very easy to build with no programming knowledge? Think about whether you will need to create many forms, and what resources that would require. Will forms be changed once the project implementation starts, or will the forms remain the same?"
+    "guidingQs": "Who will be the back-end (computer) users of this tool? How skilled is your staff at maintaining complex IT infrastucture? Do new forms need to be very easy to build with no programming knowledge? Think about whether you will need to create many forms, and what resources that would require. Will forms be changed once the project implementation starts, or will the forms remain the same?"
   },
   {
     "categoryID": "viewData",
@@ -22,7 +22,7 @@
   {
     "categoryID": "caseManagement",
     "categoryLabel": "Case Management",
-    "guidingQs": "Is data being collected as part of a one time survey? If so, no longitudinal tracking is needed. Do you need to track information collected from many forms at different times, all related to the same subject (such as a patient, or a health center)? If so, do you need the system to manage the subject identification for you, or provide a limited profile on a subject? If so, chose \"some.\" If you need more advance longitudinal tracking, such as a full patient profile, or the ability to update a patient's profile from the field, select \"advanced.\""
+    "guidingQs": "Is data being collected as part of a one time survey? If so, no case management is needed. Do you need to track information collected from many forms at different times, all related to the same subject (such as a patient, or a health center)? If so, do you need the system to manage the subject identification for you, or provide a limited profile on a subject? If so, chose \"some.\" If you need more advance case management, such as a full patient profile, or the ability to update a patient's profile from the field, select \"advanced.\""
   },
   {
     "categoryID": "codeAccess",

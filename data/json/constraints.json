@@ -338,6 +338,8 @@
   },
   {
     "categoryID": "userBack",
+    "subcategoryID": "maintenance",
+    "subcategoryLabel": "Maintenance",
     "constraintID": "formbuild_easy",
     "constraintLabel": "Easy Formbuilding",
     "imageLink": "img/constraints/formeasy.png"
@@ -393,6 +395,46 @@
   },
   {
     "categoryID": "viewData",
+    "subcategoryID": "dataView",
+    "subcategoryLabel": "Data views",
+    "constraintID": "listRecords",
+    "constraintLabel": "List Records",
+    "imageLink": "img/constraints/listrecords.png"
+  },
+  {
+    "categoryID": "viewData",
+    "subcategoryID": "dataView",
+    "subcategoryLabel": "Data views",
+    "constraintID": "mapping",
+    "constraintLabel": "Mapping",
+    "imageLink": "img/constraints/mapping.png"
+  },
+  {
+    "categoryID": "viewData",
+    "subcategoryID": "dataView",
+    "subcategoryLabel": "Data views",
+    "constraintID": "records_editable",
+    "constraintLabel": "Records Editable",
+    "imageLink": "img/constraints/editrecords.png"
+  },
+  {
+    "categoryID": "viewData",
+    "subcategoryID": "dataView",
+    "subcategoryLabel": "Data views",
+    "constraintID": "basicAnalysis",
+    "constraintLabel": "Some Basic Analysis",
+    "imageLink": "img/constraints/basicanalysis.png"
+  },
+  {
+    "categoryID": "viewData",
+    "subcategoryID": "dataView",
+    "subcategoryLabel": "Data views",
+    "constraintID": "customAnalysis",
+    "constraintLabel": "Customizeable Analysis",
+    "imageLink": "img/constraints/customanalysis.png"
+  },
+  {
+    "categoryID": "viewData",
     "subcategoryID": "exports",
     "subcategoryLabel": "Exports available",
     "constraintID": "csv",
@@ -438,45 +480,5 @@
     "constraintID": "json",
     "constraintLabel": "JSON",
     "imageLink": "img/constraints/json.png"
-  },
-  {
-    "categoryID": "viewData",
-    "subcategoryID": "dataView",
-    "subcategoryLabel": "Data views",
-    "constraintID": "listRecords",
-    "constraintLabel": "List Records",
-    "imageLink": "img/constraints/listrecords.png"
-  },
-  {
-    "categoryID": "viewData",
-    "subcategoryID": "dataView",
-    "subcategoryLabel": "Data views",
-    "constraintID": "mapping",
-    "constraintLabel": "Mapping",
-    "imageLink": "img/constraints/mapping.png"
-  },
-  {
-    "categoryID": "viewData",
-    "subcategoryID": "dataView",
-    "subcategoryLabel": "Data views",
-    "constraintID": "records_editable",
-    "constraintLabel": "Records Editable",
-    "imageLink": "img/constraints/editrecords.png"
-  },
-  {
-    "categoryID": "viewData",
-    "subcategoryID": "dataView",
-    "subcategoryLabel": "Data views",
-    "constraintID": "basicAnalysis",
-    "constraintLabel": "Some Basic Analysis",
-    "imageLink": "img/constraints/basicanalysis.png"
-  },
-  {
-    "categoryID": "viewData",
-    "subcategoryID": "dataView",
-    "subcategoryLabel": "Data views",
-    "constraintID": "customAnalysis",
-    "constraintLabel": "Customizeable Analysis",
-    "imageLink": "img/constraints/customanalysis.png"
   }
 ]

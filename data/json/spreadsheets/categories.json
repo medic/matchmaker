@@ -36,8 +36,8 @@
       "3": {
         "row": "2",
         "col": "3",
-        "inputValue": "Who will be the front-end (mobile phone) users of this tool? Different tools are more appropriate for different types of users. We will make recommendations based on our best practices. Does the system need to be extremely easy to use? Is there very limited training time available for front-end users?",
-        "value": "Who will be the front-end (mobile phone) users of this tool? Different tools are more appropriate for different types of users. We will make recommendations based on our best practices. Does the system need to be extremely easy to use? Is there very limited training time available for front-end users?"
+        "inputValue": "Who will be the front-end (mobile phone) users of this tool? Does the system need to be extremely easy to use? Is there very limited training time available for front-end users?",
+        "value": "Who will be the front-end (mobile phone) users of this tool? Does the system need to be extremely easy to use? Is there very limited training time available for front-end users?"
       }
     },
     "3": {
@@ -76,8 +76,8 @@
       "3": {
         "row": "4",
         "col": "3",
-        "inputValue": "How many questions will you be collecting on a single form? What types of information will you be collecting? Keep in mind, certain features will be limited by the phone you use to collect data, and not by the software.",
-        "value": "How many questions will you be collecting on a single form? What types of information will you be collecting? Keep in mind, certain features will be limited by the phone you use to collect data, and not by the software."
+        "inputValue": "How many questions will you be collecting on a single form? What types of information will you be collecting? Keep in mind, certain features will be limited by the phone you use to collect data, and not by the software. Do you need the system to have the option of accepting this questionnaire over structured SMS? ",
+        "value": "How many questions will you be collecting on a single form? What types of information will you be collecting? Keep in mind, certain features will be limited by the phone you use to collect data, and not by the software. Do you need the system to have the option of accepting this questionnaire over structured SMS?"
       }
     },
     "5": {
@@ -116,8 +116,8 @@
       "3": {
         "row": "6",
         "col": "3",
-        "inputValue": "There are many things to keep in mind when deciding between cloud hosting and a local instal. Local installs most likely require more time and IT skills to get the software up and running. Do you have access to at least a short term resource to assist in installing software?",
-        "value": "There are many things to keep in mind when deciding between cloud hosting and a local instal. Local installs most likely require more time and IT skills to get the software up and running. Do you have access to at least a short term resource to assist in installing software?"
+        "inputValue": "Do you have requirements for sending data from the field? Think about what network coverage exists in yoru area and the cost of SMS and data. Do you need to collect information offline, to be sent at a later time? There are many things to keep in mind when deciding between cloud hosting and a local instal. Local installs make it possible to store data onsite and access data offline, but most likely require more time and IT skills to get the software up and running. If you need a local install, does it need to be easy to install without an IT resource? Do you need to syncronize the data with data on other local instalations? ",
+        "value": "Do you have requirements for sending data from the field? Think about what network coverage exists in yoru area and the cost of SMS and data. Do you need to collect information offline, to be sent at a later time? There are many things to keep in mind when deciding between cloud hosting and a local instal. Local installs make it possible to store data onsite and access data offline, but most likely require more time and IT skills to get the software up and running. If you need a local install, does it need to be easy to install without an IT resource? Do you need to syncronize the data with data on other local instalations?"
       }
     },
     "7": {
@@ -156,8 +156,8 @@
       "3": {
         "row": "8",
         "col": "3",
-        "inputValue": "Who will be the back-end (computer) users of this tool? What access do you have to IT resources for a one time software setup/configuration? How skilled is your staff at maintaining complex IT infrastucture? Do new forms need to be very easy to build with no programming knowledge? Think about whether you will need to create many forms, and what resources that would require. Will forms be changed once the project implementation starts, or will the forms remain the same?",
-        "value": "Who will be the back-end (computer) users of this tool? What access do you have to IT resources for a one time software setup/configuration? How skilled is your staff at maintaining complex IT infrastucture? Do new forms need to be very easy to build with no programming knowledge? Think about whether you will need to create many forms, and what resources that would require. Will forms be changed once the project implementation starts, or will the forms remain the same?"
+        "inputValue": "Who will be the back-end (computer) users of this tool? How skilled is your staff at maintaining complex IT infrastucture? Do new forms need to be very easy to build with no programming knowledge? Think about whether you will need to create many forms, and what resources that would require. Will forms be changed once the project implementation starts, or will the forms remain the same?",
+        "value": "Who will be the back-end (computer) users of this tool? How skilled is your staff at maintaining complex IT infrastucture? Do new forms need to be very easy to build with no programming knowledge? Think about whether you will need to create many forms, and what resources that would require. Will forms be changed once the project implementation starts, or will the forms remain the same?"
       }
     },
     "9": {
@@ -196,8 +196,8 @@
       "3": {
         "row": "10",
         "col": "3",
-        "inputValue": "Is data being collected as part of a one time survey? If so, no longitudinal tracking is needed. Do you need to track information collected from many forms at different times, all related to the same subject (such as a patient, or a health center)? If so, do you need the system to manage the subject identification for you, or provide a limited profile on a subject? If so, chose \"some.\" If you need more advance longitudinal tracking, such as a full patient profile, or the ability to update a patient's profile from the field, select \"advanced.\"",
-        "value": "Is data being collected as part of a one time survey? If so, no longitudinal tracking is needed. Do you need to track information collected from many forms at different times, all related to the same subject (such as a patient, or a health center)? If so, do you need the system to manage the subject identification for you, or provide a limited profile on a subject? If so, chose \"some.\" If you need more advance longitudinal tracking, such as a full patient profile, or the ability to update a patient's profile from the field, select \"advanced.\""
+        "inputValue": "Is data being collected as part of a one time survey? If so, no case management is needed. Do you need to track information collected from many forms at different times, all related to the same subject (such as a patient, or a health center)? If so, do you need the system to manage the subject identification for you, or provide a limited profile on a subject? If so, chose \"some.\" If you need more advance case management, such as a full patient profile, or the ability to update a patient's profile from the field, select \"advanced.\"",
+        "value": "Is data being collected as part of a one time survey? If so, no case management is needed. Do you need to track information collected from many forms at different times, all related to the same subject (such as a patient, or a health center)? If so, do you need the system to manage the subject identification for you, or provide a limited profile on a subject? If so, chose \"some.\" If you need more advance case management, such as a full patient profile, or the ability to update a patient's profile from the field, select \"advanced.\""
       }
     },
     "11": {
