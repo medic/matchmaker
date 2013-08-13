@@ -263,8 +263,8 @@ fieldset[disabled] .btn-primary.active {
 }
 
 
-a.btn {
-	margin:0px;
+a#btn {
+	margin:0px -4px 0px 0px;
 	padding:10px 0px;
 	width:100%;
 	text-decoration: none;
