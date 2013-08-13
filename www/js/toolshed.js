@@ -10,54 +10,28 @@
  */
  
  
-
+	function clearSessionStorage() {
+		var buttonClicked = sessionStorage.getItem('buttonClicked'),
+			name = sessionStorage.getItem('name'),
+			src = sessionStorage.getItem('src');
+	  
+		sessionStorage.clear();
+		sessionStorage.buttonClicked = buttonClicked;
+		sessionStorage.name = name;
+		sessionStorage.src = src;  
+	}
+	
+	$(window).onbeforeunload = clearSessionStorage();
 
 
 	// INITIALIZE arrays while document is loading
-	var phoneCats,
-		compCats,
-		allCats,
-		constraints,
-		tools,
+	
+	var phoneCats = JSON.parse(localStorage.getItem('phoneCats')),
+		compCats = JSON.parse(localStorage.getItem('compCats')),
+		allCats = JSON.parse(localStorage.getItem('allCats')),
+		constraints = JSON.parse(localStorage.getItem('constraints')),
+		tools = JSON.parse(localStorage.getItem('tools')),
 		counter; // number of tools currently available to user
-		
-		
-		//js/json/phoneCats.json
-	
-	if (!phoneCats) {
-		$.getJSON("../data/json/phoneCats.json", function(data) {	//../data/json/phoneCats.json
-			localStorage.setItem('phoneCats', JSON.stringify(data));	
-			phoneCats = JSON.parse(localStorage.getItem('phoneCats'));
-		});
-	} 
-	
-	if (!compCats) {
-		$.getJSON("../data/json/compCats.json", function(data) {
-			localStorage.setItem('compCats', JSON.stringify(data));	
-			compCats = JSON.parse(localStorage.getItem('compCats'));			
-		});
-	}
-	
-	if (!allCats) {
-		$.getJSON("../data/json/allCats.json", function(data) {
-			localStorage.setItem('allCats', JSON.stringify(data));				
-			allCats = JSON.parse(localStorage.getItem('allCats'));
-		});
-	} 
-	
-	if (!constraints) {
-		$.getJSON("../data/json/constraints.json", function(data) {
-			localStorage.setItem('constraints', JSON.stringify(data));
-			constraints = JSON.parse(localStorage.getItem('constraints'));				
-		});
-	}
-	
-	if (!tools) {
-		$.getJSON("../data/json/tools.json", function(data) {
-			localStorage.setItem('tools', JSON.stringify(data));
-			tools = JSON.parse(localStorage.getItem('tools'));
-		});
-	}
 		
 	
 		
@@ -68,6 +42,7 @@
 		loadTools();
 		checkMsgType(); // default behavior of categories on load
 		
+		$("a#sum").hide();
 		
 		// ADDING constraints
 		$.listen('click', '.constraintImg', function() {	
@@ -133,10 +108,17 @@
 		
 		
 		// SHOW/HIDE categories
+		$.listen('click', 'p.whiteboard', function() {
+			toggleCats($(this));
+		});
+		
 		$.listen('click', 'img.arrow', function() {
-	
-			var parent = $(this).parent(),
-				id = $(parent).attr("id"),
+			toggleCats($(this).parent());
+		});
+		
+		function toggleCats(parent) {
+				
+			var id = $(parent).attr("id"),
 				txt = $(parent).text();
 
 			if ($(parent).attr("data-open") == "false") {
@@ -170,32 +152,37 @@
 			
 			$("p#" + id + "Qs").toggle(200);
 			$("section#" + id + "Constraints").toggle(300);
-				
-		});
+		
+		}
 		
 		
 		// SEND INFO to summary page
-		$.listen('click', 'button#sum', function() {
+		$('a#sum').click( function() {
 			
 			// Array of selected constraints
 			var selectedConstraints = [];
 			
-			$("section#userselected > figure > img.constraintImg").each(function(index, fig) {
-				var figID = $(this).parent().attr("id");
+			$("section#userselected > figure").each(function() {
+				var figID = $(this).attr("id").replace("Sel", "");
 				selectedConstraints.push(figID);
 			});
 			
-			sessionStorage.setItem("selectedConstraints", JSON.stringify(selectedConstraints));
+			sessionStorage.setItem('selectedConstraints', JSON.stringify(selectedConstraints));
 			
 			// Array of tech options
 			var techOptions = [];
 
-			$("fieldset#tech > section").each(function() {
-				var techID = $(this).parent().attr("id");
-				techOptions.push(techID);
+			$("fieldset#tech > section > p").each(function() {
+				var techID = $(this).attr("id");
+				
+				if ($("p#" + techID).css("display") != "none") {
+					techOptions.push(techID);
+				}
+				
+				sessionStorage.removeItem(techID);
 			});
 			
-			sessionStorage.setItem("techOptions", JSON.stringify(techOptions));
+			sessionStorage.setItem('techOptions', JSON.stringify(techOptions));
 			
 		});
 
@@ -207,26 +194,51 @@
 		// argument clickedImage must be a jQuery object
 		function checkMsgType(clickedImage) {
 			switch ($(clickedImage).attr("id")) {
-				case "phoneMsg":
-					$("img#selected").attr("src", "img/phone.png");
-					$("img#phoneMsg").attr("class", "selected drop");
-					$("img#computerMsg").attr("class", "deselected drop");
-					$("img#bothMsg").attr("class", "deselected drop");
+			
+				case "phoneMsg":	
+					var name = "phoneMsg";
+					var src = "img/phone.png";
+					$("img#selected").attr("src", src);
+					$("img#selected").attr("name", name);
+					$("ul.dropdown-menu > li > img").attr("class", "deselected drop");		
+					$("img#" + name).attr("class", "selected drop");
+					
 					loadCategories(phoneCats);
+					
+					sessionStorage.setItem('src', src);
+					sessionStorage.setItem('buttonClicked', 'phoneCats');
+					sessionStorage.setItem('name', name);
+					
 					break;
 				case "computerMsg":
-					$("img#selected").attr("src", "img/computer.png");
-					$("img#computerMsg").attr("class", "selected drop");	
-					$("img#phoneMsg").attr("class", "deselected drop");
-					$("img#bothMsg").attr("class", "deselected drop");						
+					var name = "computerMsg";
+					var src = "img/computer.png";			
+					$("img#selected").attr("src", src);
+					$("img#selected").attr("name", name);
+					$("ul.dropdown-menu > li > img").attr("class", "deselected drop");	
+					$("img#" + name).attr("class", "selected drop");					
+					
 					loadCategories(compCats);
+					
+					sessionStorage.setItem('src', src);
+					sessionStorage.setItem('buttonClicked', 'compCats');
+					sessionStorage.setItem('name', name);
+					
 					break;
 				case "bothMsg": 
-					$("img#selected").attr("src", "img/both.png");
-					$("img#bothMsg").attr("class", "selected drop");
-					$("img#phoneMsg").attr("class", "deselected drop");
-					$("img#computerMsg").attr("class", "deselected drop");
+					var name = "bothMsg";
+					var src = "img/both.png";	
+					$("img#selected").attr("src", src);
+					$("img#selected").attr("name", name);
+					$("ul.dropdown-menu > li > img").attr("class", "deselected drop");
+					$("img#" + name).attr("class", "selected drop");
+					
 					loadCategories(allCats);
+					
+					sessionStorage.setItem('src', src);
+					sessionStorage.setItem('buttonClicked', 'allCats');
+					sessionStorage.setItem('name', name);
+					
 					break;
 				default:
 					// get data from the button that was clicked on the landing page
@@ -263,7 +275,6 @@
 		
 		
 		function loadConstraints() {
-			constraints = JSON.parse(localStorage.getItem('constraints'));
 			$.each(constraints, function(index, d){
 				$("section#" + d.categoryID + "Constraints").append(
 					'<figure id="' + d.constraintID + '"><img src="' + d.imageLink + 
@@ -287,8 +298,7 @@
 		
 			$.each(tools, function(index, tool) {
 		
-				$("fieldset#tech > section").append('<p id="' + tool.productID + '"><a href="' + 
-						tool.productLink + '" target="_blank">' + tool.productName + '</a></p>');
+				$("fieldset#tech > section").append('<p id="' + tool.productID + '">' + tool.productName + '</p>');
 		
 				/*
 				if ($.inArray(tool.productName, uniquetools) == -1) {
@@ -323,7 +333,7 @@
 				} 
 				
 				
-				if (!tool[constraintID]) {		
+				if (!tool[constraintID] && tool[constraintID] != undefined) {		
 		
 					// constraint was added
 					if (containerID.match(/[a-zA-Z]+Constraints$/) != null) {
@@ -352,7 +362,7 @@
 				
 						// don't add the tech option back or increase the counter until all the constraints that equal false for that option are removed
 						// also don't show duplicate options
-						if (false_array.length == 0 || $("p#" + tool.productID).attr("class") != "duplicate") {
+						if (false_array.length == 0 && $("p#" + tool.productID).attr("class") != "duplicate") {
 							$("p#" + tool.productID).show();
 							counter++;
 						}				
@@ -367,10 +377,18 @@
 			$("small#counter").text("(" + counter +")");
 			
 			// Display message if all tools eliminated
-			if (counter == 0) {
+			if (counter == 0 && !($("fieldset#tech").has("div#nomatch").length)) {
 				$("fieldset#tech > legend").after('<div id="nomatch" class="alert">No match. Consider which constraints and assets you really need.</div>');
-			} else {
+			} 
+			
+			if (counter != 0) {
 				$("div#nomatch").remove();
+			}
+			
+			if (counter < 5) {
+				$("a#sum").show();
+			} else {
+				$("a#sum").hide();
 			}
 			
 			

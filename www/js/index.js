@@ -5,9 +5,46 @@
  *
  */
 
+	// INITIALIZE arrays while document is loading
+	$(document).ready(function() {
+	
+	
+		$.getJSON("../data/json/phoneCats.json", function(data) {	
+			localStorage.setItem('phoneCats', JSON.stringify(data));	
+		});
+	
+	
+	
+		$.getJSON("../data/json/compCats.json", function(data) {
+			localStorage.setItem('compCats', JSON.stringify(data));				
+		});
+	
+	
+		$.getJSON("../data/json/allCats.json", function(data) {
+			localStorage.setItem('allCats', JSON.stringify(data));	
+		});
+	
+	
+	
+		$.getJSON("../data/json/constraints.json", function(data) {
+			localStorage.setItem('constraints', JSON.stringify(data));			
+		});
+	
+	
+	
+		$.getJSON("../data/json/tools.json", function(data) {
+			localStorage.setItem('tools', JSON.stringify(data));
+		});
+	
+		
+	}); 
+
+ 
+ 
 $(window).load(function() {
 
-	$("div.col-lg-3").click(function() {
+	$("div.thumbnail").click(function() {
+	
 		sessionStorage.setItem('buttonClicked', $(this).attr("id") + "Cats");
 		
 		var src,

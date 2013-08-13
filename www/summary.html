@@ -10,7 +10,14 @@
 	<!-- STYLE SHEETS -->
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/jquery.dropdown.css">
+	
+	<link rel="stylesheet" href="css/unsemantic-grid-responsive.css">
+	<link rel="stylesheet" href="css/unsemantic-grid-responsive-tablet.css">
+	
+	<!--[if (lt IE 9) & (!IEMobile)]>
+		<link rel="stylesheet" href="css/ie.css">
+	<![endif]-->
+	
 	<!-- END STYLE SHEETS -->
    
 	<!-- JAVASCRIPT -->	
@@ -18,14 +25,19 @@
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/jquery.dropdown.js"></script>
 	<script src="js/jquery.listen-1.0.3-min.js"></script>
-	<script src="js/toolshed.js"></script>
-	<!-- END JAVASCRIPT -->
+	<script src="js/summary.js"></script>
+	
+	<!--[if lt IE 9]>
+		<script src="js/html5.js"></script>
+	<![endif]-->
+	
+	<!-- END JAVASCRIPT -->	
 </head>
  
 <body>
 	<header>
 		<nav>
-			<ul class="nav">
+			<ul>
 				<li><a href="http://medicmobile.org" target="_blank"><img id="mediclogo" src="img/medic-logo.png"></a></li>
 				<li><a href="index.html"><img id="genielogo" src="img/tool-genie.jpg"></a></li>
 			</ul>
@@ -33,21 +45,47 @@
 	</header>
 	
 	<!-- ************ BEGIN PAGE CONTENT ************ -->
-	<section class="container">
+	<div class="alert alert-info">
+		<button type="button" class="close" data-dismiss="alert">&times;</button>
+		Here's a summary of what you selected and where to go from here.
+	</div>
 	
-		
+	
+	<section class="grid-container">
 		
 		<!-- BEGIN (left side): drop down menu for system messaging type -->
-		<section class="aside">
-			<img name="" id="selected" src="img/phone.png">		
-			<fieldset id="tech"><legend class="whiteboard">&nbsp;My Tech Options <small id="counter"></small>&nbsp;</legend></fieldset>
+		<section class="grid-35 suffix-10 mobile-grid-100">
+			<img name="" id="selected" src="">		
+			<fieldset id="techsum"><legend class="whiteboard">&nbsp;My Tech Options <small id="counter"></small>&nbsp;</legend></fieldset>
 		</section>
 		
 		<!-- BEGIN (right side): title image/headline and user selected constraints-->
-		<section class="asideoffset">
+		<section class="grid-55 mobile-grid-100">
 			<h2>My Requirements</h2>
 			<section id="userselected"></section> <!-- USER SELECTED CONSTRAINTS -->
 			<fieldset id="ttta"><legend class="whiteboard">&nbsp;Things to Think About&nbsp;</legend></fieldset>
+			
+
+			<!-- AddThis Smart Layers BEGIN cleanprint cleansave-->
+<!-- Go to http://www.addthis.com/get/smart-layers to customize -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-520fb09c5743b28c"></script>
+<script type="text/javascript">
+  addthis.layers({
+    'theme' : 'transparent',
+    'share' : {
+		'position' : 'left',
+		'services' : 'print,pdfonline,cleanprint,email'
+    },
+	    'mobile' : {
+        'buttonBarPosition' : 'top',
+        'buttonBarTheme' : 'transparent',
+        'mobile' : true
+    }
+  });
+</script>
+<!-- AddThis Smart Layers END -->
+			
+			
 		</section>
 			
 		
@@ -59,6 +97,8 @@
 	
 	<footer>
 		&copy; 2013 Medic Mobile. All Rights Reserved.
+		<a id="feedback" href="https://docs.google.com/forms/d/1hTScRxmiRBI_ykkMr8UM9hVP-2anD9E_P_ZDmZ6h2lU/viewform" target="_blank"
+				class="btn btn-default">Submit Feedback</a>
 	</footer>
 		
 </body>

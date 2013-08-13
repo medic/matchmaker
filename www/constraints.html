@@ -11,6 +11,14 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/jquery.dropdown.css">
+	
+	<link rel="stylesheet" href="css/unsemantic-grid-responsive.css">
+	<link rel="stylesheet" href="css/unsemantic-grid-responsive-tablet.css">
+	
+	<!--[if (lt IE 9) & (!IEMobile)]>
+		<link rel="stylesheet" href="css/ie.css">
+	<![endif]-->
+	
 	<!-- END STYLE SHEETS -->
    
 	<!-- JAVASCRIPT -->	
@@ -19,13 +27,18 @@
 	<script src="js/jquery.dropdown.js"></script>
 	<script src="js/jquery.listen-1.0.3-min.js"></script>
 	<script src="js/toolshed.js"></script>
+	
+	<!--[if lt IE 9]>
+		<script src="js/html5.js"></script>
+	<![endif]-->
+	
 	<!-- END JAVASCRIPT -->
 </head>
  
 <body>
 	<header>
 		<nav>
-			<ul class="nav">
+			<ul>
 				<li><a href="http://medicmobile.org" target="_blank"><img id="mediclogo" src="img/medic-logo.png"></a></li>
 				<li><a href="index.html"><img id="genielogo" src="img/tool-genie.jpg"></a></li>
 			</ul>
@@ -33,21 +46,24 @@
 	</header>
 	
 	<!-- ************ BEGIN PAGE CONTENT ************ -->
-	<section class="container">
+	<div class="alert alert-info">
+		<button type="button" class="close" data-dismiss="alert">&times;</button>
+		Select your existing assets, needs, and requirements before adding your "nice-to-haves" in order to find the tools that are the best fit
+		for you. Adding more requirements will narrow down your possible tech options. You will be able to view a summary of your options 
+		when there are no more than four options remaining.
+	</div>
 	
-		<div class="alert alert-info">
-			<button type="button" class="close" data-dismiss="alert">&times;</button>
-			Some simple instructions can go here and can be dismissed.
-		</div>
-		
+	
+	<section class="grid-container">
+
 		<!-- BEGIN (left side): drop down menu for system messaging type -->
-		<section class="aside">
+		<section class="grid-35 suffix-10 mobile-grid-100">
 			<img name="" id="selected" src=""><img id="gear" class="close" src="img/gear.png" data-dropdown="#dropdown-1"> 		
 			<section id="categories"></section>
 		</section>
 		
 		<!-- BEGIN (right side): title image/headline and user selected constraints-->
-		<section class="asideoffset">
+		<section class="grid-55 mobile-grid-100">
 			<h2>My Requirements</h2>
 			
 			
@@ -58,7 +74,7 @@
 			</fieldset>
 			
 			<!-- Only becomes available when counter reaches 3 options -->
-			<button id="sum"><a href="summary.html"  class="btn btn-primary">Summarize My Results</a></button>
+			<a id="sum" href="summary.html"  class="btn btn-primary">Summarize My Results</a>
 			
 		</section>
 			
