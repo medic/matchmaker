@@ -19,7 +19,7 @@ spreadsheets:
 	./utils/spreadsheets.js '$(GKEY)' \
 		4 'R1C1:R20C1' > json/spreadsheets/computer_to_phone.json
 	./utils/spreadsheets.js '$(GKEY)' \
-		5 'R1C1:R25C76' > json/spreadsheets/tool_to_constraint.json
+		5 'R1C1:R20C73' > json/spreadsheets/tool_to_constraint.json
 
 json/tools.json: json/spreadsheets/tool_to_constraint.json
 	./gen_conf.js tools > json/tools.json

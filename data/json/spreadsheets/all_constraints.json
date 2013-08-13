@@ -388,114 +388,78 @@
       "1": {
         "row": "13",
         "col": "1",
-        "inputValue": "='1: All Categories'!R6C1",
-        "value": "connectivity"
-      },
-      "2": {
-        "row": "13",
-        "col": "2",
-        "inputValue": "os",
-        "value": "os"
-      },
-      "3": {
-        "row": "13",
-        "col": "3",
-        "inputValue": "Operating System",
-        "value": "Operating System"
+        "inputValue": "='1: All Categories'!R7C1",
+        "value": "delivery"
       },
       "4": {
         "row": "13",
         "col": "4",
-        "inputValue": "os_apple",
-        "value": "os_apple"
+        "inputValue": "sms",
+        "value": "sms"
       },
       "5": {
         "row": "13",
         "col": "5",
-        "inputValue": "Apple",
-        "value": "Apple"
+        "inputValue": "SMS",
+        "value": "SMS"
       },
       "6": {
         "row": "13",
         "col": "6",
-        "inputValue": "ios.png",
-        "value": "ios.png"
+        "inputValue": "sms.png",
+        "value": "sms.png"
       }
     },
     "14": {
       "1": {
         "row": "14",
         "col": "1",
-        "inputValue": "='1: All Categories'!R6C1",
-        "value": "connectivity"
-      },
-      "2": {
-        "row": "14",
-        "col": "2",
-        "inputValue": "os",
-        "value": "os"
-      },
-      "3": {
-        "row": "14",
-        "col": "3",
-        "inputValue": "Operating System",
-        "value": "Operating System"
+        "inputValue": "='1: All Categories'!R7C1",
+        "value": "delivery"
       },
       "4": {
         "row": "14",
         "col": "4",
-        "inputValue": "os_linux",
-        "value": "os_linux"
+        "inputValue": "voice",
+        "value": "voice"
       },
       "5": {
         "row": "14",
         "col": "5",
-        "inputValue": "Linux",
-        "value": "Linux"
+        "inputValue": "Voice",
+        "value": "Voice"
       },
       "6": {
         "row": "14",
         "col": "6",
-        "inputValue": "linux.png",
-        "value": "linux.png"
+        "inputValue": "voice.png",
+        "value": "voice.png"
       }
     },
     "15": {
       "1": {
         "row": "15",
         "col": "1",
-        "inputValue": "='1: All Categories'!R6C1",
-        "value": "connectivity"
-      },
-      "2": {
-        "row": "15",
-        "col": "2",
-        "inputValue": "os",
-        "value": "os"
-      },
-      "3": {
-        "row": "15",
-        "col": "3",
-        "inputValue": "Operating System",
-        "value": "Operating System"
+        "inputValue": "='1: All Categories'!R7C1",
+        "value": "delivery"
       },
       "4": {
         "row": "15",
         "col": "4",
-        "inputValue": "os_windows",
-        "value": "os_windows"
+        "inputValue": "group",
+        "value": "group"
       },
       "5": {
         "row": "15",
         "col": "5",
-        "inputValue": "Windows",
-        "value": "Windows"
+        "inputValue": "Message Groups",
+        "value": "Message Groups"
       },
       "6": {
         "row": "15",
         "col": "6",
-        "inputValue": "windows.png",
-        "value": "windows.png"
+        "inputValue": "group.png",
+        "value": "group.png"
       }
     },
     "16": {
@@ -508,98 +472,104 @@
       "4": {
         "row": "16",
         "col": "4",
-        "inputValue": "sms",
-        "value": "sms"
+        "inputValue": "scheduled",
+        "value": "scheduled"
       },
       "5": {
         "row": "16",
         "col": "5",
-        "inputValue": "SMS",
-        "value": "SMS"
+        "inputValue": "Scheduled Messages",
+        "value": "Scheduled Messages"
       },
       "6": {
         "row": "16",
         "col": "6",
-        "inputValue": "sms.png",
-        "value": "sms.png"
+        "inputValue": "scheduled.png",
+        "value": "scheduled.png"
       }
     },
     "17": {
       "1": {
         "row": "17",
         "col": "1",
-        "inputValue": "='1: All Categories'!R7C1",
-        "value": "delivery"
+        "inputValue": "='1: All Categories'!R3C1",
+        "value": "phone"
       },
       "4": {
         "row": "17",
         "col": "4",
-        "inputValue": "voice",
-        "value": "voice"
+        "inputValue": "featurePhone",
+        "value": "featurePhone"
       },
       "5": {
         "row": "17",
         "col": "5",
-        "inputValue": "Voice",
-        "value": "Voice"
+        "inputValue": "Feature Phone",
+        "value": "Feature Phone"
       },
       "6": {
         "row": "17",
         "col": "6",
-        "inputValue": "voice.png",
-        "value": "voice.png"
+        "inputValue": "feature.png",
+        "value": "feature.png"
       }
     },
     "18": {
       "1": {
         "row": "18",
         "col": "1",
-        "inputValue": "='1: All Categories'!R7C1",
-        "value": "delivery"
+        "inputValue": "='1: All Categories'!R3C1",
+        "value": "phone"
       },
       "4": {
         "row": "18",
         "col": "4",
-        "inputValue": "group",
-        "value": "group"
+        "inputValue": "java",
+        "value": "java"
       },
       "5": {
         "row": "18",
         "col": "5",
-        "inputValue": "Message Groups",
-        "value": "Message Groups"
+        "inputValue": "Java Phone",
+        "value": "Java Phone"
       },
       "6": {
         "row": "18",
         "col": "6",
-        "inputValue": "group.png",
-        "value": "group.png"
+        "inputValue": "java.png",
+        "value": "java.png"
       }
     },
     "19": {
       "1": {
         "row": "19",
         "col": "1",
-        "inputValue": "='1: All Categories'!R7C1",
-        "value": "delivery"
+        "inputValue": "='1: All Categories'!R3C1",
+        "value": "phone"
       },
       "4": {
         "row": "19",
         "col": "4",
-        "inputValue": "scheduled",
-        "value": "scheduled"
+        "inputValue": "android",
+        "value": "android"
       },
       "5": {
         "row": "19",
         "col": "5",
-        "inputValue": "Scheduled Messages",
-        "value": "Scheduled Messages"
+        "inputValue": "Android ",
+        "value": "Android"
       },
       "6": {
         "row": "19",
         "col": "6",
-        "inputValue": "scheduled.png",
-        "value": "scheduled.png"
+        "inputValue": "android.png",
+        "value": "android.png"
+      },
+      "8": {
+        "row": "19",
+        "col": "8",
+        "inputValue": "Smart phones... (considerations, training, safety, power, repair/replacement, other social changes)",
+        "value": "Smart phones... (considerations, training, safety, power, repair/replacement, other social changes)"
       }
     },
     "20": {
@@ -612,20 +582,26 @@
       "4": {
         "row": "20",
         "col": "4",
-        "inputValue": "featurePhone",
-        "value": "featurePhone"
+        "inputValue": "ios",
+        "value": "ios"
       },
       "5": {
         "row": "20",
         "col": "5",
-        "inputValue": "Feature Phone",
-        "value": "Feature Phone"
+        "inputValue": "iPhone",
+        "value": "iPhone"
       },
       "6": {
         "row": "20",
         "col": "6",
-        "inputValue": "feature.png",
-        "value": "feature.png"
+        "inputValue": "iphone.png",
+        "value": "iphone.png"
+      },
+      "8": {
+        "row": "20",
+        "col": "8",
+        "inputValue": "Smart phones... (considerations, training, safety, power, repair/replacement, other social changes)",
+        "value": "Smart phones... (considerations, training, safety, power, repair/replacement, other social changes)"
       }
     },
     "21": {
@@ -638,110 +614,98 @@
       "4": {
         "row": "21",
         "col": "4",
-        "inputValue": "java",
-        "value": "java"
+        "inputValue": "comp",
+        "value": "comp"
       },
       "5": {
         "row": "21",
         "col": "5",
-        "inputValue": "Java Phone",
-        "value": "Java Phone"
+        "inputValue": "Computer",
+        "value": "Computer"
       },
       "6": {
         "row": "21",
         "col": "6",
-        "inputValue": "java.png",
-        "value": "java.png"
+        "inputValue": "comp.png",
+        "value": "comp.png"
       }
     },
     "22": {
       "1": {
         "row": "22",
         "col": "1",
-        "inputValue": "='1: All Categories'!R3C1",
-        "value": "phone"
+        "inputValue": "='1: All Categories'!R5C1",
+        "value": "questionnaireAdvanced"
       },
       "4": {
         "row": "22",
         "col": "4",
-        "inputValue": "android",
-        "value": "android"
+        "inputValue": "required",
+        "value": "required"
       },
       "5": {
         "row": "22",
         "col": "5",
-        "inputValue": "Android ",
-        "value": "Android"
+        "inputValue": "Required Questions",
+        "value": "Required Questions"
       },
       "6": {
         "row": "22",
         "col": "6",
-        "inputValue": "android.png",
-        "value": "android.png"
-      },
-      "8": {
-        "row": "22",
-        "col": "8",
-        "inputValue": "Smart phones... (considerations, training, safety, power, repair/replacement, other social changes)",
-        "value": "Smart phones... (considerations, training, safety, power, repair/replacement, other social changes)"
+        "inputValue": "reqd.png",
+        "value": "reqd.png"
       }
     },
     "23": {
       "1": {
         "row": "23",
         "col": "1",
-        "inputValue": "='1: All Categories'!R3C1",
-        "value": "phone"
+        "inputValue": "='1: All Categories'!R5C1",
+        "value": "questionnaireAdvanced"
       },
       "4": {
         "row": "23",
         "col": "4",
-        "inputValue": "ios",
-        "value": "ios"
+        "inputValue": "skip",
+        "value": "skip"
       },
       "5": {
         "row": "23",
         "col": "5",
-        "inputValue": "iPhone",
-        "value": "iPhone"
+        "inputValue": "Skip Logic",
+        "value": "Skip Logic"
       },
       "6": {
         "row": "23",
         "col": "6",
-        "inputValue": "iphone.png",
-        "value": "iphone.png"
-      },
-      "8": {
-        "row": "23",
-        "col": "8",
-        "inputValue": "Smart phones... (considerations, training, safety, power, repair/replacement, other social changes)",
-        "value": "Smart phones... (considerations, training, safety, power, repair/replacement, other social changes)"
+        "inputValue": "skip.png",
+        "value": "skip.png"
       }
     },
     "24": {
       "1": {
         "row": "24",
         "col": "1",
-        "inputValue": "='1: All Categories'!R3C1",
-        "value": "phone"
+        "inputValue": "='1: All Categories'!R5C1",
+        "value": "questionnaireAdvanced"
       },
       "4": {
         "row": "24",
         "col": "4",
-        "inputValue": "comp",
-        "value": "comp"
+        "inputValue": "rangeCheck",
+        "value": "rangeCheck"
       },
       "5": {
         "row": "24",
         "col": "5",
-        "inputValue": "Computer",
-        "value": "Computer"
+        "inputValue": "Numeric Range Checks",
+        "value": "Numeric Range Checks"
       },
       "6": {
         "row": "24",
         "col": "6",
-        "inputValue": "comp.png",
-        "value": "comp.png"
+        "inputValue": "range.png",
+        "value": "range.png"
       }
     },
     "25": {
@@ -754,20 +718,20 @@
       "4": {
         "row": "25",
         "col": "4",
-        "inputValue": "required",
-        "value": "required"
+        "inputValue": "repeat",
+        "value": "repeat"
       },
       "5": {
         "row": "25",
         "col": "5",
-        "inputValue": "Required Questions",
-        "value": "Required Questions"
+        "inputValue": "Repeatable Sections",
+        "value": "Repeatable Sections"
       },
       "6": {
         "row": "25",
         "col": "6",
-        "inputValue": "reqd.png",
-        "value": "reqd.png"
+        "inputValue": "repeat.png",
+        "value": "repeat.png"
       }
     },
     "26": {
@@ -780,20 +744,20 @@
       "4": {
         "row": "26",
         "col": "4",
-        "inputValue": "skip",
-        "value": "skip"
+        "inputValue": "calculate",
+        "value": "calculate"
       },
       "5": {
         "row": "26",
         "col": "5",
-        "inputValue": "Skip Logic",
-        "value": "Skip Logic"
+        "inputValue": "Calculate",
+        "value": "Calculate"
       },
       "6": {
         "row": "26",
         "col": "6",
-        "inputValue": "skip.png",
-        "value": "skip.png"
+        "inputValue": "calc.png",
+        "value": "calc.png"
       }
     },
     "27": {
@@ -806,20 +770,20 @@
       "4": {
         "row": "27",
         "col": "4",
-        "inputValue": "rangeCheck",
-        "value": "rangeCheck"
+        "inputValue": "cascade",
+        "value": "cascade"
       },
       "5": {
         "row": "27",
         "col": "5",
-        "inputValue": "Numeric Range Checks",
-        "value": "Numeric Range Checks"
+        "inputValue": "Cascading Select",
+        "value": "Cascading Select"
       },
       "6": {
         "row": "27",
         "col": "6",
-        "inputValue": "range.png",
-        "value": "range.png"
+        "inputValue": "cascade.png",
+        "value": "cascade.png"
       }
     },
     "28": {
@@ -832,20 +796,20 @@
       "4": {
         "row": "28",
         "col": "4",
-        "inputValue": "repeat",
-        "value": "repeat"
+        "inputValue": "playMedia",
+        "value": "playMedia"
       },
       "5": {
         "row": "28",
         "col": "5",
-        "inputValue": "Repeatable Sections",
-        "value": "Repeatable Sections"
+        "inputValue": "Multimedia Play in Field",
+        "value": "Multimedia Play in Field"
       },
       "6": {
         "row": "28",
         "col": "6",
-        "inputValue": "repeat.png",
-        "value": "repeat.png"
+        "inputValue": "playmedia.png",
+        "value": "playmedia.png"
       }
     },
     "29": {
@@ -858,20 +822,20 @@
       "4": {
         "row": "29",
         "col": "4",
-        "inputValue": "calculate",
-        "value": "calculate"
+        "inputValue": "backendData",
+        "value": "backendData"
       },
       "5": {
         "row": "29",
         "col": "5",
-        "inputValue": "Calculate",
-        "value": "Calculate"
+        "inputValue": "Data from Backend Server",
+        "value": "Data from Backend Server"
       },
       "6": {
         "row": "29",
         "col": "6",
-        "inputValue": "calc.png",
-        "value": "calc.png"
+        "inputValue": "backenddata.png",
+        "value": "backenddata.png"
       }
     },
     "30": {
@@ -884,98 +848,134 @@
       "4": {
         "row": "30",
         "col": "4",
-        "inputValue": "cascade",
-        "value": "cascade"
+        "inputValue": "form_editable",
+        "value": "form_editable"
       },
       "5": {
         "row": "30",
         "col": "5",
-        "inputValue": "Cascading Select",
-        "value": "Cascading Select"
+        "inputValue": "Forms Editable During Collection Campaign",
+        "value": "Forms Editable During Collection Campaign"
       },
       "6": {
         "row": "30",
         "col": "6",
-        "inputValue": "cascade.png",
-        "value": "cascade.png"
+        "inputValue": "editform.png",
+        "value": "editform.png"
       }
     },
     "31": {
       "1": {
         "row": "31",
         "col": "1",
-        "inputValue": "='1: All Categories'!R5C1",
-        "value": "questionnaireAdvanced"
+        "inputValue": "='1: All Categories'!R4C1",
+        "value": "questionnaireBasic"
+      },
+      "2": {
+        "row": "31",
+        "col": "2",
+        "inputValue": "length",
+        "value": "length"
+      },
+      "3": {
+        "row": "31",
+        "col": "3",
+        "inputValue": "Number of Questions",
+        "value": "Number of Questions"
       },
       "4": {
         "row": "31",
         "col": "4",
-        "inputValue": "playMedia",
-        "value": "playMedia"
+        "inputValue": "upto5q",
+        "value": "upto5q"
       },
       "5": {
         "row": "31",
         "col": "5",
-        "inputValue": "Multimedia Play in Field",
-        "value": "Multimedia Play in Field"
+        "inputValue": "1-5 Questions",
+        "value": "1-5 Questions"
       },
       "6": {
         "row": "31",
         "col": "6",
-        "inputValue": "playmedia.png",
-        "value": "playmedia.png"
+        "inputValue": "upto5q.png",
+        "value": "upto5q.png"
       }
     },
     "32": {
       "1": {
         "row": "32",
         "col": "1",
-        "inputValue": "='1: All Categories'!R5C1",
-        "value": "questionnaireAdvanced"
+        "inputValue": "='1: All Categories'!R4C1",
+        "value": "questionnaireBasic"
+      },
+      "2": {
+        "row": "32",
+        "col": "2",
+        "inputValue": "length",
+        "value": "length"
+      },
+      "3": {
+        "row": "32",
+        "col": "3",
+        "inputValue": "Number of Questions",
+        "value": "Number of Questions"
       },
       "4": {
         "row": "32",
         "col": "4",
-        "inputValue": "backendData",
-        "value": "backendData"
+        "inputValue": "upto30q",
+        "value": "upto30q"
       },
       "5": {
         "row": "32",
         "col": "5",
-        "inputValue": "Data from Backend Server",
-        "value": "Data from Backend Server"
+        "inputValue": "5-30 Questions",
+        "value": "5-30 Questions"
       },
       "6": {
         "row": "32",
         "col": "6",
-        "inputValue": "backenddata.png",
-        "value": "backenddata.png"
+        "inputValue": "upto30q.png",
+        "value": "upto30q.png"
       }
     },
     "33": {
       "1": {
         "row": "33",
         "col": "1",
-        "inputValue": "='1: All Categories'!R5C1",
-        "value": "questionnaireAdvanced"
+        "inputValue": "='1: All Categories'!R4C1",
+        "value": "questionnaireBasic"
+      },
+      "2": {
+        "row": "33",
+        "col": "2",
+        "inputValue": "length",
+        "value": "length"
+      },
+      "3": {
+        "row": "33",
+        "col": "3",
+        "inputValue": "Number of Questions",
+        "value": "Number of Questions"
       },
       "4": {
         "row": "33",
         "col": "4",
-        "inputValue": "form_editable",
-        "value": "form_editable"
+        "inputValue": "morethan30q",
+        "value": "morethan30q"
       },
       "5": {
         "row": "33",
         "col": "5",
-        "inputValue": "Forms Editable During Collection Campaign",
-        "value": "Forms Editable During Collection Campaign"
+        "inputValue": "30+ Questions",
+        "value": "30+ Questions"
       },
       "6": {
         "row": "33",
         "col": "6",
-        "inputValue": "editform.png",
-        "value": "editform.png"
+        "inputValue": "morethan30q.png",
+        "value": "morethan30q.png"
       }
     },
     "34": {
@@ -985,35 +985,23 @@
         "inputValue": "='1: All Categories'!R4C1",
         "value": "questionnaireBasic"
       },
-      "2": {
-        "row": "34",
-        "col": "2",
-        "inputValue": "length",
-        "value": "length"
-      },
-      "3": {
-        "row": "34",
-        "col": "3",
-        "inputValue": "Number of Questions",
-        "value": "Number of Questions"
-      },
       "4": {
         "row": "34",
         "col": "4",
-        "inputValue": "upto5q",
-        "value": "upto5q"
+        "inputValue": "smschannel",
+        "value": "smschannel"
       },
       "5": {
         "row": "34",
         "col": "5",
-        "inputValue": "1-5 Questions",
-        "value": "1-5 Questions"
+        "inputValue": "SMS from Any Phone",
+        "value": "SMS from Any Phone"
       },
       "6": {
         "row": "34",
         "col": "6",
-        "inputValue": "upto5q.png",
-        "value": "upto5q.png"
+        "inputValue": "smschannel.png",
+        "value": "smschannel.png"
       }
     },
     "35": {
@@ -1026,32 +1014,32 @@
       "2": {
         "row": "35",
         "col": "2",
-        "inputValue": "length",
-        "value": "length"
+        "inputValue": "qTypes",
+        "value": "qTypes"
       },
       "3": {
         "row": "35",
         "col": "3",
-        "inputValue": "Number of Questions",
-        "value": "Number of Questions"
+        "inputValue": "Question Types",
+        "value": "Question Types"
       },
       "4": {
         "row": "35",
         "col": "4",
-        "inputValue": "upto30q",
-        "value": "upto30q"
+        "inputValue": "text",
+        "value": "text"
       },
       "5": {
         "row": "35",
         "col": "5",
-        "inputValue": "5-30 Questions",
-        "value": "5-30 Questions"
+        "inputValue": "Text",
+        "value": "Text"
       },
       "6": {
         "row": "35",
         "col": "6",
-        "inputValue": "upto30q.png",
-        "value": "upto30q.png"
+        "inputValue": "text.png",
+        "value": "text.png"
       }
     },
     "36": {
@@ -1064,32 +1052,32 @@
       "2": {
         "row": "36",
         "col": "2",
-        "inputValue": "length",
-        "value": "length"
+        "inputValue": "qTypes",
+        "value": "qTypes"
       },
       "3": {
         "row": "36",
         "col": "3",
-        "inputValue": "Number of Questions",
-        "value": "Number of Questions"
+        "inputValue": "Question Types",
+        "value": "Question Types"
       },
       "4": {
         "row": "36",
         "col": "4",
-        "inputValue": "morethan30q",
-        "value": "morethan30q"
+        "inputValue": "numeric",
+        "value": "numeric"
       },
       "5": {
         "row": "36",
         "col": "5",
-        "inputValue": "30+ Questions",
-        "value": "30+ Questions"
+        "inputValue": "Numeric",
+        "value": "Numeric"
       },
       "6": {
         "row": "36",
         "col": "6",
-        "inputValue": "morethan30q.png",
-        "value": "morethan30q.png"
+        "inputValue": "numeric.png",
+        "value": "numeric.png"
       }
     },
     "37": {
@@ -1099,23 +1087,35 @@
         "inputValue": "='1: All Categories'!R4C1",
         "value": "questionnaireBasic"
       },
+      "2": {
+        "row": "37",
+        "col": "2",
+        "inputValue": "qTypes",
+        "value": "qTypes"
+      },
+      "3": {
+        "row": "37",
+        "col": "3",
+        "inputValue": "Question Types",
+        "value": "Question Types"
+      },
       "4": {
         "row": "37",
         "col": "4",
-        "inputValue": "smschannel",
-        "value": "smschannel"
+        "inputValue": "sel_one",
+        "value": "sel_one"
       },
       "5": {
         "row": "37",
         "col": "5",
-        "inputValue": "SMS from Any Phone",
-        "value": "SMS from Any Phone"
+        "inputValue": "Select One",
+        "value": "Select One"
       },
       "6": {
         "row": "37",
         "col": "6",
-        "inputValue": "smschannel.png",
-        "value": "smschannel.png"
+        "inputValue": "selone.png",
+        "value": "selone.png"
       }
     },
     "38": {
@@ -1140,20 +1140,20 @@
       "4": {
         "row": "38",
         "col": "4",
-        "inputValue": "text",
-        "value": "text"
+        "inputValue": "sel_mult",
+        "value": "sel_mult"
       },
       "5": {
         "row": "38",
         "col": "5",
-        "inputValue": "Text",
-        "value": "Text"
+        "inputValue": "Select Multiple",
+        "value": "Select Multiple"
       },
       "6": {
         "row": "38",
         "col": "6",
-        "inputValue": "text.png",
-        "value": "text.png"
+        "inputValue": "selmult.png",
+        "value": "selmult.png"
       }
     },
     "39": {
@@ -1178,20 +1178,20 @@
       "4": {
         "row": "39",
         "col": "4",
-        "inputValue": "numeric",
-        "value": "numeric"
+        "inputValue": "time",
+        "value": "time"
       },
       "5": {
         "row": "39",
         "col": "5",
-        "inputValue": "Numeric",
-        "value": "Numeric"
+        "inputValue": "Time",
+        "value": "Time"
       },
       "6": {
         "row": "39",
         "col": "6",
-        "inputValue": "numeric.png",
-        "value": "numeric.png"
+        "inputValue": "time.png",
+        "value": "time.png"
       }
     },
     "40": {
@@ -1216,20 +1216,20 @@
       "4": {
         "row": "40",
         "col": "4",
-        "inputValue": "sel_one",
-        "value": "sel_one"
+        "inputValue": "date",
+        "value": "date"
       },
       "5": {
         "row": "40",
         "col": "5",
-        "inputValue": "Select One",
-        "value": "Select One"
+        "inputValue": "Date",
+        "value": "Date"
       },
       "6": {
         "row": "40",
         "col": "6",
-        "inputValue": "selone.png",
-        "value": "selone.png"
+        "inputValue": "date.png",
+        "value": "date.png"
       }
     },
     "41": {
@@ -1254,20 +1254,20 @@
       "4": {
         "row": "41",
         "col": "4",
-        "inputValue": "sel_mult",
-        "value": "sel_mult"
+        "inputValue": "photo",
+        "value": "photo"
       },
       "5": {
         "row": "41",
         "col": "5",
-        "inputValue": "Select Multiple",
-        "value": "Select Multiple"
+        "inputValue": "Photo",
+        "value": "Photo"
       },
       "6": {
         "row": "41",
         "col": "6",
-        "inputValue": "selmult.png",
-        "value": "selmult.png"
+        "inputValue": "photo.png",
+        "value": "photo.png"
       }
     },
     "42": {
@@ -1292,20 +1292,20 @@
       "4": {
         "row": "42",
         "col": "4",
-        "inputValue": "time",
-        "value": "time"
+        "inputValue": "gps",
+        "value": "gps"
       },
       "5": {
         "row": "42",
         "col": "5",
-        "inputValue": "Time",
-        "value": "Time"
+        "inputValue": "GPS",
+        "value": "GPS"
       },
       "6": {
         "row": "42",
         "col": "6",
-        "inputValue": "time.png",
-        "value": "time.png"
+        "inputValue": "gps.png",
+        "value": "gps.png"
       }
     },
     "43": {
@@ -1330,20 +1330,20 @@
       "4": {
         "row": "43",
         "col": "4",
-        "inputValue": "date",
-        "value": "date"
+        "inputValue": "barcode",
+        "value": "barcode"
       },
       "5": {
         "row": "43",
         "col": "5",
-        "inputValue": "Date",
-        "value": "Date"
+        "inputValue": "Barcode",
+        "value": "Barcode"
       },
       "6": {
         "row": "43",
         "col": "6",
-        "inputValue": "date.png",
-        "value": "date.png"
+        "inputValue": "barcode.png",
+        "value": "barcode.png"
       }
     },
     "44": {
@@ -1368,20 +1368,20 @@
       "4": {
         "row": "44",
         "col": "4",
-        "inputValue": "photo",
-        "value": "photo"
+        "inputValue": "audio",
+        "value": "audio"
       },
       "5": {
         "row": "44",
         "col": "5",
-        "inputValue": "Photo",
-        "value": "Photo"
+        "inputValue": "Audio",
+        "value": "Audio"
       },
       "6": {
         "row": "44",
         "col": "6",
-        "inputValue": "photo.png",
-        "value": "photo.png"
+        "inputValue": "audio.png",
+        "value": "audio.png"
       }
     },
     "45": {
@@ -1406,134 +1406,104 @@
       "4": {
         "row": "45",
         "col": "4",
-        "inputValue": "gps",
-        "value": "gps"
+        "inputValue": "video",
+        "value": "video"
       },
       "5": {
         "row": "45",
         "col": "5",
-        "inputValue": "GPS",
-        "value": "GPS"
+        "inputValue": "Video",
+        "value": "Video"
       },
       "6": {
         "row": "45",
         "col": "6",
-        "inputValue": "gps.png",
-        "value": "gps.png"
+        "inputValue": "video.png",
+        "value": "video.png"
       }
     },
     "46": {
       "1": {
         "row": "46",
         "col": "1",
-        "inputValue": "='1: All Categories'!R4C1",
-        "value": "questionnaireBasic"
-      },
-      "2": {
-        "row": "46",
-        "col": "2",
-        "inputValue": "qTypes",
-        "value": "qTypes"
-      },
-      "3": {
-        "row": "46",
-        "col": "3",
-        "inputValue": "Question Types",
-        "value": "Question Types"
+        "inputValue": "='1: All Categories'!R8C1",
+        "value": "userBack"
       },
       "4": {
         "row": "46",
         "col": "4",
-        "inputValue": "barcode",
-        "value": "barcode"
+        "inputValue": "chw_back",
+        "value": "chw_back"
       },
       "5": {
         "row": "46",
         "col": "5",
-        "inputValue": "Barcode",
-        "value": "Barcode"
+        "inputValue": "CHW",
+        "value": "CHW"
       },
       "6": {
         "row": "46",
         "col": "6",
-        "inputValue": "barcode.png",
-        "value": "barcode.png"
+        "inputValue": "chw.png",
+        "value": "chw.png"
+      },
+      "9": {
+        "row": "46",
+        "col": "9",
+        "inputValue": "CHW does not have access to a computer",
+        "value": "CHW does not have access to a computer"
       }
     },
     "47": {
       "1": {
         "row": "47",
         "col": "1",
-        "inputValue": "='1: All Categories'!R4C1",
-        "value": "questionnaireBasic"
-      },
-      "2": {
-        "row": "47",
-        "col": "2",
-        "inputValue": "qTypes",
-        "value": "qTypes"
-      },
-      "3": {
-        "row": "47",
-        "col": "3",
-        "inputValue": "Question Types",
-        "value": "Question Types"
+        "inputValue": "='1: All Categories'!R8C1",
+        "value": "userBack"
       },
       "4": {
         "row": "47",
         "col": "4",
-        "inputValue": "audio",
-        "value": "audio"
+        "inputValue": "fbhw_back",
+        "value": "fbhw_back"
       },
       "5": {
         "row": "47",
         "col": "5",
-        "inputValue": "Audio",
-        "value": "Audio"
+        "inputValue": "Facility Based Health Worker",
+        "value": "Facility Based Health Worker"
       },
       "6": {
         "row": "47",
         "col": "6",
-        "inputValue": "audio.png",
-        "value": "audio.png"
+        "inputValue": "fbhw.png",
+        "value": "fbhw.png"
       }
     },
     "48": {
       "1": {
         "row": "48",
         "col": "1",
-        "inputValue": "='1: All Categories'!R4C1",
-        "value": "questionnaireBasic"
-      },
-      "2": {
-        "row": "48",
-        "col": "2",
-        "inputValue": "qTypes",
-        "value": "qTypes"
-      },
-      "3": {
-        "row": "48",
-        "col": "3",
-        "inputValue": "Question Types",
-        "value": "Question Types"
+        "inputValue": "='1: All Categories'!R8C1",
+        "value": "userBack"
       },
       "4": {
         "row": "48",
         "col": "4",
-        "inputValue": "video",
-        "value": "video"
+        "inputValue": "patient_back",
+        "value": "patient_back"
       },
       "5": {
         "row": "48",
         "col": "5",
-        "inputValue": "Video",
-        "value": "Video"
+        "inputValue": "Patient",
+        "value": "Patient"
       },
       "6": {
         "row": "48",
         "col": "6",
-        "inputValue": "video.png",
-        "value": "video.png"
+        "inputValue": "patient.png",
+        "value": "patient.png"
       }
     },
     "49": {
@@ -1546,26 +1516,20 @@
       "4": {
         "row": "49",
         "col": "4",
-        "inputValue": "chw_back",
-        "value": "chw_back"
+        "inputValue": "dataAnaly_back",
+        "value": "dataAnaly_back"
       },
       "5": {
         "row": "49",
         "col": "5",
-        "inputValue": "CHW",
-        "value": "CHW"
+        "inputValue": "Data Analyst",
+        "value": "Data Analyst"
       },
       "6": {
         "row": "49",
         "col": "6",
-        "inputValue": "chw.png",
-        "value": "chw.png"
-      },
-      "9": {
-        "row": "49",
-        "col": "9",
-        "inputValue": "CHW does not have access to a computer",
-        "value": "CHW does not have access to a computer"
+        "inputValue": "dataguy.png",
+        "value": "dataguy.png"
       }
     },
     "50": {
@@ -1578,20 +1542,20 @@
       "4": {
         "row": "50",
         "col": "4",
-        "inputValue": "fbhw_back",
-        "value": "fbhw_back"
+        "inputValue": "ngoWorker_back",
+        "value": "ngoWorker_back"
       },
       "5": {
         "row": "50",
         "col": "5",
-        "inputValue": "Facility Based Health Worker",
-        "value": "Facility Based Health Worker"
+        "inputValue": "NGO Worker",
+        "value": "NGO Worker"
       },
       "6": {
         "row": "50",
         "col": "6",
-        "inputValue": "fbhw.png",
-        "value": "fbhw.png"
+        "inputValue": "ngo.png",
+        "value": "ngo.png"
       }
     },
     "51": {
@@ -1604,20 +1568,20 @@
       "4": {
         "row": "51",
         "col": "4",
-        "inputValue": "patient_back",
-        "value": "patient_back"
+        "inputValue": "policy_back",
+        "value": "policy_back"
       },
       "5": {
         "row": "51",
         "col": "5",
-        "inputValue": "Patient",
-        "value": "Patient"
+        "inputValue": "Policy Maker",
+        "value": "Policy Maker"
       },
       "6": {
         "row": "51",
         "col": "6",
-        "inputValue": "patient.png",
-        "value": "patient.png"
+        "inputValue": "policy.png",
+        "value": "policy.png"
       }
     },
     "52": {
@@ -1630,14 +1594,20 @@
       "4": {
         "row": "52",
         "col": "4",
-        "inputValue": "caregiver_back",
-        "value": "caregiver_back"
+        "inputValue": "formbuild_easy",
+        "value": "formbuild_easy"
       },
       "5": {
         "row": "52",
         "col": "5",
-        "inputValue": "Caregiver",
-        "value": "Caregiver"
+        "inputValue": "Easy Formbuilding",
+        "value": "Easy Formbuilding"
+      },
+      "6": {
+        "row": "52",
+        "col": "6",
+        "inputValue": "formeasy.png",
+        "value": "formeasy.png"
       }
     },
     "53": {
@@ -1647,159 +1617,189 @@
         "inputValue": "='1: All Categories'!R8C1",
         "value": "userBack"
       },
+      "2": {
+        "row": "53",
+        "col": "2",
+        "inputValue": "maintenance",
+        "value": "maintenance"
+      },
+      "3": {
+        "row": "53",
+        "col": "3",
+        "inputValue": "Maintenance",
+        "value": "Maintenance"
+      },
       "4": {
         "row": "53",
         "col": "4",
-        "inputValue": "commMember_back",
-        "value": "commMember_back"
+        "inputValue": "noMaintStaff",
+        "value": "noMaintStaff"
       },
       "5": {
         "row": "53",
         "col": "5",
-        "inputValue": "Community Member",
-        "value": "Community Member"
+        "inputValue": "No IT Staff For Maintenance",
+        "value": "No IT Staff For Maintenance"
+      },
+      "6": {
+        "row": "53",
+        "col": "6",
+        "inputValue": "nostaff.png",
+        "value": "nostaff.png"
       }
     },
     "54": {
       "1": {
         "row": "54",
         "col": "1",
-        "inputValue": "='1: All Categories'!R8C1",
-        "value": "userBack"
+        "inputValue": "='1: All Categories'!R2C1",
+        "value": "userFront"
       },
       "4": {
         "row": "54",
         "col": "4",
-        "inputValue": "dataAnaly_back",
-        "value": "dataAnaly_back"
+        "inputValue": "chw_front",
+        "value": "chw_front"
       },
       "5": {
         "row": "54",
         "col": "5",
-        "inputValue": "Data Analyst",
-        "value": "Data Analyst"
+        "inputValue": "CHW",
+        "value": "CHW"
       },
       "6": {
         "row": "54",
         "col": "6",
-        "inputValue": "dataguy.png",
-        "value": "dataguy.png"
+        "inputValue": "chw.png",
+        "value": "chw.png"
       }
     },
     "55": {
       "1": {
         "row": "55",
         "col": "1",
-        "inputValue": "='1: All Categories'!R8C1",
-        "value": "userBack"
+        "inputValue": "='1: All Categories'!R2C1",
+        "value": "userFront"
       },
       "4": {
         "row": "55",
         "col": "4",
-        "inputValue": "ngoWorker_back",
-        "value": "ngoWorker_back"
+        "inputValue": "fbhw_front",
+        "value": "fbhw_front"
       },
       "5": {
         "row": "55",
         "col": "5",
-        "inputValue": "NGO Worker",
-        "value": "NGO Worker"
+        "inputValue": "Facility Based Health Worker",
+        "value": "Facility Based Health Worker"
       },
       "6": {
         "row": "55",
         "col": "6",
-        "inputValue": "ngo.png",
-        "value": "ngo.png"
+        "inputValue": "fbhw.png",
+        "value": "fbhw.png"
       }
     },
     "56": {
       "1": {
         "row": "56",
         "col": "1",
-        "inputValue": "='1: All Categories'!R8C1",
-        "value": "userBack"
+        "inputValue": "='1: All Categories'!R2C1",
+        "value": "userFront"
       },
       "4": {
         "row": "56",
         "col": "4",
-        "inputValue": "policy_back",
-        "value": "policy_back"
+        "inputValue": "patient_front",
+        "value": "patient_front"
       },
       "5": {
         "row": "56",
         "col": "5",
-        "inputValue": "Policy Maker",
-        "value": "Policy Maker"
+        "inputValue": "Patient",
+        "value": "Patient"
       },
       "6": {
         "row": "56",
         "col": "6",
-        "inputValue": "policy.png",
-        "value": "policy.png"
+        "inputValue": "patient.png",
+        "value": "patient.png"
+      },
+      "7": {
+        "row": "56",
+        "col": "7",
+        "inputValue": "\"To keep costs down, we recommend eliminating platforms that charge a per-user fee.\"",
+        "value": "\"To keep costs down, we recommend eliminating platforms that charge a per-user fee.\""
       }
     },
     "57": {
       "1": {
         "row": "57",
         "col": "1",
-        "inputValue": "='1: All Categories'!R8C1",
-        "value": "userBack"
+        "inputValue": "userFront",
+        "value": "userFront"
       },
       "4": {
         "row": "57",
         "col": "4",
-        "inputValue": "formbuild_easy",
-        "value": "formbuild_easy"
+        "inputValue": "ngoWorker_front",
+        "value": "ngoWorker_front"
       },
       "5": {
         "row": "57",
         "col": "5",
-        "inputValue": "Easy Formbuilding",
-        "value": "Easy Formbuilding"
+        "inputValue": "NGO Worker",
+        "value": "NGO Worker"
       },
       "6": {
         "row": "57",
         "col": "6",
-        "inputValue": "formeasy.png",
-        "value": "formeasy.png"
+        "inputValue": "ngo.png",
+        "value": "ngo.png"
       }
     },
     "58": {
       "1": {
         "row": "58",
         "col": "1",
-        "inputValue": "='1: All Categories'!R8C1",
-        "value": "userBack"
+        "inputValue": "='1: All Categories'!R2C1",
+        "value": "userFront"
       },
       "2": {
         "row": "58",
         "col": "2",
-        "inputValue": "maintenance",
-        "value": "maintenance"
+        "inputValue": "training",
+        "value": "training"
       },
       "3": {
         "row": "58",
         "col": "3",
-        "inputValue": "Maintenance",
-        "value": "Maintenance"
+        "inputValue": "Training",
+        "value": "Training"
       },
       "4": {
         "row": "58",
         "col": "4",
-        "inputValue": "noMaintStaff",
-        "value": "noMaintStaff"
+        "inputValue": "easyUse",
+        "value": "easyUse"
       },
       "5": {
         "row": "58",
         "col": "5",
-        "inputValue": "No IT Staff For Maintenance",
-        "value": "No IT Staff For Maintenance"
+        "inputValue": "Easy to Use",
+        "value": "Easy to Use"
       },
       "6": {
         "row": "58",
         "col": "6",
-        "inputValue": "nostaff.png",
-        "value": "nostaff.png"
+        "inputValue": "easyuse.png",
+        "value": "easyuse.png"
+      },
+      "9": {
+        "row": "58",
+        "col": "9",
+        "inputValue": "Androids are easy to use, but require more training",
+        "value": "Androids are easy to use, but require more training"
       }
     },
     "59": {
@@ -1809,209 +1809,269 @@
         "inputValue": "='1: All Categories'!R2C1",
         "value": "userFront"
       },
+      "2": {
+        "row": "59",
+        "col": "2",
+        "inputValue": "training",
+        "value": "training"
+      },
+      "3": {
+        "row": "59",
+        "col": "3",
+        "inputValue": "Training",
+        "value": "Training"
+      },
       "4": {
         "row": "59",
         "col": "4",
-        "inputValue": "chw_front",
-        "value": "chw_front"
+        "inputValue": "littleTrainingTime",
+        "value": "littleTrainingTime"
       },
       "5": {
         "row": "59",
         "col": "5",
-        "inputValue": "CHW",
-        "value": "CHW"
+        "inputValue": "Little Training Time Available",
+        "value": "Little Training Time Available"
       },
       "6": {
         "row": "59",
         "col": "6",
-        "inputValue": "chw.png",
-        "value": "chw.png"
+        "inputValue": "littletraining.png",
+        "value": "littletraining.png"
+      },
+      "9": {
+        "row": "59",
+        "col": "9",
+        "inputValue": "Androids are easy to use, but require more training. Textforms require lots of training on syntax",
+        "value": "Androids are easy to use, but require more training. Textforms require lots of training on syntax"
       }
     },
     "60": {
       "1": {
         "row": "60",
         "col": "1",
-        "inputValue": "='1: All Categories'!R2C1",
-        "value": "userFront"
+        "inputValue": "='1: All Categories'!R9C1",
+        "value": "viewData"
+      },
+      "2": {
+        "row": "60",
+        "col": "2",
+        "inputValue": "exports",
+        "value": "exports"
+      },
+      "3": {
+        "row": "60",
+        "col": "3",
+        "inputValue": "Exports available",
+        "value": "Exports available"
       },
       "4": {
         "row": "60",
         "col": "4",
-        "inputValue": "fbhw_front",
-        "value": "fbhw_front"
+        "inputValue": "csv",
+        "value": "csv"
       },
       "5": {
         "row": "60",
         "col": "5",
-        "inputValue": "Facility Based Health Worker",
-        "value": "Facility Based Health Worker"
+        "inputValue": "CSV",
+        "value": "CSV"
       },
       "6": {
         "row": "60",
         "col": "6",
-        "inputValue": "fbhw.png",
-        "value": "fbhw.png"
+        "inputValue": "csv.png",
+        "value": "csv.png"
       }
     },
     "61": {
       "1": {
         "row": "61",
         "col": "1",
-        "inputValue": "='1: All Categories'!R2C1",
-        "value": "userFront"
+        "inputValue": "='1: All Categories'!R9C1",
+        "value": "viewData"
+      },
+      "2": {
+        "row": "61",
+        "col": "2",
+        "inputValue": "exports",
+        "value": "exports"
+      },
+      "3": {
+        "row": "61",
+        "col": "3",
+        "inputValue": "Exports available",
+        "value": "Exports available"
       },
       "4": {
         "row": "61",
         "col": "4",
-        "inputValue": "patient_front",
-        "value": "patient_front"
+        "inputValue": "xls",
+        "value": "xls"
       },
       "5": {
         "row": "61",
         "col": "5",
-        "inputValue": "Patient",
-        "value": "Patient"
+        "inputValue": "XLS",
+        "value": "XLS"
       },
       "6": {
         "row": "61",
         "col": "6",
-        "inputValue": "patient.png",
-        "value": "patient.png"
-      },
-      "7": {
-        "row": "61",
-        "col": "7",
-        "inputValue": "\"To keep costs down, we recommend eliminating platforms that charge a per-user fee.\"",
-        "value": "\"To keep costs down, we recommend eliminating platforms that charge a per-user fee.\""
+        "inputValue": "xls.png",
+        "value": "xls.png"
       }
     },
     "62": {
       "1": {
         "row": "62",
         "col": "1",
-        "inputValue": "='1: All Categories'!R2C1",
-        "value": "userFront"
+        "inputValue": "='1: All Categories'!R9C1",
+        "value": "viewData"
+      },
+      "2": {
+        "row": "62",
+        "col": "2",
+        "inputValue": "exports",
+        "value": "exports"
+      },
+      "3": {
+        "row": "62",
+        "col": "3",
+        "inputValue": "Exports available",
+        "value": "Exports available"
       },
       "4": {
         "row": "62",
         "col": "4",
-        "inputValue": "caregiver_front",
-        "value": "caregiver_front"
+        "inputValue": "kml",
+        "value": "kml"
       },
       "5": {
         "row": "62",
         "col": "5",
-        "inputValue": "Caregiver",
-        "value": "Caregiver"
+        "inputValue": "KML",
+        "value": "KML"
+      },
+      "6": {
+        "row": "62",
+        "col": "6",
+        "inputValue": "kml.png",
+        "value": "kml.png"
       }
     },
     "63": {
       "1": {
         "row": "63",
         "col": "1",
-        "inputValue": "='1: All Categories'!R2C1",
-        "value": "userFront"
+        "inputValue": "='1: All Categories'!R9C1",
+        "value": "viewData"
+      },
+      "2": {
+        "row": "63",
+        "col": "2",
+        "inputValue": "exports",
+        "value": "exports"
+      },
+      "3": {
+        "row": "63",
+        "col": "3",
+        "inputValue": "Exports available",
+        "value": "Exports available"
       },
       "4": {
         "row": "63",
         "col": "4",
-        "inputValue": "commMember_front",
-        "value": "commMember_front"
+        "inputValue": "maccess",
+        "value": "maccess"
       },
       "5": {
         "row": "63",
         "col": "5",
-        "inputValue": "Community Member",
-        "value": "Community Member"
+        "inputValue": "Access",
+        "value": "Access"
+      },
+      "6": {
+        "row": "63",
+        "col": "6",
+        "inputValue": "maccess.png",
+        "value": "maccess.png"
       }
     },
     "64": {
       "1": {
         "row": "64",
         "col": "1",
-        "inputValue": "='1: All Categories'!R2C1",
-        "value": "userFront"
+        "inputValue": "='1: All Categories'!R9C1",
+        "value": "viewData"
       },
       "2": {
         "row": "64",
         "col": "2",
-        "inputValue": "training",
-        "value": "training"
+        "inputValue": "exports",
+        "value": "exports"
       },
       "3": {
         "row": "64",
         "col": "3",
-        "inputValue": "Training",
-        "value": "Training"
+        "inputValue": "Exports available",
+        "value": "Exports available"
       },
       "4": {
         "row": "64",
         "col": "4",
-        "inputValue": "easyUse",
-        "value": "easyUse"
+        "inputValue": "pdf",
+        "value": "pdf"
       },
       "5": {
         "row": "64",
         "col": "5",
-        "inputValue": "Easy to Use",
-        "value": "Easy to Use"
+        "inputValue": "PDF",
+        "value": "PDF"
       },
       "6": {
         "row": "64",
         "col": "6",
-        "inputValue": "easyuse.png",
-        "value": "easyuse.png"
-      },
-      "9": {
-        "row": "64",
-        "col": "9",
-        "inputValue": "Androids are easy to use, but require more training",
-        "value": "Androids are easy to use, but require more training"
+        "inputValue": "pdf.png",
+        "value": "pdf.png"
       }
     },
     "65": {
       "1": {
         "row": "65",
         "col": "1",
-        "inputValue": "='1: All Categories'!R2C1",
-        "value": "userFront"
+        "inputValue": "='1: All Categories'!R9C1",
+        "value": "viewData"
       },
       "2": {
         "row": "65",
         "col": "2",
-        "inputValue": "training",
-        "value": "training"
+        "inputValue": "exports",
+        "value": "exports"
       },
       "3": {
         "row": "65",
         "col": "3",
-        "inputValue": "Training",
-        "value": "Training"
+        "inputValue": "Exports available",
+        "value": "Exports available"
       },
       "4": {
         "row": "65",
         "col": "4",
-        "inputValue": "littleTrainingTime",
-        "value": "littleTrainingTime"
+        "inputValue": "json",
+        "value": "json"
       },
       "5": {
         "row": "65",
         "col": "5",
-        "inputValue": "Little Training Time Available",
-        "value": "Little Training Time Available"
+        "inputValue": "JSON",
+        "value": "JSON"
       },
       "6": {
         "row": "65",
         "col": "6",
-        "inputValue": "littletraining.png",
-        "value": "littletraining.png"
-      },
-      "9": {
-        "row": "65",
-        "col": "9",
-        "inputValue": "Androids are easy to use, but require more training. Textforms require lots of training on syntax",
-        "value": "Androids are easy to use, but require more training. Textforms require lots of training on syntax"
+        "inputValue": "json.png",
+        "value": "json.png"
       }
     },
     "66": {
@@ -2024,32 +2084,32 @@
       "2": {
         "row": "66",
         "col": "2",
-        "inputValue": "exports",
-        "value": "exports"
+        "inputValue": "dataView",
+        "value": "dataView"
       },
       "3": {
         "row": "66",
         "col": "3",
-        "inputValue": "Exports available",
-        "value": "Exports available"
+        "inputValue": "Data views",
+        "value": "Data views"
       },
       "4": {
         "row": "66",
         "col": "4",
-        "inputValue": "csv",
-        "value": "csv"
+        "inputValue": "listRecords",
+        "value": "listRecords"
       },
       "5": {
         "row": "66",
         "col": "5",
-        "inputValue": "CSV",
-        "value": "CSV"
+        "inputValue": "List Records",
+        "value": "List Records"
       },
       "6": {
         "row": "66",
         "col": "6",
-        "inputValue": "csv.png",
-        "value": "csv.png"
+        "inputValue": "listrecords.png",
+        "value": "listrecords.png"
       }
     },
     "67": {
@@ -2062,32 +2122,32 @@
       "2": {
         "row": "67",
         "col": "2",
-        "inputValue": "exports",
-        "value": "exports"
+        "inputValue": "dataView",
+        "value": "dataView"
       },
       "3": {
         "row": "67",
         "col": "3",
-        "inputValue": "Exports available",
-        "value": "Exports available"
+        "inputValue": "Data views",
+        "value": "Data views"
       },
       "4": {
         "row": "67",
         "col": "4",
-        "inputValue": "xls",
-        "value": "xls"
+        "inputValue": "mapping",
+        "value": "mapping"
       },
       "5": {
         "row": "67",
         "col": "5",
-        "inputValue": "XLS",
-        "value": "XLS"
+        "inputValue": "Mapping",
+        "value": "Mapping"
       },
       "6": {
         "row": "67",
         "col": "6",
-        "inputValue": "xls.png",
-        "value": "xls.png"
+        "inputValue": "mapping.png",
+        "value": "mapping.png"
       }
     },
     "68": {
@@ -2100,32 +2160,32 @@
       "2": {
         "row": "68",
         "col": "2",
-        "inputValue": "exports",
-        "value": "exports"
+        "inputValue": "dataView",
+        "value": "dataView"
       },
       "3": {
         "row": "68",
         "col": "3",
-        "inputValue": "Exports available",
-        "value": "Exports available"
+        "inputValue": "Data views",
+        "value": "Data views"
       },
       "4": {
         "row": "68",
         "col": "4",
-        "inputValue": "kml",
-        "value": "kml"
+        "inputValue": "records_editable",
+        "value": "records_editable"
       },
       "5": {
         "row": "68",
         "col": "5",
-        "inputValue": "KML",
-        "value": "KML"
+        "inputValue": "Records Editable",
+        "value": "Records Editable"
       },
       "6": {
         "row": "68",
         "col": "6",
-        "inputValue": "kml.png",
-        "value": "kml.png"
+        "inputValue": "editrecords.png",
+        "value": "editrecords.png"
       }
     },
     "69": {
@@ -2138,32 +2198,32 @@
       "2": {
         "row": "69",
         "col": "2",
-        "inputValue": "exports",
-        "value": "exports"
+        "inputValue": "dataView",
+        "value": "dataView"
       },
       "3": {
         "row": "69",
         "col": "3",
-        "inputValue": "Exports available",
-        "value": "Exports available"
+        "inputValue": "Data views",
+        "value": "Data views"
       },
       "4": {
         "row": "69",
         "col": "4",
-        "inputValue": "maccess",
-        "value": "maccess"
+        "inputValue": "basicAnalysis",
+        "value": "basicAnalysis"
       },
       "5": {
         "row": "69",
         "col": "5",
-        "inputValue": "Access",
-        "value": "Access"
+        "inputValue": "Some Basic Analysis",
+        "value": "Some Basic Analysis"
       },
       "6": {
         "row": "69",
         "col": "6",
-        "inputValue": "maccess.png",
-        "value": "maccess.png"
+        "inputValue": "basicanalysis.png",
+        "value": "basicanalysis.png"
       }
     },
     "70": {
@@ -2176,257 +2236,29 @@
       "2": {
         "row": "70",
         "col": "2",
-        "inputValue": "exports",
-        "value": "exports"
+        "inputValue": "dataView",
+        "value": "dataView"
       },
       "3": {
         "row": "70",
         "col": "3",
-        "inputValue": "Exports available",
-        "value": "Exports available"
+        "inputValue": "Data views",
+        "value": "Data views"
       },
       "4": {
         "row": "70",
-        "col": "4",
-        "inputValue": "pdf",
-        "value": "pdf"
-      },
-      "5": {
-        "row": "70",
-        "col": "5",
-        "inputValue": "PDF",
-        "value": "PDF"
-      },
-      "6": {
-        "row": "70",
-        "col": "6",
-        "inputValue": "pdf.png",
-        "value": "pdf.png"
-      }
-    },
-    "71": {
-      "1": {
-        "row": "71",
-        "col": "1",
-        "inputValue": "='1: All Categories'!R9C1",
-        "value": "viewData"
-      },
-      "2": {
-        "row": "71",
-        "col": "2",
-        "inputValue": "exports",
-        "value": "exports"
-      },
-      "3": {
-        "row": "71",
-        "col": "3",
-        "inputValue": "Exports available",
-        "value": "Exports available"
-      },
-      "4": {
-        "row": "71",
-        "col": "4",
-        "inputValue": "json",
-        "value": "json"
-      },
-      "5": {
-        "row": "71",
-        "col": "5",
-        "inputValue": "JSON",
-        "value": "JSON"
-      },
-      "6": {
-        "row": "71",
-        "col": "6",
-        "inputValue": "json.png",
-        "value": "json.png"
-      }
-    },
-    "72": {
-      "1": {
-        "row": "72",
-        "col": "1",
-        "inputValue": "='1: All Categories'!R9C1",
-        "value": "viewData"
-      },
-      "2": {
-        "row": "72",
-        "col": "2",
-        "inputValue": "dataView",
-        "value": "dataView"
-      },
-      "3": {
-        "row": "72",
-        "col": "3",
-        "inputValue": "Data views",
-        "value": "Data views"
-      },
-      "4": {
-        "row": "72",
-        "col": "4",
-        "inputValue": "listRecords",
-        "value": "listRecords"
-      },
-      "5": {
-        "row": "72",
-        "col": "5",
-        "inputValue": "List Records",
-        "value": "List Records"
-      },
-      "6": {
-        "row": "72",
-        "col": "6",
-        "inputValue": "listrecords.png",
-        "value": "listrecords.png"
-      }
-    },
-    "73": {
-      "1": {
-        "row": "73",
-        "col": "1",
-        "inputValue": "='1: All Categories'!R9C1",
-        "value": "viewData"
-      },
-      "2": {
-        "row": "73",
-        "col": "2",
-        "inputValue": "dataView",
-        "value": "dataView"
-      },
-      "3": {
-        "row": "73",
-        "col": "3",
-        "inputValue": "Data views",
-        "value": "Data views"
-      },
-      "4": {
-        "row": "73",
-        "col": "4",
-        "inputValue": "mapping",
-        "value": "mapping"
-      },
-      "5": {
-        "row": "73",
-        "col": "5",
-        "inputValue": "Mapping",
-        "value": "Mapping"
-      },
-      "6": {
-        "row": "73",
-        "col": "6",
-        "inputValue": "mapping.png",
-        "value": "mapping.png"
-      }
-    },
-    "74": {
-      "1": {
-        "row": "74",
-        "col": "1",
-        "inputValue": "='1: All Categories'!R9C1",
-        "value": "viewData"
-      },
-      "2": {
-        "row": "74",
-        "col": "2",
-        "inputValue": "dataView",
-        "value": "dataView"
-      },
-      "3": {
-        "row": "74",
-        "col": "3",
-        "inputValue": "Data views",
-        "value": "Data views"
-      },
-      "4": {
-        "row": "74",
-        "col": "4",
-        "inputValue": "records_editable",
-        "value": "records_editable"
-      },
-      "5": {
-        "row": "74",
-        "col": "5",
-        "inputValue": "Records Editable",
-        "value": "Records Editable"
-      },
-      "6": {
-        "row": "74",
-        "col": "6",
-        "inputValue": "editrecords.png",
-        "value": "editrecords.png"
-      }
-    },
-    "75": {
-      "1": {
-        "row": "75",
-        "col": "1",
-        "inputValue": "='1: All Categories'!R9C1",
-        "value": "viewData"
-      },
-      "2": {
-        "row": "75",
-        "col": "2",
-        "inputValue": "dataView",
-        "value": "dataView"
-      },
-      "3": {
-        "row": "75",
-        "col": "3",
-        "inputValue": "Data views",
-        "value": "Data views"
-      },
-      "4": {
-        "row": "75",
-        "col": "4",
-        "inputValue": "basicAnalysis",
-        "value": "basicAnalysis"
-      },
-      "5": {
-        "row": "75",
-        "col": "5",
-        "inputValue": "Some Basic Analysis",
-        "value": "Some Basic Analysis"
-      },
-      "6": {
-        "row": "75",
-        "col": "6",
-        "inputValue": "basicanalysis.png",
-        "value": "basicanalysis.png"
-      }
-    },
-    "76": {
-      "1": {
-        "row": "76",
-        "col": "1",
-        "inputValue": "='1: All Categories'!R9C1",
-        "value": "viewData"
-      },
-      "2": {
-        "row": "76",
-        "col": "2",
-        "inputValue": "dataView",
-        "value": "dataView"
-      },
-      "3": {
-        "row": "76",
-        "col": "3",
-        "inputValue": "Data views",
-        "value": "Data views"
-      },
-      "4": {
-        "row": "76",
         "col": "4",
         "inputValue": "customAnalysis",
         "value": "customAnalysis"
       },
       "5": {
-        "row": "76",
+        "row": "70",
         "col": "5",
         "inputValue": "Customizeable Analysis",
         "value": "Customizeable Analysis"
       },
       "6": {
-        "row": "76",
+        "row": "70",
         "col": "6",
         "inputValue": "customanalysis.png",
         "value": "customanalysis.png"

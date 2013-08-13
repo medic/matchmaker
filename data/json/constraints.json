@@ -73,30 +73,6 @@
     "imageLink": "img/constraints/easyinstall.png"
   },
   {
-    "categoryID": "connectivity",
-    "subcategoryID": "os",
-    "subcategoryLabel": "Operating System",
-    "constraintID": "os_apple",
-    "constraintLabel": "Apple",
-    "imageLink": "img/constraints/ios.png"
-  },
-  {
-    "categoryID": "connectivity",
-    "subcategoryID": "os",
-    "subcategoryLabel": "Operating System",
-    "constraintID": "os_linux",
-    "constraintLabel": "Linux",
-    "imageLink": "img/constraints/linux.png"
-  },
-  {
-    "categoryID": "connectivity",
-    "subcategoryID": "os",
-    "subcategoryLabel": "Operating System",
-    "constraintID": "os_windows",
-    "constraintLabel": "Windows",
-    "imageLink": "img/constraints/windows.png"
-  },
-  {
     "categoryID": "delivery",
     "constraintID": "sms",
     "constraintLabel": "SMS",
@@ -344,16 +320,6 @@
   },
   {
     "categoryID": "userBack",
-    "constraintID": "caregiver_back",
-    "constraintLabel": "Caregiver"
-  },
-  {
-    "categoryID": "userBack",
-    "constraintID": "commMember_back",
-    "constraintLabel": "Community Member"
-  },
-  {
-    "categoryID": "userBack",
     "constraintID": "dataAnaly_back",
     "constraintLabel": "Data Analyst",
     "imageLink": "img/constraints/dataguy.png"
@@ -405,13 +371,9 @@
   },
   {
     "categoryID": "userFront",
-    "constraintID": "caregiver_front",
-    "constraintLabel": "Caregiver"
-  },
-  {
-    "categoryID": "userFront",
-    "constraintID": "commMember_front",
-    "constraintLabel": "Community Member"
+    "constraintID": "ngoWorker_front",
+    "constraintLabel": "NGO Worker",
+    "imageLink": "img/constraints/ngo.png"
   },
   {
     "categoryID": "userFront",
