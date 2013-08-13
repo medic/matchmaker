@@ -134,12 +134,7 @@
 		
 		// SHOW/HIDE categories
 		$("p.whiteboard").listen('click', 'img.arrow', function() {
-
-
-			
-			
-			
-		
+	
 			var parent = $(this).parent(),
 				id = $(parent).attr("id"),
 				txt = $(parent).text();
@@ -160,11 +155,9 @@
 					
 						var text = $(object).text();
 						$(object).attr("data-open", "false").html('<img class="arrow" src="img/close-arrow.png">' + text);
-						
-						
+					
 					} 
 				});
-			
 			
 				$(parent).attr("data-open", "true");
 				$(parent).html('<img class="arrow" src="img/open-arrow.png">' + txt);
@@ -263,14 +256,10 @@
 
 		
 		function loadTools() {
-			$.each(tools, function(index, d) {
-			
-				//check for duplicate productNames
-				//make an array, add product name to array if the array does not yet contain it, then proceed to make dom elements
-				//if product name is already in array, return (skip to next iteration)
+			$.each(tools, function(index, tool) {
 				
-				$("fieldset#tech > section").append('<p id="' + d.productID + '"><a href="' + 
-					d.productLink + '" target="_blank">' + d.productName + '</a></p>');
+				$("fieldset#tech > section").append('<p id="' + tool.productID + '"><a href="' + 
+					tool.productLink + '" target="_blank">' + tool.productName + '</a></p>');
 			});
 		}
 		
@@ -307,7 +296,7 @@
 						
 						var i = $.inArray(constraintID, false_array);					
 										
-						if (i>-1) {
+						if (i > -1) {
 							false_array.splice(i, 1);
 						}
 				
@@ -328,7 +317,7 @@
 			
 			// Display message if all tools eliminated
 			if (counter == 0) {
-				$("fieldset#tech > section").append('<div id="nomatch" class="alert">No match. Consider which constraints and assets you really need.</div>');
+				$("fieldset#tech > legend").after('<div id="nomatch" class="alert">No match. Consider which constraints and assets you really need.</div>');
 			} else {
 				$("div#nomatch").remove();
 			}
