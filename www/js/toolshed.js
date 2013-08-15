@@ -14,50 +14,13 @@
 
 
 	// INITIALIZE arrays while document is loading
-	var phoneCats,
-		compCats,
-		allCats,
-		constraints,
-		tools,
+	
+	var phoneCats = JSON.parse(localStorage.getItem('phoneCats')),
+		compCats = JSON.parse(localStorage.getItem('compCats')),
+		allCats = JSON.parse(localStorage.getItem('allCats')),
+		constraints = JSON.parse(localStorage.getItem('constraints')),
+		tools = JSON.parse(localStorage.getItem('tools')),
 		counter; // number of tools currently available to user
-		
-		
-		//js/json/phoneCats.json
-	
-	if (!phoneCats) {
-		$.getJSON("../data/json/phoneCats.json", function(data) {	//../data/json/phoneCats.json
-			localStorage.setItem('phoneCats', JSON.stringify(data));	
-			phoneCats = JSON.parse(localStorage.getItem('phoneCats'));
-		});
-	} 
-	
-	if (!compCats) {
-		$.getJSON("../data/json/compCats.json", function(data) {
-			localStorage.setItem('compCats', JSON.stringify(data));	
-			compCats = JSON.parse(localStorage.getItem('compCats'));			
-		});
-	}
-	
-	if (!allCats) {
-		$.getJSON("../data/json/allCats.json", function(data) {
-			localStorage.setItem('allCats', JSON.stringify(data));				
-			allCats = JSON.parse(localStorage.getItem('allCats'));
-		});
-	} 
-	
-	if (!constraints) {
-		$.getJSON("../data/json/constraints.json", function(data) {
-			localStorage.setItem('constraints', JSON.stringify(data));
-			constraints = JSON.parse(localStorage.getItem('constraints'));				
-		});
-	}
-	
-	if (!tools) {
-		$.getJSON("../data/json/tools.json", function(data) {
-			localStorage.setItem('tools', JSON.stringify(data));
-			tools = JSON.parse(localStorage.getItem('tools'));
-		});
-	}
 		
 	
 		
@@ -192,7 +155,11 @@
 
 			$("fieldset#tech > section > p").each(function() {
 				var techID = $(this).attr("id");
-				techOptions.push(techID);
+				
+				if ($("p#" + techID).css("display") != "none") {
+					techOptions.push(techID);
+				}
+				
 				sessionStorage.removeItem(techID);
 			});
 			
@@ -217,7 +184,6 @@
 					$("ul.dropdown-menu > li > img").attr("class", "deselected drop");		
 					$("img#" + name).attr("class", "selected drop");
 					
-					phoneCats = JSON.parse(localStorage.getItem('phoneCats'));
 					loadCategories(phoneCats);
 					
 					sessionStorage.setItem('src', src);
@@ -233,7 +199,6 @@
 					$("ul.dropdown-menu > li > img").attr("class", "deselected drop");	
 					$("img#" + name).attr("class", "selected drop");					
 					
-					compCats = JSON.parse(localStorage.getItem('compCats'));
 					loadCategories(compCats);
 					
 					sessionStorage.setItem('src', src);
@@ -249,7 +214,6 @@
 					$("ul.dropdown-menu > li > img").attr("class", "deselected drop");
 					$("img#" + name).attr("class", "selected drop");
 					
-					allCats = JSON.parse(localStorage.getItem('allCats'));
 					loadCategories(allCats);
 					
 					sessionStorage.setItem('src', src);
@@ -269,9 +233,6 @@
 					$("ul.dropdown-menu > li > img").attr("class", "deselected drop");
 					$("img#" + name).attr("class", "selected drop");
 					
-					phoneCats = JSON.parse(localStorage.getItem('phoneCats'));
-					compCats = JSON.parse(localStorage.getItem('compCats'));
-					allCats = JSON.parse(localStorage.getItem('allCats'));
 					loadCategories(window[cat]);
 			}
 		}
@@ -295,7 +256,6 @@
 		
 		
 		function loadConstraints() {
-			constraints = JSON.parse(localStorage.getItem('constraints'));
 			$.each(constraints, function(index, d){
 				$("section#" + d.categoryID + "Constraints").append(
 					'<figure id="' + d.constraintID + '"><img src="' + d.imageLink + 
@@ -316,7 +276,6 @@
 		function loadTools() {
 		
 			uniquetools = [];
-			tools = JSON.parse(localStorage.getItem('tools'));
 		
 			$.each(tools, function(index, tool) {
 		
