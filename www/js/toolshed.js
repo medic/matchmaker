@@ -70,7 +70,7 @@
 		
 		
 		// ADDING constraints
-		$.listen('click', 'img.constraintImg', function() {	
+		$.listen('click', '.constraintImg', function() {	
 	
 			var container = $(this).parent().parent(),
 				figure = $(this).parent();
@@ -92,11 +92,13 @@
 				}
 				
 				// Reduce opacity of constraint in category pane
-				$("figure#" + constraintID + " > img").css({
+				$("figure#" + constraintID).css({
 					"opacity":"0.4",
-					"filter":"alpha(opacity=40)",
-					"cursor":"default"
-				});				
+					"filter":"alpha(opacity=40)"
+				});
+
+				$("figure#" + constraintID + " > img").css("cursor", "default");
+				
 			}			
 		});
 		
@@ -112,11 +114,12 @@
 			noConstraintsSel();
 			
 			// Restore opacity of constraint in category pane
-			$("figure#" + constraintID + " > img").css({
+			$("figure#" + constraintID).css({
 				"opacity":"1.0",
-				"filter":"alpha(opacity=100)",
-				"cursor":"pointer"
+				"filter":"alpha(opacity=100)"
 			});
+			
+			$("figure#" + constraintID + " > img").css("cursor", "pointer");
 			
 		});
 		
