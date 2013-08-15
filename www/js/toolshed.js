@@ -175,27 +175,28 @@
 		
 		
 		// SEND INFO to summary page
-		$.listen('click', 'button#sum', function() {
+		$('button#sum').click( function() {
 			
 			// Array of selected constraints
 			var selectedConstraints = [];
 			
-			$("section#userselected > figure > img.constraintImg").each(function(index, fig) {
-				var figID = $(this).parent().attr("id");
+			$("section#userselected > figure").each(function() {
+				var figID = $(this).attr("id").replace("Sel", "");
 				selectedConstraints.push(figID);
 			});
 			
-			sessionStorage.setItem("selectedConstraints", JSON.stringify(selectedConstraints));
+			sessionStorage.setItem('selectedConstraints', JSON.stringify(selectedConstraints));
 			
 			// Array of tech options
 			var techOptions = [];
 
-			$("fieldset#tech > section").each(function() {
-				var techID = $(this).parent().attr("id");
+			$("fieldset#tech > section > p").each(function() {
+				var techID = $(this).attr("id");
 				techOptions.push(techID);
+				sessionStorage.removeItem(techID);
 			});
 			
-			sessionStorage.setItem("techOptions", JSON.stringify(techOptions));
+			sessionStorage.setItem('techOptions', JSON.stringify(techOptions));
 			
 		});
 
@@ -207,26 +208,54 @@
 		// argument clickedImage must be a jQuery object
 		function checkMsgType(clickedImage) {
 			switch ($(clickedImage).attr("id")) {
-				case "phoneMsg":
-					$("img#selected").attr("src", "img/phone.png");
-					$("img#phoneMsg").attr("class", "selected drop");
-					$("img#computerMsg").attr("class", "deselected drop");
-					$("img#bothMsg").attr("class", "deselected drop");
+			
+				case "phoneMsg":	
+					var name = "phoneMsg";
+					var src = "img/phone.png";
+					$("img#selected").attr("src", src);
+					$("img#selected").attr("name", name);
+					$("ul.dropdown-menu > li > img").attr("class", "deselected drop");		
+					$("img#" + name).attr("class", "selected drop");
+					
+					phoneCats = JSON.parse(localStorage.getItem('phoneCats'));
 					loadCategories(phoneCats);
+					
+					sessionStorage.setItem('src', src);
+					sessionStorage.setItem('buttonClicked', 'phoneCats');
+					sessionStorage.setItem('name', name);
+					
 					break;
 				case "computerMsg":
-					$("img#selected").attr("src", "img/computer.png");
-					$("img#computerMsg").attr("class", "selected drop");	
-					$("img#phoneMsg").attr("class", "deselected drop");
-					$("img#bothMsg").attr("class", "deselected drop");						
+					var name = "computerMsg";
+					var src = "img/computer.png";			
+					$("img#selected").attr("src", src);
+					$("img#selected").attr("name", name);
+					$("ul.dropdown-menu > li > img").attr("class", "deselected drop");	
+					$("img#" + name).attr("class", "selected drop");					
+					
+					compCats = JSON.parse(localStorage.getItem('compCats'));
 					loadCategories(compCats);
+					
+					sessionStorage.setItem('src', src);
+					sessionStorage.setItem('buttonClicked', 'compCats');
+					sessionStorage.setItem('name', name);
+					
 					break;
 				case "bothMsg": 
-					$("img#selected").attr("src", "img/both.png");
-					$("img#bothMsg").attr("class", "selected drop");
-					$("img#phoneMsg").attr("class", "deselected drop");
-					$("img#computerMsg").attr("class", "deselected drop");
+					var name = "bothMsg";
+					var src = "img/both.png";	
+					$("img#selected").attr("src", src);
+					$("img#selected").attr("name", name);
+					$("ul.dropdown-menu > li > img").attr("class", "deselected drop");
+					$("img#" + name).attr("class", "selected drop");
+					
+					allCats = JSON.parse(localStorage.getItem('allCats'));
 					loadCategories(allCats);
+					
+					sessionStorage.setItem('src', src);
+					sessionStorage.setItem('buttonClicked', 'allCats');
+					sessionStorage.setItem('name', name);
+					
 					break;
 				default:
 					// get data from the button that was clicked on the landing page
@@ -240,6 +269,9 @@
 					$("ul.dropdown-menu > li > img").attr("class", "deselected drop");
 					$("img#" + name).attr("class", "selected drop");
 					
+					phoneCats = JSON.parse(localStorage.getItem('phoneCats'));
+					compCats = JSON.parse(localStorage.getItem('compCats'));
+					allCats = JSON.parse(localStorage.getItem('allCats'));
 					loadCategories(window[cat]);
 			}
 		}
@@ -284,6 +316,7 @@
 		function loadTools() {
 		
 			uniquetools = [];
+			tools = JSON.parse(localStorage.getItem('tools'));
 		
 			$.each(tools, function(index, tool) {
 		
@@ -367,9 +400,11 @@
 			$("small#counter").text("(" + counter +")");
 			
 			// Display message if all tools eliminated
-			if (counter == 0) {
+			if (counter == 0 && !($("fieldset#tech").has("div#nomatch").length)) {
 				$("fieldset#tech > legend").after('<div id="nomatch" class="alert">No match. Consider which constraints and assets you really need.</div>');
-			} else {
+			} 
+			
+			if (counter != 0) {
 				$("div#nomatch").remove();
 			}
 			
