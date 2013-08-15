@@ -92,7 +92,7 @@ span.close, button.close {
 	padding: 4px;
 	line-height: 1.428571429;
 	background-color: #ffffff;
-	border: 1px solid #dddddd;
+	border: 1px solid #aaaaaa;
 	border-radius: 4px;
 	-webkit-transition: all 0.2s ease-in-out;
         transition: all 0.2s ease-in-out;
@@ -121,8 +121,8 @@ a.thumbnail:focus {
 }
 
 .thumbnail:hover {
-	opacity:0.6;
-	filter:alpha(opacity=60);
+	opacity:0.4;
+	filter:alpha(opacity=40);
 }
 
 .thumbnail .caption {
@@ -195,18 +195,21 @@ fieldset[disabled] .btn {
 }
 
 .btn-default {
-  color: #333333;
+  color: #999999;
   background-color: #ffffff;
-  border-color: #cccccc;
+  border-color: #dddddd;
 }
 
 .btn-default:hover,
 .btn-default:focus,
 .btn-default:active,
 .btn-default.active {
-  color: #333333;
-  background-color: #ebebeb;
-  border-color: #adadad;
+  color: #999999;
+  /*background-color: #ebebeb;
+  border-color: #adadad;*/
+  
+  	opacity:0.4;
+	filter:alpha(opacity=40);
 }
 
 .btn-default.disabled,

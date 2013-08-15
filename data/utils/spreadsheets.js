@@ -22,8 +22,8 @@ var key = argv._[0],
 var settings = {
     gcl: {
         auth: {
-            email: process.env.GCL_AUTH_EMAIL || 'valerie@medicmobile.org',
-            password: process.env.GCL_AUTH_PASS || 'b3ll3thi3l',
+            email: process.env.GCL_AUTH_EMAIL || 'you@medicmobile.org',
+            password: process.env.GCL_AUTH_PASS || 'foobar',
             service: process.env.GCL_AUTH_SERVICE || 'spreadsheets',
             accountType: GoogleClientLogin.accountTypes.google
         }

@@ -63,9 +63,6 @@
 		
 	// ***************************** Page is ready *****************************
 	$(window).load(function(){
-	
-		counter = tools.length;
-		$("small#counter").text("(" + counter +")");
 		
 		noConstraintsSel();
 		loadTools();
@@ -73,7 +70,7 @@
 		
 		
 		// ADDING constraints
-		$("figure").listen('click', 'img.constraintImg', function() {	
+		$.listen('click', 'img.constraintImg', function() {	
 	
 			var container = $(this).parent().parent(),
 				figure = $(this).parent();
@@ -133,7 +130,7 @@
 		
 		
 		// SHOW/HIDE categories
-		$("p.whiteboard").listen('click', 'img.arrow', function() {
+		$.listen('click', 'img.arrow', function() {
 	
 			var parent = $(this).parent(),
 				id = $(parent).attr("id"),
@@ -171,6 +168,32 @@
 			$("p#" + id + "Qs").toggle(200);
 			$("section#" + id + "Constraints").toggle(300);
 				
+		});
+		
+		
+		// SEND INFO to summary page
+		$.listen('click', 'button#sum', function() {
+			
+			// Array of selected constraints
+			var selectedConstraints = [];
+			
+			$("section#userselected > figure > img.constraintImg").each(function(index, fig) {
+				var figID = $(this).parent().attr("id");
+				selectedConstraints.push(figID);
+			});
+			
+			sessionStorage.setItem("selectedConstraints", JSON.stringify(selectedConstraints));
+			
+			// Array of tech options
+			var techOptions = [];
+
+			$("fieldset#tech > section").each(function() {
+				var techID = $(this).parent().attr("id");
+				techOptions.push(techID);
+			});
+			
+			sessionStorage.setItem("techOptions", JSON.stringify(techOptions));
+			
 		});
 
 
@@ -256,11 +279,32 @@
 
 		
 		function loadTools() {
+		
+			uniquetools = [];
+		
 			$.each(tools, function(index, tool) {
-				
+		
 				$("fieldset#tech > section").append('<p id="' + tool.productID + '"><a href="' + 
-					tool.productLink + '" target="_blank">' + tool.productName + '</a></p>');
+						tool.productLink + '" target="_blank">' + tool.productName + '</a></p>');
+		
+				/*
+				if ($.inArray(tool.productName, uniquetools) == -1) {
+					uniquetools.push(tool.productName);
+					
+					$("fieldset#tech > section").append('<p id="' + tool.productID + '"><a href="' + 
+						tool.productLink + '" target="_blank">' + tool.productName + '</a></p>');
+				} else {
+					$("fieldset#tech > section").append('<p id="' + tool.productID + '" class="duplicate"><a href="' + 
+						tool.productLink + '" target="_blank">' + tool.productName + '</a></p>');
+					$("p.duplicate").css("display", "none");
+				}
+				*/
+				
 			});
+			
+			counter = tools.length;
+			//counter = uniquetools.length;
+			$("small#counter").text("(" + counter +")");
 		}
 		
 		
@@ -289,6 +333,9 @@
 							$("p#" + tool.productID).hide();
 							counter--;
 						}
+						
+						// check for corner cases
+						
 					}
 				
 					// constraint was removed
@@ -301,7 +348,8 @@
 						}
 				
 						// don't add the tech option back or increase the counter until all the constraints that equal false for that option are removed
-						if (false_array.length == 0) {
+						// also don't show duplicate options
+						if (false_array.length == 0 || $("p#" + tool.productID).attr("class") != "duplicate") {
 							$("p#" + tool.productID).show();
 							counter++;
 						}				
