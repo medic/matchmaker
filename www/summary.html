@@ -10,7 +10,19 @@
 	<!-- STYLE SHEETS -->
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/jquery.dropdown.css">
+	
+	<link rel="stylesheet" href="css/unsemantic-grid-responsive.css">
+	<link rel="stylesheet" href="unsemantic-grid-base.css">
+	<link rel="stylesheet" href="unsemantic-grid-base-tablet.css">
+	<link rel="stylesheet" href="unsemantic-grid-desktop.css">
+	<link rel="stylesheet" href="unsemantic-grid-mobile.css">
+	<link rel="stylesheet" href="unsemantic-grid-responsive-tablet.css">
+	<link rel="stylesheet" href="unsemantic-grid-tablet.css">
+	
+	<!--[if (lt IE 9) & (!IEMobile)]>
+		<link rel="stylesheet" href="css/ie.css">
+	<![endif]-->
+	
 	<!-- END STYLE SHEETS -->
    
 	<!-- JAVASCRIPT -->	
@@ -18,13 +30,18 @@
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/jquery.dropdown.js"></script>
 	<script src="js/jquery.listen-1.0.3-min.js"></script>
-	<script src="js/toolshed.js"></script>
-	<!-- END JAVASCRIPT -->
+	<script src="js/summary.js"></script>
+	
+	<!--[if lt IE 9]>
+		<script src="js/html5.js"></script>
+	<![endif]-->
+	
+	<!-- END JAVASCRIPT -->	
 </head>
  
 <body>
 	<header>
-		<nav>
+		<nav class="">
 			<ul class="nav">
 				<li><a href="http://medicmobile.org" target="_blank"><img id="mediclogo" src="img/medic-logo.png"></a></li>
 				<li><a href="index.html"><img id="genielogo" src="img/tool-genie.jpg"></a></li>
@@ -35,11 +52,15 @@
 	<!-- ************ BEGIN PAGE CONTENT ************ -->
 	<section class="container">
 	
+		<div class="alert alert-info">
+			<button type="button" class="close" data-dismiss="alert">&times;</button>
+			Here's a summary of what you selected and where to go from here.
+		</div>
 		
 		
 		<!-- BEGIN (left side): drop down menu for system messaging type -->
 		<section class="aside">
-			<img name="" id="selected" src="img/phone.png">		
+			<img name="" id="selected" src="">		
 			<fieldset id="tech"><legend class="whiteboard">&nbsp;My Tech Options <small id="counter"></small>&nbsp;</legend></fieldset>
 		</section>
 		
@@ -48,6 +69,14 @@
 			<h2>My Requirements</h2>
 			<section id="userselected"></section> <!-- USER SELECTED CONSTRAINTS -->
 			<fieldset id="ttta"><legend class="whiteboard">&nbsp;Things to Think About&nbsp;</legend></fieldset>
+			
+
+			
+			<!--
+			<a href="" class="btn btn-default">Print My Results</a>
+			<a href="" class="btn btn-default">Email Results to Medic Mobile</a>
+			<a href="https://docs.google.com/forms/d/1hTScRxmiRBI_ykkMr8UM9hVP-2anD9E_P_ZDmZ6h2lU/viewform" target="_blank"
+				class="btn btn-default">Submit Feedback</a>-->
 		</section>
 			
 		

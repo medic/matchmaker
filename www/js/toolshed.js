@@ -96,10 +96,17 @@
 		
 		
 		// SHOW/HIDE categories
+		$.listen('click', 'p.whiteboard', function() {
+			toggleCats($(this));
+		});
+		
 		$.listen('click', 'img.arrow', function() {
-	
-			var parent = $(this).parent(),
-				id = $(parent).attr("id"),
+			toggleCats($(this).parent());
+		});
+		
+		function toggleCats(parent) {
+				
+			var id = $(parent).attr("id"),
 				txt = $(parent).text();
 
 			if ($(parent).attr("data-open") == "false") {
@@ -133,8 +140,8 @@
 			
 			$("p#" + id + "Qs").toggle(200);
 			$("section#" + id + "Constraints").toggle(300);
-				
-		});
+		
+		}
 		
 		
 		// SEND INFO to summary page
@@ -279,8 +286,7 @@
 		
 			$.each(tools, function(index, tool) {
 		
-				$("fieldset#tech > section").append('<p id="' + tool.productID + '"><a href="' + 
-						tool.productLink + '" target="_blank">' + tool.productName + '</a></p>');
+				$("fieldset#tech > section").append('<p id="' + tool.productID + '">' + tool.productName + '</p>');
 		
 				/*
 				if ($.inArray(tool.productName, uniquetools) == -1) {
