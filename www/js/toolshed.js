@@ -145,7 +145,7 @@
 		
 		
 		// SEND INFO to summary page
-		$('button#sum').click( function() {
+		$('a#sum').click( function() {
 			
 			// Array of selected constraints
 			var selectedConstraints = [];

@@ -11,12 +11,25 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/lightbox.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
+	
+	<link rel="stylesheet" href="css/unsemantic-grid-responsive.css">
+	<link rel="stylesheet" href="css/unsemantic-grid-responsive-tablet.css">
+	
+	<!--[if (lt IE 9) & (!IEMobile)]>
+		<link rel="stylesheet" href="css/ie.css">
+	<![endif]-->
+	
 	<!-- END STYLE SHEETS-->
 	
 	<!-- JAVASCRIPT-->
 	<script src="js/jquery-1.10.2.min.js"></script>
 	<script src="js/lightbox-2.6.min.js"></script>
 	<script src="js/index.js"></script>
+	
+	<!--[if lt IE 9]>
+		<script src="js/html5.js"></script>
+	<![endif]-->
+	
 	<!-- END JAVASCRIPT -->	
 </head>
 
@@ -32,14 +45,14 @@
 		<h1>Medic Mobile Tool Genie</h1>
 	</header>
 	
-	<!-- ************ BEGIN PAGE CONTENT ************ -->
-	<section class="container home">
+	<!-- ************ BEGIN PAGE CONTENT ************ container home-->
+	<section class="grid-container">
 		
-		<!-- Thumbnail Options -->
+		<!-- Thumbnail Options col-lg-3 -->
 		<div class="row">
-			<div class="col-lg-3" id="phone">
+			<div class="opt grid-30 suffix-3 mobile-grid-100">
 				<a class="thumb" href="constraints.html">
-				<div class="thumbnail">
+				<div class="thumbnail" id="phone">
 					<img src="img/phone.png" title="">
 					<div class="caption">
 						<h3>Phone to Computer</h3>
@@ -52,9 +65,9 @@
 				
 			</div>
 			
-			<div class="col-lg-3" id="comp">
+			<div class="grid-30 suffix-3 mobile-grid-100">
 				<a class="thumb" href="constraints.html">
-				<div class="thumbnail">
+				<div class="thumbnail" id="comp">
 					<img src="img/computer.png" title="">
 					<div class="caption">
 						<h3>Computer to Phone</h3>
@@ -67,13 +80,14 @@
 				
 			</div>
 			
-			<div class="col-lg-3" id="all">
+			<div class="grid-30 suffix-3 mobile-grid-100">
 				<a class="thumb" href="constraints.html">
-				<div class="thumbnail">
+				<div class="thumbnail" id="all">
 					<img src="img/both.png" title="">
 					<div class="caption">
 						<h3>Two-Way Communication</h3>
-						<p class="explain">Select this option if you're <b class="keyword">not sure</b> what you will need.</p>
+						<p class="explain">Select this option if you <b class="keyword">need both</b>
+							or you're <b class="keyword">not sure</b> what you need.</p>
 					</div>
 				</div>
 				</a>
@@ -81,8 +95,8 @@
 				<a href="img/use05.jpg" data-lightbox="both" title="herp" class="btn btn-default" id="btn">See Examples</a>
 				
 			</div>
-			
-		</div>
+		</div>	
+		
 		<!-- END Thumbnail Options -->
 		
 		
@@ -90,7 +104,8 @@
 
 		<!-- USE CASE GALLERY-->
 		<div class="row">
-			<p class="home">Looking for inspiration? Check out the examples above!</p>
+			<p class="home">Looking for inspiration? Check out the examples above! Not sure where to start, or what 
+				information to gather about your program? Try looking through this worksheet first.</p>
 		</div>
 			
 			
@@ -117,7 +132,10 @@
 	
 	
 	<footer>
-		&copy; 2013 Medic Mobile. All Rights Reserved.
+		<p>&copy; 2013 Medic Mobile. All Rights Reserved.</p>
+		
+		<p><a href="">Tools Included Already</a></p>
+		<p><a href="">Tools Coming Soon</a></p>
 	</footer>
 
 </body>

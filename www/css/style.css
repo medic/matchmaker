@@ -5,6 +5,7 @@ html , body {
 	position:static;	
 	margin:0px;
 	padding:0px;
+	min-height:100%;
 }
 
 header {
@@ -14,8 +15,10 @@ header {
 }
 
 footer {
+	clear:both;
 	position:relative;
-	margin:0px;
+	z-index:10;
+	height:3em;
 	border-top:3px solid #BBBBBB;
 	padding:20px 50px 50px 50px;
 	
@@ -37,6 +40,10 @@ section {
 	padding:0px;
 }
 
+section.grid-container {
+	margin-top: 20px;
+}
+
 section.container {
 	margin:40px;
 }
@@ -46,10 +53,14 @@ p {
 	padding:0px 0px 18px;
 }
 
+footer > p {
+	padding: 0px;
+}
+
 
 /* Navigation Style */
 /* from W3C, Example 9 http://dev.w3.org/csswg/css-flexbox/#auto-margins */
-ul.nav {
+nav > ul {
 	position: relative;	
 		
 	display: -webkit-box; /* OLD: Safari,  iOS, Android browser, older WebKit browsers */
@@ -134,7 +145,7 @@ img {
 
 
 
-/* **************************** USE CASE PAGE STYLES **************************** */
+/* **************************** INDEX PAGE STYLES **************************** */
 
 section.home {
 	margin-top: 20px;
@@ -185,7 +196,9 @@ section.aside {
 }
 
 img#selected {
-	width: 350px;
+	/*width: 350px;*/
+	width: 90%;
+	max-width: 370px;
 	cursor: default;
 }
 
@@ -262,8 +275,12 @@ p#noSelect {
 	color:#777777;
 }
 
-fieldset#tech, fieldset#ttta {
-	margin:0px;
+fieldset#tech {
+	height:400px;
+}
+
+fieldset#tech, fieldset#techsum, fieldset#ttta {
+	margin:0px 0px 40px 0px;
 	border-radius: 10px;
 	border:3px solid #F00;
 	padding: 0px 30px 10px;
@@ -271,10 +288,10 @@ fieldset#tech, fieldset#ttta {
 	-moz-box-sizing:border-box;
 	-webkit-box-sizing:border-box;	
 
-	height:400px;
+	min-height:200px;
 }
 
-fieldset#tech > legend {
+fieldset#tech > legend, fieldset#techsum > legend  {
 	margin:0px 0px 20px;
 	padding:0px;
 	color: #6184ED;
@@ -304,6 +321,7 @@ a#sum {
 	text-decoration: none;
 	margin: 20px 0px;
 	float:right;
+	z-index:20;
 }
 
 
@@ -336,7 +354,7 @@ a#sum {
 
 
 /* **************************** SUMMARY PAGE STYLES **************************** */
-fieldset#tech > p {
+fieldset#techsum > p {
 	font-family: 'ShadowsIntoLight', 'Arial';
 	font-size: 20pt;
 	color: #000000;
@@ -346,3 +364,14 @@ fieldset#ttta > legend {
 	margin:0px 0px 20px;
 }
 
+a#feedback {
+	position:fixed;
+	bottom:0px;
+	right:0px;
+	text-decoration:none;
+}
+
+a#feedback:hover {
+	opacity:0.7;
+	filter:alpha(opacity=70);
+}

@@ -43,7 +43,8 @@
  
 $(window).load(function() {
 
-	$("div.col-lg-3").click(function() {
+	$("div.thumbnail").click(function() {
+	
 		sessionStorage.setItem('buttonClicked', $(this).attr("id") + "Cats");
 		
 		var src,

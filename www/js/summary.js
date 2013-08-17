@@ -50,7 +50,7 @@ $(window).load(function() {
 		$.each(allTech, function(i, tool) {
 		
 			if (tool.productID == techID) {
-				$("fieldset#tech").append('<p id="' + techID + '"><a href="' + tool.productLink + '" target="_blank">' + 
+				$("fieldset#techsum").append('<p id="' + techID + '"><a href="' + tool.productLink + '" target="_blank">' + 
 					tool.productName + '</a></p>');		
 			}
 		});
