@@ -10,7 +10,18 @@
  */
  
  
-
+	function clearSessionStorage() {
+		var buttonClicked = sessionStorage.getItem('buttonClicked'),
+			name = sessionStorage.getItem('name'),
+			src = sessionStorage.getItem('src');
+	  
+		sessionStorage.clear();
+		sessionStorage.buttonClicked = buttonClicked;
+		sessionStorage.name = name;
+		sessionStorage.src = src;  
+	}
+	
+	$(window).onbeforeunload = clearSessionStorage();
 
 
 	// INITIALIZE arrays while document is loading
