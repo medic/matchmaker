@@ -8,9 +8,10 @@
 	<!-- END SITE INFO -->
 	
 	<!-- STYLE SHEETS -->
+	<link rel="stylesheet" href="css/bootstrap.css"><!--LIST THIS STYLESHEET FIRST .min-->
+	
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/lightbox.css">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
 	
 	<link rel="stylesheet" href="css/unsemantic-grid-responsive.css">
 	<link rel="stylesheet" href="css/unsemantic-grid-responsive-tablet.css">
@@ -23,6 +24,7 @@
 	
 	<!-- JAVASCRIPT-->
 	<script src="js/jquery-1.10.2.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 	<script src="js/lightbox-2.6.min.js"></script>
 	<script src="js/index.js"></script>
 	
@@ -36,7 +38,7 @@
 <body>
 	<header>
 		<nav>
-			<ul class="nav">
+			<ul>
 				<li><a href="http://medicmobile.org" target="_blank"><img id="mediclogo" src="img/medic-logo.png"></a></li>
 				<li><a href="index.html"><img id="genielogo" src="img/tool-genie.jpg"></a></li>
 			</ul>
@@ -50,7 +52,7 @@
 		
 		<!-- Thumbnail Options col-lg-3 -->
 		<div class="row">
-			<div class="opt grid-30 suffix-3 mobile-grid-100">
+			<div class="grid-30 suffix-3 mobile-grid-100">
 				<a class="thumb" href="constraints.html">
 				<div class="thumbnail" id="phone">
 					<img src="img/phone.png" title="">
@@ -104,8 +106,8 @@
 
 		<!-- USE CASE GALLERY-->
 		<div class="row">
-			<p class="home">Looking for inspiration? Check out the examples above! Not sure where to start, or what 
-				information to gather about your program? Try looking through this worksheet first.</p>
+			<p class="home">Not sure where to start, or what 
+				information to gather about your program? Try looking through <b><a href="">this worksheet</a></b> first.</p>
 		</div>
 			
 			
@@ -127,6 +129,40 @@
 		
 		<!-- END USE CASE GALLERY -->
 
+	
+
+
+ 
+<!-- Modal -->
+<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+    <h3 id="myModalLabel">Tools Included Already</h3>
+  </div>
+  <div class="modal-body">
+    <p>Kujua Lite, Kujua, DataWinners, CommCare, ODK, FormHub, KoBo, 
+		Magpi, KooKoo, OpenXData</p>
+  </div>
+  <div class="modal-footer">
+    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+  </div>
+</div>
+
+<!-- Modal -->
+<div id="myModal2" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+    <h3 id="myModalLabel">Tools Coming Soon</h3>
+  </div>
+  <div class="modal-body">
+    <p>Frontline SMS, Awazdee, MoTech, RapidSMS, DHIS2, Sana-OpenMRS, Nokia Data Gathering, EpiCollect</p>
+  </div>
+  <div class="modal-footer">
+    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+  </div>
+</div>
+		
+		
 	</section>
 	<!-- ************ END PAGE CONTENT ************ -->
 	
@@ -134,9 +170,13 @@
 	<footer>
 		<p>&copy; 2013 Medic Mobile. All Rights Reserved.</p>
 		
-		<p><a href="">Tools Included Already</a></p>
-		<p><a href="">Tools Coming Soon</a></p>
+		<p><a href="#myModal" data-toggle="modal" data-keyboard="true">Tools Included Already</a></p>
+		
+		<p><a href="#myModal2" data-toggle="modal" data-keyboard="true">Tools Coming Soon</a></p>
 	</footer>
+	
+
+	
 
 </body>
 </html>

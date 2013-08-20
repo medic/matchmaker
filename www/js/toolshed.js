@@ -42,6 +42,7 @@
 		loadTools();
 		checkMsgType(); // default behavior of categories on load
 		
+		$("a#sum").hide();
 		
 		// ADDING constraints
 		$.listen('click', '.constraintImg', function() {	
@@ -332,7 +333,7 @@
 				} 
 				
 				
-				if (!tool[constraintID]) {		
+				if (!tool[constraintID] && tool[constraintID] != undefined) {		
 		
 					// constraint was added
 					if (containerID.match(/[a-zA-Z]+Constraints$/) != null) {
@@ -361,7 +362,7 @@
 				
 						// don't add the tech option back or increase the counter until all the constraints that equal false for that option are removed
 						// also don't show duplicate options
-						if (false_array.length == 0 || $("p#" + tool.productID).attr("class") != "duplicate") {
+						if (false_array.length == 0 && $("p#" + tool.productID).attr("class") != "duplicate") {
 							$("p#" + tool.productID).show();
 							counter++;
 						}				
@@ -382,6 +383,12 @@
 			
 			if (counter != 0) {
 				$("div#nomatch").remove();
+			}
+			
+			if (counter < 5) {
+				$("a#sum").show();
+			} else {
+				$("a#sum").hide();
 			}
 			
 			

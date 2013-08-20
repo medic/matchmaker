@@ -42,6 +42,7 @@ section {
 
 section.grid-container {
 	margin-top: 20px;
+	padding: 0px;
 }
 
 section.container {
@@ -267,7 +268,7 @@ section.asideoffset {
 
 section#userselected {
 	margin: 0px 0px 20px;
-	min-height: 160px;
+	min-height: 120px;
 }
 
 p#noSelect {
@@ -276,7 +277,7 @@ p#noSelect {
 }
 
 fieldset#tech {
-	height:400px;
+	height:320px;
 }
 
 fieldset#tech, fieldset#techsum, fieldset#ttta {
@@ -299,7 +300,7 @@ fieldset#tech > legend, fieldset#techsum > legend  {
 
 fieldset#tech > section {
 	margin-right:-30px;
-	height:330px;
+	height:250px;
 	overflow-x:hidden;
 	overflow-y:auto;
 }
@@ -310,7 +311,7 @@ small {
 
 fieldset#tech > section > p {
 	display: inline-block;
-	width: 25%;	
+	width: 33%;	
 	font-family: 'ShadowsIntoLight', 'Arial';
 	font-size: 20pt;
 	color: #000000;
