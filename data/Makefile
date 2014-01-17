@@ -4,7 +4,7 @@
 # Escaping $ with $ in the password for the makefile.
 # 
 
-PACKAGE = medic-toolshed-data
+PACKAGE = medic-matchmaker-data
 GKEY := 0AqmNwQgVwOrSdEZWWUs1djNsb1hYNkQ5dXhsRUIxNEE
 
 all:  spreadsheets configs
