@@ -1,4 +1,4 @@
-Generate Toolshed data based on Google Spreadsheets data.
+Generate Matchmaker data based on Google Spreadsheets data.
 
 1) Setup credentials for Google Auth/Spreadsheets, e.g.:
 
